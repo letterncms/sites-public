@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.3.0 (2026-11-14)
+
 ### Changed
 
 - **Built with Tailwind CSS.** Every block is styled with Tailwind classes, and the site's colours, type, spacing and buttons are a Tailwind theme, one stylesheet you can read and change under Styling. The pages look as they did.
