@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.2.0 (2026-11-14)
+
 ### Changed
 
 - **A new look, in colour.** Headings are set large in Instrument Serif, text in Inter, on white. Sections take one of five colours: deep sea green, terracotta, yellow, pale blue or near black, with their text, lines and buttons to match, in light and dark.
