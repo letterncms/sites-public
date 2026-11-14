@@ -4,7 +4,7 @@ The free sites. Each folder is one package, `letterncms/<folder>` of type `cms-s
 
 ## What a site is
 
-A complete site to start from, copied into a site once. Afterwards the site owns every file: nothing links back, and a new version of the site never reaches a site that applied an older one. Its design is part of it, as a site's is: tokens, templates and components are the site's own files and entries, and nothing of it stays shared with the site once applied.
+A complete site to start from, copied into a site once. Afterwards the site owns every file: nothing links back, and a new version of the site never reaches a site that applied an older one. Its design is part of it, as a site's is: the stylesheet, templates and components are the site's own files and entries, and nothing of it stays shared with the site once applied.
 
 A site is a folder laid out like a site's own `content/` and `config/`, with `site.json` beside them. Only the files below are read; anything else under `content/`, `config/`, `public/` or `previews/` refuses the whole site, by name, before a file is copied.
 
@@ -16,10 +16,10 @@ A site is a folder laid out like a site's own `content/` and `config/`, with `si
 | `content/collections/<handle>/[<locale>/][<parent>/]<slug>.md` | Its entries, always in this file layout whatever driver the collection uses: YAML front matter (`id`, `title`, `status`, `published_at`, `expires_at`, `origin`, `position`, `blueprint`, the fields) and the body field as Markdown or Block Markdown. Templates and components are entries of `templates` and `components`. `id` may be left out of an entry nothing names; every entry gets a new id when it is applied, and what named the old one (relations, parents, translations, menu items, links, component blocks) follows. `author`, `created_at` and `updated_at` are never written. |
 | `content/globals/<handle>.yaml` | A global: its fields and values. |
 | `content/navigation/<handle>.yaml` | A menu; items name entries by the ids in the site. |
-| `content/design/tokens.json`, `custom.css`, `custom.js`, `code.json` | The design and where its code loads. |
-| `content/design/fonts/*.woff2` | Fonts (real WOFF2). |
-| `content/design/scripts/**.js`, `content/design/styles/**.css` | The design's scripts and styles, named as the design's code may be. |
-| `content/design/vendor/lock.json` and its files | Vendored libraries; every file must match the lock's hash. |
+| `content/styling/theme.css`, `settings.json`, `custom.js`, `code.json` | The styling (a Tailwind CSS stylesheet; fonts and the page transition) and where its code loads. |
+| `content/styling/fonts/*.woff2` | Fonts (real WOFF2). |
+| `content/styling/scripts/**.js`, `content/styling/styles/**.css` | The site's scripts and styles, named as its code may be. |
+| `content/styling/vendor/lock.json` and its files | Vendored libraries; every file must match the lock's hash. |
 | `content/media/<id>.yaml` and `public/media/<path>` | Media something in the site names: the record and its file, which must pass what an upload passes. |
 | `config/<namespace>.yaml` | Only settings a site carries (`site`: `description`, `favicon`, `search_index`; plugins add theirs). Never a name, an address, mail, keys or secrets. |
 | `content/<folder>/**.yaml\|json\|md` | Content a plugin keeps beside the site's (forms…), taken in only where that plugin is on. |
@@ -28,7 +28,7 @@ Never in a site: users, tokens, secrets, submissions, analytics, the audit log, 
 
 A package is the site plus `composer.json` (`"type": "cms-site"`, `require` on `letterncms/cms` and the plugins it needs), `CHANGELOG.md` and `README.md`. Composer puts it in a site's `sites/<name>`; the store does the same.
 
-Applying (`php cms site:apply <handle> --mode=design|full --dry-run`, the ability `sites/apply`, or **Sites** in the admin): `design` brings tokens, fonts, templates, components and code; `full` adds collections, entries, globals, menus, media, languages and carried settings. Anything the site already has under a name the site brings is a clash: applying refuses and names each one until `--clash=skip|replace|rename` says what happens. `php cms site:export <folder>` (or `sites/export`) turns a site into a site in this layout: the way to make one.
+Applying (`php cms site:apply <handle> --mode=design|full --dry-run`, the ability `sites/apply`, or **Sites** in the admin): `design` brings the stylesheet, fonts, templates, components and code; `full` adds collections, entries, globals, menus, media, languages and carried settings. Anything the site already has under a name the site brings is a clash: applying refuses and names each one until `--clash=skip|replace|rename` says what happens. `php cms site:export <folder>` (or `sites/export`) turns a site into a site in this layout: the way to make one.
 
 ## Rules
 
