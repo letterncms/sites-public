@@ -16,6 +16,15 @@ use PHPUnit\Framework\Attributes\DataProvider;
 /** Every site here is a package as AGENTS.md says, a site the CMS reads without a complaint, and a site that builds. */
 final class SitesTest extends TestCase
 {
+    public function createApplication()
+    {
+        $app = parent::createApplication();
+        // A site is whole when its stylesheet compiles: here Tailwind runs, with the Node that runs the tests.
+        putenv('CMS_NODE');
+
+        return $app;
+    }
+
     protected function plugins(): array
     {
         return ['letterncms/blocks', 'letterncms/site', 'letterncms/navigation', 'letterncms/languages'];
@@ -95,7 +104,7 @@ final class SitesTest extends TestCase
             $this->cms()->globals()->delete($handle);
         }
 
-        foreach (['collections', 'navigation', 'design', 'media'] as $folder) {
+        foreach (['collections', 'navigation', 'styling', 'media'] as $folder) {
             Files::deleteDirectory(content_path($folder));
         }
 
