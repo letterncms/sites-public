@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.5.0 (2026-11-15)
+
 ### Changed
 
 - **Section colours are schemes**: *Tide*, *Clay*, *Sun*, *Mist* and *Band*, and *Photo* for words over a photograph. Each is a background and a text colour you change under **Styling → Colors**, and a block takes one under **Add Style**.
