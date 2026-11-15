@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+- The stylesheet is tidier: a link's hover is part of the link's style, and dark mode follows the colors without a line of its own.
+
 ## 0.3.0 (2026-11-14)
 
 ### Changed
