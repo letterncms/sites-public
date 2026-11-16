@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.7.0 (2026-11-16)
+
 ### Changed
 
 - **Breaking.** Needs Lettern 0.50 or later.
