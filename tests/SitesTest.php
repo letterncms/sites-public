@@ -27,7 +27,7 @@ final class SitesTest extends TestCase
 
     protected function plugins(): array
     {
-        return ['letterncms/blocks', 'letterncms/site', 'letterncms/navigation', 'letterncms/languages'];
+        return ['letterncms/blocks', 'letterncms/site', 'letterncms/languages'];
     }
 
     protected function collections(): array
@@ -100,11 +100,7 @@ final class SitesTest extends TestCase
             $this->cms()->entryService()->delete($entry->id, $this->admin());
         }
 
-        foreach (array_keys($this->cms()->globals()->all()) as $handle) {
-            $this->cms()->globals()->delete($handle);
-        }
-
-        foreach (['collections', 'navigation', 'styling', 'media'] as $folder) {
+        foreach (['collections', 'styling', 'media'] as $folder) {
             Files::deleteDirectory(content_path($folder));
         }
 
