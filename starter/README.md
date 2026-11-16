@@ -15,8 +15,9 @@ Or choose **Starter** when you install (`php cms install --start-from=starter`, 
 ## What it brings
 
 - **Pages**: Home, Work, Journal, About and Contact, each built from the admin’s own blocks.
-- **Collections**: Work, four projects with a cover, client, place, year and colour; Journal, five stories with a cover, topic and tags, that filter and search on the page.
-- **Templates**: Blank, Page, Text Page, Story, Story Side by Side, Project and 404.
+- **Collections**: Work, four projects with a cover, client, place, year and colour; Journal, five stories with a cover, a topic and tags, that filter and search on the page.
+- **Taxonomies**: Topics, four categories (Making, Places, People, Notes) whose colour each story's tile and title band take, and Tags, made as you type them into a story. Every topic and tag has a page with its stories, linked from each story.
+- **Templates**: Blank, Page, Text Page, Story, Story Side by Side, Project, Topic or Tag and 404.
 - **Components**: the header with a full-screen menu on phones, the footer, and cards for stories and projects.
 - **Patterns**: 29 sections to insert and edit freely, from heroes with a photograph or a film to galleries, carousels, a sound recording, numbers, a team, prices, an agenda, questions and calls to action, and four whole pages (a landing page, an about page, an event page and a photo story) to start a new page from.
 - **Globals and menus**: the Studio’s tagline, address, hours, email and phone, used in the footer and on Contact, and a main and a footer menu.
@@ -25,4 +26,4 @@ Or choose **Starter** when you install (`php cms install --start-from=starter`, 
 
 ## Needs
 
-Lettern 0.37 or later. No plugins. The fonts, photographs, film and sound keep their own licences: see `NOTICE.md`.
+Lettern 0.48 or later. No plugins. The fonts, photographs, film and sound keep their own licences: see `NOTICE.md`.
