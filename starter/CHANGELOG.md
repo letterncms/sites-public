@@ -9,7 +9,8 @@
 
 ### Changed
 
-- **Breaking.** Needs Lettern 0.48 or later.
+- **Breaking.** Needs Lettern 0.49 or later.
+- **Patterns are components that are not synced.** The 29 sections and four whole pages are under Components, each inserted as a copy to change freely, and a new page starts from one of the whole pages.
 
 ## 0.5.0 (2026-11-15)
 
