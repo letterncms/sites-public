@@ -142,7 +142,7 @@ template: default
 ::::::
 
 :::::: box {"id":"hm-events-body","class":"mt-8"}
-::::::: repeat {"id":"hm-events-list","props":{"source":"entries","collection":"events","sort":"when","limit":4,"tag":"ul","empty":"No events planned at the moment."},"class":"flex flex-col gap-6"}
+::::::: repeat {"id":"hm-events-list","props":{"source":"entries","collection":"events","sort":"when.start","where":[{"field":"when.start","op":">","value":"{site.today}"}],"limit":4,"tag":"ul","empty":"No events planned at the moment."},"class":"flex flex-col gap-6"}
 :::::::: box {"id":"hm-events-list-item","props":{"tag":"li"}}
 ::::::::: component {"id":"hm-events-list-card","props":{"ref":"event-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.day":"item.when.start|date:j","values.month":"item.when.start|date:M","values.when":"{item.when.start|date:l j F}, {item.when.start|date:H:i}","values.venue":"item.venue"}}
 :::::::::
