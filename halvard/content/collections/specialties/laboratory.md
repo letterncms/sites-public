@@ -1,11 +1,11 @@
 ---
-id: 01m7npd9ysnp9eq4p0by0drhye
+id: 01m7nqftc1k1cc2xmxrzd8h9gp
 title: 'Laboratory medicine'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 1
 area:
-  - 01m7npd9wzm565xrqtd250qeh2
+  - 01m7nqfta8veey83k0jcsx9mq3
 icon: flask
 cover:
   - 01m7nh50kfg0tyexwxf78ka6b0

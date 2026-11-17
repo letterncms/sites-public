@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xhmdsf9beamewvggqc
+id: 01m7nqftars9sqktdhqjbggkdx
 title: 'Asthma in children'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 6
 kind: condition
 summary: 'Narrowed airways that make breathing hard, with coughing and wheezing, often at night or during exercise.'
@@ -10,7 +10,7 @@ keywords:
   - wheezing
   - inhaler
 specialties:
-  - 01m7npd9yta05vmnmacaskxfck
+  - 01m7nqftc1k1cc2xmxrzd8h9gt
 ---
 
 ## Signs

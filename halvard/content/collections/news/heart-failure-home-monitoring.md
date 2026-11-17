@@ -1,15 +1,15 @@
 ---
-id: 01m7npd9y8p0wze87a6jt940jb
+id: 01m7nqftbggjy24dkzjswc6kmk
 title: 'Heart failure care at home'
 status: published
 published_at: '2026-09-12T09:00:00+00:00'
 cover:
   - 01m7nh50krw79rkqwpr180310p
 topic:
-  - 01m7npd9z0wh4nkzwa395c20qy
+  - 01m7nqftc662t470z4xctx4nra
 summary: 'Three hundred people with heart failure now send their weight and blood pressure to us from home. Fewer of them need to come into hospital.'
 specialties:
-  - 01m7npd9ysnp9eq4p0by0drhyd
+  - 01m7nqftc1k1cc2xmxrzd8h9gn
 ---
 
 Since spring, people with heart failure can join a trial in which they measure their weight and blood pressure at home each morning. A small device sends the readings to our heart failure nurses, who call when something changes.

@@ -1,11 +1,11 @@
 ---
-id: 01m7npd9ysnp9eq4p0by0drhyg
+id: 01m7nqftc1k1cc2xmxrzd8h9gr
 title: 'Medical imaging'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 3
 area:
-  - 01m7npd9wzm565xrqtd250qeh2
+  - 01m7nqfta8veey83k0jcsx9mq3
 icon: scan
 cover:
   - 01m7nh50jw0g87da5fjbgd7q9s

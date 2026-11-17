@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xhmdsf9beamewvggqk
+id: 01m7nqftars9sqktdhqjbggke4
 title: 'Hip osteoarthritis'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 13
 kind: condition
 summary: 'Wear of the hip joint, causing pain and stiffness in the groin, buttock or thigh.'
@@ -10,8 +10,8 @@ keywords:
   - arthritis
   - 'hip pain'
 specialties:
-  - 01m7npd9yta05vmnmacaskxfcq
-  - 01m7npd9yta05vmnmacaskxfcp
+  - 01m7nqftc1k1cc2xmxrzd8h9gy
+  - 01m7nqftc1k1cc2xmxrzd8h9gx
 also_known_as: 'Worn hip'
 ---
 

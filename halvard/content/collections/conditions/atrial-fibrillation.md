@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xhmdsf9beamewvggq6
+id: 01m7nqftars9sqktdhqjbggkdq
 title: 'Atrial fibrillation'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 0
 kind: condition
 summary: 'An irregular, often fast heartbeat that can make you tired or breathless, and raises the risk of a stroke.'
@@ -10,7 +10,7 @@ keywords:
   - 'irregular heartbeat'
   - palpitations
 specialties:
-  - 01m7npd9ysnp9eq4p0by0drhyd
+  - 01m7nqftc1k1cc2xmxrzd8h9gn
 also_known_as: AF
 ---
 

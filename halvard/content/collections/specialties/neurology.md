@@ -1,11 +1,11 @@
 ---
-id: 01m7npd9yta05vmnmacaskxfcm
+id: 01m7nqftc1k1cc2xmxrzd8h9gv
 title: Neurology
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 6
 area:
-  - 01m7npd9wzm565xrqtd250qegz
+  - 01m7nqfta8veey83k0jcsx9mq0
 icon: brain
 cover:
   - 01m7nh50jzfmk9a8t2g250tzfb

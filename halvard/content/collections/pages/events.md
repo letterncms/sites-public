@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9ykcsvmvzmcvcrg02jn
+id: 01m7nqftbvfcw2y4b3yr35fmr0
 title: 'Events and classes'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 7
 summary: 'Classes for parents-to-be, information evenings for patients and families, and symposia for professionals.'
 template: default

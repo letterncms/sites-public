@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9x8g8e4hhhdejz1f4kb
+id: 01m7nqftagk53yj8axk5yx8ggb
 title: 'Help Card'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 5
 synced: true
 category: Site

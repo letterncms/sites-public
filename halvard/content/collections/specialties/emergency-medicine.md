@@ -1,11 +1,11 @@
 ---
-id: 01m7npd9yta05vmnmacaskxfcr
+id: 01m7nqftc1k1cc2xmxrzd8h9gz
 title: 'Emergency medicine'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 10
 area:
-  - 01m7npd9wzm565xrqtd250qeh2
+  - 01m7nqfta8veey83k0jcsx9mq3
 icon: siren
 cover:
   - 01m7nh50j9zrz3788x1hr7p8qm

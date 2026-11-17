@@ -1,5 +1,5 @@
 ---
-id: 01m7npd9y0w7334wdwbtvxymx2
+id: 01m7nqftb8cgx6jjnzc7gp49ep
 title: 'Emergency physician'
 status: published
 published_at: '2026-10-28T09:00:00+00:00'

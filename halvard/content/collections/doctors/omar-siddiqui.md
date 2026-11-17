@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xnbgykvk1q3yxnn5jf
+id: 01m7nqftaxv0debmxrbqj9demm
 title: 'Omar Siddiqui'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 11
 role: 'Emergency physician'
 photo:
@@ -22,8 +22,8 @@ languages:
   - Punjabi
 family_name: Siddiqui
 specialties:
-  - 01m7npd9yta05vmnmacaskxfcr
-  - 01m7npd9yta05vmnmacaskxfct
+  - 01m7nqftc1k1cc2xmxrzd8h9gz
+  - 01m7nqftc1k1cc2xmxrzd8h9h1
 new_patients: false
 ---
 

@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9ykcsvmvzmcvcrg02jg
+id: 01m7nqftbvfcw2y4b3yr35fmqv
 title: 'Find a doctor'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 2
 summary: 'Search our doctors, midwives and therapists by name, specialty or the language they speak.'
 template: default
@@ -22,7 +22,7 @@ template: default
 :::::
 
 ::::: repeat {"id":"dl-list","props":{"tag":"ul","sort":"family_name","limit":200,"source":"entries","filter_by":"item.specialties","search_in":"item.title, item.role, item.languages, item.expertise, item.specialties","collection":"doctors"},"class":"grid grid-cols-4 gap-x-columns gap-y-12 max-lg:grid-cols-3 max-md:grid-cols-2"}
-:::::: box {"id":"dl-item","props":{"tag":"li"}}
+:::::: box {"id":"dl-item","class":"h-full"}
 ::::::: component {"id":"dl-card","props":{"ref":"doctor-card"},"bind":{"values.link":"item.url","values.name":"{item.honorific} {item.title}","values.role":"item.role","values.photo":"item.photo","values.new_patients":"item.new_patients"}}
 :::::::
 ::::::

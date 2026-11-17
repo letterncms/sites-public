@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xhmdsf9beamewvggqd
+id: 01m7nqftars9sqktdhqjbggkdy
 title: 'CT scan'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 7
 kind: test
 summary: 'A fast scan that uses X-rays to make detailed cross-sections of your body.'
@@ -10,7 +10,7 @@ keywords:
   - CT
   - scan
 specialties:
-  - 01m7npd9ysnp9eq4p0by0drhyg
+  - 01m7nqftc1k1cc2xmxrzd8h9gr
 ---
 
 ## What happens

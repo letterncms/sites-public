@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xhmdsf9beamewvggqg
+id: 01m7nqftars9sqktdhqjbggke1
 title: 'Falls in older age'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 10
 kind: condition
 summary: 'Falling more than once, or being afraid to fall, is a reason to see your doctor: much can be done.'
@@ -10,8 +10,8 @@ keywords:
   - balance
   - dizziness
 specialties:
-  - 01m7npd9yta05vmnmacaskxfcn
-  - 01m7npd9yta05vmnmacaskxfcp
+  - 01m7nqftc1k1cc2xmxrzd8h9gw
+  - 01m7nqftc1k1cc2xmxrzd8h9gx
 ---
 
 ## Why people fall

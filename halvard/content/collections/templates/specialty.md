@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9yyj7xb7jex3zmz2gyy
+id: 01m7nqftc5hn7vgmwpr8886w9t
 title: Specialty
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 3
 description: 'A title band in the colour of the specialty’s area, its practical details beside the page, then its team and the conditions it treats.'
 collections:
@@ -27,7 +27,7 @@ collections:
 :::::::::
 
 ::::::::: box {"id":"sp-crumb-up","props":{"tag":"li"},"class":"flex items-center gap-2"}
-:::::::::: link {"id":"sp-crumb-up-a","props":{"label":"Our care","url":"entry:01m7npd9ykcsvmvzmcvcrg02jf"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"sp-crumb-up-a","props":{"label":"Our care","url":"entry:01m7nqftbvfcw2y4b3yr35fmqt"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::
@@ -43,7 +43,7 @@ collections:
 :::::::
 
 ::::::: buttons {"id":"sp-actions","class":"pt-2"}
-:::::::: button {"id":"sp-book","props":{"label":"Make an appointment","url":"entry:01m7npd9ykcsvmvzmcvcrg02jx","variant":"primary","size":"lg"}}
+:::::::: button {"id":"sp-book","props":{"label":"Make an appointment","url":"entry:01m7nqftbvfcw2y4b3yr35fmr8","variant":"primary","size":"lg"}}
 ::::::::
 
 :::::::: button {"id":"sp-call","props":{"variant":"secondary","size":"lg","icon":"phone"},"bind":{"label":"Call {entry.phone}","url":"tel:{entry.phone}","visible":"entry.phone"}}
@@ -137,7 +137,7 @@ collections:
 :::::: heading {"id":"sp-team-title","props":{"text":"Our team","level":"2"},"class":"text-3xl"}
 ::::::
 
-:::::: button {"id":"sp-team-all","props":{"variant":"link","icon":"arrow-right","icon_position":"end","label":"Find a doctor","url":"entry:01m7npd9ykcsvmvzmcvcrg02jg"}}
+:::::: button {"id":"sp-team-all","props":{"variant":"link","icon":"arrow-right","icon_position":"end","label":"Find a doctor","url":"entry:01m7nqftbvfcw2y4b3yr35fmqv"}}
 ::::::
 :::::
 
@@ -154,7 +154,7 @@ collections:
 :::::: heading {"id":"sp-topics-title","props":{"text":"Conditions and treatments","level":"2"},"class":"text-3xl"}
 ::::::
 
-:::::: button {"id":"sp-topics-all","props":{"variant":"link","icon":"arrow-right","icon_position":"end","label":"All conditions and treatments","url":"entry:01m7npd9ykcsvmvzmcvcrg02jh"}}
+:::::: button {"id":"sp-topics-all","props":{"variant":"link","icon":"arrow-right","icon_position":"end","label":"All conditions and treatments","url":"entry:01m7nqftbvfcw2y4b3yr35fmqw"}}
 ::::::
 :::::
 

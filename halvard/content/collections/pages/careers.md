@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9ykcsvmvzmcvcrg02jp
+id: 01m7nqftbvfcw2y4b3yr35fmr1
 title: Careers
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 8
 summary: 'Work where your care counts. Find a vacancy in nursing, medicine, allied health or support.'
 template: default
@@ -23,7 +23,7 @@ template: default
 :::::: button {"id":"ca-hero-jobs","props":{"url":"#vacancies","icon":"arrow-down","size":"lg","label":"See our vacancies","variant":"primary","icon_position":"end"}}
 ::::::
 
-:::::: button {"id":"ca-hero-open","props":{"url":"entry:01m7npd9xq4e22kezx4b3w3p8q","size":"lg","label":"Come to our open evening","variant":"secondary"}}
+:::::: button {"id":"ca-hero-open","props":{"url":"entry:01m7nqftazcx13c0szvwwnrtsb","size":"lg","label":"Come to our open evening","variant":"secondary"}}
 ::::::
 :::::
 ::::
@@ -86,7 +86,7 @@ template: default
 :::::
 
 ::::: repeat {"id":"ca-list","props":{"tag":"ul","sort":"-published_at","limit":100,"source":"entries","filter_by":"item.field","search_in":"item.title, item.department, item.summary","collection":"jobs"},"class":"flex flex-col border-t border-border"}
-:::::: box {"id":"ca-job","props":{"tag":"li"}}
+:::::: box {"id":"ca-job"}
 ::::::: link {"id":"ca-job-a","bind":{"url":"item.url"},"class":"group flex items-center gap-6 border-b border-border py-6 no-underline"}
 :::::::: box {"id":"ca-job-text","class":"flex flex-col gap-1"}
 ::::::::: paragraph {"id":"ca-job-dept","props":{"tag":"span"},"bind":{"text":"item.department"},"class":"text-sm font-semibold text-primary"}
@@ -128,7 +128,7 @@ template: default
 :::::
 
 ::::: buttons {"id":"ca-open-buttons"}
-:::::: button {"id":"ca-open-b","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02js","size":"lg","label":"Send an open application","variant":"primary"}}
+:::::: button {"id":"ca-open-b","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmr4","size":"lg","label":"Send an open application","variant":"primary"}}
 ::::::
 :::::
 ::::

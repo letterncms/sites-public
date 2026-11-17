@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9yyj7xb7jex3zmz2gz2
+id: 01m7nqftc5hn7vgmwpr8886w9y
 title: Event
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 7
 description: 'An event: who it is for, its title and summary, when and where, the details, and a form to sign up.'
 collections:
@@ -27,7 +27,7 @@ collections:
 :::::::::
 
 ::::::::: box {"id":"ev-crumb-up","props":{"tag":"li"},"class":"flex items-center gap-2"}
-:::::::::: link {"id":"ev-crumb-up-a","props":{"label":"Events and classes","url":"entry:01m7npd9ykcsvmvzmcvcrg02jn"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"ev-crumb-up-a","props":{"label":"Events and classes","url":"entry:01m7nqftbvfcw2y4b3yr35fmr0"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::

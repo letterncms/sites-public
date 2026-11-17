@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9ykcsvmvzmcvcrg02jv
+id: 01m7nqftbvfcw2y4b3yr35fmr6
 title: 'Privacy and cookies'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 13
 summary: 'What we collect when you use this website, why, and your rights.'
 template: page
