@@ -1,8 +1,8 @@
 ---
-id: 01m7nkejakn16aqnk5d5ryx9kh
+id: 01m7nnfjnxtyfj10psmzqt69n4
 title: Careers
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 8
 summary: 'Work where your care counts. Find a vacancy in nursing, medicine, allied health or support.'
 template: default
@@ -23,7 +23,7 @@ template: default
 :::::: button {"id":"ca-hero-jobs","props":{"url":"#vacancies","icon":"arrow-down","size":"lg","label":"See our vacancies","variant":"primary","icon_position":"end"}}
 ::::::
 
-:::::: button {"id":"ca-hero-open","props":{"url":"entry:01m7nkej9mtgj0kwkedzkcvsxk","size":"lg","label":"Come to our open evening","variant":"secondary"}}
+:::::: button {"id":"ca-hero-open","props":{"url":"entry:01m7nnfjmwvxbbqgwx2z0bskxc","size":"lg","label":"Come to our open evening","variant":"secondary"}}
 ::::::
 :::::
 ::::
@@ -128,7 +128,7 @@ template: default
 :::::
 
 ::::: buttons {"id":"ca-open-buttons"}
-:::::: button {"id":"ca-open-b","props":{"url":"entry:01m7nkejakn16aqnk5d5ryx9km","size":"lg","label":"Send an open application","variant":"primary"}}
+:::::: button {"id":"ca-open-b","props":{"url":"entry:01m7nnfjnxtyfj10psmzqt69n7","size":"lg","label":"Send an open application","variant":"primary"}}
 ::::::
 :::::
 ::::

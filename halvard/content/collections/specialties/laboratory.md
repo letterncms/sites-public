@@ -1,11 +1,11 @@
 ---
-id: 01m7nkejatdd6msye5ee8dft0z
+id: 01m7nnfjp54aw0tbjh9mw93ebk
 title: 'Laboratory medicine'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 1
 area:
-  - 01m7nkej8t58gn3vefbxckbsx4
+  - 01m7nnfjm4zyv1ak6tne3cz7cn
 icon: flask
 cover:
   - 01m7nh50kfg0tyexwxf78ka6b0

@@ -1,8 +1,8 @@
 ---
-id: 01m7nkejakn16aqnk5d5ryx9km
+id: 01m7nnfjnxtyfj10psmzqt69n7
 title: Contact
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 11
 summary: 'Phone numbers, email and addresses, and a form for anything else.'
 template: default
@@ -79,7 +79,7 @@ template: default
 ::::: paragraph {"id":"ct-side-addr","props":{"tag":"p"},"bind":{"text":"globals.hospital.address"},"class":"whitespace-pre-line text-lg"}
 :::::
 
-::::: button {"id":"ct-side-loc","props":{"url":"entry:01m7nkejakn16aqnk5d5ryx9kk","icon":"arrow-right","label":"All locations","variant":"secondary","icon_position":"end"}}
+::::: button {"id":"ct-side-loc","props":{"url":"entry:01m7nnfjnxtyfj10psmzqt69n6","icon":"arrow-right","label":"All locations","variant":"secondary","icon_position":"end"}}
 :::::
 
 ::::: box {"id":"ct-side-note","class":"mt-4 flex flex-col gap-2 border-t border-border pt-6"}

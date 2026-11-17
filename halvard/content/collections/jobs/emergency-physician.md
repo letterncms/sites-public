@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9zwkhj3fyct2pjjy1q
+id: 01m7nnfjn639cr307y6zbt3848
 title: 'Emergency physician'
 status: published
 published_at: '2026-10-28T09:00:00+00:00'
-field: Medical
-hours: 'Full time'
+field: medical
+hours: full
 salary: 'On the national consultant scale'
 summary: 'Join a team of twelve emergency physicians in a busy department that teaches.'
-contract: Permanent
+contract: permanent
 department: 'Emergency medicine'
 ---
 

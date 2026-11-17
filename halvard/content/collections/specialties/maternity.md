@@ -1,11 +1,11 @@
 ---
-id: 01m7nkejatdd6msye5ee8dft12
+id: 01m7nnfjp54aw0tbjh9mw93ebp
 title: 'Maternity and birth'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 4
 area:
-  - 01m7nkej8t58gn3vefbxckbsx0
+  - 01m7nnfjm3m62f2b6hv60pt0zn
 icon: baby
 cover:
   - 01m7nh50kbxagntp6dbp8tbjrv

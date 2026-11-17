@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej93cve87248079gbd1m
+id: 01m7nnfjmc4vrktkjs4mh8tcnz
 title: Header
 status: published
-published_at: '2026-11-17T20:33:51+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 1
 synced: true
 category: Site
@@ -31,7 +31,7 @@ description: 'The notice, the emergency number, the hospital’s name, the main 
 ::::::: link {"id":"hd-er-call","props":{"label":"Emergency? Call 112"},"bind":{"label":"Emergency? Call {globals.hospital.emergency_number}","url":"tel:{globals.hospital.emergency_number}"},"class":"inline-flex items-center gap-2 font-semibold text-emergency-text no-underline hover:underline"}
 :::::::
 
-::::::: link {"id":"hd-er-dept","props":{"label":"Emergency department, open day and night","url":"entry:01m7nkejakn16aqnk5d5ryx9kd"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+::::::: link {"id":"hd-er-dept","props":{"label":"Emergency department, open day and night","url":"entry:01m7nnfjnxtyfj10psmzqt69n0"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 :::::::
 ::::::
 
@@ -73,7 +73,7 @@ description: 'The notice, the emergency number, the hospital’s name, the main 
 :::::::
 ::::::
 
-:::::: button {"id":"hd-appointment","props":{"label":"Make an appointment","url":"entry:01m7nkejakn16aqnk5d5ryx9kq","variant":"primary","size":"md"},"class":"max-sm:hidden"}
+:::::: button {"id":"hd-appointment","props":{"label":"Make an appointment","url":"entry:01m7nnfjnxtyfj10psmzqt69na","variant":"primary","size":"md"},"class":"max-sm:hidden"}
 ::::::
 
 :::::: box {"id":"hd-toggle","props":{"tag":"button"},"label":"Menu button","attrs":{"aria-label":"Menu","aria-controls":"#hd-sheet"},"logic":{"on":[{"event":"click","actions":[{"do":"toggle","var":"open"},{"do":"if","test":"open","then":[{"do":"lock","on":true}],"else":[{"do":"lock","on":false}]}]}],"attrs":{"aria-expanded":"open"}},"class":"inline-flex size-11 items-center justify-center rounded-full bg-surface text-foreground lg:hidden"}
@@ -102,7 +102,7 @@ description: 'The notice, the emergency number, the hospital’s name, the main 
 :::::
 
 ::::: box {"id":"hd-sheet-actions","class":"mt-8 flex flex-col gap-3"}
-:::::: button {"id":"hd-sheet-appointment","props":{"label":"Make an appointment","url":"entry:01m7nkejakn16aqnk5d5ryx9kq","variant":"primary","size":"lg"},"class":"w-full"}
+:::::: button {"id":"hd-sheet-appointment","props":{"label":"Make an appointment","url":"entry:01m7nnfjnxtyfj10psmzqt69na","variant":"primary","size":"lg"},"class":"w-full"}
 ::::::
 
 :::::: button {"id":"hd-sheet-call","props":{"label":"Emergency? Call 112","url":"tel:112","variant":"emergency","size":"lg","icon":"phone"},"bind":{"label":"Emergency? Call {globals.hospital.emergency_number}","url":"tel:{globals.hospital.emergency_number}"},"class":"w-full"}

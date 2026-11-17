@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej93cve87248079gbd1x
+id: 01m7nnfjmc4vrktkjs4mh8tcp8
 title: 'Hero With Photo'
 status: published
-published_at: '2026-11-17T20:33:51+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 21
 synced: false
 category: Heroes
@@ -25,10 +25,10 @@ keywords:
 :::::
 
 ::::: buttons {"id":"hp-buttons"}
-:::::: button {"id":"hp-primary","props":{"label":"Make an appointment","url":"entry:01m7nkejakn16aqnk5d5ryx9kq","variant":"primary","size":"lg"}}
+:::::: button {"id":"hp-primary","props":{"label":"Make an appointment","url":"entry:01m7nnfjnxtyfj10psmzqt69na","variant":"primary","size":"lg"}}
 ::::::
 
-:::::: button {"id":"hp-secondary","props":{"label":"Book a tour","url":"entry:01m7nkejakn16aqnk5d5ryx9kg","variant":"secondary","size":"lg"}}
+:::::: button {"id":"hp-secondary","props":{"label":"Book a tour","url":"entry:01m7nnfjnxtyfj10psmzqt69n3","variant":"secondary","size":"lg"}}
 ::::::
 :::::
 ::::

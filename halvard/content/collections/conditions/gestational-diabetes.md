@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9dxp13axbggrvcz1vx
+id: 01m7nnfjmnjg0e4mhzvv98dfxg
 title: 'Diabetes in pregnancy'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 11
-kind: Condition
+kind: condition
 summary: 'High blood sugar that starts during pregnancy and usually goes away after the birth.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft12
+  - 01m7nnfjp54aw0tbjh9mw93ebp
 also_known_as: 'Gestational diabetes'
 ---
 

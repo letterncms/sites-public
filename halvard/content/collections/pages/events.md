@@ -1,8 +1,8 @@
 ---
-id: 01m7nkejakn16aqnk5d5ryx9kg
+id: 01m7nnfjnxtyfj10psmzqt69n3
 title: 'Events and classes'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 7
 summary: 'Classes for parents-to-be, information evenings for patients and families, and symposia for professionals.'
 template: default
@@ -12,7 +12,7 @@ template: default
 :::
 
 ::: box {"id":"el","class":"mx-auto max-w-wide px-gutter pt-blocks"}
-:::: repeat {"id":"el-list","props":{"tag":"ul","sort":"starts","empty":"No events are planned right now. Have a look again soon.","limit":50,"source":"entries","collection":"events"},"class":"mx-auto flex max-w-content flex-col gap-4"}
+:::: repeat {"id":"el-list","props":{"tag":"ul","sort":"starts","empty":"No events are planned right now. Have a look again soon.","limit":50,"where":[{"op":">","field":"starts","value":"{site.today}"}],"source":"entries","collection":"events"},"class":"mx-auto flex max-w-content flex-col gap-4"}
 ::::: box {"id":"el-item","props":{"tag":"li"}}
 :::::: box {"id":"el-card","props":{"tag":"article"},"class":"card-link relative grid grid-cols-[16rem_1fr] items-center gap-8 p-5 max-md:grid-cols-1"}
 ::::::: image {"id":"el-photo","props":{"alt":"","sizes":"(min-width: 64rem) 16rem, 100vw","aspect":"4/3"},"bind":{"image":"item.cover","visible":"item.cover"},"class":"overflow-hidden rounded-md max-md:hidden"}

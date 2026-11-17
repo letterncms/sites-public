@@ -1,15 +1,15 @@
 ---
-id: 01m7nkeja8hnbxesbsxgwr7p5p
+id: 01m7nnfjnf1zf390tr0sryr45h
 title: 'A quieter, faster MRI scanner'
 status: published
 published_at: '2026-10-08T09:00:00+00:00'
 cover:
   - 01m7nh50jw0g87da5fjbgd7q9s
 topic:
-  - 01m7nkejb07nskntv60gdjw3nv
+  - 01m7nnfjpbgha2609d7d6t9qcy
 summary: 'Our new MRI scanner is wider, much quieter and makes most scans in half the time, so more people can be seen sooner.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft11
+  - 01m7nnfjp54aw0tbjh9mw93ebn
 ---
 
 Since this month, our imaging department has a new MRI scanner. It replaces a scanner that served the hospital for fourteen years.

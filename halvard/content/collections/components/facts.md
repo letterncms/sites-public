@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej94vtn85qepnx620gws
+id: 01m7nnfjmc4vrktkjs4mh8tcpc
 title: 'Facts in Numbers'
 status: published
-published_at: '2026-11-17T20:33:51+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 25
 synced: false
 category: Features

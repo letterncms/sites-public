@@ -1,8 +1,8 @@
 ---
-id: 01m7nkejakn16aqnk5d5ryx9kq
+id: 01m7nnfjnxtyfj10psmzqt69na
 title: 'Your appointment'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 1
 summary: 'How to make an appointment, what to bring and what to expect on the day.'
 template: page

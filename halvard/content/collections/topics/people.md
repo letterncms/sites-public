@@ -1,7 +1,7 @@
 ---
-id: 01m7nkejb07nskntv60gdjw3ny
+id: 01m7nnfjpbgha2609d7d6t9qd1
 title: People
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 3
 ---

@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej94vtn85qepnx620gwr
+id: 01m7nnfjmc4vrktkjs4mh8tcpb
 title: 'Steps With Photo'
 status: published
-published_at: '2026-11-17T20:33:51+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 24
 synced: false
 category: Text
@@ -65,7 +65,7 @@ keywords:
 ::::::
 
 :::::: buttons {"id":"st-buttons"}
-::::::: button {"id":"st-button","props":{"label":"Make an appointment","url":"entry:01m7nkejakn16aqnk5d5ryx9kq","variant":"primary","size":"lg"}}
+::::::: button {"id":"st-button","props":{"label":"Make an appointment","url":"entry:01m7nnfjnxtyfj10psmzqt69na","variant":"primary","size":"lg"}}
 :::::::
 ::::::
 :::::

@@ -1,11 +1,11 @@
 ---
-id: 01m7nkejatdd6msye5ee8dft15
+id: 01m7nnfjp54aw0tbjh9mw93ebs
 title: 'Geriatric medicine'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 7
 area:
-  - 01m7nkej8t58gn3vefbxckbsx2
+  - 01m7nnfjm4zyv1ak6tne3cz7ck
 icon: hand-heart
 cover:
   - 01m7nh50m1r45va7pkffcjjb72

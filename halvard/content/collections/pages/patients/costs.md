@@ -1,8 +1,8 @@
 ---
-id: 01m7nkejakn16aqnk5d5ryx9kv
+id: 01m7nnfjnxtyfj10psmzqt69ne
 title: 'Costs and insurance'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 5
 summary: 'What your care costs, what your insurer pays and how to pay your bill.'
 template: page

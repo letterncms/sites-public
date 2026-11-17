@@ -1,8 +1,8 @@
 ---
-id: 01m7nkejakn16aqnk5d5ryx9kw
+id: 01m7nnfjnxtyfj10psmzqt69nf
 title: 'Your rights and feedback'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 6
 summary: 'Your rights as a patient, your medical record, and how to give praise or make a complaint.'
 template: page

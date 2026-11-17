@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej9j3wjs0wvdpfrhw44s
+id: 01m7nnfjmtba71ndn34p85yzzb
 title: 'Mateo Álvarez'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 8
 role: Physiotherapist
 photo:
@@ -20,7 +20,7 @@ languages:
   - Spanish
 family_name: Alvarez
 specialties:
-  - 01m7nkejatdd6msye5ee8dft16
+  - 01m7nnfjp54aw0tbjh9mw93ebt
 new_patients: false
 ---
 

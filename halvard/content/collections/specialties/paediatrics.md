@@ -1,11 +1,11 @@
 ---
-id: 01m7nkejatdd6msye5ee8dft13
+id: 01m7nnfjp54aw0tbjh9mw93ebq
 title: Paediatrics
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 5
 area:
-  - 01m7nkej8t58gn3vefbxckbsx0
+  - 01m7nnfjm3m62f2b6hv60pt0zn
 icon: baby-carriage
 cover:
   - 01m7nh586kpb3mqdbe5g7wk81d

@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9dxp13axbggrvcz1vs
+id: 01m7nnfjmnjg0e4mhzvv98dfxc
 title: 'CT scan'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 7
-kind: 'Test or scan'
+kind: test
 summary: 'A fast scan that uses X-rays to make detailed cross-sections of your body.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft11
+  - 01m7nnfjp54aw0tbjh9mw93ebn
 ---
 
 ## What happens

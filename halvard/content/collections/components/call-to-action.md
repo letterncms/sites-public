@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej94vtn85qepnx620gwt
+id: 01m7nnfjmc4vrktkjs4mh8tcpd
 title: 'Call to Action'
 status: published
-published_at: '2026-11-17T20:33:51+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 26
 synced: false
 category: 'Calls to Action'
@@ -25,10 +25,10 @@ keywords:
 :::::
 
 ::::: buttons {"id":"cta-buttons"}
-:::::: button {"id":"cta-primary","props":{"label":"Make an appointment","url":"entry:01m7nkejakn16aqnk5d5ryx9kq","variant":"primary","size":"lg"}}
+:::::: button {"id":"cta-primary","props":{"label":"Make an appointment","url":"entry:01m7nnfjnxtyfj10psmzqt69na","variant":"primary","size":"lg"}}
 ::::::
 
-:::::: button {"id":"cta-secondary","props":{"label":"Contact us","url":"entry:01m7nkejakn16aqnk5d5ryx9km","variant":"secondary","size":"lg"}}
+:::::: button {"id":"cta-secondary","props":{"label":"Contact us","url":"entry:01m7nnfjnxtyfj10psmzqt69n7","variant":"secondary","size":"lg"}}
 ::::::
 :::::
 ::::

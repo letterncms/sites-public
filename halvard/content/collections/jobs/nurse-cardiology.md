@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9zwkhj3fyct2pjjy1s
+id: 01m7nnfjn639cr307y6zbt384a
 title: 'Registered nurse, cardiology ward'
 status: published
 published_at: '2026-11-12T09:00:00+00:00'
-field: 'Nursing and midwifery'
-hours: 'Full or part time'
+field: nursing
+hours: flexible
 salary: '£34,000 to £41,500 a year'
 summary: 'Care for people with heart conditions on our 28-bed cardiology ward, in a team that trains you in heart care.'
-contract: Permanent
+contract: permanent
 department: Cardiology
 ---
 
