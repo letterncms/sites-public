@@ -8,12 +8,15 @@ template: landing
 ---
 
 ::: box {"id":"ev","class":"wrap pb-section"}
+:::: heading {"id":"ev-h","props":{"level":"2","text":"Upcoming events"},"class":"sr-only"}
+::::
+
 :::: list-filter {"id":"ev-filter","class":"flex max-w-3xl flex-col gap-8"}
 ::::: filter-choice {"id":"ev-cats","props":{"facet":"item.category","label":"Show","all_label":"Everything","look":"chips"}}
 :::::
 
-::::: repeat {"id":"ev-all","props":{"source":"entries","collection":"events","sort":"when","limit":100,"tag":"ul","empty":"No events planned at the moment.","filter_by":"item.category"},"class":"flex flex-col gap-6"}
-:::::: box {"id":"ev-all-item","props":{"tag":"li"},"class":"border-b border-border pb-6"}
+::::: repeat {"id":"ev-all","props":{"source":"entries","collection":"events","sort":"when.start","where":[{"field":"when.start","op":">","value":"{site.today}"}],"limit":100,"tag":"ul","empty":"No events planned at the moment.","filter_by":"item.category"},"class":"flex flex-col gap-6"}
+:::::: box {"id":"ev-all-item","class":"border-b border-border pb-6"}
 ::::::: component {"id":"ev-all-card","props":{"ref":"event-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.day":"item.when.start|date:j","values.month":"item.when.start|date:M","values.when":"{item.when.start|date:l j F Y}, {item.when.start|date:H:i} to {item.when.end|date:H:i}","values.venue":"item.venue"}}
 :::::::
 ::::::

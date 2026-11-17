@@ -43,12 +43,19 @@ template: landing
 :::::: filter-choice {"id":"svc-az-topics","props":{"facet":"item.topic","label":"Topic","all_label":"All topics","look":"chips"}}
 ::::::
 
-:::::: repeat {"id":"svc-az-list","props":{"source":"entries","collection":"services","sort":"title","limit":200,"tag":"ul","filter_by":"item.topic","search_in":"item.title, item.summary, item.keywords"},"class":"grid border-t border-border md:grid-cols-2 md:gap-x-12"}
-::::::: box {"id":"svc-az-item","props":{"tag":"li"},"class":"flex flex-col gap-1 border-b border-border py-4"}
-:::::::: link {"id":"svc-az-link","bind":{"label":"item.title","url":"item.url"},"class":"text-link text-lg font-bold"}
+:::::: repeat {"id":"svc-az-list","props":{"source":"entries","collection":"services","sort":"title","limit":200,"tag":"div","group_by":"item.title|initial","filter_by":"item.topic","search_in":"item.title, item.summary, item.keywords"},"class":"flex flex-col gap-10"}
+::::::: box {"id":"svc-az-letter","props":{"tag":"section"},"class":"grid gap-2 md:grid-cols-[4rem_1fr] md:gap-8"}
+:::::::: heading {"id":"svc-az-letter-h","props":{"level":"3"},"bind":{"text":"item.label"},"class":"text-3xl text-primary md:pt-3"}
 ::::::::
 
-:::::::: paragraph {"id":"svc-az-summary","props":{"tag":"p"},"bind":{"text":"item.summary"},"class":"text-base text-muted"}
+:::::::: repeat {"id":"svc-az-items","props":{"source":"list","path":"item.items","tag":"ul"},"class":"grid border-t border-border md:grid-cols-2 md:gap-x-12"}
+::::::::: box {"id":"svc-az-item","class":"flex flex-col gap-1 border-b border-border py-4"}
+:::::::::: link {"id":"svc-az-link","bind":{"label":"item.title","url":"item.url"},"class":"text-link text-lg font-bold"}
+::::::::::
+
+:::::::::: paragraph {"id":"svc-az-summary","props":{"tag":"p"},"bind":{"text":"item.summary"},"class":"text-base text-muted"}
+::::::::::
+:::::::::
 ::::::::
 :::::::
 ::::::
