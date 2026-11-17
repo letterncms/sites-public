@@ -1,0 +1,32 @@
+{
+    "fonts": [
+        {
+            "family": "Figtree",
+            "src": "fonts/figtree-300-900.woff2",
+            "weight": "300 900",
+            "style": "normal",
+            "preload": true,
+            "fallback": "Arial",
+            "sizeAdjust": "101.26%",
+            "ascentOverride": "93.81%",
+            "descentOverride": "24.69%",
+            "lineGapOverride": "0%"
+        },
+        {
+            "family": "Figtree",
+            "src": "fonts/figtree-300-900-italic.woff2",
+            "weight": "300 900",
+            "style": "italic",
+            "preload": false,
+            "fallback": "Arial",
+            "sizeAdjust": "102.72%",
+            "ascentOverride": "92.49%",
+            "descentOverride": "24.34%",
+            "lineGapOverride": "0%"
+        }
+    ],
+    "transition": {
+        "type": "fade",
+        "duration": 0.2
+    }
+}

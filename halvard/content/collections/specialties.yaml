@@ -1,0 +1,68 @@
+title: Specialties
+singular: Specialty
+icon: stethoscope
+description: 'The departments, units and clinics patients can be referred to.'
+driver: database
+structure: list
+route: '/care/{slug}'
+template: specialty
+sort: title
+default_columns:
+  - 'field:area'
+  - 'field:phone'
+  - status
+nav_order: 20
+fields:
+  -
+    handle: content
+    type: blocks
+    body: true
+    label: Content
+  -
+    handle: summary
+    type: textarea
+    label: Summary
+    required: true
+    about: 'One sentence on what the specialty cares for, shown on its card and under its title.'
+  -
+    handle: icon
+    type: icon
+    label: Icon
+    section: sidebar
+  -
+    handle: area
+    type: terms
+    label: 'Area of Care'
+    taxonomy: areas
+    max: 1
+    required: true
+    section: sidebar
+  -
+    handle: cover
+    type: media
+    label: Photo
+    max: 1
+    accept: 'image/*'
+    section: sidebar
+  -
+    handle: phone
+    type: text
+    label: 'Appointments Phone'
+    section: sidebar
+  -
+    handle: location
+    type: text
+    label: 'Where to Find Us'
+    about: 'Building, floor and route number, as the signs in the hospital say it.'
+    section: sidebar
+  -
+    handle: hours
+    type: textarea
+    label: 'Opening Hours'
+    section: sidebar
+  -
+    handle: referral
+    type: toggle
+    label: 'Referral Needed'
+    about: 'On when patients need a letter from their GP for a first appointment.'
+    section: sidebar

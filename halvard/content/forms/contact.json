@@ -1,0 +1,103 @@
+{
+    "title": "Contact",
+    "settings": {
+        "submit": "Send message",
+        "success": "Thank you. We will reply within three working days. For anything urgent, please call us.",
+        "redirect": null,
+        "notify": [],
+        "subject": "Message: {topic}",
+        "reply_to_field": "email",
+        "confirmation": true,
+        "confirmation_subject": "We have your message",
+        "confirmation_message": "<p>Thank you for your message. We will reply within three working days.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "hv034",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "hv034c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv032",
+                            "type": "form/text",
+                            "props": {
+                                "label": "Name",
+                                "name": "name",
+                                "required": true,
+                                "autocomplete": "name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "hv034c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv033",
+                            "type": "form/email",
+                            "props": {
+                                "label": "Email",
+                                "name": "email",
+                                "required": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hv035",
+            "type": "form/tel",
+            "props": {
+                "label": "Phone",
+                "name": "phone",
+                "help": "Only if you would like us to call you back."
+            }
+        },
+        {
+            "id": "hv036",
+            "type": "form/select",
+            "props": {
+                "label": "What is it about?",
+                "name": "topic",
+                "required": true,
+                "placeholder": "Choose a topic",
+                "options": "question|A question\npraise|Praise or thanks\ncomplaint|A complaint\naccessibility|The accessibility of this website\nrecords|My medical records\nother|Something else"
+            }
+        },
+        {
+            "id": "hv037",
+            "type": "form/textarea",
+            "props": {
+                "label": "Your message",
+                "name": "message",
+                "required": true,
+                "rows": 6,
+                "max": 5000,
+                "help": "Please don’t send detailed medical information by this form."
+            }
+        },
+        {
+            "id": "hv001",
+            "type": "form/consent",
+            "props": {
+                "name": "consent",
+                "text": "I agree that Halvard Hospital uses these details to answer me, as the <a href=\"/privacy\">privacy statement</a> says."
+            }
+        }
+    ]
+}

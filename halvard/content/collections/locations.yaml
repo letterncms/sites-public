@@ -1,0 +1,55 @@
+title: Locations
+singular: Location
+icon: map-pin
+driver: database
+structure: list
+route: '/locations/{slug}'
+template: location
+sort: position
+nav_order: 60
+fields:
+  -
+    handle: content
+    type: blocks
+    body: true
+    label: Content
+  -
+    handle: summary
+    type: textarea
+    label: Summary
+    required: true
+  -
+    handle: cover
+    type: media
+    label: Photo
+    max: 1
+    accept: 'image/*'
+    section: sidebar
+  -
+    handle: address
+    type: textarea
+    label: Address
+    required: true
+  -
+    handle: place
+    type: geo
+    label: 'On the Map'
+    about: 'Where it is, for the directions link.'
+  -
+    handle: phone
+    type: text
+    label: Phone
+    width: half
+  -
+    handle: hours
+    type: textarea
+    label: 'Opening Hours'
+    width: half
+  -
+    handle: getting_there
+    type: textarea
+    label: 'By Public Transport'
+  -
+    handle: parking
+    type: textarea
+    label: Parking

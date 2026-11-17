@@ -1,0 +1,30 @@
+type: categories
+title: 'Areas of Care'
+singular: Area
+icon: squares-four
+driver: database
+template: ''
+sort: position
+nav_order: 25
+fields:
+  -
+    handle: summary
+    type: textarea
+    label: Summary
+  -
+    handle: icon
+    type: icon
+    label: Icon
+  -
+    handle: colour
+    type: select
+    label: Colour
+    about: 'The colour of its specialties’ cards and title bands.'
+    options:
+      mint: Mint
+      sky: Sky
+      lilac: Lilac
+      peach: Peach
+      sun: Sun
+      rose: Rose
+    default: sky
