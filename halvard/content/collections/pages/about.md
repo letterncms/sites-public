@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjnxtyfj10psmzqt69n5
+id: 01m7npd9ykcsvmvzmcvcrg02jq
 title: 'About us'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 9
 summary: 'A teaching hospital for Elmsworth and the valley, with 1,900 colleagues and 420 beds.'
 template: default
@@ -167,10 +167,10 @@ template: default
 :::::
 
 ::::: buttons {"id":"ab-join-buttons"}
-:::::: button {"id":"ab-join-jobs","props":{"url":"entry:01m7nnfjnxtyfj10psmzqt69n4","size":"lg","label":"See our vacancies","variant":"primary"}}
+:::::: button {"id":"ab-join-jobs","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jp","size":"lg","label":"See our vacancies","variant":"primary"}}
 ::::::
 
-:::::: button {"id":"ab-join-news","props":{"url":"entry:01m7nnfjnxtyfj10psmzqt69n2","size":"lg","label":"Read our news","variant":"secondary"}}
+:::::: button {"id":"ab-join-news","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jm","size":"lg","label":"Read our news","variant":"secondary"}}
 ::::::
 :::::
 ::::

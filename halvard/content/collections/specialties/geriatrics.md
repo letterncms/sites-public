@@ -1,17 +1,22 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebs
+id: 01m7npd9yta05vmnmacaskxfcn
 title: 'Geriatric medicine'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 7
 area:
-  - 01m7nnfjm4zyv1ak6tne3cz7ck
+  - 01m7npd9wzm565xrqtd250qeh0
 icon: hand-heart
 cover:
   - 01m7nh50m1r45va7pkffcjjb72
 hours: 'Monday to Friday, 8:00 to 17:00'
 phone: '+44 20 7946 0280'
 summary: 'Care for older people with several conditions at once, falls, memory problems or frailty, so they can stay independent for longer.'
+keywords:
+  - 'older people'
+  - elderly
+  - falls
+  - memory
 location: 'Building A, level 1, route 180'
 referral: true
 ---

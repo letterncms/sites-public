@@ -1,16 +1,16 @@
 ---
-id: 01m7nnfjmwvxbbqgwx2z0bskxd
+id: 01m7npd9xq4e22kezx4b3w3p8r
 title: 'Living well with heart failure'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
-expires_at: '2027-01-15T00:30:17+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
+expires_at: '2027-01-15T00:09:02+00:00'
 position: 2
 ends: '20:30'
 cover:
   - 01m7nh50krw79rkqwpr180310p
 price: Free
 venue: 'Auditorium, building A, ground floor'
-starts: '2027-01-14T19:00:17+00:00'
+starts: '2027-01-14T18:39:02+00:00'
 summary: 'An information evening for people with heart failure and their families, with our cardiologists and heart failure nurses.'
 audience: patients
 ---

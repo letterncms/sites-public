@@ -1,17 +1,23 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebj
+id: 01m7npd9ysnp9eq4p0by0drhyd
 title: Cardiology
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 0
 area:
-  - 01m7nnfjm3m62f2b6hv60pt0zm
+  - 01m7npd9wzm565xrqtd250qegx
 icon: heartbeat
 cover:
   - 01m7nh50krw79rkqwpr180310p
 hours: 'Monday to Friday, 8:00 to 17:00'
 phone: '+44 20 7946 0214'
 summary: 'Care for your heart and blood vessels: chest pain, palpitations, heart failure and valve disease, from a first check to an operation.'
+keywords:
+  - heart
+  - 'chest pain'
+  - palpitations
+  - 'blood pressure'
+  - cardiologist
 location: 'Building A, level 2, route 214'
 referral: true
 ---

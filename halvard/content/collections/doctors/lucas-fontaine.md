@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjmtba71ndn34p85yzze
+id: 01m7npd9xnbgykvk1q3yxnn5jg
 title: 'Lucas Fontaine'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 12
 role: Radiologist
 photo:
@@ -21,7 +21,7 @@ languages:
   - French
 family_name: Fontaine
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebn
+  - 01m7npd9ysnp9eq4p0by0drhyg
 new_patients: false
 ---
 

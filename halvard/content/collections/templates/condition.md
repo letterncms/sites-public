@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjp9xe6pjmmfm8q9am9t
+id: 01m7npd9yyj7xb7jex3zmz2gz0
 title: 'Condition or Treatment'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 5
 description: 'A topic explained: what kind it is, its title and summary, the text in a reading column, and who treats it here beside it.'
 collections:
@@ -26,7 +26,7 @@ collections:
 ::::::::
 
 :::::::: box {"id":"co-crumb-up","props":{"tag":"li"},"class":"flex items-center gap-2"}
-::::::::: link {"id":"co-crumb-up-a","props":{"label":"Conditions and treatments","url":"entry:01m7nnfjnxtyfj10psmzqt69mz"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+::::::::: link {"id":"co-crumb-up-a","props":{"label":"Conditions and treatments","url":"entry:01m7npd9ykcsvmvzmcvcrg02jh"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 :::::::::
 ::::::::
 :::::::

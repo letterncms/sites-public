@@ -1,13 +1,15 @@
 ---
-id: 01m7nnfjmnjg0e4mhzvv98dfxn
+id: 01m7npd9xhmdsf9beamewvggqp
 title: Migraine
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 16
 kind: condition
 summary: 'Recurring headaches, often on one side, with nausea and sensitivity to light, sometimes after flashing lights.'
+keywords:
+  - headache
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebr
+  - 01m7npd9yta05vmnmacaskxfcm
 ---
 
 ## What it is

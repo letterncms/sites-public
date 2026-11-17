@@ -1,11 +1,11 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebr
+id: 01m7npd9yta05vmnmacaskxfcm
 title: Neurology
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 6
 area:
-  - 01m7nnfjm3m62f2b6hv60pt0zp
+  - 01m7npd9wzm565xrqtd250qegz
 icon: brain
 cover:
   - 01m7nh50jzfmk9a8t2g250tzfb
@@ -14,6 +14,12 @@ hours: |-
   Outpatient clinic Monday to Friday, 8:30 to 17:00
 phone: '+44 20 7946 0250'
 summary: 'Care for the brain, spinal cord and nerves: stroke, epilepsy, headache, Parkinson’s disease and multiple sclerosis.'
+keywords:
+  - brain
+  - nerves
+  - stroke
+  - headache
+  - seizure
 location: 'Building B, level 3, route 350'
 referral: true
 ---

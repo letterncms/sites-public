@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjp9xe6pjmmfm8q9am9y
+id: 01m7npd9yyj7xb7jex3zmz2gz4
 title: Location
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 9
 description: 'A location: its photo and summary, address, phone and hours, how to get there and where to park, and a map.'
 collections:
@@ -27,7 +27,7 @@ collections:
 :::::::::
 
 ::::::::: box {"id":"lo-crumb-up","props":{"tag":"li"},"class":"flex items-center gap-2"}
-:::::::::: link {"id":"lo-crumb-up-a","props":{"label":"Locations","url":"entry:01m7nnfjnxtyfj10psmzqt69n6"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"lo-crumb-up-a","props":{"label":"Locations","url":"entry:01m7npd9ykcsvmvzmcvcrg02jr"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::

@@ -1,5 +1,5 @@
 title: 'Conditions and Treatments'
-singular: Topic
+singular: 'Condition or Treatment'
 icon: first-aid-kit
 description: 'Conditions, treatments and tests explained for patients, A to Z.'
 driver: database
@@ -45,4 +45,10 @@ fields:
     label: 'Treated By'
     collections:
       - specialties
+    section: sidebar
+  -
+    handle: keywords
+    type: list
+    label: Keywords
+    about: 'Other words people search for it by, like heart for Cardiology.'
     section: sidebar

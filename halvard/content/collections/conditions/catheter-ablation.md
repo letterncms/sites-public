@@ -1,13 +1,16 @@
 ---
-id: 01m7nnfjmnjg0e4mhzvv98dfx9
+id: 01m7npd9xhmdsf9beamewvggqa
 title: 'Catheter ablation'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 4
 kind: treatment
 summary: 'A procedure that treats heart rhythm problems through thin tubes, without open surgery.'
+keywords:
+  - ablation
+  - 'heart rhythm'
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebj
+  - 01m7npd9ysnp9eq4p0by0drhyd
 ---
 
 ## The procedure

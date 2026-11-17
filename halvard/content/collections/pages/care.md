@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjnxtyfj10psmzqt69mx
+id: 01m7npd9ykcsvmvzmcvcrg02jf
 title: 'Care and specialties'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 1
 summary: 'Find the department or clinic for you, by area of care or by name.'
 template: default
@@ -51,7 +51,7 @@ template: default
 :::::
 
 ::::: buttons {"id":"cs-help-buttons"}
-:::::: button {"id":"cs-help-book","props":{"url":"entry:01m7nnfjnxtyfj10psmzqt69na","size":"lg","label":"Make an appointment","variant":"primary"}}
+:::::: button {"id":"cs-help-book","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jx","size":"lg","label":"Make an appointment","variant":"primary"}}
 ::::::
 
 :::::: button {"id":"cs-help-call","props":{"icon":"phone","size":"lg","variant":"secondary"},"bind":{"url":"tel:{globals.hospital.appointments_phone}","label":"Call {globals.hospital.appointments_phone}"}}

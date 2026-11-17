@@ -1,13 +1,16 @@
 ---
-id: 01m7nnfjmnjg0e4mhzvv98dfxa
+id: 01m7npd9xhmdsf9beamewvggqb
 title: Chemotherapy
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 5
 kind: treatment
 summary: 'Medicines that kill cancer cells or stop them growing, usually given in our day hospital.'
+keywords:
+  - chemo
+  - 'cancer treatment'
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebm
+  - 01m7npd9ysnp9eq4p0by0drhyf
 ---
 
 ## How it works

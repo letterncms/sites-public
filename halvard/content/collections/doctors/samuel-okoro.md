@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjmtba71ndn34p85yzz6
+id: 01m7npd9xnbgykvk1q3yxnn5j8
 title: 'Samuel Okoro'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 2
 role: 'Cardiac surgeon'
 photo:
@@ -23,8 +23,8 @@ languages:
   - French
 family_name: Okoro
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebj
-  - 01m7nnfjp54aw0tbjh9mw93eby
+  - 01m7npd9ysnp9eq4p0by0drhyd
+  - 01m7npd9yta05vmnmacaskxfct
 new_patients: true
 ---
 

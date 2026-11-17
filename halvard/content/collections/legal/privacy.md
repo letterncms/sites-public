@@ -1,10 +1,10 @@
 ---
-id: 01m7nnfjn7fqpjgnwak75r4rkj
+id: 01m7npd9y1ezyyx3v6yw9dk86h
 title: 'Privacy and cookies'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 2
 link:
   type: entry
-  value: 01m7nnfjnxtyfj10psmzqt69n9
+  value: 01m7npd9ykcsvmvzmcvcrg02jv
 ---

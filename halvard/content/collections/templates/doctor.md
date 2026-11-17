@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjp9xe6pjmmfm8q9am9s
+id: 01m7npd9yyj7xb7jex3zmz2gyz
 title: Doctor
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 4
 description: 'A profile: photo, name and role, specialties and whether they see new patients, then the biography beside expertise, languages, consultation hours and training.'
 collections:
@@ -37,7 +37,7 @@ collections:
 :::::::::
 
 ::::::::: box {"id":"dr-crumb-up","props":{"tag":"li"},"class":"flex items-center gap-2"}
-:::::::::: link {"id":"dr-crumb-up-a","props":{"label":"Find a doctor","url":"entry:01m7nnfjnxtyfj10psmzqt69my"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"dr-crumb-up-a","props":{"label":"Find a doctor","url":"entry:01m7npd9ykcsvmvzmcvcrg02jg"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::
@@ -63,7 +63,7 @@ collections:
 :::::::
 
 ::::::: buttons {"id":"dr-actions","class":"pt-2"}
-:::::::: button {"id":"dr-book","props":{"label":"Make an appointment","url":"entry:01m7nnfjnxtyfj10psmzqt69na","variant":"primary","size":"lg"}}
+:::::::: button {"id":"dr-book","props":{"label":"Make an appointment","url":"entry:01m7npd9ykcsvmvzmcvcrg02jx","variant":"primary","size":"lg"}}
 ::::::::
 
 :::::::: button {"id":"dr-call","props":{"variant":"secondary","size":"lg","icon":"phone"},"bind":{"label":"Call {globals.hospital.appointments_phone}","url":"tel:{globals.hospital.appointments_phone}"}}

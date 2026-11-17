@@ -1,10 +1,10 @@
 ---
-id: 01m7nnfjn7fqpjgnwak75r4rkh
+id: 01m7npd9y1ezyyx3v6yw9dk86g
 title: Accessibility
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 1
 link:
   type: entry
-  value: 01m7nnfjnxtyfj10psmzqt69n8
+  value: 01m7npd9ykcsvmvzmcvcrg02jt
 ---

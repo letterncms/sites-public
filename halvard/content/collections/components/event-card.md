@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjmc4vrktkjs4mh8tcp7
+id: 01m7npd9x8g8e4hhhdejz1f4kf
 title: 'Event Card'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 13
 synced: true
 category: Cards

@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjmtba71ndn34p85yzz5
+id: 01m7npd9xnbgykvk1q3yxnn5j7
 title: 'Arjun Mehta'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 1
 role: Cardiologist
 photo:
@@ -25,7 +25,7 @@ languages:
   - Gujarati
 family_name: Mehta
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebj
+  - 01m7npd9ysnp9eq4p0by0drhyd
 new_patients: true
 ---
 

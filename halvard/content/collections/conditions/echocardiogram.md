@@ -1,13 +1,16 @@
 ---
-id: 01m7nnfjmnjg0e4mhzvv98dfxd
+id: 01m7npd9xhmdsf9beamewvggqe
 title: Echocardiogram
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 8
 kind: test
 summary: 'An ultrasound scan of the heart that shows how it pumps and how its valves work.'
+keywords:
+  - echo
+  - 'heart scan'
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebj
+  - 01m7npd9ysnp9eq4p0by0drhyd
 also_known_as: 'Heart ultrasound'
 ---
 

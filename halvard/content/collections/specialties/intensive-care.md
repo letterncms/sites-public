@@ -1,11 +1,11 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93eby
+id: 01m7npd9yta05vmnmacaskxfct
 title: 'Intensive care'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 12
 area:
-  - 01m7nnfjm4zyv1ak6tne3cz7cn
+  - 01m7npd9wzm565xrqtd250qeh2
 icon: heartbeat
 cover:
   - 01m7nh50kv3enjtk7374m636bz
@@ -14,6 +14,9 @@ hours: |-
   Visiting by arrangement
 phone: '+44 20 7946 0310'
 summary: 'Care around the clock for people who are critically ill, with one nurse for every one or two patients.'
+keywords:
+  - ICU
+  - 'critical care'
 location: 'Building A, level 3, route 310'
 referral: false
 ---

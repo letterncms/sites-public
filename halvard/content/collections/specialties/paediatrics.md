@@ -1,11 +1,11 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebq
+id: 01m7npd9yta05vmnmacaskxfck
 title: Paediatrics
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 5
 area:
-  - 01m7nnfjm3m62f2b6hv60pt0zn
+  - 01m7npd9wzm565xrqtd250qegy
 icon: baby-carriage
 cover:
   - 01m7nh586kpb3mqdbe5g7wk81d
@@ -14,6 +14,12 @@ hours: |-
   Outpatient clinic Monday to Friday, 8:00 to 17:00
 phone: '+44 20 7946 0240'
 summary: 'Care for babies, children and teenagers up to eighteen, on a ward where parents can stay the night.'
+keywords:
+  - children
+  - child
+  - kids
+  - baby
+  - paediatrician
 location: 'Building C, level 3, route 340'
 referral: true
 ---

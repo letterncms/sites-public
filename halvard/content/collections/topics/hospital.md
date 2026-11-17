@@ -1,7 +1,7 @@
 ---
-id: 01m7nnfjpbgha2609d7d6t9qcy
+id: 01m7npd9yzr9770gwpamg8tc0w
 title: 'Hospital news'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 0
 ---
