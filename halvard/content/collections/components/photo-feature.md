@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9x8g8e4hhhdejz1f4kp
+id: 01m7nqftagk53yj8axk5yx8ggp
 title: 'Photo With Text'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 27
 synced: false
 category: Media
@@ -29,7 +29,7 @@ keywords:
 :::::: paragraph {"id":"pf-p","props":{"text":"After a stroke, an operation or an accident, our therapists help you walk, work and live as independently as you can again.","tag":"p"},"class":"text-lg text-muted"}
 ::::::
 
-:::::: button {"id":"pf-button","props":{"label":"About rehabilitation","url":"entry:01m7npd9yta05vmnmacaskxfcp","variant":"secondary","icon":"arrow-right","icon_position":"end"}}
+:::::: button {"id":"pf-button","props":{"label":"About rehabilitation","url":"entry:01m7nqftc1k1cc2xmxrzd8h9gx","variant":"secondary","icon":"arrow-right","icon_position":"end"}}
 ::::::
 :::::
 ::::

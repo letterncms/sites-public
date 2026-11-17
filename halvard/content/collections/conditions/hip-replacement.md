@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xhmdsf9beamewvggqm
+id: 01m7nqftars9sqktdhqjbggke5
 title: 'Hip replacement'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 14
 kind: treatment
 summary: 'An operation to replace a worn hip joint with an artificial one, so you can walk without pain again.'
@@ -10,7 +10,7 @@ keywords:
   - 'new hip'
   - 'joint replacement'
 specialties:
-  - 01m7npd9yta05vmnmacaskxfcq
+  - 01m7nqftc1k1cc2xmxrzd8h9gy
 ---
 
 ## The operation

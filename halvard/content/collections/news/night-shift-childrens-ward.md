@@ -1,15 +1,15 @@
 ---
-id: 01m7npd9y8p0wze87a6jt940jd
+id: 01m7nqftbggjy24dkzjswc6kmn
 title: 'A night on the children’s ward'
 status: published
 published_at: '2026-10-21T09:00:00+00:00'
 cover:
   - 01m7nh50k5whw7g3qpefpw01mr
 topic:
-  - 01m7npd9z0wh4nkzwa395c20r0
+  - 01m7nqftc662t470z4xctx4nrc
 summary: 'What happens on the children’s ward while the rest of the hospital sleeps? We spent a night with nurse Priya and her team.'
 specialties:
-  - 01m7npd9yta05vmnmacaskxfck
+  - 01m7nqftc1k1cc2xmxrzd8h9gt
 ---
 
 It is nine in the evening, and the playroom on the children’s ward is finally quiet. For nurse Priya Nair and her three colleagues, the night has only just begun.

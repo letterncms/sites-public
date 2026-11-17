@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9ykcsvmvzmcvcrg02jh
+id: 01m7nqftbvfcw2y4b3yr35fmqw
 title: 'Conditions and treatments'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 3
 summary: 'Conditions, treatments and tests explained in plain words, with who treats them here.'
 template: default
@@ -35,7 +35,7 @@ template: default
 ::::::
 
 :::::: repeat {"id":"cl-letter-items","props":{"tag":"ul","path":"item.items","source":"list"},"class":"grid grid-cols-2 gap-x-columns max-md:grid-cols-1"}
-::::::: box {"id":"cl-item","props":{"tag":"li"}}
+::::::: box {"id":"cl-item","class":"h-full"}
 :::::::: link {"id":"cl-a","bind":{"url":"item.url"},"class":"group flex h-full items-center gap-4 border-b border-border py-5 no-underline"}
 ::::::::: box {"id":"cl-text","class":"flex flex-col gap-1"}
 :::::::::: paragraph {"id":"cl-title","props":{"tag":"span"},"bind":{"text":"item.title"},"class":"text-lg font-semibold text-foreground group-hover:text-primary"}

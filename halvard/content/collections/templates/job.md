@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9yyj7xb7jex3zmz2gz3
+id: 01m7nqftc5hn7vgmwpr8886w9z
 title: Vacancy
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 8
 description: 'A vacancy: its department and title, the terms beside it, the job, and a form to apply.'
 collections:
@@ -27,7 +27,7 @@ collections:
 :::::::::
 
 ::::::::: box {"id":"jb-crumb-up","props":{"tag":"li"},"class":"flex items-center gap-2"}
-:::::::::: link {"id":"jb-crumb-up-a","props":{"label":"Careers","url":"entry:01m7npd9ykcsvmvzmcvcrg02jp"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"jb-crumb-up-a","props":{"label":"Careers","url":"entry:01m7nqftbvfcw2y4b3yr35fmr1"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::

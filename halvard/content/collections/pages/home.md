@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9ykcsvmvzmcvcrg02je
+id: 01m7nqftbvfcw2y4b3yr35fmqs
 title: Home
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 0
 summary: 'Expert care for Elmsworth and the valley: find a doctor, make an appointment, and everything you need for a stay or a visit.'
 template: default
@@ -19,12 +19,12 @@ template: default
 ::::: paragraph {"id":"h-lede","props":{"tag":"p","text":"From your first appointment to the day you go home, we are here for you and for the people around you."},"class":"lede max-w-[30em]"}
 :::::
 
-::::: search-field {"id":"h-search","props":{"size":"lg","label":"Search this website","placeholder":"Search care, doctors and information","button_label":"Search","button_style":"primary","results_page":"entry:01m7npd9ykcsvmvzmcvcrg02jw"},"class":"w-full max-w-[34rem]"}
+::::: search-field {"id":"h-search","props":{"size":"lg","label":"Search this website","placeholder":"Search care, doctors and information","button_label":"Search","button_style":"primary","results_page":"entry:01m7nqftbvfcw2y4b3yr35fmr7"},"class":"w-full max-w-[34rem]"}
 :::::
 
 ::::: box {"id":"h-tasks","props":{"tag":"ul"},"attrs":{"aria-label":"Popular tasks"},"class":"grid grid-cols-2 gap-3 max-sm:grid-cols-1"}
 :::::: box {"id":"h-task-0","props":{"tag":"li"}}
-::::::: box {"id":"h-task-0-a","props":{"link":"entry:01m7npd9ykcsvmvzmcvcrg02jx"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors bg-primary text-primary-foreground hover:bg-primary-hover"}
+::::::: box {"id":"h-task-0-a","props":{"link":"entry:01m7nqftbvfcw2y4b3yr35fmr8"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors bg-primary text-primary-foreground hover:bg-primary-hover"}
 :::::::: icon {"id":"h-task-0-i","props":{"icon":"calendar-check"},"attrs":{"aria-hidden":"true"},"class":"size-7 shrink-0"}
 ::::::::
 
@@ -37,7 +37,7 @@ template: default
 ::::::
 
 :::::: box {"id":"h-task-1","props":{"tag":"li"}}
-::::::: box {"id":"h-task-1-a","props":{"link":"entry:01m7npd9ykcsvmvzmcvcrg02jg"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
+::::::: box {"id":"h-task-1-a","props":{"link":"entry:01m7nqftbvfcw2y4b3yr35fmqv"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
 :::::::: icon {"id":"h-task-1-i","props":{"icon":"stethoscope"},"attrs":{"aria-hidden":"true"},"class":"size-7 shrink-0 text-primary"}
 ::::::::
 
@@ -50,7 +50,7 @@ template: default
 ::::::
 
 :::::: box {"id":"h-task-2","props":{"tag":"li"}}
-::::::: box {"id":"h-task-2-a","props":{"link":"entry:01m7npd9ykcsvmvzmcvcrg02jf"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
+::::::: box {"id":"h-task-2-a","props":{"link":"entry:01m7nqftbvfcw2y4b3yr35fmqt"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
 :::::::: icon {"id":"h-task-2-i","props":{"icon":"first-aid-kit"},"attrs":{"aria-hidden":"true"},"class":"size-7 shrink-0 text-primary"}
 ::::::::
 
@@ -63,7 +63,7 @@ template: default
 ::::::
 
 :::::: box {"id":"h-task-3","props":{"tag":"li"}}
-::::::: box {"id":"h-task-3-a","props":{"link":"entry:01m7npd9ykcsvmvzmcvcrg02jh"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
+::::::: box {"id":"h-task-3-a","props":{"link":"entry:01m7nqftbvfcw2y4b3yr35fmqw"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
 :::::::: icon {"id":"h-task-3-i","props":{"icon":"book-open-text"},"attrs":{"aria-hidden":"true"},"class":"size-7 shrink-0 text-primary"}
 ::::::::
 
@@ -76,7 +76,7 @@ template: default
 ::::::
 
 :::::: box {"id":"h-task-4","props":{"tag":"li"}}
-::::::: box {"id":"h-task-4-a","props":{"link":"entry:01m7npd9ykcsvmvzmcvcrg02jz"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
+::::::: box {"id":"h-task-4-a","props":{"link":"entry:01m7nqftbvfcw2y4b3yr35fmra"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
 :::::::: icon {"id":"h-task-4-i","props":{"icon":"clock"},"attrs":{"aria-hidden":"true"},"class":"size-7 shrink-0 text-primary"}
 ::::::::
 
@@ -89,7 +89,7 @@ template: default
 ::::::
 
 :::::: box {"id":"h-task-5","props":{"tag":"li"}}
-::::::: box {"id":"h-task-5-a","props":{"link":"entry:01m7npd9ykcsvmvzmcvcrg02k0"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
+::::::: box {"id":"h-task-5-a","props":{"link":"entry:01m7nqftbvfcw2y4b3yr35fmrb"},"class":"group flex h-full min-h-16 items-center gap-4 rounded-lg p-4 no-underline transition-colors border border-border bg-raised text-foreground hover:border-primary/50"}
 :::::::: icon {"id":"h-task-5-i","props":{"icon":"map-pin"},"attrs":{"aria-hidden":"true"},"class":"size-7 shrink-0 text-primary"}
 ::::::::
 
@@ -121,7 +121,7 @@ template: default
 :::::::
 ::::::
 
-:::::: link {"id":"h-er-more","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jj","label":"When to come"},"class":"font-semibold text-white underline"}
+:::::: link {"id":"h-er-more","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmqx","label":"When to come"},"class":"font-semibold text-white underline"}
 ::::::
 :::::
 ::::
@@ -137,7 +137,7 @@ template: default
 ::::::
 :::::
 
-::::: button {"id":"h-areas-all","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jf","icon":"arrow-right","label":"All specialties","variant":"secondary","icon_position":"end"}}
+::::: button {"id":"h-areas-all","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmqt","icon":"arrow-right","label":"All specialties","variant":"secondary","icon_position":"end"}}
 :::::
 ::::
 
@@ -218,10 +218,10 @@ template: default
 ::::::
 
 :::::: buttons {"id":"h-visit-buttons"}
-::::::: button {"id":"h-visit-book","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jx","size":"lg","label":"Make an appointment","variant":"primary"}}
+::::::: button {"id":"h-visit-book","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmr8","size":"lg","label":"Make an appointment","variant":"primary"}}
 :::::::
 
-::::::: button {"id":"h-visit-here","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02k0","size":"lg","label":"Getting here","variant":"secondary"}}
+::::::: button {"id":"h-visit-here","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmrb","size":"lg","label":"Getting here","variant":"secondary"}}
 :::::::
 ::::::
 :::::
@@ -238,7 +238,7 @@ template: default
 ::::::
 :::::
 
-::::: button {"id":"h-doctors-all","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jg","icon":"arrow-right","label":"Find a doctor","variant":"secondary","icon_position":"end"}}
+::::: button {"id":"h-doctors-all","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmqv","icon":"arrow-right","label":"Find a doctor","variant":"secondary","icon_position":"end"}}
 :::::
 ::::
 
@@ -256,7 +256,7 @@ template: default
 :::::: heading {"id":"h-facts-title","props":{"text":"A teaching hospital for the whole valley","level":"2"},"class":"text-3xl"}
 ::::::
 
-:::::: button {"id":"h-facts-about","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jq","icon":"arrow-right","label":"About us","variant":"link","icon_position":"end"}}
+:::::: button {"id":"h-facts-about","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmr2","icon":"arrow-right","label":"About us","variant":"link","icon_position":"end"}}
 ::::::
 :::::
 
@@ -302,7 +302,7 @@ template: default
 :::::: heading {"id":"h-news-title","props":{"text":"News","level":"2"},"class":"text-3xl"}
 ::::::
 
-:::::: button {"id":"h-news-all","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jm","icon":"arrow-right","label":"All news","variant":"link","icon_position":"end"}}
+:::::: button {"id":"h-news-all","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmqz","icon":"arrow-right","label":"All news","variant":"link","icon_position":"end"}}
 ::::::
 :::::
 
@@ -319,7 +319,7 @@ template: default
 :::::: heading {"id":"h-events-title","props":{"text":"Events and classes","level":"2"},"class":"text-3xl"}
 ::::::
 
-:::::: button {"id":"h-events-all","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jn","icon":"arrow-right","label":"All events","variant":"link","icon_position":"end"}}
+:::::: button {"id":"h-events-all","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmr0","icon":"arrow-right","label":"All events","variant":"link","icon_position":"end"}}
 ::::::
 :::::
 
@@ -344,7 +344,7 @@ template: default
 :::::: paragraph {"id":"h-careers-p","props":{"tag":"p","text":"Nurses, doctors, therapists, technicians and the people who keep it all running: join 1,900 colleagues who learn from each other every day."},"class":"text-lg leading-[1.55] text-muted"}
 ::::::
 
-:::::: button {"id":"h-careers-b","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jp","icon":"arrow-right","size":"lg","label":"See our vacancies","variant":"primary","icon_position":"end"}}
+:::::: button {"id":"h-careers-b","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmr1","icon":"arrow-right","size":"lg","label":"See our vacancies","variant":"primary","icon_position":"end"}}
 ::::::
 :::::
 

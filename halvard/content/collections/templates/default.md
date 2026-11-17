@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9yyj7xb7jex3zmz2gyw
+id: 01m7nqftc5hn7vgmwpr8886w9r
 title: 'Full Width'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 1
 description: 'Header, footer and the page’s own sections in between, edge to edge. For the home page and pages built from sections.'
 ---

@@ -1,16 +1,16 @@
 ---
-id: 01m7npd9xq4e22kezx4b3w3p8p
+id: 01m7nqftazcx13c0szvwwnrtsa
 title: 'Tour of the birth centre'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
-expires_at: '2026-12-13T00:09:02+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
+expires_at: '2026-12-13T00:17:19+00:00'
 position: 0
 ends: '11:00'
 cover:
   - 01m7nh50k8fkav4ra1n873k6yb
 price: Free
 venue: 'Birth centre, building C, level 1'
-starts: '2026-12-12T10:09:02+00:00'
+starts: '2026-12-12T10:17:19+00:00'
 summary: 'See the birth rooms, the birthing pool and the neonatal unit, and meet a midwife.'
 audience: parents
 ---

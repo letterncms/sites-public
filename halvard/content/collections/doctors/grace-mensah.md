@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xnbgykvk1q3yxnn5j9
+id: 01m7nqftaxv0debmxrbqj9deme
 title: 'Grace Mensah'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 3
 role: 'Midwife, birth centre lead'
 photo:
@@ -22,7 +22,7 @@ languages:
   - Twi
 family_name: Mensah
 specialties:
-  - 01m7npd9ysnp9eq4p0by0drhyh
+  - 01m7nqftc1k1cc2xmxrzd8h9gs
 new_patients: true
 ---
 

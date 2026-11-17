@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xhmdsf9beamewvggqh
+id: 01m7nqftars9sqktdhqjbggke2
 title: 'Diabetes in pregnancy'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 11
 kind: condition
 summary: 'High blood sugar that starts during pregnancy and usually goes away after the birth.'
@@ -10,7 +10,7 @@ keywords:
   - 'blood sugar'
   - pregnancy
 specialties:
-  - 01m7npd9ysnp9eq4p0by0drhyh
+  - 01m7nqftc1k1cc2xmxrzd8h9gs
 also_known_as: 'Gestational diabetes'
 ---
 

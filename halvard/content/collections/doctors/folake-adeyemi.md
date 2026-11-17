@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xnbgykvk1q3yxnn5jb
+id: 01m7nqftaxv0debmxrbqj9demg
 title: 'Folake Adeyemi'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 6
 role: Neurologist
 photo:
@@ -23,7 +23,7 @@ languages:
   - Yoruba
 family_name: Adeyemi
 specialties:
-  - 01m7npd9yta05vmnmacaskxfcm
+  - 01m7nqftc1k1cc2xmxrzd8h9gv
 new_patients: true
 ---
 

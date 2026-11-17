@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9x8g8e4hhhdejz1f4kv
+id: 01m7nqftagk53yj8axk5yx8ggv
 title: 'Upcoming Events'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 32
 synced: false
 category: Lists
@@ -19,7 +19,7 @@ keywords:
 ::::: heading {"id":"ue-title","props":{"text":"Events and classes","level":"2"},"class":"text-3xl"}
 :::::
 
-::::: button {"id":"ue-all","props":{"label":"All events","url":"entry:01m7npd9ykcsvmvzmcvcrg02jn","variant":"link","icon":"arrow-right","icon_position":"end"}}
+::::: button {"id":"ue-all","props":{"label":"All events","url":"entry:01m7nqftbvfcw2y4b3yr35fmr0","variant":"link","icon":"arrow-right","icon_position":"end"}}
 :::::
 ::::
 

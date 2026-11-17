@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9ykcsvmvzmcvcrg02jf
+id: 01m7nqftbvfcw2y4b3yr35fmqt
 title: 'Care and specialties'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 1
 summary: 'Find the department or clinic for you, by area of care or by name.'
 template: default
@@ -22,7 +22,7 @@ template: default
 :::::
 
 ::::: repeat {"id":"cs-list","props":{"tag":"ul","sort":"title","limit":100,"source":"entries","filter_by":"item.area","search_in":"item.title, item.summary, item.area","collection":"specialties"},"class":"grid grid-cols-3 gap-4 max-lg:grid-cols-2 max-md:grid-cols-1"}
-:::::: box {"id":"cs-item","props":{"tag":"li"}}
+:::::: box {"id":"cs-item","class":"h-full"}
 ::::::: component {"id":"cs-card","props":{"ref":"specialty-card"},"bind":{"values.icon":"item.icon","values.link":"item.url","values.title":"item.title","values.colour":"item.area.colour","values.summary":"item.summary"}}
 :::::::
 ::::::
@@ -51,7 +51,7 @@ template: default
 :::::
 
 ::::: buttons {"id":"cs-help-buttons"}
-:::::: button {"id":"cs-help-book","props":{"url":"entry:01m7npd9ykcsvmvzmcvcrg02jx","size":"lg","label":"Make an appointment","variant":"primary"}}
+:::::: button {"id":"cs-help-book","props":{"url":"entry:01m7nqftbvfcw2y4b3yr35fmr8","size":"lg","label":"Make an appointment","variant":"primary"}}
 ::::::
 
 :::::: button {"id":"cs-help-call","props":{"icon":"phone","size":"lg","variant":"secondary"},"bind":{"url":"tel:{globals.hospital.appointments_phone}","label":"Call {globals.hospital.appointments_phone}"}}

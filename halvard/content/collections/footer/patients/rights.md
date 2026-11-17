@@ -1,10 +1,10 @@
 ---
-id: 01m7npd9xx2bqcjcjy20ye418y
+id: 01m7nqftb42mc7y54bq9a6r3vv
 title: 'Your rights and feedback'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 5
 link:
   type: entry
-  value: 01m7npd9ykcsvmvzmcvcrg02k2
+  value: 01m7nqftbvfcw2y4b3yr35fmrd
 ---

@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xnbgykvk1q3yxnn5je
+id: 01m7nqftaxv0debmxrbqj9demk
 title: 'Wanjiru Kamau'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 10
 role: 'Medical oncologist'
 photo:
@@ -23,7 +23,7 @@ languages:
   - Kikuyu
 family_name: Kamau
 specialties:
-  - 01m7npd9ysnp9eq4p0by0drhyf
+  - 01m7nqftc1k1cc2xmxrzd8h9gq
 new_patients: true
 ---
 

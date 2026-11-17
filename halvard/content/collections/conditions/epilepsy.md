@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9xhmdsf9beamewvggqf
+id: 01m7nqftars9sqktdhqjbggke0
 title: Epilepsy
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 9
 kind: condition
 summary: 'A tendency to have seizures. Most people become seizure-free with the right medicine.'
@@ -10,8 +10,8 @@ keywords:
   - seizure
   - fit
 specialties:
-  - 01m7npd9yta05vmnmacaskxfcm
-  - 01m7npd9yta05vmnmacaskxfck
+  - 01m7nqftc1k1cc2xmxrzd8h9gv
+  - 01m7nqftc1k1cc2xmxrzd8h9gt
 ---
 
 ## What it is

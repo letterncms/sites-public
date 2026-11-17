@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9ykcsvmvzmcvcrg02jr
+id: 01m7nqftbvfcw2y4b3yr35fmr3
 title: Locations
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 10
 summary: 'Our main campus and the two centres where we see patients closer to home.'
 template: default

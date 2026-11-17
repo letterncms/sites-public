@@ -1,10 +1,10 @@
 ---
-id: 01m7npd9y4fta6rc7dz51gwvcw
+id: 01m7nqftbcxt7536nmmst7f031
 title: 'Our care'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 1
 link:
   type: entry
-  value: 01m7npd9ykcsvmvzmcvcrg02jf
+  value: 01m7nqftbvfcw2y4b3yr35fmqt
 ---

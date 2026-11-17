@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9ykcsvmvzmcvcrg02jj
+id: 01m7nqftbvfcw2y4b3yr35fmqx
 title: 'Emergency department'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 4
 summary: 'Open day and night, every day of the year. In a life-threatening emergency, call 112.'
 template: default
@@ -187,7 +187,7 @@ template: default
 ::::::
 :::::
 
-::::: button {"id":"er-where-loc","props":{"url":"entry:01m7npd9y2j5hvc0g6gdm7zr55","icon":"arrow-right","label":"Directions and parking","variant":"secondary","icon_position":"end"}}
+::::: button {"id":"er-where-loc","props":{"url":"entry:01m7nqftbbz4t2pvhwbs9d617j","icon":"arrow-right","label":"Directions and parking","variant":"secondary","icon_position":"end"}}
 :::::
 ::::
 

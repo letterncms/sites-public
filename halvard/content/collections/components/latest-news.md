@@ -1,8 +1,8 @@
 ---
-id: 01m7npd9x8g8e4hhhdejz1f4kt
+id: 01m7nqftagk53yj8axk5yx8ggt
 title: 'Latest News'
 status: published
-published_at: '2026-11-17T21:25:36+00:00'
+published_at: '2026-11-17T21:44:27+00:00'
 position: 31
 synced: false
 category: Lists
@@ -19,7 +19,7 @@ keywords:
 ::::: heading {"id":"ln-title","props":{"text":"News","level":"2"},"class":"text-3xl"}
 :::::
 
-::::: button {"id":"ln-all","props":{"label":"All news","url":"entry:01m7npd9ykcsvmvzmcvcrg02jm","variant":"link","icon":"arrow-right","icon_position":"end"}}
+::::: button {"id":"ln-all","props":{"label":"All news","url":"entry:01m7nqftbvfcw2y4b3yr35fmqz","variant":"link","icon":"arrow-right","icon_position":"end"}}
 :::::
 ::::
 

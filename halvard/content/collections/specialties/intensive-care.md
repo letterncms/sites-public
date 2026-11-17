@@ -1,11 +1,11 @@
 ---
-id: 01m7npd9yta05vmnmacaskxfct
+id: 01m7nqftc1k1cc2xmxrzd8h9h1
 title: 'Intensive care'
 status: published
-published_at: '2026-11-17T21:25:37+00:00'
+published_at: '2026-11-17T21:44:28+00:00'
 position: 12
 area:
-  - 01m7npd9wzm565xrqtd250qeh2
+  - 01m7nqfta8veey83k0jcsx9mq3
 icon: heartbeat
 cover:
   - 01m7nh50kv3enjtk7374m636bz
