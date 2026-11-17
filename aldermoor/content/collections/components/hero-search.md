@@ -19,7 +19,7 @@ keywords:
 ::::: paragraph {"id":"lx-hs-lead","props":{"tag":"p","text":"Search for a service, or browse the topics below."},"class":"lead text-muted"}
 :::::
 
-::::: site-search/form {"id":"lx-hs-search","props":{"label":"Search for a service or information","show_label":false,"placeholder":"","button_label":"Search","button_style":"sun","size":"lg","icon_only":false,"results_page":"/search"},"class":"w-full max-w-2xl"}
+::::: search-field {"id":"lx-hs-search","props":{"label":"Search for a service or information","show_label":false,"placeholder":"","button_label":"Search","button_style":"sun","size":"lg","icon_only":false,"results_page":"/search"},"class":"w-full max-w-2xl"}
 :::::
 ::::
 :::

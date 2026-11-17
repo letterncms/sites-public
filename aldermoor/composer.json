@@ -6,7 +6,6 @@
     "license": "MIT",
     "require": {
         "letterncms/cms": ">=0.52 <1",
-        "letterncms/forms": ">=0.19 <1",
-        "letterncms/site-search": ">=0.1 <1"
+        "letterncms/forms": ">=0.19 <1"
     }
 }

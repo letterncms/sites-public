@@ -38,7 +38,7 @@ description: 'The strip that says whose site this is, the logo, the main menu an
 :::::
 
 ::::: box {"id":"hd-search-wrap","class":"flex items-center max-xl:hidden"}
-:::::: site-search/form {"id":"hd-search","props":{"label":"Search","show_label":false,"placeholder":"Search","button_label":"Search","button_style":"primary","size":"sm","icon_only":true,"results_page":"/search"},"class":"w-64"}
+:::::: search-field {"id":"hd-search","props":{"label":"Search","show_label":false,"placeholder":"Search","button_label":"Search","button_style":"primary","size":"sm","icon_only":true,"results_page":"/search"},"class":"w-64"}
 ::::::
 :::::
 
@@ -62,7 +62,7 @@ description: 'The strip that says whose site this is, the logo, the main menu an
 
 :::: box {"id":"hd-panel","label":"Phone menu","logic":{"show":"open","transition":"collapse"},"anchor":"site-menu","class":"border-t border-border bg-background lg:hidden"}
 ::::: box {"id":"hd-panel-inner","class":"wrap-wide flex flex-col gap-8 pt-2 pb-10"}
-:::::: site-search/form {"id":"hd-panel-search","props":{"label":"Search this site","show_label":true,"placeholder":"","button_label":"Search","button_style":"primary","size":"md","icon_only":false,"results_page":"/search"}}
+:::::: search-field {"id":"hd-panel-search","props":{"label":"Search this site","show_label":true,"placeholder":"","button_label":"Search","button_style":"primary","size":"md","icon_only":false,"results_page":"/search"}}
 ::::::
 
 :::::: box {"id":"hd-panel-nav","props":{"tag":"nav"},"attrs":{"aria-label":"Main"}}
