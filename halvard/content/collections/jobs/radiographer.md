@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9zwkhj3fyct2pjjy1v
+id: 01m7nnfjn639cr307y6zbt384c
 title: 'Radiographer, MRI'
 status: published
 published_at: '2026-10-15T09:00:00+00:00'
-field: 'Allied health'
-hours: 'Part time'
+field: allied
+hours: part
 salary: '£32,000 to £39,000 a year, pro rata'
 summary: 'Make MRI scans on our new scanner, and help patients feel at ease in it.'
-contract: Permanent
+contract: permanent
 department: 'Medical imaging'
 ---
 

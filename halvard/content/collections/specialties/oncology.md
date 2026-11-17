@@ -1,11 +1,11 @@
 ---
-id: 01m7nkejatdd6msye5ee8dft10
+id: 01m7nnfjp54aw0tbjh9mw93ebm
 title: Oncology
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 2
 area:
-  - 01m7nkej8t58gn3vefbxckbsx3
+  - 01m7nnfjm4zyv1ak6tne3cz7cm
 icon: hand-heart
 cover:
   - 01m7nh50m4servw74b0jbfqha4

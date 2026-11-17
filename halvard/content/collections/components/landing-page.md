@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej94vtn85qepnx620gx1
+id: 01m7nnfjmc4vrktkjs4mh8tcpm
 title: 'Landing Page'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 33
 synced: false
 category: Pages
@@ -25,7 +25,7 @@ keywords:
 :::::
 
 ::::: buttons {"id":"lp-buttons"}
-:::::: button {"id":"lp-primary","props":{"label":"Make an appointment","url":"entry:01m7nkejakn16aqnk5d5ryx9kq","variant":"primary","size":"lg"}}
+:::::: button {"id":"lp-primary","props":{"label":"Make an appointment","url":"entry:01m7nnfjnxtyfj10psmzqt69na","variant":"primary","size":"lg"}}
 ::::::
 :::::
 ::::

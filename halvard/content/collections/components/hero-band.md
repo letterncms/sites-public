@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej93cve87248079gbd1y
+id: 01m7nnfjmc4vrktkjs4mh8tcp9
 title: 'Hero in a Colour'
 status: published
-published_at: '2026-11-17T20:33:51+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 22
 synced: false
 category: Heroes
@@ -24,7 +24,7 @@ keywords:
 ::::: paragraph {"id":"hb-lede","props":{"text":"Cardiologists, heart surgeons and specialist nurses who look after your heart from a first check to surgery.","tag":"p"},"class":"text-xl leading-[1.5] text-muted max-w-[34em]"}
 :::::
 
-::::: button {"id":"hb-button","props":{"label":"Find a cardiologist","url":"entry:01m7nkejakn16aqnk5d5ryx9kb","variant":"primary","size":"lg"}}
+::::: button {"id":"hb-button","props":{"label":"Find a cardiologist","url":"entry:01m7nnfjnxtyfj10psmzqt69my","variant":"primary","size":"lg"}}
 :::::
 ::::
 :::

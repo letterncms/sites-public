@@ -1,12 +1,12 @@
 ---
-id: 01m7nkeja8hnbxesbsxgwr7p5r
+id: 01m7nnfjnf1zf390tr0sryr45k
 title: 'Five questions to ask at your next appointment'
 status: published
 published_at: '2026-11-03T09:00:00+00:00'
 cover:
   - 01m7nh50j63rtn0gqe0f8kx1wg
 topic:
-  - 01m7nkejb07nskntv60gdjw3nx
+  - 01m7nnfjpbgha2609d7d6t9qd0
 summary: 'An appointment can go by quickly. These five questions help you leave knowing what you need to know.'
 ---
 

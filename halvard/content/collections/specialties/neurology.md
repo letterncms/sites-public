@@ -1,11 +1,11 @@
 ---
-id: 01m7nkejatdd6msye5ee8dft14
+id: 01m7nnfjp54aw0tbjh9mw93ebr
 title: Neurology
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 6
 area:
-  - 01m7nkej8t58gn3vefbxckbsx1
+  - 01m7nnfjm3m62f2b6hv60pt0zp
 icon: brain
 cover:
   - 01m7nh50jzfmk9a8t2g250tzfb

@@ -1,11 +1,11 @@
 ---
-id: 01m7nkejatdd6msye5ee8dft0y
+id: 01m7nnfjp54aw0tbjh9mw93ebj
 title: Cardiology
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 0
 area:
-  - 01m7nkej8t58gn3vefbxckbswz
+  - 01m7nnfjm3m62f2b6hv60pt0zm
 icon: heartbeat
 cover:
   - 01m7nh50krw79rkqwpr180310p

@@ -1,14 +1,14 @@
 ---
-id: 01m7nkej9dxp13axbggrvcz1vv
+id: 01m7nnfjmnjg0e4mhzvv98dfxe
 title: Epilepsy
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 9
-kind: Condition
+kind: condition
 summary: 'A tendency to have seizures. Most people become seizure-free with the right medicine.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft14
-  - 01m7nkejatdd6msye5ee8dft13
+  - 01m7nnfjp54aw0tbjh9mw93ebr
+  - 01m7nnfjp54aw0tbjh9mw93ebq
 ---
 
 ## What it is

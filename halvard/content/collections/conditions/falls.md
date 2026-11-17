@@ -1,14 +1,14 @@
 ---
-id: 01m7nkej9dxp13axbggrvcz1vw
+id: 01m7nnfjmnjg0e4mhzvv98dfxf
 title: 'Falls in older age'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 10
-kind: Condition
+kind: condition
 summary: 'Falling more than once, or being afraid to fall, is a reason to see your doctor: much can be done.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft15
-  - 01m7nkejatdd6msye5ee8dft16
+  - 01m7nnfjp54aw0tbjh9mw93ebs
+  - 01m7nnfjp54aw0tbjh9mw93ebt
 ---
 
 ## Why people fall

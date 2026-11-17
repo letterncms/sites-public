@@ -29,10 +29,10 @@ fields:
     label: Kind
     required: true
     options:
-      Condition: Condition
-      Treatment: Treatment
-      'Test or scan': 'Test or scan'
-    default: Condition
+      condition: Condition
+      treatment: Treatment
+      test: 'Test or scan'
+    default: condition
     section: sidebar
   -
     handle: also_known_as

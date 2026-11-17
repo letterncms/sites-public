@@ -1,8 +1,8 @@
 ---
-id: 01m7nkeja2cf9sh7zn82c3hx2g
+id: 01m7nnfjn90zm54agkdefcjccb
 title: 'Halvard Hospital'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 0
 cover:
   - 01m7nh50h77y59gm4ys2m1zdyd

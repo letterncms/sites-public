@@ -1,14 +1,14 @@
 ---
-id: 01m7nkej9dxp13axbggrvcz1w1
+id: 01m7nnfjmnjg0e4mhzvv98dfxm
 title: 'Knee ligament injury'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 15
-kind: Condition
+kind: condition
 summary: 'A torn ligament in the knee, often from twisting during sport, making the knee feel unstable.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft17
-  - 01m7nkejatdd6msye5ee8dft16
+  - 01m7nnfjp54aw0tbjh9mw93ebv
+  - 01m7nnfjp54aw0tbjh9mw93ebt
 also_known_as: 'Cruciate ligament tear'
 ---
 

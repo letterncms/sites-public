@@ -1,10 +1,10 @@
 ---
-id: 01m7nkejb2nxhrhy5hgwf259bp
+id: 01m7nnfjpde70f09gfbk7gh60j
 title: Contact
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 5
 link:
   type: entry
-  value: 01m7nkejakn16aqnk5d5ryx9km
+  value: 01m7nnfjnxtyfj10psmzqt69n7
 ---

@@ -46,11 +46,11 @@ fields:
     type: select
     label: For
     options:
-      'Patients and families': 'Patients and families'
-      Parents-to-be: Parents-to-be
-      'Healthcare professionals': 'Healthcare professionals'
-      Everyone: Everyone
-    default: Everyone
+      patients: 'Patients and families'
+      parents: Parents-to-be
+      professionals: 'Healthcare professionals'
+      everyone: Everyone
+    default: everyone
     section: sidebar
   -
     handle: price

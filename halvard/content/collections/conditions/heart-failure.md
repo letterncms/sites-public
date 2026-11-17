@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9dxp13axbggrvcz1vy
+id: 01m7nnfjmnjg0e4mhzvv98dfxh
 title: 'Heart failure'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 12
-kind: Condition
+kind: condition
 summary: 'When the heart pumps less well than it should, causing breathlessness, tiredness and swollen ankles.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft0y
+  - 01m7nnfjp54aw0tbjh9mw93ebj
 ---
 
 ## What it is

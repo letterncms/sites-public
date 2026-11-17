@@ -1,10 +1,10 @@
 ---
-id: 01m7nkeja0kz03ak999mb4pjag
+id: 01m7nnfjn7fqpjgnwak75r4rkk
 title: 'Patient rights'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 3
 link:
   type: entry
-  value: 01m7nkejakn16aqnk5d5ryx9kw
+  value: 01m7nnfjnxtyfj10psmzqt69nf
 ---

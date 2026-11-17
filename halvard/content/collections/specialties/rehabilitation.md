@@ -1,11 +1,11 @@
 ---
-id: 01m7nkejatdd6msye5ee8dft16
+id: 01m7nnfjp54aw0tbjh9mw93ebt
 title: 'Physiotherapy and rehabilitation'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 8
 area:
-  - 01m7nkej8t58gn3vefbxckbsx2
+  - 01m7nnfjm4zyv1ak6tne3cz7ck
 icon: person-simple-walk
 cover:
   - 01m7nh50kn90t01n2492gbgd7b

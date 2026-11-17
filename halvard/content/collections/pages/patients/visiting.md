@@ -1,8 +1,8 @@
 ---
-id: 01m7nkejakn16aqnk5d5ryx9ks
+id: 01m7nnfjnxtyfj10psmzqt69nc
 title: Visiting
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 3
 summary: 'Visiting hours, and how to help the people you visit get better.'
 template: page

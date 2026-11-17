@@ -1,11 +1,11 @@
 ---
-id: 01m7nkejatdd6msye5ee8dft17
+id: 01m7nnfjp54aw0tbjh9mw93ebv
 title: Orthopaedics
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 9
 area:
-  - 01m7nkej8t58gn3vefbxckbsx2
+  - 01m7nnfjm4zyv1ak6tne3cz7ck
 icon: bone
 cover:
   - 01m7nh50jjhz9k4h9h4zhpshb1

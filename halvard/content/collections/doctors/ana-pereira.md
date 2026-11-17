@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej9j3wjs0wvdpfrhw44x
+id: 01m7nnfjmtba71ndn34p85yzzf
 title: 'Ana Pereira'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 13
 role: 'Obstetrician and gynaecologist'
 clinics: |-
@@ -22,8 +22,8 @@ languages:
   - Spanish
 family_name: Pereira
 specialties:
-  - 01m7nkejatdd6msye5ee8dft12
-  - 01m7nkejatdd6msye5ee8dft19
+  - 01m7nnfjp54aw0tbjh9mw93ebp
+  - 01m7nnfjp54aw0tbjh9mw93ebx
 new_patients: true
 ---
 

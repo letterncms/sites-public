@@ -1,8 +1,8 @@
 ---
-id: 01m7nkejakn16aqnk5d5ryx9ke
+id: 01m7nnfjnxtyfj10psmzqt69n1
 title: 'Patients and visitors'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 5
 summary: 'Everything you need for an appointment, a stay or a visit.'
 template: default
@@ -108,10 +108,10 @@ template: default
 :::::
 
 ::::: buttons {"id":"pv-help-buttons"}
-:::::: button {"id":"pv-help-here","props":{"url":"entry:01m7nkejakn16aqnk5d5ryx9kt","size":"lg","label":"Getting here","variant":"primary"}}
+:::::: button {"id":"pv-help-here","props":{"url":"entry:01m7nnfjnxtyfj10psmzqt69nd","size":"lg","label":"Getting here","variant":"primary"}}
 ::::::
 
-:::::: button {"id":"pv-help-contact","props":{"url":"entry:01m7nkejakn16aqnk5d5ryx9km","size":"lg","label":"Contact us","variant":"secondary"}}
+:::::: button {"id":"pv-help-contact","props":{"url":"entry:01m7nnfjnxtyfj10psmzqt69n7","size":"lg","label":"Contact us","variant":"secondary"}}
 ::::::
 :::::
 ::::

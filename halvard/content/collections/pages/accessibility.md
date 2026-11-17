@@ -1,8 +1,8 @@
 ---
-id: 01m7nkejakn16aqnk5d5ryx9kn
+id: 01m7nnfjnxtyfj10psmzqt69n8
 title: 'Accessibility statement'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:23+00:00'
 position: 12
 summary: 'How accessible this website is, what we are still improving and how to tell us about a barrier.'
 template: page

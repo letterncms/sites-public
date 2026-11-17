@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9zwkhj3fyct2pjjy1r
+id: 01m7nnfjn639cr307y6zbt3849
 title: 'Midwife, birth centre'
 status: published
 published_at: '2026-11-05T09:00:00+00:00'
-field: 'Nursing and midwifery'
-hours: 'Full or part time'
+field: nursing
+hours: flexible
 salary: '£34,000 to £45,000 a year'
 summary: 'Help two thousand families a year welcome their baby, in a birth centre led by midwives.'
-contract: Permanent
+contract: permanent
 department: 'Maternity and birth'
 ---
 

@@ -27,10 +27,10 @@ fields:
     type: select
     label: 'Job Family'
     options:
-      'Nursing and midwifery': 'Nursing and midwifery'
-      Medical: Medical
-      'Allied health': 'Allied health'
-      'Support services': 'Support services'
+      nursing: 'Nursing and midwifery'
+      medical: Medical
+      allied: 'Allied health'
+      support: 'Support services'
     required: true
     section: sidebar
   -
@@ -43,18 +43,18 @@ fields:
     type: select
     label: Hours
     options:
-      'Full time': 'Full time'
-      'Part time': 'Part time'
-      'Full or part time': 'Full or part time'
+      full: 'Full time'
+      part: 'Part time'
+      flexible: 'Full or part time'
     section: sidebar
   -
     handle: contract
     type: select
     label: Contract
     options:
-      Permanent: Permanent
-      'Fixed term': 'Fixed term'
-      'Student job': 'Student job'
+      permanent: Permanent
+      fixed: 'Fixed term'
+      student: 'Student job'
     section: sidebar
   -
     handle: salary

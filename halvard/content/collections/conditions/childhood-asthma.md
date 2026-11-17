@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9dxp13axbggrvcz1vr
+id: 01m7nnfjmnjg0e4mhzvv98dfxb
 title: 'Asthma in children'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 6
-kind: Condition
+kind: condition
 summary: 'Narrowed airways that make breathing hard, with coughing and wheezing, often at night or during exercise.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft13
+  - 01m7nnfjp54aw0tbjh9mw93ebq
 ---
 
 ## Signs

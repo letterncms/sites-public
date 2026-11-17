@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej9j3wjs0wvdpfrhw44y
+id: 01m7nnfjmtba71ndn34p85yzzg
 title: 'Henrik Larsen'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 14
 role: Geriatrician
 clinics: 'Tuesday and Wednesday, geriatric day clinic'
@@ -20,7 +20,7 @@ languages:
   - Norwegian
 family_name: Larsen
 specialties:
-  - 01m7nkejatdd6msye5ee8dft15
+  - 01m7nnfjp54aw0tbjh9mw93ebs
 new_patients: true
 ---
 

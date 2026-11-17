@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej8t58gn3vefbxckbsx4
+id: 01m7nnfjm4zyv1ak6tne3cz7cn
 title: 'Acute care and diagnostics'
 status: published
-published_at: '2026-11-17T20:33:51+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 5
 icon: first-aid
 colour: sky

@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9dxp13axbggrvcz1vj
+id: 01m7nnfjmnjg0e4mhzvv98dfx5
 title: 'Atrial fibrillation'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 0
-kind: Condition
+kind: condition
 summary: 'An irregular, often fast heartbeat that can make you tired or breathless, and raises the risk of a stroke.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft0y
+  - 01m7nnfjp54aw0tbjh9mw93ebj
 also_known_as: AF
 ---
 

@@ -1,14 +1,14 @@
 ---
-id: 01m7nkej9dxp13axbggrvcz1vm
+id: 01m7nnfjmnjg0e4mhzvv98dfx7
 title: 'Breast cancer'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 2
-kind: Condition
+kind: condition
 summary: 'The most common cancer in women. Found early, it can very often be cured.'
 specialties:
-  - 01m7nkejatdd6msye5ee8dft10
-  - 01m7nkejatdd6msye5ee8dft11
+  - 01m7nnfjp54aw0tbjh9mw93ebm
+  - 01m7nnfjp54aw0tbjh9mw93ebn
 ---
 
 ## Signs

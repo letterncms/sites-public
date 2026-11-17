@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej94vtn85qepnx620gwx
+id: 01m7nnfjmc4vrktkjs4mh8tcpg
 title: 'Contact Tiles'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 29
 synced: false
 category: Features

@@ -1,8 +1,8 @@
 ---
-id: 01m7nkej9j3wjs0wvdpfrhw44p
+id: 01m7nnfjmtba71ndn34p85yzz8
 title: 'Leila Haddad'
 status: published
-published_at: '2026-11-17T20:33:52+00:00'
+published_at: '2026-11-17T21:09:22+00:00'
 position: 5
 role: Paediatrician
 photo:
@@ -23,7 +23,7 @@ languages:
   - French
 family_name: Haddad
 specialties:
-  - 01m7nkejatdd6msye5ee8dft13
+  - 01m7nnfjp54aw0tbjh9mw93ebq
 new_patients: true
 ---
 

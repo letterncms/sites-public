@@ -1,13 +1,13 @@
 ---
-id: 01m7nkej9zwkhj3fyct2pjjy1t
+id: 01m7nnfjn639cr307y6zbt384b
 title: 'Patient transport assistant'
 status: published
 published_at: '2026-10-02T09:00:00+00:00'
-field: 'Support services'
-hours: 'Full or part time'
+field: support
+hours: flexible
 salary: '£23,500 to £25,000 a year'
 summary: 'Bring patients safely and kindly to their scan, operation or ward. No experience needed: we train you.'
-contract: Permanent
+contract: permanent
 department: Facilities
 ---
 
