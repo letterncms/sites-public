@@ -1,0 +1,135 @@
+{
+    "title": "Event sign-up",
+    "settings": {
+        "submit": "Sign up",
+        "success": "Thank you. Your place is booked, and we have sent you a confirmation by email.",
+        "redirect": null,
+        "notify": [],
+        "subject": "Sign-up for an event",
+        "reply_to_field": "email",
+        "confirmation": true,
+        "confirmation_subject": "Your place is booked",
+        "confirmation_message": "<p>Thank you for signing up. You will find the date, time and place on the event’s page. If you can’t come after all, just reply to this email.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "hv018",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "hv018c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv016",
+                            "type": "form/text",
+                            "props": {
+                                "label": "First name",
+                                "name": "first_name",
+                                "required": true,
+                                "autocomplete": "given-name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "hv018c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv017",
+                            "type": "form/text",
+                            "props": {
+                                "label": "Family name",
+                                "name": "family_name",
+                                "required": true,
+                                "autocomplete": "family-name"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hv021",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "hv021c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv019",
+                            "type": "form/email",
+                            "props": {
+                                "label": "Email",
+                                "name": "email",
+                                "required": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "hv021c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv020",
+                            "type": "form/tel",
+                            "props": {
+                                "label": "Phone",
+                                "name": "phone"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hv022",
+            "type": "form/number",
+            "props": {
+                "label": "Number of places",
+                "name": "places",
+                "required": true,
+                "min": 1,
+                "max": 4,
+                "help": "Up to four places, you included."
+            }
+        },
+        {
+            "id": "hv023",
+            "type": "form/textarea",
+            "props": {
+                "label": "Anything we should know?",
+                "name": "needs",
+                "rows": 3,
+                "max": 1000,
+                "help": "For example, if you need wheelchair access or a sign language interpreter."
+            }
+        },
+        {
+            "id": "hv001",
+            "type": "form/consent",
+            "props": {
+                "name": "consent",
+                "text": "I agree that Halvard Hospital uses these details to answer me, as the <a href=\"/privacy\">privacy statement</a> says."
+            }
+        }
+    ]
+}

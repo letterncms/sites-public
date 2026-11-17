@@ -14,6 +14,7 @@
     ],
     "require": {
         "letterncms/cms": "dev-main as 0.26.0",
+        "letterncms/halvard": "*",
         "letterncms/starter": "*"
     },
     "require-dev": {

@@ -1,0 +1,136 @@
+{
+    "title": "Job application",
+    "settings": {
+        "submit": "Send application",
+        "success": "Thank you for applying. The recruitment team will reply within a week.",
+        "redirect": null,
+        "notify": [],
+        "subject": "Application: {first_name} {family_name}",
+        "reply_to_field": "email",
+        "confirmation": true,
+        "confirmation_subject": "We have your application",
+        "confirmation_message": "<p>Thank you for applying. The recruitment team reads every application and replies within a week.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "hv026",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "hv026c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv024",
+                            "type": "form/text",
+                            "props": {
+                                "label": "First name",
+                                "name": "first_name",
+                                "required": true,
+                                "autocomplete": "given-name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "hv026c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv025",
+                            "type": "form/text",
+                            "props": {
+                                "label": "Family name",
+                                "name": "family_name",
+                                "required": true,
+                                "autocomplete": "family-name"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hv029",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "hv029c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv027",
+                            "type": "form/email",
+                            "props": {
+                                "label": "Email",
+                                "name": "email",
+                                "required": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "hv029c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "hv028",
+                            "type": "form/tel",
+                            "props": {
+                                "label": "Phone",
+                                "name": "phone",
+                                "required": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hv030",
+            "type": "form/file",
+            "props": {
+                "label": "Your CV",
+                "name": "cv",
+                "required": true,
+                "accept": "documents",
+                "max_mb": 10,
+                "help": "A PDF or Word document, up to 10 MB."
+            }
+        },
+        {
+            "id": "hv031",
+            "type": "form/textarea",
+            "props": {
+                "label": "Why this job?",
+                "name": "motivation",
+                "required": true,
+                "rows": 6,
+                "max": 3000
+            }
+        },
+        {
+            "id": "hv001",
+            "type": "form/consent",
+            "props": {
+                "name": "consent",
+                "text": "I agree that Halvard Hospital uses these details to answer me, as the <a href=\"/privacy\">privacy statement</a> says."
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+title: Events
+singular: Event
+icon: calendar
+description: 'Classes, information evenings, tours and symposia. An event leaves the site the day after it.'
+driver: database
+structure: list
+route: '/events/{slug}'
+template: event
+sort: starts
+default_view: calendar
+default_columns:
+  - 'field:starts'
+  - 'field:audience'
+  - status
+nav_order: 50
+fields:
+  -
+    handle: content
+    type: blocks
+    body: true
+    label: Content
+  -
+    handle: summary
+    type: textarea
+    label: Summary
+    required: true
+  -
+    handle: starts
+    type: date
+    label: Starts
+    time: true
+    required: true
+    width: half
+  -
+    handle: ends
+    type: time
+    label: Ends
+    width: half
+  -
+    handle: venue
+    type: text
+    label: Where
+    required: true
+  -
+    handle: audience
+    type: select
+    label: For
+    options:
+      'Patients and families': 'Patients and families'
+      Parents-to-be: Parents-to-be
+      'Healthcare professionals': 'Healthcare professionals'
+      Everyone: Everyone
+    default: Everyone
+    section: sidebar
+  -
+    handle: price
+    type: text
+    label: Price
+    about: 'Free, or what it costs.'
+    default: Free
+    section: sidebar
+  -
+    handle: cover
+    type: media
+    label: Photo
+    max: 1
+    accept: 'image/*'
+    section: sidebar

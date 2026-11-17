@@ -1,0 +1,48 @@
+title: 'Conditions and Treatments'
+singular: Topic
+icon: first-aid-kit
+description: 'Conditions, treatments and tests explained for patients, A to Z.'
+driver: database
+structure: list
+route: '/conditions/{slug}'
+template: condition
+sort: title
+default_columns:
+  - 'field:kind'
+  - 'field:specialties'
+  - status
+nav_order: 35
+fields:
+  -
+    handle: content
+    type: blocks
+    body: true
+    label: Content
+  -
+    handle: summary
+    type: textarea
+    label: Summary
+    required: true
+  -
+    handle: kind
+    type: select
+    label: Kind
+    required: true
+    options:
+      Condition: Condition
+      Treatment: Treatment
+      'Test or scan': 'Test or scan'
+    default: Condition
+    section: sidebar
+  -
+    handle: also_known_as
+    type: text
+    label: 'Also Known As'
+    section: sidebar
+  -
+    handle: specialties
+    type: entries
+    label: 'Treated By'
+    collections:
+      - specialties
+    section: sidebar
