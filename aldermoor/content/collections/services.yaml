@@ -1,0 +1,84 @@
+title: Services
+singular: Service
+icon: hand-heart
+description: 'Everything residents and businesses can apply for, report, book or pay.'
+driver: database
+structure: list
+route: '/services/{slug}'
+template: service
+sort: title
+nav_order: 11
+default_columns:
+  - 'field:topic'
+  - 'field:featured'
+  - status
+  - updated
+fields:
+  -
+    handle: content
+    type: blocks
+    body: true
+    label: Content
+  -
+    handle: summary
+    type: textarea
+    label: Summary
+    required: true
+    instructions: 'What the service is and who it is for, in one or two sentences. Shown under the title, in lists and in search.'
+  -
+    handle: action
+    type: link
+    label: 'Main Action'
+    instructions: 'Where people start: an online form, a booking page or a phone number. Leave empty when there is nothing to start.'
+  -
+    handle: action_label
+    type: text
+    label: 'Action Label'
+    placeholder: 'Start now'
+    instructions: 'A verb first: “Apply online”, “Book a collection”, “Report a problem”.'
+  -
+    handle: cost
+    type: text
+    label: Cost
+    width: half
+  -
+    handle: duration
+    type: text
+    label: 'How Long It Takes'
+    width: half
+  -
+    handle: eligibility
+    type: text
+    label: 'Who Can Use It'
+    width: half
+  -
+    handle: channels
+    type: text
+    label: 'How to Apply'
+    width: half
+  -
+    handle: place
+    type: entries
+    label: 'Where to Go'
+    collection: places
+    max: 1
+  -
+    handle: topic
+    type: terms
+    label: Topic
+    taxonomy: topics
+    max: 1
+    required: true
+    section: sidebar
+  -
+    handle: featured
+    type: toggle
+    label: 'Most Requested'
+    instructions: 'Shown on the home page.'
+    section: sidebar
+  -
+    handle: keywords
+    type: text
+    label: 'Search Words'
+    instructions: 'Other words people use for this, so search finds it: “bin, rubbish, garbage”.'
+    section: sidebar

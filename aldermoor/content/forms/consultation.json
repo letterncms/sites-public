@@ -1,0 +1,91 @@
+{
+    "published_at": "2026-11-17T20:09:16+00:00",
+    "updated_at": "2026-11-17T20:09:22+00:00",
+    "title": "Consultation response",
+    "settings": {
+        "submit": "Send Response",
+        "success": "Thank you for your response. We will publish what people told us on this page.",
+        "redirect": null,
+        "notify": [],
+        "subject": "New submission: {form}",
+        "reply_to_field": "email",
+        "confirmation": false,
+        "confirmation_subject": "We received your message",
+        "confirmation_message": "<p>Thanks for getting in touch. We will reply soon.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "b1roam5jqrm",
+            "type": "form/radio",
+            "props": {
+                "name": "connection",
+                "label": "How are you connected to Aldermoor?",
+                "required": true,
+                "options": "resident|I live here\nwork|I work or study here\nbusiness|I run a business here\nvisitor|I visit"
+            }
+        },
+        {
+            "id": "b34rtf7icwd",
+            "type": "form/select",
+            "props": {
+                "name": "district",
+                "label": "Which district do you live in?",
+                "placeholder": "Choose a district",
+                "options": "Old Town\nRiverside\nNorthgate\nHeathfield\nMillbrook\nEastmoor\nOutside Aldermoor",
+                "show_if": {
+                    "field": "connection",
+                    "op": "equals",
+                    "value": "resident"
+                }
+            }
+        },
+        {
+            "id": "bma0lo3haxn",
+            "type": "form/radio",
+            "props": {
+                "name": "support",
+                "label": "What do you think of the plan?",
+                "required": true,
+                "options": "support|I support it\npartly|I support parts of it\noppose|I don’t support it\nunsure|I’m not sure",
+                "look": "chips"
+            }
+        },
+        {
+            "id": "bvznqykviyu",
+            "type": "form/textarea",
+            "props": {
+                "name": "why",
+                "label": "Tell us why",
+                "rows": 5,
+                "max": 3000
+            }
+        },
+        {
+            "id": "bbahj9lhpsm",
+            "type": "form/checkbox",
+            "props": {
+                "name": "contact",
+                "label": "Keep me updated about this plan",
+                "look": "switch"
+            }
+        },
+        {
+            "id": "bfw7zgbvyqu",
+            "type": "form/email",
+            "props": {
+                "name": "email",
+                "label": "Email address",
+                "show_if": {
+                    "field": "contact",
+                    "op": "filled",
+                    "value": ""
+                }
+            }
+        }
+    ]
+}

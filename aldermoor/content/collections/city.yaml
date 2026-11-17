@@ -1,0 +1,51 @@
+type: global
+title: City
+icon: buildings
+driver: files
+fields:
+  -
+    handle: name
+    type: text
+    label: 'Official Name'
+    default: 'City of Aldermoor'
+  -
+    handle: tagline
+    type: text
+    label: Tagline
+  -
+    handle: address
+    type: textarea
+    label: 'Visiting Address'
+  -
+    handle: postal
+    type: textarea
+    label: 'Postal Address'
+  -
+    handle: phone
+    type: text
+    label: Phone
+    width: half
+  -
+    handle: phone_link
+    type: text
+    label: 'Phone as Dialled'
+    instructions: 'The number without spaces, for the call link: +441632960000.'
+    width: half
+  -
+    handle: email
+    type: email
+    label: Email
+    width: half
+  -
+    handle: emergency
+    type: text
+    label: 'Emergency Number'
+    width: half
+  -
+    handle: hours
+    type: textarea
+    label: 'Opening Hours'
+  -
+    handle: phone_hours
+    type: text
+    label: 'Phone Lines Open'

@@ -1,0 +1,97 @@
+{
+    "published_at": "2026-11-17T20:09:21+00:00",
+    "updated_at": "2026-11-17T20:09:21+00:00",
+    "title": "Report a problem",
+    "settings": {
+        "submit": "Send Report",
+        "success": "Thank you. Your report has been sent to our street team. Most problems are fixed within 10 working days; dangerous ones within 24 hours.",
+        "redirect": null,
+        "notify": [],
+        "subject": "New submission: {form}",
+        "reply_to_field": "email",
+        "confirmation": false,
+        "confirmation_subject": "We received your message",
+        "confirmation_message": "<p>Thanks for getting in touch. We will reply soon.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "btwol5hti43",
+            "type": "form/radio",
+            "props": {
+                "name": "kind",
+                "label": "What is the problem?",
+                "required": true,
+                "options": "pothole|Pothole or damaged road\npavement|Broken or uneven pavement\nlight|Streetlight not working\nlitter|Litter or overflowing bin\nflytipping|Dumped rubbish (fly-tipping)\ngraffiti|Graffiti\nbin|Missed bin collection\ntree|Fallen tree or branch\nother|Something else"
+            }
+        },
+        {
+            "id": "bnzbjgp3wia",
+            "type": "form/text",
+            "props": {
+                "name": "where",
+                "label": "Where is it?",
+                "required": true,
+                "help": "The street and house number, or a landmark nearby, such as “outside the library on Library Lane”.",
+                "autocomplete": "street-address"
+            }
+        },
+        {
+            "id": "by6f2ntgbha",
+            "type": "form/textarea",
+            "props": {
+                "name": "details",
+                "label": "Describe the problem",
+                "required": true,
+                "rows": 4,
+                "max": 2000
+            }
+        },
+        {
+            "id": "b2cn8owybyn",
+            "type": "form/file",
+            "props": {
+                "name": "photo",
+                "label": "Add a photo (optional)",
+                "accept": "images",
+                "max_mb": 10,
+                "help": "A photo helps our team find it and bring the right tools. JPG or PNG, up to 10 MB."
+            }
+        },
+        {
+            "id": "bzskhyotyix",
+            "type": "form/checkbox",
+            "props": {
+                "name": "updates",
+                "label": "Send me updates about this report",
+                "look": "switch"
+            }
+        },
+        {
+            "id": "bmbh91ddc1d",
+            "type": "form/email",
+            "props": {
+                "name": "email",
+                "label": "Email address",
+                "help": "We only use it to send you updates.",
+                "show_if": {
+                    "field": "updates",
+                    "op": "filled",
+                    "value": ""
+                }
+            }
+        },
+        {
+            "id": "bzhnlbhaee2",
+            "type": "form/consent",
+            "props": {
+                "name": "privacy",
+                "text": "I have read how the council uses my details, in the <a href=\"/privacy\">privacy statement</a>."
+            }
+        }
+    ]
+}
