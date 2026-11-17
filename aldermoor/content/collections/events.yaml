@@ -1,0 +1,79 @@
+title: Events
+singular: Event
+icon: calendar-dots
+driver: database
+structure: list
+route: '/events/{slug}'
+template: event
+sort: when
+nav_order: 13
+default_view: calendar
+default_columns:
+  - 'field:when'
+  - 'field:venue'
+  - status
+fields:
+  -
+    handle: content
+    type: blocks
+    body: true
+    label: Content
+  -
+    handle: summary
+    type: textarea
+    label: Summary
+    required: true
+  -
+    handle: when
+    type: date-range
+    label: When
+    time: true
+    required: true
+    instructions: 'Set Expires, in the details, to the end of the event so it leaves the lists by itself.'
+  -
+    handle: venue
+    type: text
+    label: Venue
+    width: half
+  -
+    handle: address
+    type: text
+    label: Address
+    width: half
+  -
+    handle: price
+    type: text
+    label: Price
+    width: half
+  -
+    handle: audience
+    type: text
+    label: 'Who It Is For'
+    width: half
+  -
+    handle: booking
+    type: link
+    label: Booking
+  -
+    handle: access
+    type: textarea
+    label: Accessibility
+    instructions: 'Step-free access, seating, hearing loop, quiet spaces, assistance dogs, toilets.'
+  -
+    handle: cover
+    type: media
+    label: Photo
+    max: 1
+    accept: 'image/*'
+  -
+    handle: category
+    type: select
+    label: Category
+    section: sidebar
+    options:
+      Culture: Culture
+      Family: Family
+      Sport: Sport
+      Council: Council
+      Community: Community
+      Markets: Markets

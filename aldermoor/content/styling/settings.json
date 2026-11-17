@@ -1,0 +1,33 @@
+{
+    "fonts": [
+        {
+            "family": "Atkinson Hyperlegible Next",
+            "src": "fonts/atkinson-hyperlegible-next-200-800-italic.woff2",
+            "weight": "200 800",
+            "style": "italic",
+            "preload": false,
+            "fallback": "Arial",
+            "sizeAdjust": "100.12%",
+            "ascentOverride": "98.28%",
+            "descentOverride": "31.56%",
+            "lineGapOverride": "0%"
+        },
+        {
+            "family": "Atkinson Hyperlegible Next",
+            "src": "fonts/atkinson-hyperlegible-next-200-800.woff2",
+            "weight": "200 800",
+            "style": "normal",
+            "preload": true,
+            "fallback": "Arial",
+            "sizeAdjust": "100.08%",
+            "ascentOverride": "98.32%",
+            "descentOverride": "31.57%",
+            "lineGapOverride": "0%"
+        }
+    ],
+    "transition": {
+        "type": "none",
+        "duration": 0.3,
+        "navigation": "document"
+    }
+}

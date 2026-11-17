@@ -1,0 +1,46 @@
+title: News
+singular: 'News Article'
+icon: newspaper
+driver: database
+structure: dated
+route: '/news/{slug}'
+template: article
+nav_order: 12
+default_columns:
+  - 'field:topic'
+  - status
+  - published
+fields:
+  -
+    handle: content
+    type: blocks
+    body: true
+    label: Content
+  -
+    handle: summary
+    type: textarea
+    label: Summary
+    required: true
+  -
+    handle: cover
+    type: media
+    label: Photo
+    max: 1
+    accept: 'image/*'
+  -
+    handle: topic
+    type: terms
+    label: Topic
+    taxonomy: topics
+    max: 1
+    section: sidebar
+  -
+    handle: kind
+    type: select
+    label: Kind
+    default: News
+    options:
+      News: News
+      'Press release': 'Press release'
+      'Works and closures': 'Works and closures'
+    section: sidebar
