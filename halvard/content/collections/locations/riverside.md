@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjn90zm54agkdefcjccc
+id: 01m7npd9y2j5hvc0g6gdm7zr56
 title: 'Riverside Outpatient Centre'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 1
 cover:
   - 01m7nh50he4r5f9bde96fyte4q

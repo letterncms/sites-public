@@ -1,17 +1,24 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebv
+id: 01m7npd9yta05vmnmacaskxfcq
 title: Orthopaedics
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 9
 area:
-  - 01m7nnfjm4zyv1ak6tne3cz7ck
+  - 01m7npd9wzm565xrqtd250qeh0
 icon: bone
 cover:
   - 01m7nh50jjhz9k4h9h4zhpshb1
 hours: 'Monday to Friday, 8:00 to 17:00'
 phone: '+44 20 7946 0260'
 summary: 'Care for bones, joints, muscles and tendons: worn joints, sports injuries, fractures and back problems.'
+keywords:
+  - bones
+  - joints
+  - knee
+  - hip
+  - fracture
+  - 'sports injury'
 location: 'Building B, level 1, route 160'
 referral: true
 ---

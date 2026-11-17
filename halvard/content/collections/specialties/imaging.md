@@ -1,11 +1,11 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebn
+id: 01m7npd9ysnp9eq4p0by0drhyg
 title: 'Medical imaging'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 3
 area:
-  - 01m7nnfjm4zyv1ak6tne3cz7cn
+  - 01m7npd9wzm565xrqtd250qeh2
 icon: scan
 cover:
   - 01m7nh50jw0g87da5fjbgd7q9s
@@ -14,6 +14,13 @@ hours: |-
   Scans by appointment
 phone: '+44 20 7946 0320'
 summary: 'X-rays, ultrasound, CT and MRI scans, and treatments guided by imaging, read by our radiologists.'
+keywords:
+  - x-ray
+  - radiology
+  - scan
+  - MRI
+  - CT
+  - ultrasound
 location: 'Building A, ground floor, route 020'
 referral: true
 ---

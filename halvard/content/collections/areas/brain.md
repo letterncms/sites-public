@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjm3m62f2b6hv60pt0zp
+id: 01m7npd9wzm565xrqtd250qegz
 title: 'Brain and nerves'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 2
 icon: brain
 colour: lilac

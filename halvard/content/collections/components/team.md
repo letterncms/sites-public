@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjmc4vrktkjs4mh8tcph
+id: 01m7npd9x8g8e4hhhdejz1f4ks
 title: Team
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 30
 synced: false
 category: People
@@ -19,7 +19,7 @@ keywords:
 ::::: heading {"id":"tm-title","props":{"text":"Our team","level":"2"},"class":"text-3xl"}
 :::::
 
-::::: button {"id":"tm-all","props":{"label":"Find a doctor","url":"entry:01m7nnfjnxtyfj10psmzqt69my","variant":"link","icon":"arrow-right","icon_position":"end"}}
+::::: button {"id":"tm-all","props":{"label":"Find a doctor","url":"entry:01m7npd9ykcsvmvzmcvcrg02jg","variant":"link","icon":"arrow-right","icon_position":"end"}}
 :::::
 ::::
 

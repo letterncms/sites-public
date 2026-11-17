@@ -1,14 +1,17 @@
 ---
-id: 01m7nnfjmnjg0e4mhzvv98dfxq
+id: 01m7npd9xhmdsf9beamewvggqr
 title: Stroke
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 18
 kind: condition
 summary: 'When blood stops reaching part of the brain. Fast treatment saves brain cells: call 112 straight away.'
+keywords:
+  - 'brain attack'
+  - FAST
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebr
-  - 01m7nnfjp54aw0tbjh9mw93ebw
+  - 01m7npd9yta05vmnmacaskxfcm
+  - 01m7npd9yta05vmnmacaskxfcr
 also_known_as: 'Brain attack'
 ---
 

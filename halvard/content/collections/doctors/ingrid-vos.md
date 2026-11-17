@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjmtba71ndn34p85yzza
+id: 01m7npd9xnbgykvk1q3yxnn5jc
 title: 'Ingrid Vos'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 7
 role: 'Orthopaedic surgeon'
 photo:
@@ -25,8 +25,8 @@ languages:
   - German
 family_name: Vos
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebv
-  - 01m7nnfjp54aw0tbjh9mw93ebt
+  - 01m7npd9yta05vmnmacaskxfcq
+  - 01m7npd9yta05vmnmacaskxfcp
 new_patients: true
 ---
 

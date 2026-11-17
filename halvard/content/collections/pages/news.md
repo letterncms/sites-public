@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjnxtyfj10psmzqt69n2
+id: 01m7npd9ykcsvmvzmcvcrg02jm
 title: News
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 6
 summary: 'Stories from the hospital: research, new services and the people behind them.'
 template: default

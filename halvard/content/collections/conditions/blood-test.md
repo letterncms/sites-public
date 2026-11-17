@@ -1,13 +1,15 @@
 ---
-id: 01m7nnfjmnjg0e4mhzvv98dfx6
+id: 01m7npd9xhmdsf9beamewvggq7
 title: 'Blood test'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 1
 kind: test
 summary: 'A small sample of blood from a vein in your arm, tested in our laboratory.'
+keywords:
+  - 'blood sample'
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebk
+  - 01m7npd9ysnp9eq4p0by0drhye
 ---
 
 ## What happens

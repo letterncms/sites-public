@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjmc4vrktkjs4mh8tcp1
+id: 01m7npd9x8g8e4hhhdejz1f4k9
 title: Footer
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 3
 synced: true
 category: Site
@@ -25,7 +25,7 @@ description: 'The hospital’s address and phone numbers, the footer menu in col
 :::::::
 ::::::
 
-:::::: button {"id":"ft-er-more","props":{"label":"Emergency department","url":"entry:01m7nnfjnxtyfj10psmzqt69n0","variant":"light","size":"md","icon":"arrow-right","icon_position":"end"}}
+:::::: button {"id":"ft-er-more","props":{"label":"Emergency department","url":"entry:01m7npd9ykcsvmvzmcvcrg02jj","variant":"light","size":"md","icon":"arrow-right","icon_position":"end"}}
 ::::::
 :::::
 ::::

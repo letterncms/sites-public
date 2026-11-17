@@ -1,11 +1,11 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebp
+id: 01m7npd9ysnp9eq4p0by0drhyh
 title: 'Maternity and birth'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 4
 area:
-  - 01m7nnfjm3m62f2b6hv60pt0zn
+  - 01m7npd9wzm565xrqtd250qegy
 icon: baby
 cover:
   - 01m7nh50kbxagntp6dbp8tbjrv
@@ -14,6 +14,12 @@ hours: |-
   Antenatal clinic Monday to Friday, 8:00 to 17:00
 phone: '+44 20 7946 0230'
 summary: 'Midwives and obstetricians who care for you through pregnancy, birth and the first days at home, with a neonatal unit for babies who need extra care.'
+keywords:
+  - pregnancy
+  - birth
+  - midwife
+  - baby
+  - antenatal
 location: 'Building C, level 1, route 130'
 referral: false
 ---

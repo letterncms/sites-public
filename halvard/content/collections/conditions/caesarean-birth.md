@@ -1,13 +1,15 @@
 ---
-id: 01m7nnfjmnjg0e4mhzvv98dfx8
+id: 01m7npd9xhmdsf9beamewvggq9
 title: 'Caesarean birth'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 3
 kind: treatment
 summary: 'Your baby is born through a cut in your belly, planned in advance or when it is safer during labour.'
+keywords:
+  - c-section
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebp
+  - 01m7npd9ysnp9eq4p0by0drhyh
 also_known_as: C-section
 ---
 

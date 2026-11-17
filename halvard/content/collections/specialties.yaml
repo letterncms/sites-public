@@ -66,3 +66,9 @@ fields:
     label: 'Referral Needed'
     about: 'On when patients need a letter from their GP for a first appointment.'
     section: sidebar
+  -
+    handle: keywords
+    type: list
+    label: Keywords
+    about: 'Other words people search for it by, like heart for Cardiology.'
+    section: sidebar

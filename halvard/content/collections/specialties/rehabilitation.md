@@ -1,17 +1,22 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebt
+id: 01m7npd9yta05vmnmacaskxfcp
 title: 'Physiotherapy and rehabilitation'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 8
 area:
-  - 01m7nnfjm4zyv1ak6tne3cz7ck
+  - 01m7npd9wzm565xrqtd250qeh0
 icon: person-simple-walk
 cover:
   - 01m7nh50kn90t01n2492gbgd7b
 hours: 'Monday to Friday, 7:30 to 19:00'
 phone: '+44 20 7946 0270'
 summary: 'Physiotherapists, occupational therapists and speech therapists who help you move, work and live as independently as you can again.'
+keywords:
+  - physio
+  - physiotherapy
+  - therapy
+  - rehab
 location: 'Rehabilitation Centre, Linden Park'
 referral: true
 ---

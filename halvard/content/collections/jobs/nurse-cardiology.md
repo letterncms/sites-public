@@ -1,5 +1,5 @@
 ---
-id: 01m7nnfjn639cr307y6zbt384a
+id: 01m7npd9y0w7334wdwbtvxymx4
 title: 'Registered nurse, cardiology ward'
 status: published
 published_at: '2026-11-12T09:00:00+00:00'

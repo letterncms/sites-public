@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjp9xe6pjmmfm8q9am9q
+id: 01m7npd9yyj7xb7jex3zmz2gyx
 title: Page
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 2
 description: 'A title band with the way back, then the page in a reading column beside the other pages of its section, what is on this page and who to call.'
 collections:

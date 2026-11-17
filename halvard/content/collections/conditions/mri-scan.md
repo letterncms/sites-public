@@ -1,13 +1,16 @@
 ---
-id: 01m7nnfjmnjg0e4mhzvv98dfxp
+id: 01m7npd9xhmdsf9beamewvggqq
 title: 'MRI scan'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 17
 kind: test
 summary: 'Detailed pictures of the inside of your body made with a magnet and radio waves, without X-rays.'
+keywords:
+  - MRI
+  - scan
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebn
+  - 01m7npd9ysnp9eq4p0by0drhyg
 also_known_as: 'Magnetic resonance imaging'
 ---
 

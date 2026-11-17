@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjp9xe6pjmmfm8q9am9v
+id: 01m7npd9yyj7xb7jex3zmz2gz1
 title: Story
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 6
 description: 'A news story: its topic and date, title and summary, a wide photo, the story in a reading column, and the latest stories after it.'
 collections:
@@ -26,7 +26,7 @@ collections:
 ::::::::
 
 :::::::: box {"id":"ar-crumb-up","props":{"tag":"li"},"class":"flex items-center gap-2"}
-::::::::: link {"id":"ar-crumb-up-a","props":{"label":"News","url":"entry:01m7nnfjnxtyfj10psmzqt69n2"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+::::::::: link {"id":"ar-crumb-up-a","props":{"label":"News","url":"entry:01m7npd9ykcsvmvzmcvcrg02jm"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 :::::::::
 ::::::::
 :::::::
@@ -74,7 +74,7 @@ collections:
 :::::: heading {"id":"ar-more-title","props":{"text":"More news","level":"2"},"class":"text-3xl"}
 ::::::
 
-:::::: button {"id":"ar-more-all","props":{"variant":"link","icon":"arrow-right","icon_position":"end","label":"All news","url":"entry:01m7nnfjnxtyfj10psmzqt69n2"}}
+:::::: button {"id":"ar-more-all","props":{"variant":"link","icon":"arrow-right","icon_position":"end","label":"All news","url":"entry:01m7npd9ykcsvmvzmcvcrg02jm"}}
 ::::::
 :::::
 

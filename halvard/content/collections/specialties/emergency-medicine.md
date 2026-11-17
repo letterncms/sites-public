@@ -1,17 +1,23 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebw
+id: 01m7npd9yta05vmnmacaskxfcr
 title: 'Emergency medicine'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 10
 area:
-  - 01m7nnfjm4zyv1ak6tne3cz7cn
+  - 01m7npd9wzm565xrqtd250qeh2
 icon: siren
 cover:
   - 01m7nh50j9zrz3788x1hr7p8qm
 hours: 'Open day and night'
 phone: '+44 20 7946 0100'
 summary: 'Emergency doctors and nurses for accidents and sudden illness, day and night, every day of the year.'
+keywords:
+  - 'A&E'
+  - ER
+  - accident
+  - emergency
+  - casualty
 location: 'Emergency department, entrance E on Linden Avenue'
 referral: false
 ---

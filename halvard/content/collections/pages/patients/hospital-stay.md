@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjnxtyfj10psmzqt69nb
+id: 01m7npd9ykcsvmvzmcvcrg02jy
 title: 'Your hospital stay'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 2
 summary: 'Coming in for a stay: what to pack, your room, meals and going home.'
 template: page

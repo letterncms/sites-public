@@ -1,5 +1,5 @@
 ---
-id: 01m7nnfjn639cr307y6zbt384b
+id: 01m7npd9y0w7334wdwbtvxymx5
 title: 'Patient transport assistant'
 status: published
 published_at: '2026-10-02T09:00:00+00:00'

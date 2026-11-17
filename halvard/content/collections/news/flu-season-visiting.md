@@ -1,12 +1,12 @@
 ---
-id: 01m7nnfjnf1zf390tr0sryr45f
+id: 01m7npd9y8p0wze87a6jt940ja
 title: 'Flu season: how to visit safely'
 status: published
 published_at: '2026-09-30T09:00:00+00:00'
 cover:
   - 01m7nh50m4servw74b0jbfqha4
 topic:
-  - 01m7nnfjpbgha2609d7d6t9qd0
+  - 01m7npd9z0wh4nkzwa395c20qz
 summary: 'Visits help patients recover. During flu season, a few simple steps keep the people you visit safe.'
 ---
 

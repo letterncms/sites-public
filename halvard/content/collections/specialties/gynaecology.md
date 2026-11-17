@@ -1,17 +1,22 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebx
+id: 01m7npd9yta05vmnmacaskxfcs
 title: Gynaecology
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 11
 area:
-  - 01m7nnfjm3m62f2b6hv60pt0zn
+  - 01m7npd9wzm565xrqtd250qegy
 icon: gender-female
 cover:
   - 01m7nh50j63rtn0gqe0f8kx1wg
 hours: 'Monday to Friday, 8:00 to 17:00'
 phone: '+44 20 7946 0232'
 summary: 'Care for women’s health at every age: periods, endometriosis, fertility, the menopause and pelvic floor problems.'
+keywords:
+  - "women's health"
+  - periods
+  - menopause
+  - fertility
 location: 'Building C, level 2, route 232'
 referral: true
 ---

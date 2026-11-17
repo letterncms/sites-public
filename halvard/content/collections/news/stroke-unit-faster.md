@@ -1,16 +1,16 @@
 ---
-id: 01m7nnfjnf1zf390tr0sryr45m
+id: 01m7npd9y8p0wze87a6jt940jf
 title: 'Our stroke team now treats patients in half the time'
 status: published
 published_at: '2026-11-10T09:00:00+00:00'
 cover:
   - 01m7nh50jzfmk9a8t2g250tzfb
 topic:
-  - 01m7nnfjpbgha2609d7d6t9qcz
+  - 01m7npd9z0wh4nkzwa395c20qy
 summary: 'By meeting ambulances at the door and scanning straight away, our stroke team gives clot-dissolving treatment in a median of 24 minutes.'
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebr
-  - 01m7nnfjp54aw0tbjh9mw93ebw
+  - 01m7npd9yta05vmnmacaskxfcm
+  - 01m7npd9yta05vmnmacaskxfcr
 ---
 
 When someone has a stroke, every minute without treatment costs nearly two million brain cells. Two years ago, our stroke team set itself a goal: treatment within thirty minutes of arriving at the hospital.

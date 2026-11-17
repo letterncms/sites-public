@@ -1,8 +1,8 @@
 ---
-id: 01m7nnfjnxtyfj10psmzqt69mz
+id: 01m7npd9ykcsvmvzmcvcrg02jh
 title: 'Conditions and treatments'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 3
 summary: 'Conditions, treatments and tests explained in plain words, with who treats them here.'
 template: default

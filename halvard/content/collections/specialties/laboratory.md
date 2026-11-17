@@ -1,11 +1,11 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebk
+id: 01m7npd9ysnp9eq4p0by0drhye
 title: 'Laboratory medicine'
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 1
 area:
-  - 01m7nnfjm4zyv1ak6tne3cz7cn
+  - 01m7npd9wzm565xrqtd250qeh2
 icon: flask
 cover:
   - 01m7nh50kfg0tyexwxf78ka6b0
@@ -14,6 +14,10 @@ hours: |-
   Saturday 8:00 to 12:00
 phone: '+44 20 7946 0330'
 summary: 'Blood tests and other samples, analysed day and night by our laboratory, with results for your doctor within hours.'
+keywords:
+  - 'blood test'
+  - lab
+  - samples
 location: 'Building A, ground floor, route 030'
 referral: true
 ---

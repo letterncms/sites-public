@@ -1,11 +1,11 @@
 ---
-id: 01m7nnfjp54aw0tbjh9mw93ebm
+id: 01m7npd9ysnp9eq4p0by0drhyf
 title: Oncology
 status: published
-published_at: '2026-11-17T21:09:23+00:00'
+published_at: '2026-11-17T21:25:37+00:00'
 position: 2
 area:
-  - 01m7nnfjm4zyv1ak6tne3cz7cm
+  - 01m7npd9wzm565xrqtd250qeh1
 icon: hand-heart
 cover:
   - 01m7nh50m4servw74b0jbfqha4
@@ -14,6 +14,11 @@ hours: |-
   Advice line day and night
 phone: '+44 20 7946 0290'
 summary: 'Diagnosis, treatment and support for people with cancer, with one specialist nurse who stays your contact throughout.'
+keywords:
+  - cancer
+  - tumour
+  - chemotherapy
+  - chemo
 location: 'Cancer Centre, building D, route 400'
 referral: true
 ---

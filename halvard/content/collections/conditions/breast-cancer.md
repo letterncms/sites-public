@@ -1,14 +1,17 @@
 ---
-id: 01m7nnfjmnjg0e4mhzvv98dfx7
+id: 01m7npd9xhmdsf9beamewvggq8
 title: 'Breast cancer'
 status: published
-published_at: '2026-11-17T21:09:22+00:00'
+published_at: '2026-11-17T21:25:36+00:00'
 position: 2
 kind: condition
 summary: 'The most common cancer in women. Found early, it can very often be cured.'
+keywords:
+  - lump
+  - mammogram
 specialties:
-  - 01m7nnfjp54aw0tbjh9mw93ebm
-  - 01m7nnfjp54aw0tbjh9mw93ebn
+  - 01m7npd9ysnp9eq4p0by0drhyf
+  - 01m7npd9ysnp9eq4p0by0drhyg
 ---
 
 ## Signs
