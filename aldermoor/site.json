@@ -6,8 +6,7 @@
     "license": "MIT",
     "cms": ">=0.52",
     "plugins": [
-        "letterncms/forms",
-        "letterncms/site-search"
+        "letterncms/forms"
     ],
     "languages": [
         "en"

@@ -1,6 +1,6 @@
 # Aldermoor
 
-A complete website for a city or local council to make its own: Aldermoor, a fictional city of 214,000 people. It puts residents’ tasks first, with search on every page, services grouped by topic and from A to Z, and each service saying what it costs, how long it takes, who can use it and where to start. It is built for accessibility from the ground up: every page meets WCAG 2.2 at level AA in light and dark, it is set in Atkinson Hyperlegible Next, a typeface drawn for readers with low vision, its words are written in plain language, and it ships with an accessibility statement in the European Union’s model format. Replace the city’s name, words and pictures, and keep the rest.
+A complete website for a city or local council to make its own: Aldermoor, a fictional city of 214,000 people. It puts residents’ tasks first, with search on every page, services grouped by topic and from A to Z, a results page for search, and each service saying what it costs, how long it takes, who can use it and where to start. It is built for accessibility from the ground up: every page meets WCAG 2.2 at level AA in light and dark, it is set in Atkinson Hyperlegible Next, a typeface drawn for readers with low vision, its words are written in plain language, and it ships with an accessibility statement in the European Union’s model format. Replace the city’s name, words and pictures, and keep the rest.
 
 ## Install
 
@@ -26,4 +26,4 @@ Or choose **Aldermoor** when you install (`php cms install --start-from=aldermoo
 
 ## Needs
 
-Lettern 0.52 or later, with the Forms and Site Search plugins. The font and photographs keep their own licences: see `NOTICE.md`.
+Lettern 0.53 or later, with the Forms plugin. The font and photographs keep their own licences: see `NOTICE.md`.

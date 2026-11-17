@@ -19,7 +19,7 @@ template: default
 :::::: paragraph {"id":"hm-lead","props":{"tag":"p","text":"Find a service, pay a bill, book an appointment or report a problem. Most things you can do online, any time."},"class":"lead max-w-xl text-muted"}
 ::::::
 
-:::::: site-search/form {"id":"hm-search","props":{"label":"Search for a service or information","show_label":true,"placeholder":"","button_label":"Search","button_style":"sun","size":"lg","icon_only":false,"results_page":"/search"},"class":"mt-2 w-full max-w-2xl [&_label]:text-base"}
+:::::: search-field {"id":"hm-search","props":{"label":"Search for a service or information","show_label":true,"placeholder":"","button_label":"Search","button_style":"sun","size":"lg","icon_only":false,"results_page":"/search"},"class":"mt-2 w-full max-w-2xl [&_label]:text-base"}
 ::::::
 
 :::::: box {"id":"hm-popular","class":"flex flex-wrap items-baseline gap-x-4 gap-y-2 text-base"}
