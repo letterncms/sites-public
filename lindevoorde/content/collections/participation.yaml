@@ -1,0 +1,53 @@
+title: Inspraak
+singular: Inspraaktraject
+icon: megaphone
+description: 'Plannen waarover de stad de inwoners raadpleegt.'
+structure: dated
+route: '/doe-mee/{slug}'
+template: inspraak
+nav_order: 14
+default_columns:
+  - 'field:state'
+  - 'field:closes'
+  - status
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+    required: true
+  -
+    handle: state
+    type: select
+    label: Status
+    required: true
+    default: Open
+    options:
+      Open: Open
+      Gesloten: Gesloten
+      'Resultaat bekend': 'Resultaat bekend'
+    section: sidebar
+  -
+    handle: closes
+    type: date
+    label: 'Sluit op'
+    section: sidebar
+  -
+    handle: cover
+    type: media
+    label: Foto
+    max: 1
+    accept: 'image/*'
+  -
+    handle: topic
+    type: terms
+    label: Thema
+    taxonomy: topics
+    max: 1
+    section: sidebar
+driver: database

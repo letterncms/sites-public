@@ -1,0 +1,22 @@
+type: categories
+title: Thema’s
+singular: Thema
+icon: squares-four
+route: '/thema/{slug}'
+template: thema
+fields:
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+  -
+    handle: icon
+    type: icon
+    label: Icoon
+  -
+    handle: photo
+    type: media
+    label: Foto
+    max: 1
+    accept: 'image/*'
+driver: database

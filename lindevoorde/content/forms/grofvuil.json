@@ -1,0 +1,117 @@
+{
+    "published_at": "2026-11-18T00:21:33+00:00",
+    "updated_at": "2026-11-18T00:38:02+00:00",
+    "title": "Grofvuil laten ophalen",
+    "settings": {
+        "submit": "Ophaling aanvragen",
+        "success": "Bedankt. Je krijgt een mail met de ophaaldatum en een link om € 30 te betalen.",
+        "redirect": null,
+        "notify": [],
+        "subject": "New submission: {form}",
+        "reply_to_field": "email",
+        "confirmation": false,
+        "confirmation_subject": "We received your message",
+        "confirmation_message": "<p>Thanks for getting in touch. We will reply soon.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "bpsbnch1scp",
+            "type": "form/checkboxes",
+            "props": {
+                "name": "stukken",
+                "label": "Wat mogen we ophalen?",
+                "required": true,
+                "look": "chips",
+                "options": "zetel|Zetel of fauteuil\nbed|Bed of matras\nkoelkast|Koelkast of diepvries\nwasmachine|Wasmachine\ntafel|Tafel of stoelen\nkast|Kast\ntapijt|Tapijt\nanders|Iets anders"
+            }
+        },
+        {
+            "id": "blxxjbqy3rh",
+            "type": "form/number",
+            "props": {
+                "name": "aantal",
+                "label": "Hoeveel stukken in totaal?",
+                "required": true,
+                "min": 1,
+                "max": 15,
+                "help": "We halen tot 3 m³ op voor € 30."
+            }
+        },
+        {
+            "id": "b2400ewxomv",
+            "type": "form/text",
+            "props": {
+                "name": "adres",
+                "label": "Ophaaladres",
+                "required": true,
+                "autocomplete": "street-address"
+            }
+        },
+        {
+            "id": "bglup1v3lkt",
+            "type": "form/radio",
+            "props": {
+                "name": "dag",
+                "label": "Ophaaldag",
+                "required": true,
+                "options": "dinsdag|Dinsdag\ndonderdag|Donderdag",
+                "help": "We bevestigen de datum per mail. Zet alles buiten vóór 7 uur."
+            }
+        },
+        {
+            "id": "b5vptxbpknp",
+            "type": "columns",
+            "props": {
+                "layout": "1-1"
+            },
+            "children": [
+                {
+                    "id": "br3cxboipja",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "byymwu0hj3t",
+                            "type": "form/text",
+                            "props": {
+                                "name": "naam",
+                                "label": "Naam",
+                                "required": true,
+                                "autocomplete": "name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "bcl9rdnvxyr",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "b80pux76zzt",
+                            "type": "form/email",
+                            "props": {
+                                "name": "email",
+                                "label": "E-mailadres",
+                                "required": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "blrzoehuzq3",
+            "type": "form/consent",
+            "props": {
+                "name": "privacy",
+                "text": "Ik heb gelezen hoe de stad met mijn gegevens omgaat, in de <a href=\"/privacy\">privacyverklaring</a>."
+            }
+        }
+    ]
+}

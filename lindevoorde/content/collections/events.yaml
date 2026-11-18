@@ -1,0 +1,78 @@
+title: Activiteiten
+singular: Activiteit
+icon: calendar-dots
+structure: list
+route: '/activiteiten/{slug}'
+template: activiteit
+sort: when
+nav_order: 13
+default_view: calendar
+default_columns:
+  - 'field:when'
+  - 'field:venue'
+  - status
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+    required: true
+  -
+    handle: when
+    type: date-range
+    label: Wanneer
+    time: true
+    required: true
+  -
+    handle: venue
+    type: text
+    label: Locatie
+    width: half
+  -
+    handle: address
+    type: text
+    label: Adres
+    width: half
+  -
+    handle: price
+    type: text
+    label: Prijs
+    width: half
+  -
+    handle: audience
+    type: text
+    label: 'Voor wie'
+    width: half
+  -
+    handle: booking
+    type: link
+    label: Inschrijven
+  -
+    handle: access
+    type: textarea
+    label: Toegankelijkheid
+    instructions: 'Rolstoeltoegankelijk, ringleiding, prikkelarm uur, assistentiehonden, aangepast toilet.'
+  -
+    handle: cover
+    type: media
+    label: Foto
+    max: 1
+    accept: 'image/*'
+  -
+    handle: category
+    type: select
+    label: Categorie
+    options:
+      Cultuur: Cultuur
+      Gezin: Gezin
+      Sport: Sport
+      Bestuur: Bestuur
+      Buurt: Buurt
+      Markt: Markt
+    section: sidebar
+driver: database

@@ -1,0 +1,59 @@
+title: Bestuur
+singular: Bestuurslid
+icon: users-three
+description: 'De burgemeester, de schepenen en de algemeen directeur.'
+structure: list
+route: '/bestuur/{slug}'
+template: persoon
+sort: position
+nav_order: 15
+default_columns:
+  - 'field:role'
+  - 'field:photo'
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: role
+    type: select
+    label: Functie
+    required: true
+    default: Schepen
+    options:
+      Burgemeester: Burgemeester
+      Schepen: Schepen
+      Gemeenteraadslid: Gemeenteraadslid
+      'Algemeen directeur': 'Algemeen directeur'
+  -
+    handle: portfolio
+    type: text
+    label: Bevoegdheden
+  -
+    handle: since
+    type: text
+    label: 'In functie sinds'
+    width: half
+  -
+    handle: email
+    type: email
+    label: E-mail
+    width: half
+  -
+    handle: phone
+    type: text
+    label: Telefoon
+    width: half
+  -
+    handle: photo
+    type: media
+    label: Foto
+    max: 1
+    accept: 'image/*'
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+driver: database

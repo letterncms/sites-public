@@ -1,0 +1,50 @@
+{
+    "published_at": "2026-11-18T00:21:32+00:00",
+    "updated_at": "2026-11-18T00:38:00+00:00",
+    "title": "Feedback",
+    "settings": {
+        "submit": "Verstuur",
+        "success": "Bedankt. Met je feedback maken we deze pagina beter.",
+        "redirect": null,
+        "notify": [],
+        "subject": "New submission: {form}",
+        "reply_to_field": "email",
+        "confirmation": false,
+        "confirmation_subject": "We received your message",
+        "confirmation_message": "<p>Thanks for getting in touch. We will reply soon.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 2,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "b9zavn8efjj",
+            "type": "form/radio",
+            "props": {
+                "name": "nuttig",
+                "label": "Was deze informatie nuttig?",
+                "required": true,
+                "options": "ja|Ja\nnee|Nee",
+                "look": "chips"
+            }
+        },
+        {
+            "id": "bsftfrmeu5z",
+            "type": "form/textarea",
+            "props": {
+                "name": "wat",
+                "label": "Wat ontbrak er, of wat klopt niet?",
+                "rows": 3,
+                "max": 1000,
+                "help": "Vermeld geen persoonlijke gegevens zoals je naam, adres of rijksregisternummer.",
+                "show_if": {
+                    "field": "nuttig",
+                    "op": "equals",
+                    "value": "nee"
+                }
+            }
+        }
+    ]
+}

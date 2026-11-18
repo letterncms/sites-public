@@ -1,0 +1,106 @@
+{
+    "published_at": "2026-11-18T00:21:32+00:00",
+    "updated_at": "2026-11-18T00:38:01+00:00",
+    "title": "Vraag stellen",
+    "settings": {
+        "submit": "Vraag versturen",
+        "success": "Bedankt. We hebben je vraag goed ontvangen en antwoorden binnen vijf werkdagen per mail.",
+        "redirect": null,
+        "notify": [],
+        "subject": "New submission: {form}",
+        "reply_to_field": "email",
+        "confirmation": true,
+        "confirmation_subject": "We hebben je vraag ontvangen",
+        "confirmation_message": "<p>Bedankt om Stad Lindevoorde te contacteren. We antwoorden binnen vijf werkdagen.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "bewymkfmkin",
+            "type": "form/select",
+            "props": {
+                "name": "onderwerp",
+                "label": "Waarover gaat je vraag?",
+                "required": true,
+                "placeholder": "Kies een onderwerp",
+                "options": "burgerzaken|Identiteit en burgerzaken\nwonen|Wonen en bouwen\nafval|Afval en milieu\nmobiliteit|Mobiliteit en parkeren\nwelzijn|Welzijn en zorg\nonderwijs|Onderwijs en opvang\nondernemen|Ondernemen en werken\nvrijetijd|Vrije tijd\nanders|Iets anders"
+            }
+        },
+        {
+            "id": "bm3fbzmlfob",
+            "type": "form/textarea",
+            "props": {
+                "name": "vraag",
+                "label": "Je vraag",
+                "required": true,
+                "rows": 6,
+                "max": 3000,
+                "help": "Geef zoveel mogelijk details. Heb je een dossiernummer? Vermeld het."
+            }
+        },
+        {
+            "id": "buavte4wbqc",
+            "type": "columns",
+            "props": {
+                "layout": "1-1"
+            },
+            "children": [
+                {
+                    "id": "buezk2kohsr",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "bnbdzcl9zzs",
+                            "type": "form/text",
+                            "props": {
+                                "name": "naam",
+                                "label": "Naam",
+                                "required": true,
+                                "autocomplete": "name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "bqsnlt18l71",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "b2bfqisnizg",
+                            "type": "form/email",
+                            "props": {
+                                "name": "email",
+                                "label": "E-mailadres",
+                                "required": true,
+                                "help": "We antwoorden binnen vijf werkdagen."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bsm4thsqoq5",
+            "type": "form/tel",
+            "props": {
+                "name": "telefoon",
+                "label": "Telefoonnummer (niet verplicht)",
+                "help": "Als je liever gebeld wordt."
+            }
+        },
+        {
+            "id": "bwcvvojne3n",
+            "type": "form/consent",
+            "props": {
+                "name": "privacy",
+                "text": "Ik heb gelezen hoe de stad met mijn gegevens omgaat, in de <a href=\"/privacy\">privacyverklaring</a>."
+            }
+        }
+    ]
+}
