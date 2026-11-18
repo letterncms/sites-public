@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8q2
+id: 01m7p3g24e9v8cd0ywn1f9k53j
 title: 'Foto met tekst'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 26
 synced: false
 category: Secties
@@ -28,7 +28,7 @@ keywords:
 :::::: paragraph {"id":"ft2-p","props":{"text":"Kinesitherapeuten, ergotherapeuten en logopedisten helpen je terug op weg naar wat voor jou belangrijk is.","tag":"p"},"class":"text-lg leading-[1.55] text-muted"}
 ::::::
 
-:::::: button {"id":"ft2-b","props":{"label":"Meer over revalidatie","url":"entry:01m7p2kg0a20artnnx4k7y4b54","variant":"secondary","icon":"arrow-right","icon_position":"end"}}
+:::::: button {"id":"ft2-b","props":{"label":"Meer over revalidatie","url":"entry:01m7p3g28xjmb1vscp4cvr45gb","variant":"secondary","icon":"arrow-right","icon_position":"end"}}
 ::::::
 :::::
 ::::

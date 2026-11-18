@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnp
+id: 01m7p3g28ph31zyqzvh74hae5w
 title: 'Mijn dossier'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 15
 summary: 'Je afspraken, verslagen, resultaten en facturen op één plek, veilig online.'
 template: page

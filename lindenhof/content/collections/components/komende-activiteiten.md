@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8q7
+id: 01m7p3g24e9v8cd0ywn1f9k53q
 title: 'Komende activiteiten'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 31
 synced: false
 category: Secties
@@ -21,7 +21,7 @@ keywords:
 ::::::
 :::::
 
-::::: button {"id":"ka-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Alle activiteiten","url":"entry:01m7p2kg02mca2s304fb0a4xnh"}}
+::::: button {"id":"ka-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Alle activiteiten","url":"entry:01m7p3g28ph31zyqzvh74hae5q"}}
 :::::
 ::::
 

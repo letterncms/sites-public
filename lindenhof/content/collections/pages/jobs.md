@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnj
+id: 01m7p3g28ph31zyqzvh74hae5r
 title: 'Werken bij AZ Lindenhof'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 11
 summary: 'Zorg die telt, collega’s die je kent. Vind een job in de verpleging, als arts, therapeut of in een ondersteunende dienst.'
 template: default
@@ -109,7 +109,7 @@ template: default
 :::::
 
 ::::: buttons {"id":"jb-open-buttons"}
-:::::: button {"id":"jb-open-b","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnn","size":"lg","label":"Solliciteer spontaan","variant":"primary"}}
+:::::: button {"id":"jb-open-b","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5v","size":"lg","label":"Solliciteer spontaan","variant":"primary"}}
 ::::::
 :::::
 ::::

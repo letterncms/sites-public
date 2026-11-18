@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg0ecx0zgp2a8q1qegdm
+id: 01m7p3g291ay24bfsfkwnmh9fq
 title: 'Ziekte of behandeling'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 5
 description: 'Uitleg in een leeskolom, naast wie het behandelt en een herinnering dat je eigen arts je situatie het best kent.'
 collections:
@@ -27,7 +27,7 @@ collections:
 :::::::::: icon {"id":"cd-c1-s","props":{"icon":"caret-right"},"attrs":{"aria-hidden":"true"},"class":"size-3.5"}
 ::::::::::
 
-:::::::::: link {"id":"cd-c1-a","props":{"label":"Ziekten en behandelingen","url":"entry:01m7p2kg02mca2s304fb0a4xna"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"cd-c1-a","props":{"label":"Ziekten en behandelingen","url":"entry:01m7p3g28ph31zyqzvh74hae5g"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::

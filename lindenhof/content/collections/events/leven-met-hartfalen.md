@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfyp9qee0naqhr78k5jg
+id: 01m7p3g26gvr2dgc8r1r18bhhc
 title: 'Leven met hartfalen'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 3
 ends: '16:00'
 kind: infosessie

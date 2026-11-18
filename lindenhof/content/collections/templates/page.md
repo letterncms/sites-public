@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg0ecx0zgp2a8q1qegdh
+id: 01m7p3g291ay24bfsfkwnmh9fm
 title: Pagina
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 2
 description: 'Een titelband met de weg terug, dan de pagina in een leeskolom naast de andere pagina’s van de rubriek en wie je kunt bellen.'
 collections:

@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbwv
+id: 01m7p3g24xf879tmwsymfw7mwh
 title: Coloscopie
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 7
 kind: onderzoek
 summary: 'Een onderzoek van je dikke darm met een dunne camera, meestal onder een lichte verdoving, tijdens een dagopname.'
@@ -11,7 +11,7 @@ keywords:
   - darmkanker
   - poliep
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b58
+  - 01m7p3g28xjmb1vscp4cvr45gf
 also_known_as: darmonderzoek
 ---
 

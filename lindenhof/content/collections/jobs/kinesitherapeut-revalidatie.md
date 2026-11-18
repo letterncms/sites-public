@@ -1,5 +1,5 @@
 ---
-id: 01m7p2kfz31km9s7fhx57ehpmm
+id: 01m7p3g2767vyezjs6svpn26zc
 title: 'Kinesitherapeut revalidatie'
 status: published
 published_at: '2026-10-27T08:00:00+01:00'

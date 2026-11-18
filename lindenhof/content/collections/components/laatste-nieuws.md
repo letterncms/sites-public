@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8q6
+id: 01m7p3g24e9v8cd0ywn1f9k53p
 title: 'Laatste nieuws'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 30
 synced: false
 category: Secties
@@ -20,7 +20,7 @@ keywords:
 ::::::
 :::::
 
-::::: button {"id":"ln-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Al het nieuws","url":"entry:01m7p2kg02mca2s304fb0a4xng"}}
+::::: button {"id":"ln-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Al het nieuws","url":"entry:01m7p3g28ph31zyqzvh74hae5p"}}
 :::::
 ::::
 

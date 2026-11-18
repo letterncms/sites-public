@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfym60g3270zmeyv7ap1
+id: 01m7p3g25k6xnyccyptygc674j
 title: 'Thomas Claes'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 10
 role: Radioloog
 photo:
@@ -23,7 +23,7 @@ languages:
 discipline: arts
 family_name: Claes
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b58
+  - 01m7p3g28xjmb1vscp4cvr45gf
 new_patients: false
 ---
 

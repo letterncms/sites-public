@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbwy
+id: 01m7p3g24xf879tmwsymfw7mwm
 title: Hartfalen
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 10
 kind: aandoening
 summary: 'Je hart pompt minder goed dan het zou moeten. Met de juiste medicatie en opvolging leven veel mensen er jaren goed mee.'
@@ -10,7 +10,7 @@ keywords:
   - kortademig
   - 'dikke enkels'
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b5c
+  - 01m7p3g28xjmb1vscp4cvr45gk
 also_known_as: hartinsufficiëntie
 ---
 

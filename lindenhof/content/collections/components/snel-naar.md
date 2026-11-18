@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8py
+id: 01m7p3g24e9v8cd0ywn1f9k53e
 title: 'Snel naar'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 22
 synced: false
 category: Secties
@@ -19,7 +19,7 @@ keywords:
 
 :::: box {"id":"sn-list","props":{"tag":"ul"},"class":"grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4"}
 ::::: box {"id":"sn-1","props":{"tag":"li"}}
-:::::: box {"id":"sn-1-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnv"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"sn-1-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae61"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"sn-1-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"sn-1-i","props":{"icon":"calendar-check"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -39,7 +39,7 @@ keywords:
 :::::
 
 ::::: box {"id":"sn-2","props":{"tag":"li"}}
-:::::: box {"id":"sn-2-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xn9"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"sn-2-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae5f"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"sn-2-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"sn-2-i","props":{"icon":"stethoscope"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -59,7 +59,7 @@ keywords:
 :::::
 
 ::::: box {"id":"sn-3","props":{"tag":"li"}}
-:::::: box {"id":"sn-3-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnt"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"sn-3-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae60"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"sn-3-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"sn-3-i","props":{"icon":"clock"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -79,7 +79,7 @@ keywords:
 :::::
 
 ::::: box {"id":"sn-4","props":{"tag":"li"}}
-:::::: box {"id":"sn-4-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnw"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"sn-4-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae62"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"sn-4-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"sn-4-i","props":{"icon":"map-pin"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::

@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnh
+id: 01m7p3g28ph31zyqzvh74hae5q
 title: Activiteiten
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 10
 summary: 'Infosessies voor aanstaande ouders, voor patiënten en hun naasten, rondleidingen en symposia voor zorgprofessionals.'
 template: default

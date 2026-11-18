@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnd
+id: 01m7p3g28ph31zyqzvh74hae5k
 title: Bezoek
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 6
 summary: 'Wanneer je op bezoek kunt komen, hoe je ons vindt en waar je parkeert, en hoe je iemand een kaartje stuurt.'
 template: default
@@ -14,7 +14,7 @@ template: default
 ::: box {"id":"bz","class":"mx-auto max-w-content px-gutter pt-blocks"}
 :::: box {"id":"bz-list","props":{"tag":"ul"},"class":"grid grid-cols-2 gap-4 max-md:grid-cols-1"}
 ::::: box {"id":"bz-1","props":{"tag":"li"}}
-:::::: box {"id":"bz-1-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnt"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"bz-1-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae60"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"bz-1-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"bz-1-i","props":{"icon":"clock"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -34,7 +34,7 @@ template: default
 :::::
 
 ::::: box {"id":"bz-2","props":{"tag":"li"}}
-:::::: box {"id":"bz-2-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnw"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"bz-2-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae62"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"bz-2-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"bz-2-i","props":{"icon":"map-pin"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -54,7 +54,7 @@ template: default
 :::::
 
 ::::: box {"id":"bz-3","props":{"tag":"li"}}
-:::::: box {"id":"bz-3-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xne"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"bz-3-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae5m"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"bz-3-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"bz-3-i","props":{"icon":"buildings"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -74,7 +74,7 @@ template: default
 :::::
 
 ::::: box {"id":"bz-4","props":{"tag":"li"}}
-:::::: box {"id":"bz-4-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnz"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"bz-4-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae65"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"bz-4-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"bz-4-i","props":{"icon":"envelope-simple"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::

@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfz6j8gf6wk267m8jarz
+id: 01m7p3g27cj63zmvs818taz8v5
 title: 'Campus De Vijvers'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 1
 cover:
   - 01m7nh50h77y59gm4ys2m1zdyd

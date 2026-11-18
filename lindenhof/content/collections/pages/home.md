@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xn7
+id: 01m7p3g28ph31zyqzvh74hae5d
 title: Home
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 0
 summary: 'AZ Lindenhof in Meerhove: maak een afspraak, zoek een arts of dienst, en lees alles over je raadpleging, opname of bezoek.'
 template: default
@@ -17,7 +17,7 @@ template: default
 :::::: heading {"id":"h-title","props":{"text":"Waarmee kunnen we je helpen?","level":"1"},"class":"text-6xl max-w-[11em]"}
 ::::::
 
-:::::: search-field {"id":"h-search","props":{"size":"lg","label":"Zoek op de website","placeholder":"Zoek een arts, dienst, ziekte of onderzoek","button_label":"Zoeken","button_style":"lime","results_page":"entry:01m7p2kg02mca2s304fb0a4xns"},"class":"w-full max-w-[38rem]"}
+:::::: search-field {"id":"h-search","props":{"size":"lg","label":"Zoek op de website","placeholder":"Zoek een arts, dienst, ziekte of onderzoek","button_label":"Zoeken","button_style":"lime","results_page":"entry:01m7p3g28ph31zyqzvh74hae5z"},"class":"w-full max-w-[38rem]"}
 ::::::
 
 :::::: box {"id":"h-popular","class":"flex flex-wrap items-center gap-2"}
@@ -26,32 +26,32 @@ template: default
 
 ::::::: box {"id":"h-popular-list","props":{"tag":"ul"},"class":"contents"}
 :::::::: box {"id":"h-pop-0","props":{"tag":"li"}}
-::::::::: link {"id":"h-pop-0-a","props":{"url":"entry:01m7p2kg0a20artnnx4k7y4b55","label":"Bloedafname"},"class":"inline-flex min-h-9 items-center rounded-md border border-white/25 px-3 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
+::::::::: link {"id":"h-pop-0-a","props":{"url":"entry:01m7p3g28xjmb1vscp4cvr45gc","label":"Bloedafname"},"class":"inline-flex min-h-9 items-center rounded-full border border-white/25 px-3.5 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
 :::::::::
 ::::::::
 
 :::::::: box {"id":"h-pop-1","props":{"tag":"li"}}
-::::::::: link {"id":"h-pop-1-a","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnt","label":"Bezoekuren"},"class":"inline-flex min-h-9 items-center rounded-md border border-white/25 px-3 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
+::::::::: link {"id":"h-pop-1-a","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae60","label":"Bezoekuren"},"class":"inline-flex min-h-9 items-center rounded-full border border-white/25 px-3.5 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
 :::::::::
 ::::::::
 
 :::::::: box {"id":"h-pop-2","props":{"tag":"li"}}
-::::::::: link {"id":"h-pop-2-a","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnw","label":"Parking"},"class":"inline-flex min-h-9 items-center rounded-md border border-white/25 px-3 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
+::::::::: link {"id":"h-pop-2-a","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae62","label":"Parking"},"class":"inline-flex min-h-9 items-center rounded-full border border-white/25 px-3.5 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
 :::::::::
 ::::::::
 
 :::::::: box {"id":"h-pop-3","props":{"tag":"li"}}
-::::::::: link {"id":"h-pop-3-a","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xp1","label":"Kosten en facturen"},"class":"inline-flex min-h-9 items-center rounded-md border border-white/25 px-3 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
+::::::::: link {"id":"h-pop-3-a","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae67","label":"Kosten en facturen"},"class":"inline-flex min-h-9 items-center rounded-full border border-white/25 px-3.5 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
 :::::::::
 ::::::::
 
 :::::::: box {"id":"h-pop-4","props":{"tag":"li"}}
-::::::::: link {"id":"h-pop-4-a","props":{"url":"entry:01m7p2kg0a20artnnx4k7y4b5e","label":"Bevallen"},"class":"inline-flex min-h-9 items-center rounded-md border border-white/25 px-3 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
+::::::::: link {"id":"h-pop-4-a","props":{"url":"entry:01m7p3g28xjmb1vscp4cvr45gn","label":"Bevallen"},"class":"inline-flex min-h-9 items-center rounded-full border border-white/25 px-3.5 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
 :::::::::
 ::::::::
 
 :::::::: box {"id":"h-pop-5","props":{"tag":"li"}}
-::::::::: link {"id":"h-pop-5-a","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnj","label":"Jobs"},"class":"inline-flex min-h-9 items-center rounded-md border border-white/25 px-3 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
+::::::::: link {"id":"h-pop-5-a","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5r","label":"Jobs"},"class":"inline-flex min-h-9 items-center rounded-full border border-white/25 px-3.5 text-sm font-medium text-white no-underline transition-colors hover:border-lime hover:bg-white/10"}
 :::::::::
 ::::::::
 :::::::
@@ -73,7 +73,7 @@ template: default
 :::::::: paragraph {"id":"h-er-p","props":{"tag":"p","text":"Levensbedreigend? Bel 112."},"bind":{"text":"Levensbedreigend? Bel {globals.hospital.emergency_number}."},"class":"text-[0.9375rem] leading-snug text-muted"}
 ::::::::
 
-:::::::: link {"id":"h-er-a","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnb","label":"Wanneer kom je naar spoed?"},"class":"mt-1 text-[0.9375rem] font-semibold"}
+:::::::: link {"id":"h-er-a","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5h","label":"Wanneer kom je naar spoed?"},"class":"mt-1 text-[0.9375rem] font-semibold"}
 ::::::::
 :::::::
 ::::::
@@ -87,7 +87,7 @@ template: default
 
 :::: box {"id":"h-top-list","props":{"tag":"ul"},"class":"grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 xl:grid-cols-4"}
 ::::: box {"id":"h-top-0","props":{"tag":"li"}}
-:::::: box {"id":"h-top-0-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnv"},"class":"card-link group flex h-full flex-col gap-5 p-6 text-foreground shadow-sm max-sm:flex-row max-sm:items-center max-sm:gap-4 max-sm:p-4"}
+:::::: box {"id":"h-top-0-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae61"},"class":"card-link group flex h-full flex-col gap-5 p-6 text-foreground shadow-sm max-sm:flex-row max-sm:items-center max-sm:gap-4 max-sm:p-4"}
 ::::::: box {"id":"h-top-0-head","class":"flex items-center justify-between max-sm:contents"}
 :::::::: box {"id":"h-top-0-ic","props":{"tag":"span"},"class":"icon-tile size-12 transition-colors group-hover:bg-primary group-hover:text-primary-foreground max-sm:order-1"}
 ::::::::: icon {"id":"h-top-0-i","props":{"icon":"calendar-check"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
@@ -109,7 +109,7 @@ template: default
 :::::
 
 ::::: box {"id":"h-top-1","props":{"tag":"li"}}
-:::::: box {"id":"h-top-1-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xn9"},"class":"card-link group flex h-full flex-col gap-5 p-6 text-foreground shadow-sm max-sm:flex-row max-sm:items-center max-sm:gap-4 max-sm:p-4"}
+:::::: box {"id":"h-top-1-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae5f"},"class":"card-link group flex h-full flex-col gap-5 p-6 text-foreground shadow-sm max-sm:flex-row max-sm:items-center max-sm:gap-4 max-sm:p-4"}
 ::::::: box {"id":"h-top-1-head","class":"flex items-center justify-between max-sm:contents"}
 :::::::: box {"id":"h-top-1-ic","props":{"tag":"span"},"class":"icon-tile size-12 transition-colors group-hover:bg-primary group-hover:text-primary-foreground max-sm:order-1"}
 ::::::::: icon {"id":"h-top-1-i","props":{"icon":"stethoscope"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
@@ -131,7 +131,7 @@ template: default
 :::::
 
 ::::: box {"id":"h-top-2","props":{"tag":"li"}}
-:::::: box {"id":"h-top-2-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xn8"},"class":"card-link group flex h-full flex-col gap-5 p-6 text-foreground shadow-sm max-sm:flex-row max-sm:items-center max-sm:gap-4 max-sm:p-4"}
+:::::: box {"id":"h-top-2-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae5e"},"class":"card-link group flex h-full flex-col gap-5 p-6 text-foreground shadow-sm max-sm:flex-row max-sm:items-center max-sm:gap-4 max-sm:p-4"}
 ::::::: box {"id":"h-top-2-head","class":"flex items-center justify-between max-sm:contents"}
 :::::::: box {"id":"h-top-2-ic","props":{"tag":"span"},"class":"icon-tile size-12 transition-colors group-hover:bg-primary group-hover:text-primary-foreground max-sm:order-1"}
 ::::::::: icon {"id":"h-top-2-i","props":{"icon":"list-magnifying-glass"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
@@ -153,7 +153,7 @@ template: default
 :::::
 
 ::::: box {"id":"h-top-3","props":{"tag":"li"}}
-:::::: box {"id":"h-top-3-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnd"},"class":"card-link group flex h-full flex-col gap-5 p-6 text-foreground shadow-sm max-sm:flex-row max-sm:items-center max-sm:gap-4 max-sm:p-4"}
+:::::: box {"id":"h-top-3-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae5k"},"class":"card-link group flex h-full flex-col gap-5 p-6 text-foreground shadow-sm max-sm:flex-row max-sm:items-center max-sm:gap-4 max-sm:p-4"}
 ::::::: box {"id":"h-top-3-head","class":"flex items-center justify-between max-sm:contents"}
 :::::::: box {"id":"h-top-3-ic","props":{"tag":"span"},"class":"icon-tile size-12 transition-colors group-hover:bg-primary group-hover:text-primary-foreground max-sm:order-1"}
 ::::::::: icon {"id":"h-top-3-i","props":{"icon":"map-pin"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
@@ -186,7 +186,7 @@ template: default
 ::::::
 :::::
 
-::::: button {"id":"h-journey-all","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnc","icon":"arrow-right","label":"Alles over afspraak en opname","variant":"secondary","icon_position":"end"}}
+::::: button {"id":"h-journey-all","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5j","icon":"arrow-right","label":"Alles over afspraak en opname","variant":"secondary","icon_position":"end"}}
 :::::
 ::::
 
@@ -233,7 +233,7 @@ template: default
 ::::::
 
 :::::: box {"id":"h-j-1-more","class":"mt-auto flex pt-2"}
-::::::: button {"id":"h-j-1-b","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnx","icon":"arrow-right","label":"Je raadpleging voorbereiden","variant":"link","icon_position":"end"}}
+::::::: button {"id":"h-j-1-b","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae63","icon":"arrow-right","label":"Je raadpleging voorbereiden","variant":"link","icon_position":"end"}}
 :::::::
 ::::::
 :::::
@@ -280,7 +280,7 @@ template: default
 ::::::
 
 :::::: box {"id":"h-j-2-more","class":"mt-auto flex pt-2"}
-::::::: button {"id":"h-j-2-b","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xny","icon":"arrow-right","label":"Je dagopname voorbereiden","variant":"link","icon_position":"end"}}
+::::::: button {"id":"h-j-2-b","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae64","icon":"arrow-right","label":"Je dagopname voorbereiden","variant":"link","icon_position":"end"}}
 :::::::
 ::::::
 :::::
@@ -327,7 +327,7 @@ template: default
 ::::::
 
 :::::: box {"id":"h-j-3-more","class":"mt-auto flex pt-2"}
-::::::: button {"id":"h-j-3-b","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xp0","icon":"arrow-right","label":"Je opname voorbereiden","variant":"link","icon_position":"end"}}
+::::::: button {"id":"h-j-3-b","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae66","icon":"arrow-right","label":"Je opname voorbereiden","variant":"link","icon_position":"end"}}
 :::::::
 ::::::
 :::::
@@ -345,7 +345,7 @@ template: default
 :::::::
 ::::::
 
-:::::: button {"id":"h-areas-all","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xn8","icon":"arrow-right","label":"Zorgaanbod van A tot Z","variant":"secondary","icon_position":"end"}}
+:::::: button {"id":"h-areas-all","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5e","icon":"arrow-right","label":"Zorgaanbod van A tot Z","variant":"secondary","icon_position":"end"}}
 ::::::
 :::::
 
@@ -403,22 +403,22 @@ template: default
 
 ::::::: box {"id":"h-mk-links","props":{"tag":"ul"},"class":"flex flex-wrap gap-2"}
 :::::::: box {"id":"h-mk-l0","props":{"tag":"li"}}
-::::::::: link {"id":"h-mk-l0-a","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnh","label":"Infosessies"},"class":"chip"}
+::::::::: link {"id":"h-mk-l0-a","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5q","label":"Infosessies"},"class":"chip"}
 :::::::::
 ::::::::
 
 :::::::: box {"id":"h-mk-l1","props":{"tag":"li"}}
-::::::::: link {"id":"h-mk-l1-a","props":{"url":"entry:01m7p2kg0a20artnnx4k7y4b59","label":"Kindergeneeskunde"},"class":"chip"}
+::::::::: link {"id":"h-mk-l1-a","props":{"url":"entry:01m7p3g28xjmb1vscp4cvr45gg","label":"Kindergeneeskunde"},"class":"chip"}
 :::::::::
 ::::::::
 
 :::::::: box {"id":"h-mk-l2","props":{"tag":"li"}}
-::::::::: link {"id":"h-mk-l2-a","props":{"url":"entry:01m7p2kg0a20artnnx4k7y4b57","label":"Gynaecologie"},"class":"chip"}
+::::::::: link {"id":"h-mk-l2-a","props":{"url":"entry:01m7p3g28xjmb1vscp4cvr45ge","label":"Gynaecologie"},"class":"chip"}
 :::::::::
 ::::::::
 :::::::
 
-::::::: button {"id":"h-mk-b","props":{"url":"entry:01m7p2kg0a20artnnx4k7y4b5e","icon":"arrow-right","label":"Naar het moeder- en kindcentrum","variant":"primary","icon_position":"end"},"class":"mt-2"}
+::::::: button {"id":"h-mk-b","props":{"url":"entry:01m7p3g28xjmb1vscp4cvr45gn","icon":"arrow-right","label":"Naar het moeder- en kindcentrum","variant":"primary","icon_position":"end"},"class":"mt-2"}
 :::::::
 ::::::
 :::::
@@ -439,17 +439,17 @@ template: default
 
 ::::::: box {"id":"h-kc-links","props":{"tag":"ul"},"class":"flex flex-wrap gap-2"}
 :::::::: box {"id":"h-kc-l0","props":{"tag":"li"}}
-::::::::: link {"id":"h-kc-l0-a","props":{"url":"entry:01m7p2kg0a20artnnx4k7y4b55","label":"Klinisch labo"},"class":"chip"}
+::::::::: link {"id":"h-kc-l0-a","props":{"url":"entry:01m7p3g28xjmb1vscp4cvr45gc","label":"Klinisch labo"},"class":"chip"}
 :::::::::
 ::::::::
 
 :::::::: box {"id":"h-kc-l1","props":{"tag":"li"}}
-::::::::: link {"id":"h-kc-l1-a","props":{"url":"entry:01m7p2kg0a20artnnx4k7y4b58","label":"Medische beeldvorming"},"class":"chip"}
+::::::::: link {"id":"h-kc-l1-a","props":{"url":"entry:01m7p3g28xjmb1vscp4cvr45gf","label":"Medische beeldvorming"},"class":"chip"}
 :::::::::
 ::::::::
 :::::::
 
-::::::: button {"id":"h-kc-b","props":{"url":"entry:01m7p2kg0a20artnnx4k7y4b56","icon":"arrow-right","label":"Naar het kankercentrum","variant":"primary","icon_position":"end"},"class":"mt-2"}
+::::::: button {"id":"h-kc-b","props":{"url":"entry:01m7p3g28xjmb1vscp4cvr45gd","icon":"arrow-right","label":"Naar het kankercentrum","variant":"primary","icon_position":"end"},"class":"mt-2"}
 :::::::
 ::::::
 :::::
@@ -466,7 +466,7 @@ template: default
 ::::::
 :::::
 
-::::: button {"id":"h-doctors-all","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xn9","icon":"arrow-right","label":"Zoek een zorgverlener","variant":"secondary","icon_position":"end"}}
+::::: button {"id":"h-doctors-all","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5f","icon":"arrow-right","label":"Zoek een zorgverlener","variant":"secondary","icon_position":"end"}}
 :::::
 ::::
 
@@ -484,7 +484,7 @@ template: default
 :::::: heading {"id":"h-news-title","props":{"text":"Nieuws","level":"2"},"class":"rule text-3xl"}
 ::::::
 
-:::::: button {"id":"h-news-all","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xng","icon":"arrow-right","label":"Al het nieuws","variant":"link","icon_position":"end"}}
+:::::: button {"id":"h-news-all","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5p","icon":"arrow-right","label":"Al het nieuws","variant":"link","icon_position":"end"}}
 ::::::
 :::::
 
@@ -520,7 +520,7 @@ template: default
 :::::: heading {"id":"h-events-title","props":{"text":"Activiteiten","level":"2"},"class":"rule text-3xl"}
 ::::::
 
-:::::: button {"id":"h-events-all","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnh","icon":"arrow-right","label":"Alle activiteiten","variant":"link","icon_position":"end"}}
+:::::: button {"id":"h-events-all","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5q","icon":"arrow-right","label":"Alle activiteiten","variant":"link","icon_position":"end"}}
 ::::::
 :::::
 
@@ -543,7 +543,7 @@ template: default
 ::::::
 :::::
 
-::::: button {"id":"h-campus-all","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xne","icon":"arrow-right","label":"Alle campussen","variant":"secondary","icon_position":"end"}}
+::::: button {"id":"h-campus-all","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5m","icon":"arrow-right","label":"Alle campussen","variant":"secondary","icon_position":"end"}}
 :::::
 ::::
 
@@ -574,7 +574,7 @@ template: default
 :::::: heading {"id":"h-facts-title","props":{"text":"Een algemeen ziekenhuis voor de hele streek","level":"2"},"class":"text-3xl"}
 ::::::
 
-:::::: button {"id":"h-facts-about","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnf","icon":"arrow-right","label":"Over AZ Lindenhof","variant":"link","icon_position":"end"}}
+:::::: button {"id":"h-facts-about","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5n","icon":"arrow-right","label":"Over AZ Lindenhof","variant":"link","icon_position":"end"}}
 ::::::
 :::::
 
@@ -627,10 +627,10 @@ template: default
 ::::::
 
 :::::: buttons {"id":"h-jobs-b"}
-::::::: button {"id":"h-jobs-all","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnj","icon":"arrow-right","size":"lg","label":"Bekijk de vacatures","variant":"lime","icon_position":"end"}}
+::::::: button {"id":"h-jobs-all","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5r","icon":"arrow-right","size":"lg","label":"Bekijk de vacatures","variant":"lime","icon_position":"end"}}
 :::::::
 
-::::::: button {"id":"h-jobs-spont","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnj","size":"lg","label":"Solliciteer spontaan","variant":"light"}}
+::::::: button {"id":"h-jobs-spont","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae5r","size":"lg","label":"Solliciteer spontaan","variant":"light"}}
 :::::::
 ::::::
 :::::

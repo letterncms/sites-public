@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xp2
+id: 01m7p3g28ph31zyqzvh74hae68
 title: 'Rechten en ombudsdienst'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 6
 summary: 'Je rechten als patiënt, je dossier inkijken, en met wie je praat als iets niet goed liep.'
 template: page

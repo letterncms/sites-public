@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8pw
+id: 01m7p3g24e9v8cd0ywn1f9k53c
 title: 'Kaart activiteit'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 12
 synced: true
 category: Kaarten

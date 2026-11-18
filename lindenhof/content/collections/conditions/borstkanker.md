@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbwr
+id: 01m7p3g24xf879tmwsymfw7mwe
 title: Borstkanker
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 4
 kind: aandoening
 summary: 'De meest voorkomende kanker bij vrouwen, en vaak goed te behandelen. In ons borstcentrum heb je één verpleegkundige als aanspreekpunt.'
@@ -11,9 +11,9 @@ keywords:
   - knobbel
   - mammografie
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b56
-  - 01m7p2kg0a20artnnx4k7y4b57
-  - 01m7p2kg0a20artnnx4k7y4b58
+  - 01m7p3g28xjmb1vscp4cvr45gd
+  - 01m7p3g28xjmb1vscp4cvr45ge
+  - 01m7p3g28xjmb1vscp4cvr45gf
 ---
 
 Een op de acht vrouwen in België krijgt ooit borstkanker. Hoe vroeger ze ontdekt wordt, hoe beter de kansen.

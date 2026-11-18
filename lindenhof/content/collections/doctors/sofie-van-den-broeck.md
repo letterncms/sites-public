@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfym60g3270zmeyv7anx
+id: 01m7p3g25k6xnyccyptygc674e
 title: 'Sofie Van den Broeck'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 6
 role: 'Orthopedisch chirurg'
 photo:
@@ -26,8 +26,8 @@ languages:
 discipline: arts
 family_name: 'Van den Broeck'
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b5d
-  - 01m7p2kg0a20artnnx4k7y4b54
+  - 01m7p3g28xjmb1vscp4cvr45gm
+  - 01m7p3g28xjmb1vscp4cvr45gb
 new_patients: true
 ---
 

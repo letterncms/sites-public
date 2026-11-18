@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbwp
+id: 01m7p3g24xf879tmwsymfw7mwc
 title: Beroerte
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 2
 kind: aandoening
 summary: 'Een deel van je hersenen krijgt plots te weinig bloed. Elke minuut telt: bel meteen 112.'
@@ -11,8 +11,8 @@ keywords:
   - TIA
   - verlamming
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b53
-  - 01m7p2kg0a20artnnx4k7y4b54
+  - 01m7p3g28xjmb1vscp4cvr45ga
+  - 01m7p3g28xjmb1vscp4cvr45gb
 also_known_as: 'CVA, herseninfarct, hersenbloeding'
 ---
 

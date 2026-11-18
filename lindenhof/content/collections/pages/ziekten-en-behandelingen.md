@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xna
+id: 01m7p3g28ph31zyqzvh74hae5g
 title: 'Ziekten, onderzoeken en behandelingen'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 3
 summary: 'Uitleg in gewone woorden, en welke dienst je erbij helpt. Deze informatie vervangt geen gesprek met je arts.'
 template: default
@@ -24,7 +24,7 @@ template: default
 ::::: box {"id":"zb-letters","props":{"tag":"nav"},"attrs":{"aria-label":"Spring naar een letter"},"class":"mb-8"}
 :::::: repeat {"id":"zb-letters-list","props":{"tag":"ul","sort":"title","limit":300,"source":"entries","group_by":"item.title|initial","collection":"conditions"},"class":"flex flex-wrap gap-1.5"}
 ::::::: box {"id":"zb-letter","props":{"tag":"li"}}
-:::::::: link {"id":"zb-letter-a","bind":{"url":"#letter-{item.label|lower}","label":"item.label"},"class":"flex size-11 items-center justify-center rounded-md border border-border bg-raised font-semibold text-foreground no-underline hover:border-primary hover:bg-primary hover:text-primary-foreground"}
+:::::::: link {"id":"zb-letter-a","bind":{"url":"#letter-{item.label|lower}","label":"item.label"},"class":"flex size-11 items-center justify-center rounded-full border border-border bg-raised font-semibold text-foreground no-underline hover:border-primary hover:bg-primary hover:text-primary-foreground"}
 ::::::::
 :::::::
 ::::::
@@ -43,7 +43,7 @@ template: default
 :::::::::::
 ::::::::::
 
-:::::::::: paragraph {"id":"bbftlyscyjn","props":{"tag":"span"},"bind":{"text":"item.kind"},"class":"badge"}
+:::::::::: paragraph {"id":"bbdrldu4omr","props":{"tag":"span"},"bind":{"text":"item.kind"},"class":"badge"}
 ::::::::::
 :::::::::
 

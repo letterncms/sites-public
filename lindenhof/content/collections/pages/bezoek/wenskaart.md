@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnz
+id: 01m7p3g28ph31zyqzvh74hae65
 title: 'Stuur een wenskaart'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 3
 summary: 'Wij drukken je kaartje af en brengen het tot aan het bed.'
 template: page

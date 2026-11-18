@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xp0
+id: 01m7p3g28ph31zyqzvh74hae66
 title: Opname
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 4
 summary: 'Je kamer, je koffer, bezoek en de dag dat je naar huis gaat.'
 template: page

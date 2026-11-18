@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnm
+id: 01m7p3g28ph31zyqzvh74hae5t
 title: 'Huisartsen en verwijzers'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 13
 summary: 'Voor huisartsen, specialisten en andere zorgverleners: verwijzen, overleggen en resultaten.'
 template: page

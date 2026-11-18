@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8q1
+id: 01m7p3g24e9v8cd0ywn1f9k53h
 title: Oproep
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 25
 synced: false
 category: Secties

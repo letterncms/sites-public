@@ -1,11 +1,11 @@
 ---
-id: 01m7p2kg0a20artnnx4k7y4b56
+id: 01m7p3g28xjmb1vscp4cvr45gd
 title: Kankercentrum
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 3
 area:
-  - 01m7p2kfxxtgmqcxkn7p29ee6q
+  - 01m7p3g245kzat14f4nh36xezy
 icon: hand-heart
 kind: centrum
 cover:

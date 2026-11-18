@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbwq
+id: 01m7p3g24xf879tmwsymfw7mwd
 title: Bloedafname
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 3
 kind: onderzoek
 summary: 'Een paar buisjes bloed voor onderzoek in ons labo. Kom zonder afspraak met je aanvraagformulier en je eID.'
@@ -11,7 +11,7 @@ keywords:
   - labo
   - nuchter
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b55
+  - 01m7p3g28xjmb1vscp4cvr45gc
 also_known_as: bloedprik
 ---
 

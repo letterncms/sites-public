@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg0ecx0zgp2a8q1qegdr
+id: 01m7p3g291ay24bfsfkwnmh9fv
 title: Campus
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 9
 description: 'Een campus: adres en telefoon, openingsuren, hoe je er geraakt en waar je parkeert, en de route op een kaart.'
 collections:
@@ -27,7 +27,7 @@ collections:
 :::::::::: icon {"id":"lo-c1-s","props":{"icon":"caret-right"},"attrs":{"aria-hidden":"true"},"class":"size-3.5"}
 ::::::::::
 
-:::::::::: link {"id":"lo-c1-a","props":{"label":"Campussen","url":"entry:01m7p2kg02mca2s304fb0a4xne"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"lo-c1-a","props":{"label":"Campussen","url":"entry:01m7p3g28ph31zyqzvh74hae5m"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::
@@ -54,7 +54,7 @@ collections:
 ::::
 
 :::: box {"id":"lo-layout","class":"mx-auto grid max-w-content grid-cols-12 gap-x-columns gap-y-10 px-gutter pt-blocks"}
-::::: box {"id":"bkix8excrep","class":"col-span-8 flex flex-col gap-blocks max-lg:col-span-full"}
+::::: box {"id":"bcajjcavekb","class":"col-span-8 flex flex-col gap-blocks max-lg:col-span-full"}
 :::::: box {"id":"lo-ways","class":"grid grid-cols-2 gap-4 max-md:grid-cols-1"}
 ::::::: box {"id":"lo-w1","bind":{"visible":"entry.getting_there"},"class":"card flex flex-col gap-3"}
 :::::::: icon {"id":"lo-w1-i","props":{"icon":"bus"},"attrs":{"aria-hidden":"true"},"class":"size-8 text-primary"}

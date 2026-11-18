@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnn
+id: 01m7p3g28ph31zyqzvh74hae5v
 title: Contact
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 14
 summary: 'Bel, mail of stuur een bericht. Bij levensgevaar bel je 112.'
 template: page

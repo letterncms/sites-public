@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnc
+id: 01m7p3g28ph31zyqzvh74hae5j
 title: 'Afspraak en opname'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 5
 summary: 'Een afspraak maken, je voorbereiden op je raadpleging, dagopname of opname, en weten wat het kost.'
 template: default
@@ -14,7 +14,7 @@ template: default
 ::: box {"id":"ao","class":"mx-auto max-w-content px-gutter pt-blocks"}
 :::: box {"id":"ao-list","props":{"tag":"ul"},"class":"grid grid-cols-3 gap-4 max-lg:grid-cols-2 max-md:grid-cols-1"}
 ::::: box {"id":"ao-1","props":{"tag":"li"}}
-:::::: box {"id":"ao-1-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnv"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"ao-1-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae61"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"ao-1-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"ao-1-i","props":{"icon":"calendar-check"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -34,7 +34,7 @@ template: default
 :::::
 
 ::::: box {"id":"ao-2","props":{"tag":"li"}}
-:::::: box {"id":"ao-2-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnx"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"ao-2-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae63"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"ao-2-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"ao-2-i","props":{"icon":"chats-circle"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -54,7 +54,7 @@ template: default
 :::::
 
 ::::: box {"id":"ao-3","props":{"tag":"li"}}
-:::::: box {"id":"ao-3-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xny"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"ao-3-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae64"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"ao-3-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"ao-3-i","props":{"icon":"sun-horizon"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -74,7 +74,7 @@ template: default
 :::::
 
 ::::: box {"id":"ao-4","props":{"tag":"li"}}
-:::::: box {"id":"ao-4-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xp0"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"ao-4-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae66"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"ao-4-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"ao-4-i","props":{"icon":"bed"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -94,7 +94,7 @@ template: default
 :::::
 
 ::::: box {"id":"ao-5","props":{"tag":"li"}}
-:::::: box {"id":"ao-5-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xp1"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"ao-5-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae67"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"ao-5-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"ao-5-i","props":{"icon":"receipt"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -114,7 +114,7 @@ template: default
 :::::
 
 ::::: box {"id":"ao-6","props":{"tag":"li"}}
-:::::: box {"id":"ao-6-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xp2"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"ao-6-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae68"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"ao-6-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"ao-6-i","props":{"icon":"scales"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::

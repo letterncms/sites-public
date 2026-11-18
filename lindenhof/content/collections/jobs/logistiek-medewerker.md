@@ -1,5 +1,5 @@
 ---
-id: 01m7p2kfz31km9s7fhx57ehpmn
+id: 01m7p3g2767vyezjs6svpn26zd
 title: 'Logistiek medewerker'
 status: published
 published_at: '2026-10-08T07:00:00+02:00'
