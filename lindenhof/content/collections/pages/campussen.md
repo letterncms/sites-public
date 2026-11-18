@@ -12,6 +12,15 @@ template: default
 :::
 
 ::: box {"id":"cp","class":"mx-auto max-w-content px-gutter pt-blocks"}
+:::: map {"id":"cp-map","props":{"style":"site","zoom":15,"aspect":"21/9","label":"Kaart met onze campussen"},"class":"leaf-map mb-12"}
+::::: repeat {"id":"cp-map-list","props":{"source":"entries","collection":"locations","sort":"position","limit":20}}
+:::::: map-place {"id":"cp-map-place","bind":{"place":"item.place","title":"item.title","text":"item.address","url":"item.url"}}
+::::::
+
+:::::
+
+::::
+
 :::: repeat {"id":"cp-list","props":{"tag":"ul","sort":"position","limit":20,"source":"entries","collection":"locations"},"class":"flex flex-col gap-12"}
 ::::: box {"id":"cp-item","props":{"tag":"li"},"class":"grid grid-cols-12 items-center gap-x-columns gap-y-6 border-b border-border pb-12 last:border-0"}
 :::::: image {"id":"cp-photo","props":{"alt":"","sizes":"(min-width: 64rem) 30rem, 100vw","aspect":"3/2"},"bind":{"image":"item.cover"},"class":"leaf col-span-5 max-lg:col-span-full"}

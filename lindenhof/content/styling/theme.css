@@ -282,6 +282,13 @@
   }
 }
 
+@utility leaf-map {
+  & .cms-map__view {
+    border-radius: 0 var(--radius-leaf) 0 var(--radius-leaf);
+    overflow: hidden;
+  }
+}
+
 @utility leaf-sm {
   border-radius: 0 1.25rem 0 1.25rem;
   overflow: hidden;

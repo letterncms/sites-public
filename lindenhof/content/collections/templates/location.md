@@ -55,6 +55,12 @@ collections:
 
 :::: box {"id":"lo-layout","class":"mx-auto grid max-w-content grid-cols-12 gap-x-columns gap-y-10 px-gutter pt-blocks"}
 ::::: box {"id":"bcajjcavekb","class":"col-span-8 flex flex-col gap-blocks max-lg:col-span-full"}
+:::::: map {"id":"lo-map","props":{"style":"site","zoom":16,"aspect":"16/9","label":"Kaart met de ligging van de campus"},"class":"leaf-map"}
+::::::: map-place {"id":"lo-map-place","bind":{"place":"entry.place","title":"entry.title","text":"entry.address"}}
+:::::::
+
+::::::
+
 :::::: box {"id":"lo-ways","class":"grid grid-cols-2 gap-4 max-md:grid-cols-1"}
 ::::::: box {"id":"lo-w1","bind":{"visible":"entry.getting_there"},"class":"card flex flex-col gap-3"}
 :::::::: icon {"id":"lo-w1-i","props":{"icon":"bus"},"attrs":{"aria-hidden":"true"},"class":"size-8 text-primary"}

@@ -11,8 +11,8 @@ hours: |-
   Bezoek dagelijks van 15 tot 20 uur
 phone: '+32 15 44 30 00'
 place:
-  lat: 51.0408
-  lng: 4.4381
+  lat: 50.9938
+  lng: 4.3925
 address: |-
   Heidebaan 3
   2870 Ruisbeke
