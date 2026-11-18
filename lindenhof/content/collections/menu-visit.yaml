@@ -1,0 +1,14 @@
+type: menu
+title: 'Menu Afspraak en opname'
+singular: Link
+icon: list-tree
+driver: files
+template: ''
+sort: position
+max_depth: 1
+fields:
+  -
+    handle: link
+    type: link
+    label: Link
+    required: true

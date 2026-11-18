@@ -1,0 +1,96 @@
+title: Zorgverleners
+singular: Zorgverlener
+icon: user-circle
+description: 'Artsen, vroedvrouwen, verpleegkundigen en therapeuten die patiënten op naam kunnen zien.'
+driver: database
+structure: list
+route: '/zorgverleners/{slug}'
+template: doctor
+sort: family_name
+default_view: grid
+default_columns:
+  - 'field:photo'
+  - 'field:role'
+  - 'field:discipline'
+  - 'field:specialties'
+nav_order: 30
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Over
+    body: true
+  -
+    handle: honorific
+    type: select
+    label: Titel
+    options:
+      dr: dr.
+      prof: 'prof. dr.'
+    width: half
+  -
+    handle: family_name
+    type: text
+    label: Familienaam
+    required: true
+    about: 'De lijst van zorgverleners staat op familienaam.'
+    width: half
+  -
+    handle: role
+    type: text
+    label: Functie
+    required: true
+    about: 'Waarvoor patiënten bij hen komen, zoals Cardioloog of Vroedvrouw.'
+  -
+    handle: discipline
+    type: select
+    label: Discipline
+    options:
+      arts: Arts
+      verpleegkundige: Verpleegkundige
+      vroedvrouw: Vroedvrouw
+      paramedicus: Paramedicus
+    default: arts
+    required: true
+    section: sidebar
+  -
+    handle: photo
+    type: media
+    label: Foto
+    max: 1
+    accept: 'image/*'
+    section: sidebar
+  -
+    handle: specialties
+    type: entries
+    label: Diensten
+    collections:
+      - specialties
+    section: sidebar
+  -
+    handle: new_patients
+    type: toggle
+    label: 'Neemt nieuwe patiënten aan'
+    default: true
+    section: sidebar
+  -
+    handle: expertise
+    type: list
+    label: Expertise
+  -
+    handle: languages
+    type: list
+    label: Talen
+  -
+    handle: clinics
+    type: textarea
+    label: Raadplegingen
+  -
+    handle: education
+    type: textarea
+    label: Opleiding
+  -
+    handle: riziv
+    type: text
+    label: RIZIV-nummer
+    section: sidebar

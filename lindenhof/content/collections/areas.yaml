@@ -1,0 +1,17 @@
+type: categories
+title: Zorgdomeinen
+singular: Zorgdomein
+icon: squares-four
+driver: database
+template: ''
+sort: position
+nav_order: 25
+fields:
+  -
+    handle: summary
+    type: textarea
+    label: Samenvatting
+  -
+    handle: icon
+    type: icon
+    label: Icoon

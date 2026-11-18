@@ -1,0 +1,78 @@
+title: Activiteiten
+singular: Activiteit
+icon: calendar
+description: 'Infosessies, cursussen, rondleidingen en symposia. Een activiteit verdwijnt de dag erna van de site.'
+driver: database
+structure: list
+route: '/activiteiten/{slug}'
+template: event
+sort: starts
+default_view: calendar
+default_columns:
+  - 'field:starts'
+  - 'field:kind'
+  - status
+nav_order: 50
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: Samenvatting
+    required: true
+  -
+    handle: starts
+    type: date
+    label: Start
+    time: true
+    required: true
+    width: half
+  -
+    handle: ends
+    type: time
+    label: Einde
+    width: half
+  -
+    handle: venue
+    type: text
+    label: Waar
+    required: true
+  -
+    handle: kind
+    type: select
+    label: Soort
+    options:
+      infosessie: Infosessie
+      cursus: Cursus
+      rondleiding: Rondleiding
+      symposium: Symposium
+    default: infosessie
+    section: sidebar
+  -
+    handle: audience
+    type: select
+    label: Voor
+    options:
+      patienten: 'Patiënten en naasten'
+      ouders: 'Aanstaande ouders'
+      professionals: Zorgprofessionals
+      iedereen: Iedereen
+    default: iedereen
+    section: sidebar
+  -
+    handle: price
+    type: text
+    label: Prijs
+    default: Gratis
+    section: sidebar
+  -
+    handle: cover
+    type: media
+    label: Foto
+    max: 1
+    accept: 'image/*'
+    section: sidebar

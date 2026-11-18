@@ -1,0 +1,220 @@
+{
+    "title": "Afspraak aanvragen",
+    "settings": {
+        "submit": "Verstuur je aanvraag",
+        "success": "Bedankt. We hebben je aanvraag en bellen je binnen twee werkdagen om een dag en uur af te spreken.",
+        "redirect": null,
+        "notify": [],
+        "subject": "Afspraak aangevraagd: {specialty}",
+        "reply_to_field": "email",
+        "confirmation": true,
+        "confirmation_subject": "We hebben je aanvraag",
+        "confirmation_message": "<p>Bedankt voor je aanvraag. We bellen je binnen twee werkdagen om een dag en uur af te spreken. Bij levensgevaar bel je altijd 112.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "lh005",
+            "type": "form/radio",
+            "props": {
+                "label": "Voor wie is de afspraak?",
+                "name": "for",
+                "required": true,
+                "look": "chips",
+                "options": "me|Voor mezelf\nother|Voor iemand anders"
+            }
+        },
+        {
+            "id": "lh004",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "lh004c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh002",
+                            "type": "form/text",
+                            "props": {
+                                "label": "Voornaam",
+                                "name": "first_name",
+                                "required": true,
+                                "autocomplete": "given-name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "lh004c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh003",
+                            "type": "form/text",
+                            "props": {
+                                "label": "Familienaam",
+                                "name": "family_name",
+                                "required": true,
+                                "autocomplete": "family-name"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lh006",
+            "type": "form/text",
+            "props": {
+                "label": "Naam van de patiënt",
+                "name": "patient",
+                "required": true,
+                "help": "We hebben de naam nodig van wie de afspraak is.",
+                "show_if": {
+                    "field": "for",
+                    "op": "equals",
+                    "value": "other"
+                }
+            }
+        },
+        {
+            "id": "lh007",
+            "type": "form/date",
+            "props": {
+                "label": "Geboortedatum van de patiënt",
+                "name": "birth_date",
+                "required": true,
+                "autocomplete": "bday"
+            }
+        },
+        {
+            "id": "lh010",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "lh010c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh008",
+                            "type": "form/tel",
+                            "props": {
+                                "label": "Telefoon",
+                                "name": "phone",
+                                "required": true,
+                                "autocomplete": "tel",
+                                "help": "We bellen je op dit nummer om een tijdstip af te spreken."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "lh010c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh009",
+                            "type": "form/email",
+                            "props": {
+                                "label": "E-mail",
+                                "name": "email",
+                                "required": true,
+                                "autocomplete": "email"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lh011",
+            "type": "form/select",
+            "props": {
+                "label": "Dienst",
+                "name": "specialty",
+                "required": true,
+                "options": "Weet ik niet\nCardiologie\nFysische geneeskunde en revalidatie\nGeheugenkliniek\nGeriatrie\nGynaecologie\nKankercentrum\nKindergeneeskunde\nKlinisch laboratorium\nMedische beeldvorming\nMoeder- en kindcentrum\nNeurologie\nOrthopedie",
+                "placeholder": "Kies een dienst"
+            }
+        },
+        {
+            "id": "lh012",
+            "type": "form/radio",
+            "props": {
+                "label": "Heb je een verwijsbrief?",
+                "name": "referral",
+                "required": true,
+                "look": "chips",
+                "options": "yes|Ja\nno|Nee\nunsure|Weet ik niet"
+            }
+        },
+        {
+            "id": "lh013",
+            "type": "form/file",
+            "props": {
+                "label": "Verwijsbrief",
+                "name": "referral_letter",
+                "accept": "documents",
+                "max_mb": 10,
+                "help": "Een pdf of een foto van de brief, tot 10 MB. Je kunt hem ook meebrengen op de dag zelf.",
+                "show_if": {
+                    "field": "referral",
+                    "op": "equals",
+                    "value": "yes"
+                }
+            }
+        },
+        {
+            "id": "lh014",
+            "type": "form/checkboxes",
+            "props": {
+                "label": "Wanneer past het best?",
+                "name": "when",
+                "look": "chips",
+                "options": "morning|Voormiddag\nafternoon|Namiddag\nany|Maakt niet uit"
+            }
+        },
+        {
+            "id": "lh015",
+            "type": "form/textarea",
+            "props": {
+                "label": "Waarvoor wil je ons zien?",
+                "name": "reason",
+                "rows": 4,
+                "max": 1000,
+                "help": "Enkele woorden zijn genoeg. Stuur hier geen uitgebreide medische gegevens."
+            }
+        },
+        {
+            "id": "lh016",
+            "type": "form/checkboxes",
+            "props": {
+                "label": "Heb je hulp nodig tijdens je bezoek?",
+                "name": "support",
+                "options": "wheelchair|Een rolstoel of hulp bij het stappen\ninterpreter|Een sociaal tolk\nsign|Een tolk Vlaamse Gebarentaal\nloop|Een ringleiding\ncompanion|Iemand die me aan de ingang opwacht"
+            }
+        },
+        {
+            "id": "lh001",
+            "type": "form/consent",
+            "props": {
+                "name": "consent",
+                "text": "Ik ga ermee akkoord dat AZ Lindenhof deze gegevens gebruikt om mij te antwoorden, zoals de <a href=\"/privacy\">privacyverklaring</a> zegt."
+            }
+        }
+    ]
+}

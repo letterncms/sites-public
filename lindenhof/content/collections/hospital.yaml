@@ -1,0 +1,55 @@
+type: global
+title: Ziekenhuis
+singular: Ziekenhuis
+icon: hospital
+driver: files
+template: ''
+sort: title
+fields:
+  -
+    handle: tagline
+    type: text
+    label: Baseline
+  -
+    handle: phone
+    type: text
+    label: 'Algemeen nummer'
+    width: half
+  -
+    handle: appointments_phone
+    type: text
+    label: Afsprakenlijn
+    width: half
+  -
+    handle: emergency_number
+    type: text
+    label: Noodnummer
+    default: '112'
+    width: half
+  -
+    handle: email
+    type: text
+    label: E-mail
+    width: half
+  -
+    handle: address
+    type: textarea
+    label: Adres
+  -
+    handle: switchboard_hours
+    type: text
+    label: 'Telefonisch bereikbaar'
+  -
+    handle: portal
+    type: link
+    label: Patiëntenportaal
+    about: 'Waar patiënten hun dossier, afspraken en verslagen vinden.'
+  -
+    handle: notice
+    type: text
+    label: Melding
+    about: 'Een korte melding bovenaan elke pagina, zoals bezoekregels. Laat leeg om er geen te tonen.'
+  -
+    handle: notice_link
+    type: link
+    label: 'Link bij de melding'

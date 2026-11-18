@@ -1,0 +1,28 @@
+title: "Pagina's"
+singular: Pagina
+icon: page
+driver: database
+structure: tree
+route: '/{parent_uri}/{slug}'
+template: page
+sort: position
+home: home
+nav_order: 10
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: Samenvatting
+    about: 'Eén of twee zinnen onder de titel en in lijsten en zoekresultaten.'
+    section: sidebar
+  -
+    handle: template
+    type: select
+    label: Sjabloon
+    dynamic: templates
+    section: sidebar

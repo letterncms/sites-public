@@ -1,0 +1,112 @@
+{
+    "title": "Wenskaart",
+    "settings": {
+        "submit": "Verstuur je wenskaart",
+        "success": "Bedankt. Je kaartje wordt de volgende werkdag aan het bed gebracht.",
+        "redirect": null,
+        "notify": [],
+        "subject": "Wenskaart voor {patient}",
+        "reply_to_field": "email",
+        "confirmation": true,
+        "confirmation_subject": "Je wenskaart is onderweg",
+        "confirmation_message": "<p>Bedankt. Onze vrijwilligers brengen je kaartje de volgende werkdag aan het bed.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "lh033",
+            "type": "form/text",
+            "props": {
+                "label": "Naam van de patiënt",
+                "name": "patient",
+                "required": true
+            }
+        },
+        {
+            "id": "lh034",
+            "type": "form/text",
+            "props": {
+                "label": "Afdeling of kamernummer",
+                "name": "room",
+                "help": "Als je het weet. Anders zoeken wij het op."
+            }
+        },
+        {
+            "id": "lh035",
+            "type": "form/radio",
+            "props": {
+                "label": "Kies een kaart",
+                "name": "card",
+                "required": true,
+                "look": "chips",
+                "options": "beterschap|Beterschap\ngeboorte|Proficiat met de geboorte\nhart|Ik denk aan je"
+            }
+        },
+        {
+            "id": "lh036",
+            "type": "form/textarea",
+            "props": {
+                "label": "Je boodschap",
+                "name": "message",
+                "required": true,
+                "rows": 5,
+                "max": 600
+            }
+        },
+        {
+            "id": "lh039",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "lh039c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh037",
+                            "type": "form/text",
+                            "props": {
+                                "label": "Je naam",
+                                "name": "name",
+                                "required": true,
+                                "autocomplete": "name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "lh039c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh038",
+                            "type": "form/email",
+                            "props": {
+                                "label": "Je e-mail",
+                                "name": "email",
+                                "required": true,
+                                "autocomplete": "email"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lh001",
+            "type": "form/consent",
+            "props": {
+                "name": "consent",
+                "text": "Ik ga ermee akkoord dat AZ Lindenhof deze gegevens gebruikt om mij te antwoorden, zoals de <a href=\"/privacy\">privacyverklaring</a> zegt."
+            }
+        }
+    ]
+}

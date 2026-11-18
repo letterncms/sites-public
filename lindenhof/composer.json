@@ -1,0 +1,11 @@
+{
+    "name": "letterncms/lindenhof",
+    "description": "A complete website for a Flemish hospital, in Dutch: care and care providers from A to Z, conditions and treatments, your consultation, day admission and stay step by step, emergency care, visiting, campuses, news, events and jobs, with forms to request an appointment, sign up and apply. Built to the European Accessibility Act, with an accessibility statement.",
+    "type": "cms-site",
+    "version": "0.1.0",
+    "license": "MIT",
+    "require": {
+        "letterncms/cms": ">=0.52 <1",
+        "letterncms/forms": ">=0.19 <1"
+    }
+}
