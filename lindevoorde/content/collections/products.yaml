@@ -1,0 +1,99 @@
+title: Producten
+singular: Product
+icon: hand-heart
+description: 'Alles wat inwoners en ondernemers kunnen aanvragen, melden, boeken of betalen.'
+structure: list
+route: '/product/{slug}'
+template: product
+sort: title
+nav_order: 11
+default_columns:
+  - 'field:topic'
+  - 'field:featured'
+  - status
+  - updated
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+    required: true
+    instructions: 'Wat is het en voor wie, in een of twee zinnen. Onder de titel, in lijsten en in zoekresultaten.'
+  -
+    handle: action
+    type: link
+    label: Hoofdactie
+    instructions: 'Waar mensen starten: het e-loket, een afspraak of een telefoonnummer.'
+  -
+    handle: action_label
+    type: text
+    label: 'Tekst van de knop'
+    placeholder: 'Online aanvragen'
+    instructions: 'Begin met een werkwoord: “Online aanvragen”, “Afspraak maken”.'
+  -
+    handle: cost
+    type: text
+    label: Kostprijs
+    width: half
+  -
+    handle: duration
+    type: text
+    label: Termijn
+    width: half
+  -
+    handle: eligibility
+    type: text
+    label: 'Voor wie'
+    width: half
+  -
+    handle: channels
+    type: text
+    label: 'Hoe aanvragen'
+    width: half
+  -
+    handle: bring
+    type: list
+    label: 'Wat meebrengen'
+  -
+    handle: place
+    type: entries
+    label: Waar
+    collection: places
+    max: 1
+  -
+    handle: topic
+    type: terms
+    label: Thema
+    taxonomy: topics
+    max: 1
+    required: true
+    section: sidebar
+  -
+    handle: icon
+    type: icon
+    label: Icoon
+    instructions: 'Voor de toptaken op de startpagina.'
+    section: sidebar
+  -
+    handle: online
+    type: toggle
+    label: 'Online aan te vragen'
+    section: sidebar
+  -
+    handle: featured
+    type: toggle
+    label: Toptaak
+    instructions: 'Staat bij “Snel naar” op de startpagina.'
+    section: sidebar
+  -
+    handle: keywords
+    type: text
+    label: Zoektermen
+    instructions: 'Andere woorden die mensen gebruiken: “eid, id-kaart, pasfoto”.'
+    section: sidebar
+driver: database

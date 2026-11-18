@@ -1,0 +1,34 @@
+title: Pagina’s
+singular: Pagina
+icon: file
+structure: tree
+route: '/{parent_uri}/{slug}'
+template: pagina
+sort: position
+home: home
+nav_order: 10
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+    instructions: 'Een of twee zinnen onder de titel. Ook in zoekresultaten.'
+    section: sidebar
+  -
+    handle: template
+    type: select
+    label: Sjabloon
+    dynamic: templates
+    section: sidebar
+  -
+    handle: keywords
+    type: text
+    label: Zoektermen
+    instructions: 'Andere woorden die mensen gebruiken, zodat zoeken deze pagina vindt.'
+    section: sidebar
+driver: database

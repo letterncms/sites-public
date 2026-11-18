@@ -1,0 +1,47 @@
+title: Nieuws
+singular: Nieuwsbericht
+icon: newspaper
+structure: dated
+route: '/nieuws/{slug}'
+template: nieuwsbericht
+nav_order: 12
+default_columns:
+  - 'field:kind'
+  - 'field:topic'
+  - status
+  - published
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+    required: true
+  -
+    handle: cover
+    type: media
+    label: Foto
+    max: 1
+    accept: 'image/*'
+  -
+    handle: topic
+    type: terms
+    label: Thema
+    taxonomy: topics
+    max: 1
+    section: sidebar
+  -
+    handle: kind
+    type: select
+    label: Soort
+    default: Nieuws
+    options:
+      Nieuws: Nieuws
+      Persbericht: Persbericht
+      Werken: Werken
+    section: sidebar
+driver: database

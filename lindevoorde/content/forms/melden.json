@@ -1,0 +1,97 @@
+{
+    "published_at": "2026-11-18T00:21:32+00:00",
+    "updated_at": "2026-11-18T00:38:01+00:00",
+    "title": "Iets melden",
+    "settings": {
+        "submit": "Melding versturen",
+        "success": "Bedankt. Je melding is bij onze ploeg. Gevaarlijke situaties maken we binnen 24 uur veilig, de meeste andere binnen tien werkdagen.",
+        "redirect": null,
+        "notify": [],
+        "subject": "New submission: {form}",
+        "reply_to_field": "email",
+        "confirmation": false,
+        "confirmation_subject": "We received your message",
+        "confirmation_message": "<p>Thanks for getting in touch. We will reply soon.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "brxwhf286v1",
+            "type": "form/radio",
+            "props": {
+                "name": "soort",
+                "label": "Wat wil je melden?",
+                "required": true,
+                "options": "put|Put of schade aan de weg\nvoetpad|Kapot of oneffen voetpad\nlamp|Straatlamp brandt niet\nzwerfvuil|Zwerfvuil of volle vuilnisbak\nsluikstort|Sluikstort\ngraffiti|Graffiti\nafval|Afval niet opgehaald\nboom|Omgevallen boom of tak\nanders|Iets anders"
+            }
+        },
+        {
+            "id": "bn6vikoatjg",
+            "type": "form/text",
+            "props": {
+                "name": "waar",
+                "label": "Waar is het?",
+                "required": true,
+                "help": "De straat en het huisnummer, of een herkenningspunt, zoals “voor de bibliotheek in de Lindelaan”.",
+                "autocomplete": "street-address"
+            }
+        },
+        {
+            "id": "bo4bxqw0vtx",
+            "type": "form/textarea",
+            "props": {
+                "name": "omschrijving",
+                "label": "Omschrijf het probleem",
+                "required": true,
+                "rows": 4,
+                "max": 2000
+            }
+        },
+        {
+            "id": "baeibkyyvbj",
+            "type": "form/file",
+            "props": {
+                "name": "foto",
+                "label": "Foto toevoegen (niet verplicht)",
+                "accept": "images",
+                "max_mb": 10,
+                "help": "Met een foto vindt onze ploeg het sneller en neemt ze het juiste materiaal mee. JPG of PNG, tot 10 MB."
+            }
+        },
+        {
+            "id": "blqqxmufoqt",
+            "type": "form/checkbox",
+            "props": {
+                "name": "opvolging",
+                "label": "Hou me op de hoogte van deze melding",
+                "look": "switch"
+            }
+        },
+        {
+            "id": "b1q49zgrt1o",
+            "type": "form/email",
+            "props": {
+                "name": "email",
+                "label": "E-mailadres",
+                "help": "We gebruiken het alleen om je op de hoogte te houden.",
+                "show_if": {
+                    "field": "opvolging",
+                    "op": "filled",
+                    "value": ""
+                }
+            }
+        },
+        {
+            "id": "b1apndmj7td",
+            "type": "form/consent",
+            "props": {
+                "name": "privacy",
+                "text": "Ik heb gelezen hoe de stad met mijn gegevens omgaat, in de <a href=\"/privacy\">privacyverklaring</a>."
+            }
+        }
+    ]
+}

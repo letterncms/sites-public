@@ -1,0 +1,74 @@
+title: Locaties
+singular: Locatie
+icon: map-pin
+description: 'Het stadhuis, het Sociaal Huis en de andere openbare gebouwen.'
+structure: list
+route: '/locaties/{slug}'
+template: locatie
+sort: title
+nav_order: 16
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+    required: true
+  -
+    handle: kind
+    type: select
+    label: Soort
+    options:
+      Dienstverlening: Dienstverlening
+      Welzijn: Welzijn
+      Bibliotheek: Bibliotheek
+      Recyclagepark: Recyclagepark
+      Sport: Sport
+    section: sidebar
+  -
+    handle: address
+    type: textarea
+    label: Adres
+    width: half
+  -
+    handle: location
+    type: geo
+    label: 'Ligging op de kaart'
+    width: half
+  -
+    handle: phone
+    type: text
+    label: Telefoon
+    width: half
+  -
+    handle: email
+    type: email
+    label: E-mail
+    width: half
+  -
+    handle: hours
+    type: table
+    label: Openingsuren
+    header: false
+    instructions: 'Eén rij per dag: de dag, dan de uren.'
+  -
+    handle: hours_note
+    type: text
+    label: 'Over de openingsuren'
+    placeholder: 'Gesloten op feestdagen.'
+  -
+    handle: access
+    type: list
+    label: Toegankelijkheid
+    instructions: 'Eén regel per punt: drempelvrije ingang, aangepast toilet, ringleiding…'
+  -
+    handle: photo
+    type: media
+    label: Foto
+    max: 1
+    accept: 'image/*'
+driver: database

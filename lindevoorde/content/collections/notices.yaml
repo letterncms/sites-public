@@ -1,0 +1,45 @@
+title: Bekendmakingen
+singular: Bekendmaking
+icon: scroll
+description: 'Besluitenlijsten, reglementen, openbare onderzoeken, verslagen en beleidsplannen.'
+structure: dated
+route: '/bekendmakingen/{slug}'
+template: bekendmaking
+nav_order: 17
+default_columns:
+  - 'field:kind'
+  - published
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+    required: true
+  -
+    handle: kind
+    type: select
+    label: Soort
+    required: true
+    options:
+      Besluitenlijst: Besluitenlijst
+      Reglement: Reglement
+      'Openbaar onderzoek': 'Openbaar onderzoek'
+      Verslag: Verslag
+      Beleidsplan: Beleidsplan
+    section: sidebar
+  -
+    handle: file
+    type: file
+    label: Bestand
+    max: 1
+  -
+    handle: format_note
+    type: text
+    label: 'Andere formaten'
+    placeholder: 'Vraag dit document aan in grote letters, braille of eenvoudige taal.'
+driver: database
