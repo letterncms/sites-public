@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg0ecx0zgp2a8q1qegdn
+id: 01m7p3g291ay24bfsfkwnmh9fr
 title: Bericht
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 6
 description: 'Een nieuwsbericht: thema, datum, titel en inleiding, een grote foto, de tekst in een leeskolom, en meer nieuws.'
 collections:
@@ -25,7 +25,7 @@ collections:
 :::::::: icon {"id":"ar-c1-s","props":{"icon":"caret-right"},"attrs":{"aria-hidden":"true"},"class":"size-3.5"}
 ::::::::
 
-:::::::: link {"id":"ar-c1-a","props":{"label":"Nieuws","url":"entry:01m7p2kg02mca2s304fb0a4xng"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::: link {"id":"ar-c1-a","props":{"label":"Nieuws","url":"entry:01m7p3g28ph31zyqzvh74hae5p"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::
 :::::::
 ::::::
@@ -61,7 +61,7 @@ collections:
 :::::::
 ::::::
 
-:::::: button {"id":"ar-more-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Al het nieuws","url":"entry:01m7p2kg02mca2s304fb0a4xng"}}
+:::::: button {"id":"ar-more-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Al het nieuws","url":"entry:01m7p3g28ph31zyqzvh74hae5p"}}
 ::::::
 :::::
 

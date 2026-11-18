@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbww
+id: 01m7p3g24xf879tmwsymfw7mwj
 title: Dementie
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 8
 kind: aandoening
 summary: 'Een ziekte van de hersenen waarbij geheugen en denken langzaam achteruitgaan. Een tijdige diagnose helpt om plannen te maken.'
@@ -11,9 +11,9 @@ keywords:
   - vergeetachtig
   - alzheimer
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b5a
-  - 01m7p2kg0a20artnnx4k7y4b5b
-  - 01m7p2kg0a20artnnx4k7y4b53
+  - 01m7p3g28xjmb1vscp4cvr45gh
+  - 01m7p3g28xjmb1vscp4cvr45gj
+  - 01m7p3g28xjmb1vscp4cvr45ga
 also_known_as: 'ziekte van Alzheimer'
 ---
 

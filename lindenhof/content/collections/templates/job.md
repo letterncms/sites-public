@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg0ecx0zgp2a8q1qegdq
+id: 01m7p3g291ay24bfsfkwnmh9ft
 title: Vacature
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 8
 description: 'De vacature naast wat ze inhoudt in het kort, en het formulier om te solliciteren.'
 collections:
@@ -27,7 +27,7 @@ collections:
 :::::::::: icon {"id":"jo-c1-s","props":{"icon":"caret-right"},"attrs":{"aria-hidden":"true"},"class":"size-3.5"}
 ::::::::::
 
-:::::::::: link {"id":"jo-c1-a","props":{"label":"Jobs","url":"entry:01m7p2kg02mca2s304fb0a4xnj"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"jo-c1-a","props":{"label":"Jobs","url":"entry:01m7p3g28ph31zyqzvh74hae5r"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::
@@ -49,7 +49,7 @@ collections:
 ::::
 
 :::: box {"id":"jo-layout","class":"mx-auto grid max-w-content grid-cols-12 gap-x-columns gap-y-10 px-gutter pt-blocks"}
-::::: box {"id":"budjojyk7ik","class":"col-span-8 flex flex-col gap-section max-lg:col-span-full"}
+::::: box {"id":"bdhc5izhizz","class":"col-span-8 flex flex-col gap-section max-lg:col-span-full"}
 :::::: outlet {"id":"jo-body","props":{"wrap":true,"prose":true}}
 ::::::
 

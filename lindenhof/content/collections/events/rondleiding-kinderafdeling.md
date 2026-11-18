@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfyp9qee0naqhr78k5jh
+id: 01m7p3g26gvr2dgc8r1r18bhhd
 title: 'Rondleiding kinderafdeling'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 4
 ends: '11:30'
 kind: rondleiding

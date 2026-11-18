@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8px
+id: 01m7p3g24e9v8cd0ywn1f9k53d
 title: 'Hero met foto'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 21
 synced: false
 category: Secties
@@ -27,10 +27,10 @@ keywords:
 ::::::
 
 :::::: buttons {"id":"hf-buttons","class":"pt-2"}
-::::::: button {"id":"hf-primary","props":{"label":"Afspraak maken","url":"entry:01m7p2kg02mca2s304fb0a4xnv","variant":"lime","size":"lg"}}
+::::::: button {"id":"hf-primary","props":{"label":"Afspraak maken","url":"entry:01m7p3g28ph31zyqzvh74hae61","variant":"lime","size":"lg"}}
 :::::::
 
-::::::: button {"id":"hf-secondary","props":{"label":"Infosessies","url":"entry:01m7p2kg02mca2s304fb0a4xnh","variant":"light","size":"lg"}}
+::::::: button {"id":"hf-secondary","props":{"label":"Infosessies","url":"entry:01m7p3g28ph31zyqzvh74hae5q","variant":"light","size":"lg"}}
 :::::::
 ::::::
 :::::

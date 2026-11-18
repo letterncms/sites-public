@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnb
+id: 01m7p3g28ph31zyqzvh74hae5h
 title: Spoedgevallen
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 4
 summary: 'Dag en nacht open, elke dag van het jaar. Bij levensgevaar bel je 112.'
 template: default
@@ -22,7 +22,7 @@ template: default
 :::::::
 ::::::
 
-:::::: box {"id":"sp-badge","class":"inline-flex items-center gap-2 rounded-md bg-black/20 px-3 py-1.5 text-sm font-semibold"}
+:::::: box {"id":"sp-badge","class":"inline-flex items-center gap-2 rounded-full bg-black/20 px-3.5 py-1.5 text-sm font-semibold"}
 ::::::: icon {"id":"sp-badge-i","props":{"icon":"clock"},"attrs":{"aria-hidden":"true"},"class":"size-5"}
 :::::::
 
@@ -108,7 +108,7 @@ template: default
 
 ::::: box {"id":"sp-steps-list","props":{"tag":"ol"},"class":"col-span-6 col-start-7 flex flex-col gap-6 max-lg:col-span-full"}
 :::::: box {"id":"sp-s1","props":{"tag":"li"},"class":"flex gap-5"}
-::::::: paragraph {"id":"sp-s1-n","props":{"tag":"span","text":"1"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-md bg-primary font-bold text-primary-foreground"}
+::::::: paragraph {"id":"sp-s1-n","props":{"tag":"span","text":"1"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-full bg-primary font-bold text-primary-foreground"}
 :::::::
 
 ::::::: box {"id":"sp-s1-t","class":"flex flex-col gap-1"}
@@ -121,7 +121,7 @@ template: default
 ::::::
 
 :::::: box {"id":"sp-s2","props":{"tag":"li"},"class":"flex gap-5"}
-::::::: paragraph {"id":"sp-s2-n","props":{"tag":"span","text":"2"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-md bg-primary font-bold text-primary-foreground"}
+::::::: paragraph {"id":"sp-s2-n","props":{"tag":"span","text":"2"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-full bg-primary font-bold text-primary-foreground"}
 :::::::
 
 ::::::: box {"id":"sp-s2-t","class":"flex flex-col gap-1"}
@@ -134,7 +134,7 @@ template: default
 ::::::
 
 :::::: box {"id":"sp-s3","props":{"tag":"li"},"class":"flex gap-5"}
-::::::: paragraph {"id":"sp-s3-n","props":{"tag":"span","text":"3"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-md bg-primary font-bold text-primary-foreground"}
+::::::: paragraph {"id":"sp-s3-n","props":{"tag":"span","text":"3"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-full bg-primary font-bold text-primary-foreground"}
 :::::::
 
 ::::::: box {"id":"sp-s3-t","class":"flex flex-col gap-1"}
@@ -147,7 +147,7 @@ template: default
 ::::::
 
 :::::: box {"id":"sp-s4","props":{"tag":"li"},"class":"flex gap-5"}
-::::::: paragraph {"id":"sp-s4-n","props":{"tag":"span","text":"4"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-md bg-primary font-bold text-primary-foreground"}
+::::::: paragraph {"id":"sp-s4-n","props":{"tag":"span","text":"4"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-full bg-primary font-bold text-primary-foreground"}
 :::::::
 
 ::::::: box {"id":"sp-s4-t","class":"flex flex-col gap-1"}
@@ -188,7 +188,7 @@ template: default
 :::::
 
 ::::: buttons {"id":"sp-kids-buttons"}
-:::::: button {"id":"sp-kids-b","props":{"url":"entry:01m7p2kg0a20artnnx4k7y4b59","icon":"arrow-right","size":"lg","label":"Kindergeneeskunde","variant":"secondary","icon_position":"end"}}
+:::::: button {"id":"sp-kids-b","props":{"url":"entry:01m7p3g28xjmb1vscp4cvr45gg","icon":"arrow-right","size":"lg","label":"Kindergeneeskunde","variant":"secondary","icon_position":"end"}}
 ::::::
 :::::
 ::::

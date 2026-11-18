@@ -1,10 +1,10 @@
 ---
-id: 01m7p2kfzb60y3z068phe7tpy1
+id: 01m7p3g27m5de1qppgps90mcbm
 title: Kankercentrum
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 5
 link:
   type: entry
-  value: 01m7p2kg0a20artnnx4k7y4b56
+  value: 01m7p3g28xjmb1vscp4cvr45gd
 ---

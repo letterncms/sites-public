@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xn8
+id: 01m7p3g28ph31zyqzvh74hae5e
 title: 'Zorgaanbod van A tot Z'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 1
 summary: 'Alle diensten, centra en raadplegingen van AZ Lindenhof. Zoek op naam of klacht, of kies een zorgdomein.'
 template: default
@@ -27,7 +27,7 @@ template: default
 ::::: box {"id":"za-letters","props":{"tag":"nav"},"attrs":{"aria-label":"Spring naar een letter"},"class":"mb-8"}
 :::::: repeat {"id":"za-letters-list","props":{"tag":"ul","sort":"title","limit":200,"source":"entries","group_by":"item.title|initial","collection":"specialties"},"class":"flex flex-wrap gap-1.5"}
 ::::::: box {"id":"za-letter","props":{"tag":"li"}}
-:::::::: link {"id":"za-letter-a","bind":{"url":"#letter-{item.label|lower}","label":"item.label"},"class":"flex size-11 items-center justify-center rounded-md border border-border bg-raised font-semibold text-foreground no-underline hover:border-primary hover:bg-primary hover:text-primary-foreground"}
+:::::::: link {"id":"za-letter-a","bind":{"url":"#letter-{item.label|lower}","label":"item.label"},"class":"flex size-11 items-center justify-center rounded-full border border-border bg-raised font-semibold text-foreground no-underline hover:border-primary hover:bg-primary hover:text-primary-foreground"}
 ::::::::
 :::::::
 ::::::
@@ -51,7 +51,7 @@ template: default
 :::::::::::
 ::::::::::
 
-:::::::::: paragraph {"id":"b42ezqa0lif","props":{"tag":"span"},"bind":{"text":"item.kind"},"class":"badge"}
+:::::::::: paragraph {"id":"bfw4sghvrgu","props":{"tag":"span"},"bind":{"text":"item.kind"},"class":"badge"}
 ::::::::::
 :::::::::
 
@@ -85,7 +85,7 @@ template: default
 :::::
 
 ::::: buttons {"id":"za-help-buttons"}
-:::::: button {"id":"za-help-book","props":{"url":"entry:01m7p2kg02mca2s304fb0a4xnv","size":"lg","label":"Afspraak maken","variant":"primary"}}
+:::::: button {"id":"za-help-book","props":{"url":"entry:01m7p3g28ph31zyqzvh74hae61","size":"lg","label":"Afspraak maken","variant":"primary"}}
 ::::::
 
 :::::: button {"id":"call-appointments","props":{"icon":"phone","size":"lg","variant":"secondary"},"bind":{"url":"tel:{globals.hospital.appointments_phone}","label":"Bel {globals.hospital.appointments_phone}"}}

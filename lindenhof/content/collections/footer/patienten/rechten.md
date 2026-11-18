@@ -1,10 +1,10 @@
 ---
-id: 01m7p2kfyyzjwepbjhhsz4cnxy
+id: 01m7p3g26z2frqjb8hd7zy305p
 title: 'Rechten en ombudsdienst'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 6
 link:
   type: entry
-  value: 01m7p2kg02mca2s304fb0a4xp2
+  value: 01m7p3g28ph31zyqzvh74hae68
 ---

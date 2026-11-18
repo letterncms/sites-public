@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8pt
+id: 01m7p3g24e9v8cd0ywn1f9k53a
 title: 'Kaart zorgverlener'
 status: published
-published_at: '2026-11-18T01:58:41+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 10
 synced: true
 category: Kaarten

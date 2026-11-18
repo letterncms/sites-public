@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg0ecx0zgp2a8q1qegdj
+id: 01m7p3g291ay24bfsfkwnmh9fn
 title: Dienst
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 3
 description: 'Een titelband met foto, de praktische informatie naast de pagina en wat erop staat, dan het team en de ziekten en behandelingen.'
 collections:
@@ -27,7 +27,7 @@ collections:
 :::::::::: icon {"id":"sp-c1-s","props":{"icon":"caret-right"},"attrs":{"aria-hidden":"true"},"class":"size-3.5"}
 ::::::::::
 
-:::::::::: link {"id":"sp-c1-a","props":{"label":"Zorgaanbod","url":"entry:01m7p2kg02mca2s304fb0a4xn8"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"sp-c1-a","props":{"label":"Zorgaanbod","url":"entry:01m7p3g28ph31zyqzvh74hae5e"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::
@@ -53,7 +53,7 @@ collections:
 :::::::
 
 ::::::: buttons {"id":"sp-actions","class":"pt-2"}
-:::::::: button {"id":"sp-book","props":{"label":"Afspraak maken","url":"entry:01m7p2kg02mca2s304fb0a4xnv","variant":"primary","size":"lg"}}
+:::::::: button {"id":"sp-book","props":{"label":"Afspraak maken","url":"entry:01m7p3g28ph31zyqzvh74hae61","variant":"primary","size":"lg"}}
 ::::::::
 
 :::::::: button {"id":"sp-call","props":{"variant":"secondary","size":"lg","icon":"phone"},"bind":{"label":"Bel {entry.phone}","url":"tel:{entry.phone}","visible":"entry.phone"}}
@@ -173,7 +173,7 @@ collections:
 :::::::
 ::::::
 
-:::::: button {"id":"sp-team-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Zoek een zorgverlener","url":"entry:01m7p2kg02mca2s304fb0a4xn9"}}
+:::::: button {"id":"sp-team-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Zoek een zorgverlener","url":"entry:01m7p3g28ph31zyqzvh74hae5f"}}
 ::::::
 :::::
 
@@ -192,7 +192,7 @@ collections:
 :::::::
 ::::::
 
-:::::: button {"id":"sp-topics-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Alles van A tot Z","url":"entry:01m7p2kg02mca2s304fb0a4xna"}}
+:::::: button {"id":"sp-topics-all","props":{"variant":"secondary","icon":"arrow-right","icon_position":"end","label":"Alles van A tot Z","url":"entry:01m7p3g28ph31zyqzvh74hae5g"}}
 ::::::
 :::::
 

@@ -1,11 +1,11 @@
 ---
-id: 01m7p2kg0a20artnnx4k7y4b5d
+id: 01m7p3g28xjmb1vscp4cvr45gm
 title: Orthopedie
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 10
 area:
-  - 01m7p2kfxxtgmqcxkn7p29ee6p
+  - 01m7p3g245kzat14f4nh36xezx
 icon: bone
 kind: dienst
 cover:

@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnq
+id: 01m7p3g28ph31zyqzvh74hae5x
 title: Toegankelijkheid
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 16
 summary: 'Hoe toegankelijk deze website is, wat we nog verbeteren en hoe je een probleem meldt.'
 template: page

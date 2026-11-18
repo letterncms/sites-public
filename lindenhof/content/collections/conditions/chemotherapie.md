@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbwt
+id: 01m7p3g24xf879tmwsymfw7mwg
 title: Chemotherapie
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 6
 kind: behandeling
 summary: 'Geneesmiddelen die kankercellen doden of hun groei remmen, meestal via een infuus in ons oncologisch dagziekenhuis.'
@@ -10,7 +10,7 @@ keywords:
   - kanker
   - chemo
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b56
+  - 01m7p3g28xjmb1vscp4cvr45gd
 ---
 
 Chemotherapie krijg je in kuren: een dag of enkele dagen behandeling, gevolgd door een rustperiode. Meestal via een infuus, soms als pillen thuis.

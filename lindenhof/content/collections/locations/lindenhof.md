@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfz6j8gf6wk267m8jary
+id: 01m7p3g27b6303z5zmzfz74gy5
 title: 'Campus Lindenhof'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 0
 cover:
   - 01m7nh50h1qbrnyvd5qky2m3xn

@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfym60g3270zmeyv7anz
+id: 01m7p3g25k6xnyccyptygc674g
 title: 'Grace Kabongo'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 8
 role: 'Medisch oncoloog'
 photo:
@@ -24,7 +24,7 @@ languages:
 discipline: arts
 family_name: Kabongo
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b56
+  - 01m7p3g28xjmb1vscp4cvr45gd
 new_patients: true
 ---
 

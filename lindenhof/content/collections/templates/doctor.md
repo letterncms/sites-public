@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg0ecx0zgp2a8q1qegdk
+id: 01m7p3g291ay24bfsfkwnmh9fp
 title: Zorgverlener
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 4
 description: 'Een profiel: foto, naam en functie, diensten en of hij of zij nieuwe patiënten aanneemt, dan het verhaal naast expertise, talen, raadplegingen en opleiding.'
 collections:
@@ -37,7 +37,7 @@ collections:
 :::::::::: icon {"id":"dr-c1-s","props":{"icon":"caret-right"},"attrs":{"aria-hidden":"true"},"class":"size-3.5"}
 ::::::::::
 
-:::::::::: link {"id":"dr-c1-a","props":{"label":"Zorgverleners","url":"entry:01m7p2kg02mca2s304fb0a4xn9"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"dr-c1-a","props":{"label":"Zorgverleners","url":"entry:01m7p3g28ph31zyqzvh74hae5f"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::
@@ -68,7 +68,7 @@ collections:
 :::::::
 
 ::::::: buttons {"id":"dr-actions","class":"pt-2"}
-:::::::: button {"id":"book","props":{"label":"Afspraak maken","url":"entry:01m7p2kg02mca2s304fb0a4xnv","variant":"primary","size":"lg"}}
+:::::::: button {"id":"book","props":{"label":"Afspraak maken","url":"entry:01m7p3g28ph31zyqzvh74hae61","variant":"primary","size":"lg"}}
 ::::::::
 :::::::
 ::::::

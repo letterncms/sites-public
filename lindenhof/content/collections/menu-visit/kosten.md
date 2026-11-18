@@ -1,10 +1,10 @@
 ---
-id: 01m7p2kfzdbjgkd59f3f160rbs
+id: 01m7p3g27rkv671csdkmyc3pyv
 title: 'Kosten en facturen'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 5
 link:
   type: entry
-  value: 01m7p2kg02mca2s304fb0a4xp1
+  value: 01m7p3g28ph31zyqzvh74hae67
 ---

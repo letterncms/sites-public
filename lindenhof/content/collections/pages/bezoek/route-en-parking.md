@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnw
+id: 01m7p3g28ph31zyqzvh74hae62
 title: 'Route en parking'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 2
 summary: 'Met de bus, de fiets of de wagen, en waar je parkeert.'
 template: page

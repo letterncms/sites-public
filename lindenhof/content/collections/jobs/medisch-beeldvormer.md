@@ -1,5 +1,5 @@
 ---
-id: 01m7p2kfz31km9s7fhx57ehpmp
+id: 01m7p3g2767vyezjs6svpn26ze
 title: 'Medisch beeldvormer'
 status: published
 published_at: '2026-10-20T07:00:00+02:00'

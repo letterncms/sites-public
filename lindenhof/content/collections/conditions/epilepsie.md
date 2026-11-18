@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbwx
+id: 01m7p3g24xf879tmwsymfw7mwk
 title: Epilepsie
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 9
 kind: aandoening
 summary: 'Aanvallen door een kortsluiting in de hersenen. Na een eerste aanval zie je binnen twee weken een neuroloog.'
@@ -11,7 +11,7 @@ keywords:
   - insult
   - stuip
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b53
+  - 01m7p3g28xjmb1vscp4cvr45ga
 ---
 
 Een epilepsieaanval ontstaat door een plotse, ongecontroleerde elektrische ontlading in de hersenen. Je kunt bewustzijn verliezen en schokken, of even afwezig zijn.

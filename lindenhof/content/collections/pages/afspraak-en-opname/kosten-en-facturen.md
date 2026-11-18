@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xp1
+id: 01m7p3g28ph31zyqzvh74hae67
 title: 'Kosten en facturen'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 5
 summary: 'Wat je ziekenfonds betaalt, wat je zelf betaalt, en hoe je je factuur leest.'
 template: page

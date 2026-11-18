@@ -7,9 +7,11 @@ The site is MIT (`LICENSE.md`). The font and photographs in it are their authors
 | File | Is | Licence |
 |---|---|---|
 | `content/styling/fonts/schibsted-grotesk-400-900.woff2`, `schibsted-grotesk-400-900-italic.woff2` | Schibsted Grotesk | SIL Open Font License 1.1 |
+| `content/styling/fonts/fraunces-400-800.woff2`, `fraunces-400-800-italic.woff2` | Fraunces | SIL Open Font License 1.1 |
 
 ```
 Schibsted Grotesk: Copyright 2023 The Schibsted-Grotesk Project Authors (https://github.com/schibsted/schibsted-grotesk)
+Fraunces: Copyright 2020 The Fraunces Project Authors (https://github.com/undercasetype/Fraunces)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

@@ -1,11 +1,11 @@
 ---
-id: 01m7p2kg0a20artnnx4k7y4b53
+id: 01m7p3g28xjmb1vscp4cvr45ga
 title: Neurologie
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 0
 area:
-  - 01m7p2kfxxtgmqcxkn7p29ee6n
+  - 01m7p3g245kzat14f4nh36xezw
 icon: brain
 kind: dienst
 cover:

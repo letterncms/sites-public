@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfym60g3270zmeyv7anw
+id: 01m7p3g25k6xnyccyptygc674d
 title: 'Esther Mukendi'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 5
 role: Neuroloog
 photo:
@@ -25,7 +25,7 @@ languages:
 discipline: arts
 family_name: Mukendi
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b53
+  - 01m7p3g28xjmb1vscp4cvr45ga
 new_patients: true
 ---
 

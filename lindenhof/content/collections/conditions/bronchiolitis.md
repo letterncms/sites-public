@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbws
+id: 01m7p3g24xf879tmwsymfw7mwf
 title: 'Bronchiolitis bij baby’s'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 5
 kind: aandoening
 summary: 'Een virusinfectie van de kleine luchtwegen, vooral in de winter. Meestal gaat ze vanzelf over; soms heeft je baby wat hulp nodig.'
@@ -12,7 +12,7 @@ keywords:
   - RSV
   - ademhaling
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b59
+  - 01m7p3g28xjmb1vscp4cvr45gg
 also_known_as: RSV
 ---
 

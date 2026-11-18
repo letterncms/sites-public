@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbwz
+id: 01m7p3g24xf879tmwsymfw7mwn
 title: Heupprothese
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 11
 kind: behandeling
 summary: 'Een nieuwe heup bij versleten of gebroken heupen. De meeste patiënten stappen op de dag van de operatie en gaan na twee dagen naar huis.'
@@ -10,8 +10,8 @@ keywords:
   - heup
   - operatie
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b5d
-  - 01m7p2kg0a20artnnx4k7y4b54
+  - 01m7p3g28xjmb1vscp4cvr45gm
+  - 01m7p3g28xjmb1vscp4cvr45gb
 also_known_as: 'nieuwe heup, totale heupprothese'
 ---
 

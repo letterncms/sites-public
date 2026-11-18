@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8pz
+id: 01m7p3g24e9v8cd0ywn1f9k53f
 title: 'Stappen met foto'
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 23
 synced: false
 category: Secties
@@ -24,7 +24,7 @@ keywords:
 
 :::::: box {"id":"st-list","props":{"tag":"ol"},"class":"flex flex-col gap-6"}
 ::::::: box {"id":"st-s-1","props":{"tag":"li"},"class":"flex gap-5"}
-:::::::: paragraph {"id":"st-s-1-n","props":{"text":"1","tag":"span"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-md bg-primary font-bold text-primary-foreground"}
+:::::::: paragraph {"id":"st-s-1-n","props":{"text":"1","tag":"span"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-full bg-primary font-bold text-primary-foreground"}
 ::::::::
 
 :::::::: box {"id":"st-s-1-t","class":"flex flex-col gap-1"}
@@ -37,7 +37,7 @@ keywords:
 :::::::
 
 ::::::: box {"id":"st-s-2","props":{"tag":"li"},"class":"flex gap-5"}
-:::::::: paragraph {"id":"st-s-2-n","props":{"text":"2","tag":"span"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-md bg-primary font-bold text-primary-foreground"}
+:::::::: paragraph {"id":"st-s-2-n","props":{"text":"2","tag":"span"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-full bg-primary font-bold text-primary-foreground"}
 ::::::::
 
 :::::::: box {"id":"st-s-2-t","class":"flex flex-col gap-1"}
@@ -50,7 +50,7 @@ keywords:
 :::::::
 
 ::::::: box {"id":"st-s-3","props":{"tag":"li"},"class":"flex gap-5"}
-:::::::: paragraph {"id":"st-s-3-n","props":{"text":"3","tag":"span"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-md bg-primary font-bold text-primary-foreground"}
+:::::::: paragraph {"id":"st-s-3-n","props":{"text":"3","tag":"span"},"attrs":{"aria-hidden":"true"},"class":"flex size-10 shrink-0 items-center justify-center rounded-full bg-primary font-bold text-primary-foreground"}
 ::::::::
 
 :::::::: box {"id":"st-s-3-t","class":"flex flex-col gap-1"}
@@ -64,7 +64,7 @@ keywords:
 ::::::
 
 :::::: buttons {"id":"st-buttons"}
-::::::: button {"id":"st-button","props":{"label":"Je raadpleging voorbereiden","url":"entry:01m7p2kg02mca2s304fb0a4xnx","variant":"primary","size":"lg"}}
+::::::: button {"id":"st-button","props":{"label":"Je raadpleging voorbereiden","url":"entry:01m7p3g28ph31zyqzvh74hae63","variant":"primary","size":"lg"}}
 :::::::
 ::::::
 :::::

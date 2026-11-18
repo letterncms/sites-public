@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg0ecx0zgp2a8q1qegdp
+id: 01m7p3g291ay24bfsfkwnmh9fs
 title: Activiteit
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 7
 description: 'Wanneer en waar, voor wie en wat het kost, de uitleg, en het formulier om je in te schrijven.'
 collections:
@@ -27,7 +27,7 @@ collections:
 :::::::::: icon {"id":"ev-c1-s","props":{"icon":"caret-right"},"attrs":{"aria-hidden":"true"},"class":"size-3.5"}
 ::::::::::
 
-:::::::::: link {"id":"ev-c1-a","props":{"label":"Activiteiten","url":"entry:01m7p2kg02mca2s304fb0a4xnh"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
+:::::::::: link {"id":"ev-c1-a","props":{"label":"Activiteiten","url":"entry:01m7p3g28ph31zyqzvh74hae5q"},"class":"text-muted no-underline hover:text-foreground hover:underline"}
 ::::::::::
 :::::::::
 ::::::::
@@ -52,7 +52,7 @@ collections:
 ::::
 
 :::: box {"id":"ev-layout","class":"mx-auto grid max-w-content grid-cols-12 gap-x-columns gap-y-10 px-gutter pt-blocks"}
-::::: box {"id":"bxhv5expzoy","class":"col-span-8 flex flex-col gap-section max-lg:col-span-full"}
+::::: box {"id":"bpbkhvmwtnw","class":"col-span-8 flex flex-col gap-section max-lg:col-span-full"}
 :::::: outlet {"id":"ev-body","props":{"wrap":true,"prose":true}}
 ::::::
 

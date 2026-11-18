@@ -1,5 +1,5 @@
 ---
-id: 01m7p2kfz31km9s7fhx57ehpmq
+id: 01m7p3g2767vyezjs6svpn26zf
 title: 'Verpleegkundige cardiologie'
 status: published
 published_at: '2026-11-10T08:00:00+01:00'

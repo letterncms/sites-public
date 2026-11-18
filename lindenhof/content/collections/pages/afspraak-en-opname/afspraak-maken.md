@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kg02mca2s304fb0a4xnv
+id: 01m7p3g28ph31zyqzvh74hae61
 title: 'Afspraak maken of wijzigen'
 status: published
-published_at: '2026-11-18T01:58:43+01:00'
+published_at: '2026-11-18T02:14:20+01:00'
 position: 1
 summary: 'Online, telefonisch of aan de balie. En wat je doet als je niet kunt komen.'
 template: page

@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbwn
+id: 01m7p3g24xf879tmwsymfw7mwb
 title: MRI-scan
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 1
 kind: onderzoek
 summary: 'Gedetailleerde beelden van je lichaam met een sterke magneet, zonder straling. Het onderzoek duurt twintig tot veertig minuten.'
@@ -10,7 +10,7 @@ keywords:
   - scan
   - NMR
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b58
+  - 01m7p3g28xjmb1vscp4cvr45gf
 also_known_as: 'NMR, magnetische resonantie'
 ---
 

@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfygkqd12he6t0zbzbx0
+id: 01m7p3g24xf879tmwsymfw7mwp
 title: Keizersnede
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:19+01:00'
 position: 12
 kind: behandeling
 summary: 'Een bevalling via een operatie aan de buik, gepland of dringend. Je partner mag bij je blijven en je baby komt meteen bij je.'
@@ -10,7 +10,7 @@ keywords:
   - bevallen
   - operatie
 specialties:
-  - 01m7p2kg0a20artnnx4k7y4b5e
+  - 01m7p3g28xjmb1vscp4cvr45gn
 also_known_as: sectio
 ---
 

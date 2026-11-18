@@ -1,8 +1,8 @@
 ---
-id: 01m7p2kfy69agdcgggq2vfq8q8
+id: 01m7p3g24e9v8cd0ywn1f9k53r
 title: Landingspagina
 status: published
-published_at: '2026-11-18T01:58:42+01:00'
+published_at: '2026-11-18T02:14:18+01:00'
 position: 32
 synced: false
 category: Secties
@@ -27,10 +27,10 @@ keywords:
 ::::::
 
 :::::: buttons {"id":"lp-hero-buttons","class":"pt-2"}
-::::::: button {"id":"lp-hero-primary","props":{"label":"Afspraak maken","url":"entry:01m7p2kg02mca2s304fb0a4xnv","variant":"lime","size":"lg"}}
+::::::: button {"id":"lp-hero-primary","props":{"label":"Afspraak maken","url":"entry:01m7p3g28ph31zyqzvh74hae61","variant":"lime","size":"lg"}}
 :::::::
 
-::::::: button {"id":"lp-hero-secondary","props":{"label":"Infosessies","url":"entry:01m7p2kg02mca2s304fb0a4xnh","variant":"light","size":"lg"}}
+::::::: button {"id":"lp-hero-secondary","props":{"label":"Infosessies","url":"entry:01m7p3g28ph31zyqzvh74hae5q","variant":"light","size":"lg"}}
 :::::::
 ::::::
 :::::
@@ -43,7 +43,7 @@ keywords:
 ::: box {"id":"lp-links","props":{"tag":"nav"},"attrs":{"aria-label":"Snel naar"},"class":"mx-auto max-w-content px-gutter pt-section"}
 :::: box {"id":"lp-links-list","props":{"tag":"ul"},"class":"grid grid-cols-1 gap-4 md:grid-cols-3"}
 ::::: box {"id":"lp-l1","props":{"tag":"li"}}
-:::::: box {"id":"lp-l1-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnv"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"lp-l1-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae61"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"lp-l1-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"lp-l1-i","props":{"icon":"calendar-check"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -63,7 +63,7 @@ keywords:
 :::::
 
 ::::: box {"id":"lp-l2","props":{"tag":"li"}}
-:::::: box {"id":"lp-l2-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnh"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"lp-l2-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae5q"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"lp-l2-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"lp-l2-i","props":{"icon":"users-three"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
@@ -83,7 +83,7 @@ keywords:
 :::::
 
 ::::: box {"id":"lp-l3","props":{"tag":"li"}}
-:::::: box {"id":"lp-l3-a","props":{"link":"entry:01m7p2kg02mca2s304fb0a4xnn"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
+:::::: box {"id":"lp-l3-a","props":{"link":"entry:01m7p3g28ph31zyqzvh74hae5v"},"class":"card-link group flex h-full items-start gap-4 p-5 text-foreground"}
 ::::::: box {"id":"lp-l3-ic","props":{"tag":"span"},"class":"icon-tile transition-colors group-hover:bg-primary group-hover:text-primary-foreground"}
 :::::::: icon {"id":"lp-l3-i","props":{"icon":"phone-call"},"attrs":{"aria-hidden":"true"},"class":"size-6"}
 ::::::::
