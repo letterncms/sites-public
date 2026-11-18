@@ -11,8 +11,8 @@ hours: |-
   Bloedafname werkdagen van 7.30 tot 12 uur
 phone: '+32 15 44 20 00'
 place:
-  lat: 51.0312
-  lng: 4.5023
+  lat: 51.0062
+  lng: 4.4235
 address: |-
   Vijverstraat 12
   2861 Meerhove-Oost

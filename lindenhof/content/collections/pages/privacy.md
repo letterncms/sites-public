@@ -19,6 +19,10 @@ Deze verklaring gaat over deze website. Hoe we met je medische gegevens in het z
 
 We gebruiken wat je ons stuurt om je te antwoorden: om een afspraak te regelen, je plaats op een activiteit te reserveren, je sollicitatie te lezen of je bericht te beantwoorden. We bewaren formulieren zolang we ze nodig hebben, en maximaal twee jaar.
 
+## Kaarten
+
+De kaarten op de pagina’s van onze campussen laden hun kaartbeelden bij OpenFreeMap. Daarbij ziet die dienst je IP-adres, zoals bij elke website die je bezoekt. Er worden geen cookies geplaatst.
+
 ## Cookies
 
 Deze website gebruikt alleen de cookies die nodig zijn om te werken, tenzij je meer toestaat. Bij je eerste bezoek kies je of we bezoeken anoniem mogen tellen. Je kunt je keuze altijd wijzigen.

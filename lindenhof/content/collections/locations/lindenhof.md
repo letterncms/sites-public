@@ -12,8 +12,8 @@ hours: |-
   Bezoek dagelijks van 14 tot 20 uur
 phone: '+32 15 44 10 00'
 place:
-  lat: 51.0259
-  lng: 4.4776
+  lat: 51.0005
+  lng: 4.406
 address: |-
   Lindenlaan 40
   2860 Meerhove

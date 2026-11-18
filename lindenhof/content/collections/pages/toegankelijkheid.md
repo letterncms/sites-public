@@ -26,7 +26,7 @@ Je kunt:
 
 ## Wat is nog niet toegankelijk?
 
-- **Routebeschrijving.** De link naar de routebeschrijving op de pagina’s van onze campussen opent een kaartdienst van derden, die we niet volledig toegankelijk kunnen maken. Elke campuspagina geeft het adres, de bussen en de parking ook in tekst.
+- **Kaarten en routebeschrijving.** De kaarten op de pagina’s van onze campussen zijn een hulp om ons te vinden: elke plaats op de kaart staat ook als tekst op de pagina, met het adres, de bussen en de parking. De link naar de routebeschrijving opent een kaartdienst van derden, die we niet volledig toegankelijk kunnen maken.
 - **Oudere documenten.** Sommige folders in pdf van voor 23 september 2018 zijn niet volledig toegankelijk. Vraag je een folder in een andere vorm, dan sturen we die binnen vijf werkdagen.
 
 ## Toegankelijkheid in het ziekenhuis
