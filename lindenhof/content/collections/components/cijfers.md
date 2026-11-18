@@ -6,7 +6,7 @@ published_at: '2026-11-18T02:14:18+01:00'
 position: 24
 synced: false
 category: Secties
-description: 'Een titel en vier kerncijfers met een limoengroene lijn.'
+description: 'Een titel en vier belangrijke cijfers, elk met een limoengroene lijn.'
 keywords:
   - cijfers
   - feiten
