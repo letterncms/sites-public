@@ -1,0 +1,54 @@
+title: 'Ziekten en behandelingen'
+singular: 'Ziekte of behandeling'
+icon: first-aid-kit
+description: 'Aandoeningen, onderzoeken en behandelingen in begrijpelijke taal, van A tot Z.'
+driver: database
+structure: list
+route: '/ziekten-en-behandelingen/{slug}'
+template: condition
+sort: title
+default_columns:
+  - 'field:kind'
+  - 'field:specialties'
+  - status
+nav_order: 35
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: Samenvatting
+    required: true
+  -
+    handle: kind
+    type: select
+    label: Soort
+    options:
+      aandoening: Aandoening
+      onderzoek: Onderzoek
+      behandeling: Behandeling
+    default: aandoening
+    required: true
+    section: sidebar
+  -
+    handle: also_known_as
+    type: text
+    label: 'Ook bekend als'
+    section: sidebar
+  -
+    handle: specialties
+    type: entries
+    label: 'Behandeld door'
+    collections:
+      - specialties
+    section: sidebar
+  -
+    handle: keywords
+    type: list
+    label: Zoekwoorden
+    about: 'Andere woorden waarop mensen zoeken, zoals hart voor Cardiologie.'
+    section: sidebar

@@ -1,0 +1,137 @@
+{
+    "title": "Inschrijving activiteit",
+    "settings": {
+        "submit": "Schrijf je in",
+        "success": "Bedankt. Je plaats is gereserveerd, en je krijgt een bevestiging per e-mail.",
+        "redirect": null,
+        "notify": [],
+        "subject": "Inschrijving voor een activiteit",
+        "reply_to_field": "email",
+        "confirmation": true,
+        "confirmation_subject": "Je plaats is gereserveerd",
+        "confirmation_message": "<p>Bedankt voor je inschrijving. De datum, het uur en de plaats vind je op de pagina van de activiteit. Kun je toch niet komen? Antwoord dan gewoon op deze e-mail.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "lh004",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "lh004c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh002",
+                            "type": "form/text",
+                            "props": {
+                                "label": "Voornaam",
+                                "name": "first_name",
+                                "required": true,
+                                "autocomplete": "given-name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "lh004c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh003",
+                            "type": "form/text",
+                            "props": {
+                                "label": "Familienaam",
+                                "name": "family_name",
+                                "required": true,
+                                "autocomplete": "family-name"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lh019",
+            "type": "columns",
+            "props": {
+                "layout": "1-1",
+                "gap": "4",
+                "stack": "md"
+            },
+            "children": [
+                {
+                    "id": "lh019c0",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh017",
+                            "type": "form/email",
+                            "props": {
+                                "label": "E-mail",
+                                "name": "email",
+                                "required": true,
+                                "autocomplete": "email"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "lh019c1",
+                    "type": "column",
+                    "children": [
+                        {
+                            "id": "lh018",
+                            "type": "form/tel",
+                            "props": {
+                                "label": "Telefoon",
+                                "name": "phone",
+                                "autocomplete": "tel"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lh020",
+            "type": "form/number",
+            "props": {
+                "label": "Aantal plaatsen",
+                "name": "places",
+                "required": true,
+                "min": 1,
+                "max": 4,
+                "help": "Maximaal vier plaatsen, jezelf inbegrepen."
+            }
+        },
+        {
+            "id": "lh021",
+            "type": "form/textarea",
+            "props": {
+                "label": "Moeten we iets weten?",
+                "name": "needs",
+                "rows": 3,
+                "max": 1000,
+                "help": "Bijvoorbeeld als je een rolstoelplaats of een tolk Vlaamse Gebarentaal nodig hebt."
+            }
+        },
+        {
+            "id": "lh001",
+            "type": "form/consent",
+            "props": {
+                "name": "consent",
+                "text": "Ik ga ermee akkoord dat AZ Lindenhof deze gegevens gebruikt om mij te antwoorden, zoals de <a href=\"/privacy\">privacyverklaring</a> zegt."
+            }
+        }
+    ]
+}

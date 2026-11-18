@@ -1,0 +1,32 @@
+{
+    "fonts": [
+        {
+            "family": "Schibsted Grotesk",
+            "src": "fonts/schibsted-grotesk-400-900.woff2",
+            "weight": "400 900",
+            "style": "normal",
+            "preload": true,
+            "fallback": "Arial",
+            "sizeAdjust": "104.93%",
+            "ascentOverride": "93.07%",
+            "descentOverride": "24.57%",
+            "lineGapOverride": "0%"
+        },
+        {
+            "family": "Schibsted Grotesk",
+            "src": "fonts/schibsted-grotesk-400-900-italic.woff2",
+            "weight": "400 900",
+            "style": "italic",
+            "preload": false,
+            "fallback": "Arial",
+            "sizeAdjust": "102.39%",
+            "ascentOverride": "95.38%",
+            "descentOverride": "25.18%",
+            "lineGapOverride": "0%"
+        }
+    ],
+    "transition": {
+        "type": "fade",
+        "duration": 0.15
+    }
+}
