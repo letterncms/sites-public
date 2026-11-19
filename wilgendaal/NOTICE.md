@@ -143,6 +143,7 @@ From Unsplash, under the Unsplash License (https://unsplash.com/license): free t
 | `public/media/wilgendaal/trees.webp` | https://unsplash.com/photos/9tCYN0nZGQ4 |
 | `public/media/wilgendaal/volunteers.webp` | https://unsplash.com/photos/b7wzLHZJ8-A |
 | `public/media/wilgendaal/waste.webp` | https://unsplash.com/photos/nTKnIsfw7ts |
+| `public/media/wilgendaal/willows.webp` | https://unsplash.com/photos/uPHK82nwMKA |
 | `public/media/wilgendaal/winter.webp` | https://unsplash.com/photos/IVSHeVFZ4ac |
 
 ## Maps

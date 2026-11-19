@@ -42,7 +42,7 @@ props:
 ::::: heading {"id":"ec-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-xl leading-snug group-hover:underline"}
 :::::
 
-::::: paragraph {"id":"ec-when","props":{"tag":"p"},"bind":{"text":"props.when"},"class":"order-first text-sm font-semibold"}
+::::: paragraph {"id":"ec-when","props":{"tag":"p"},"bind":{"text":"props.when"},"class":"order-first text-sm font-semibold text-accent-text"}
 :::::
 
 ::::: paragraph {"id":"ec-venue","props":{"tag":"p"},"bind":{"text":"props.venue","visible":"props.venue"},"class":"text-sm text-muted"}

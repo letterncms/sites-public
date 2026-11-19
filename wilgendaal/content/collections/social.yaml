@@ -1,0 +1,16 @@
+type: menu
+title: 'Sociale media'
+singular: Link
+description: 'De kanalen van de stad op sociale media, met hun icoon, in de voet.'
+max_depth: 1
+fields:
+  -
+    handle: link
+    type: link
+    label: Link
+    required: true
+  -
+    handle: icon
+    type: icon
+    label: Icoon
+driver: files

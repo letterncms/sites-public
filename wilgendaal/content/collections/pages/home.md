@@ -8,18 +8,23 @@ template: default
 ---
 
 ::: box {"id":"hm-hero","props":{"tag":"section"},"label":"Hero","attrs":{"aria-labelledby":"#hm-h1"}}
-:::: box {"id":"hm-hero-photo","class":"relative isolate flex min-h-[min(46rem,82svh)] items-end overflow-hidden bg-ink"}
-::::: image {"id":"hm-hero-img","props":{"priority":true,"aspect":"3/2","sizes":"100vw","image":["01m9a0abdvapx21pxbnhr3b9d8"],"alt":"Bakstenen huizen met trapgevels langs het water van de Mere, in de zon."},"class":"absolute inset-0 size-full object-cover"}
+:::: box {"id":"hm-hero-photo","class":"hero-photo relative isolate flex min-h-[min(54rem,94svh)] items-end overflow-hidden bg-ink [--color-accent-text:#ff8a6e] [--color-link:#ffffff]"}
+::::: image {"id":"hm-hero-img","props":{"priority":true,"aspect":"3/2","sizes":"100vw","image":["01mbszkjz4qz863h7jp00w61w1"],"alt":"Drie mensen op een bank onder treurwilgen, voor een bakstenen huis met een trapgevel en rode geraniums."},"class":"absolute inset-0 size-full object-cover [&_img]:object-[50%_68%]"}
 :::::
 
-::::: box {"id":"hm-hero-shade","attrs":{"aria-hidden":"true"},"class":"absolute inset-0 bg-[linear-gradient(to_top,rgb(0_0_0/0.8)_0%,rgb(0_0_0/0.55)_45%,rgb(0_0_0/0.05)_85%)]"}
+::::: box {"id":"hm-hero-shade","attrs":{"aria-hidden":"true"},"class":"absolute inset-0 bg-[linear-gradient(to_top,rgb(0_0_0/0.7)_0%,rgb(0_0_0/0.38)_38%,rgb(0_0_0/0)_62%),linear-gradient(to_bottom,rgb(0_0_0/0.35)_0%,rgb(0_0_0/0)_20%)] max-sm:bg-[linear-gradient(to_top,rgb(0_0_0/0.8)_0%,rgb(0_0_0/0.6)_55%,rgb(0_0_0/0.25)_85%,rgb(0_0_0/0.4)_100%)]"}
 :::::
 
 ::::: box {"id":"hm-hero-text","class":"wrap-wide relative flex flex-col gap-7 pt-40 pb-12 sm:pb-14 lg:gap-8 lg:pb-16"}
-:::::: heading {"id":"hm-h1","props":{"level":"1","text":"Wat wil je regelen?"},"class":"text-6xl text-white"}
+:::::: box {"id":"hm-title","class":"flex flex-col gap-3"}
+::::::: heading {"id":"hm-h1","props":{"level":"1","text":"Welkom in Wilgendaal"},"class":"text-6xl text-white"}
+:::::::
+
+::::::: paragraph {"id":"hm-ask","props":{"tag":"p","text":"Wat wil je vandaag regelen?"},"class":"font-display text-2xl text-white"}
+:::::::
 ::::::
 
-:::::: search-field {"id":"hm-search","props":{"label":"Zoek een dienst, een document of een adres","show_label":false,"placeholder":"Wat zoek je?","button_label":"Zoeken","button_style":"primary","size":"lg","icon_only":false,"results_page":"/zoeken"},"class":"home-search search-box search-box-hero w-full max-w-2xl [&>div]:border-white"}
+:::::: search-field {"id":"hm-search","props":{"label":"Zoek een dienst, een document of een adres","show_label":false,"placeholder":"Wat zoek je?","button_label":"Zoeken","button_style":"primary","size":"lg","icon_only":false,"results_page":"/zoeken"},"class":"home-search search-box search-box-hero w-full max-w-xl [&>div]:border-white"}
 ::::::
 
 :::::: box {"id":"hm-quick","props":{"tag":"nav"},"attrs":{"aria-labelledby":"#hm-quick-h"}}
@@ -73,16 +78,9 @@ template: default
 ::::::
 :::::
 
-::::: repeat {"id":"hm-moments-list","props":{"source":"entries","collection":"moments","sort":"position","limit":6,"tag":"ul"},"class":"index-list mt-10"}
+::::: repeat {"id":"hm-moments-list","props":{"source":"entries","collection":"moments","sort":"position","limit":6,"tag":"ul"},"class":"mt-10 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3"}
 :::::: box {"id":"hm-moment-item","props":{"tag":"li"}}
-::::::: box {"id":"hm-moment-link","bind":{"link":"item.url"},"class":"group index-row text-4xl"}
-:::::::: paragraph {"id":"hm-moment-title","props":{"tag":"span"},"bind":{"text":"item.title"},"class":"font-display text-4xl font-medium group-hover:underline group-hover:decoration-2 group-hover:underline-offset-[0.12em]"}
-::::::::
-
-:::::::: box {"id":"hm-moment-photo","class":"zoom hidden h-[0.9em] shrink-0 aspect-[4/3] sm:block"}
-::::::::: image {"id":"hm-moment-img","props":{"aspect":"4/3","sizes":"8rem"},"bind":{"image":"item.photo"},"class":"size-full object-cover"}
-:::::::::
-::::::::
+::::::: component {"id":"hm-moment","props":{"ref":"moment-card"},"bind":{"values.title":"item.title","values.summary":"item.summary","values.url":"item.url","values.image":"item.photo"}}
 :::::::
 ::::::
 :::::
@@ -194,7 +192,7 @@ template: default
 :::::::::
 ::::::::
 
-:::::::: paragraph {"id":"hm-ev-when","props":{"tag":"span"},"bind":{"text":"{item.when.start|date:l j F}, {item.when.start|date:G.i} uur"},"class":"mt-4 block text-sm font-semibold"}
+:::::::: paragraph {"id":"hm-ev-when","props":{"tag":"span"},"bind":{"text":"{item.when.start|date:l j F}, {item.when.start|date:G.i} uur"},"class":"mt-4 block text-sm font-semibold text-accent-text"}
 ::::::::
 
 :::::::: heading {"id":"hm-ev-title","props":{"level":"3"},"bind":{"text":"item.title"},"class":"mt-1 text-xl leading-snug group-hover:underline"}
