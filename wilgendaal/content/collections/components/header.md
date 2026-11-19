@@ -4,16 +4,16 @@ title: Kop
 status: published
 position: 0
 category: Site
-description: 'Eén witte balk: het woordbeeld, drie snelle links, zoeken en een menuknop. Het menu opent over de volle breedte, met de hoofdpagina’s groot, alle thema’s en de snelle acties.'
+description: 'De kop: het woordbeeld, drie snelle links, zoeken en een menuknop. Op een foto is hij doorzichtig met witte letters, tot je scrolt. Het menu vult het hele scherm; alleen het woordbeeld en de menuknop blijven erboven staan.'
 ---
 
-::: box {"id":"hd","props":{"tag":"header"},"label":"Kop","logic":{"data":{"open":false},"states":{"open":"open"},"on":[{"event":"keydown","mods":["window"],"key":"escape","actions":[{"do":"set","var":"open","value":"false"}]}]},"class":"site-header z-40 border-b border-border bg-background"}
-:::: box {"id":"hd-bar","label":"Balk","class":"wrap-wide flex h-20 items-center gap-4 max-sm:h-16"}
+::: box {"id":"hd","props":{"tag":"header"},"behavior":{"module":"scrolled"},"label":"Kop","logic":{"data":{"open":false},"states":{"open":"open"},"on":[{"event":"keydown","mods":["window"],"key":"escape","actions":[{"do":"set","var":"open","value":"false"}]}]},"class":"site-header z-40 bg-background"}
+:::: box {"id":"hd-bar","label":"Balk","class":"wrap-wide relative z-10 flex h-20 items-center gap-4 max-sm:h-16"}
 ::::: component {"id":"hd-logo","props":{"ref":"logo"}}
 :::::
 
 ::::: box {"id":"hd-tools","class":"ml-auto flex items-center gap-1 sm:gap-2"}
-:::::: box {"id":"hd-links","props":{"tag":"nav"},"attrs":{"aria-label":"Snel naar"},"class":"flex items-center max-lg:hidden"}
+:::::: box {"id":"hd-links","props":{"tag":"nav"},"attrs":{"aria-label":"Snel naar"},"class":"hd-extra flex items-center max-lg:hidden"}
 ::::::: link {"id":"hd-l1","props":{"label":"Iets melden","url":"/melden"},"class":"quiet-link px-3 py-2 font-semibold text-foreground"}
 :::::::
 
@@ -24,20 +24,20 @@ description: 'Eén witte balk: het woordbeeld, drie snelle links, zoeken en een 
 :::::::
 ::::::
 
-:::::: button {"id":"hd-search-link","props":{"label":"Zoeken","url":"/zoeken","variant":"ghost","icon":"magnifying-glass","icon_position":"start"},"class":"px-3 max-sm:hidden"}
+:::::: button {"id":"hd-search-link","props":{"label":"Zoeken","url":"/zoeken","variant":"ghost","icon":"magnifying-glass","icon_position":"start"},"class":"hd-extra px-3 max-sm:hidden"}
 ::::::
 
-:::::: button {"id":"hd-search-icon","props":{"label":"","url":"/zoeken","variant":"ghost","icon":"magnifying-glass","accessible_label":"Zoeken"},"class":"sm:hidden"}
+:::::: button {"id":"hd-search-icon","props":{"label":"","url":"/zoeken","variant":"ghost","icon":"magnifying-glass","accessible_label":"Zoeken"},"class":"hd-extra sm:hidden"}
 ::::::
 
-:::::: menu-button {"id":"hd-toggle","props":{"label":"Menu","show_label":true,"animation":"cross","lines":"2"},"label":"Menuknop","attrs":{"aria-controls":"#hd-menu"},"logic":{"on":[{"event":"click","actions":[{"do":"toggle","var":"open"}]}],"attrs":{"aria-expanded":"open"}},"class":"h-12 gap-2.5 bg-foreground px-5 font-semibold text-background transition-colors duration-200 hover:bg-accent hover:text-accent-foreground"}
+:::::: menu-button {"id":"hd-toggle","props":{"label":"Menu","show_label":true,"animation":"cross","lines":"2"},"label":"Menuknop","attrs":{"aria-controls":"#hd-menu"},"logic":{"on":[{"event":"click","actions":[{"do":"toggle","var":"open"}]}],"attrs":{"aria-expanded":"open"}},"class":"h-12 gap-2.5 bg-blue px-5 font-semibold text-white transition-colors duration-200 hover:bg-blue-strong"}
 ::::::
 :::::
 ::::
 
-:::: box {"id":"hd-menu","label":"Menu","logic":{"show":"open","transition":"fade","on":[{"event":"click","mods":["outside"],"actions":[{"do":"set","var":"open","value":"false"}]}]},"anchor":"menu","class":"fixed inset-x-0 top-16 bottom-0 overflow-y-auto overscroll-contain border-t border-border bg-background sm:top-20"}
-::::: box {"id":"hd-menu-inner","class":"wrap-wide grid min-h-full content-start gap-12 pt-8 pb-12 lg:grid-cols-12 lg:gap-x-16 lg:pt-14 lg:pb-16"}
-:::::: search-field {"id":"hd-menu-search","props":{"label":"Zoek op de website","show_label":false,"placeholder":"Wat zoek je?","button_label":"Zoeken","button_style":"primary","size":"md","icon_only":false,"results_page":"/zoeken"},"class":"search-box w-full lg:hidden"}
+:::: box {"id":"hd-menu","label":"Menu","logic":{"show":"open","transition":"fade","on":[{"event":"click","mods":["outside"],"actions":[{"do":"set","var":"open","value":"false"}]}]},"anchor":"menu","class":"fixed inset-0 overflow-y-auto overscroll-contain bg-background pt-16 sm:pt-20"}
+::::: box {"id":"hd-menu-inner","class":"wrap-wide grid content-start gap-12 pt-6 pb-12 lg:grid-cols-12 lg:gap-x-16 lg:gap-y-14 lg:pt-10 lg:pb-16"}
+:::::: search-field {"id":"hd-menu-search","props":{"label":"Zoek op de website","show_label":false,"placeholder":"Wat zoek je?","button_label":"Zoeken","button_style":"primary","size":"md","icon_only":false,"results_page":"/zoeken"},"class":"search-box w-full max-w-2xl lg:col-span-12"}
 ::::::
 
 :::::: box {"id":"hd-menu-nav","props":{"tag":"nav"},"attrs":{"aria-label":"Hoofdmenu"},"class":"lg:col-span-5"}

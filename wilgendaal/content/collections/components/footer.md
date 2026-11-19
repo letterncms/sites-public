@@ -4,7 +4,7 @@ title: Voet
 status: published
 position: 0
 category: Site
-description: 'De voet in zwart: het stadhuis met zijn adres, uren en telefoon, de thema’s, stad en bestuur en de wettelijke links.'
+description: 'De voet in zwart: het stadhuis met zijn adres, uren en telefoon, de thema’s, stad en bestuur de kanalen op sociale media en de wettelijke links.'
 ---
 
 ::: box {"id":"ft","props":{"tag":"footer"},"label":"Voet","class":"scheme-night"}
@@ -24,6 +24,23 @@ description: 'De voet in zwart: het stadhuis met zijn adres, uren en telefoon, d
 :::::::
 
 ::::::: link {"id":"ft-email","bind":{"label":"globals.city.email","url":"mailto:{globals.city.email}"},"class":"text-link text-base break-all text-current"}
+:::::::
+::::::
+
+:::::: box {"id":"ft-social","props":{"tag":"nav"},"attrs":{"aria-label":"Volg Stad Wilgendaal"},"class":"mt-6 flex flex-col gap-3"}
+::::::: paragraph {"id":"ft-social-h","props":{"tag":"p","text":"Volg ons"},"class":"text-sm font-semibold text-muted"}
+:::::::
+
+::::::: repeat {"id":"ft-social-list","props":{"source":"menu","menu":"social","tag":"ul"},"class":"flex flex-wrap gap-2"}
+:::::::: box {"id":"ft-social-item","props":{"tag":"li"}}
+::::::::: box {"id":"ft-social-link","bind":{"link":"item.url"},"class":"flex size-11 items-center justify-center border border-border text-current no-underline transition-colors hover:border-accent hover:bg-accent hover:text-accent-foreground"}
+:::::::::: icon {"id":"ft-social-icon","bind":{"icon":"item.icon"},"class":"size-5"}
+::::::::::
+
+:::::::::: paragraph {"id":"ft-social-label","props":{"tag":"span"},"bind":{"text":"item.label"},"class":"sr-only"}
+::::::::::
+:::::::::
+::::::::
 :::::::
 ::::::
 :::::

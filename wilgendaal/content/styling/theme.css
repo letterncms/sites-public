@@ -2,7 +2,7 @@
 @import "cms";
 
 /* Stad Wilgendaal. Zwart op wit, zoals een goed gedrukte stadskrant: grote, rustige letters, foto’s die de ruimte
-   krijgen, dunne lijnen in plaats van kaders, en één warme kleur (baksteenoranje) die aanwijst. Albert Sans voor
+   krijgen, dunne lijnen in plaats van kaders, één warme kleur (baksteenoranje) voor vlakken en lijnen, en diep blauw voor wat je kan doen: links die verder leiden, de menuknop. Albert Sans voor
    koppen, een open Deense grotesk; Atkinson Hyperlegible Next voor tekst, gemaakt voor slechtziende lezers (letters
    die je niet verwart). Gewone letterafstand. Geen ronde hoeken; het enige ronde is een stip: een stap, een status. Elk kleurpaar haalt WCAG 2.2 AA (tekst 4,5:1, grote
    tekst en bedieningselementen 3:1), licht en donker. */
@@ -22,6 +22,10 @@
   --color-accent: #ff5a36;
   --color-accent-foreground: #121212;
   --color-accent-text: light-dark(#b8320f, #ff7a5c);
+  /* Diep, helder blauw: alleen voor links die verder leiden (Alles van A tot Z →) en de menuknop. */
+  --color-link: light-dark(#1a3ae0, #9db0ff);
+  --color-blue: #1a3ae0;
+  --color-blue-strong: #1229b0;
   --color-ink: #121212;
   --color-ink-foreground: #ffffff;
   --color-contrast: light-dark(#121212, #f2f2f2);
@@ -269,7 +273,7 @@
 
 /* Een link met een pijl die meeschuift. De pijl is versiering: schermlezers slaan hem over. */
 @utility arrow-link {
-  @apply inline-flex items-center gap-2.5 font-semibold text-foreground no-underline hover:underline;
+  @apply inline-flex items-center gap-2.5 font-semibold text-link no-underline hover:underline;
   &::after {
     content: "→" / "";
   }
@@ -396,7 +400,7 @@
   }
   & > li::after {
     content: counter(step);
-    @apply absolute top-0 left-0 flex size-10 items-center justify-center rounded-full bg-foreground font-display text-base font-medium text-background;
+    @apply absolute top-0 left-0 flex size-10 items-center justify-center rounded-full bg-accent font-display text-base font-medium text-accent-foreground;
   }
 }
 
@@ -417,7 +421,7 @@
 @utility facts {
   @apply grid gap-x-10 sm:grid-cols-2;
   & > div {
-    @apply border-t border-rule py-4;
+    @apply border-t-2 border-accent py-4;
   }
   & dt {
     @apply text-sm font-semibold text-muted;
@@ -496,6 +500,7 @@
   --color-primary-soft: #222222;
   --color-primary-strong: #ffffff;
   --color-accent-text: #ff7a5c;
+  --color-link: #9db0ff;
 }
 
 @utility scheme-accent {
@@ -513,6 +518,7 @@
   --color-primary-foreground: #ffffff;
   --color-primary-strong: #000000;
   --color-accent-text: var(--color-ink);
+  --color-link: var(--color-ink);
 }
 
 @utility scheme-soft {
@@ -543,11 +549,12 @@
   --color-rule: #ffffff;
   --color-primary: #ffffff;
   --color-primary-foreground: var(--color-ink);
+  --color-link: #ffffff;
 }
 
 /* Knoppen: de maat komt van de bedieningsmaten, de look van deze klassen. Zwart, en bij het aanwijzen oranje. */
 @utility btn-primary {
-  @apply border-primary bg-primary font-semibold text-primary-foreground transition-colors hover:border-accent hover:bg-accent hover:text-accent-foreground;
+  @apply border-primary bg-primary font-semibold text-primary-foreground transition-colors hover:border-blue hover:bg-blue hover:text-white;
 }
 
 @utility btn-secondary {
@@ -566,11 +573,46 @@
   @apply border-accent bg-accent font-semibold text-accent-foreground transition-colors hover:border-foreground hover:bg-foreground hover:text-background;
 }
 
-/* De kop blijft bovenaan staan. Het menu vult het scherm eronder; zolang het open is, scrolt de pagina erachter niet. */
+/* De kop blijft bovenaan staan, zonder lijn; zodra je scrolt (data-scrolled, uit scripts/scrolled.js) komt er een
+   lijn onder. Het menu vult het hele scherm: alleen het woordbeeld en de menuknop blijven erboven, en de pagina
+   erachter scrolt niet zolang het open is. */
 .site-header {
   position: sticky;
   top: 0;
+  border-bottom: 1px solid transparent;
+  transition:
+    background-color 0.25s,
+    border-color 0.25s,
+    color 0.25s;
+}
+.site-header[data-scrolled] {
+  border-bottom-color: var(--color-border);
+}
+.site-header:has([aria-expanded="true"]) {
+  border-bottom-color: transparent;
+}
+.site-header:has([aria-expanded="true"]) .hd-extra {
+  visibility: hidden;
 }
 html:has(.site-header [aria-expanded="true"]) {
   overflow: hidden;
+}
+/* Op een pagina die met een foto begint (hero-photo) ligt de kop over de foto: doorzichtig, met witte letters en een
+   omgekeerde menuknop, tot je scrolt of het menu opent. */
+body:has(.hero-photo) .site-header {
+  margin-bottom: -4rem;
+}
+@media (width >= 40rem) {
+  body:has(.hero-photo) .site-header {
+    margin-bottom: -5rem;
+  }
+}
+body:has(.hero-photo) .site-header:not([data-scrolled], :has([aria-expanded="true"])) {
+  background-color: transparent;
+  color: #ffffff;
+  --color-foreground: #ffffff;
+  --color-background: var(--color-ink);
+  --color-surface: rgb(255 255 255 / 0.14);
+  --color-accent-text: #ff7a5c;
+  --color-link: #ffffff;
 }
