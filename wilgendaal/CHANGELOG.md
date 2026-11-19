@@ -1,0 +1,7 @@
+# Changelog
+
+## Unreleased
+
+### Added
+
+- **Wilgendaal, a Flemish city's website, in Dutch.** A complete site for a Flemish city or municipality to start from, built for accessibility and meeting WCAG 2.2 AA in light and dark. A home page that opens on a photograph of the town with “Wat wil je regelen?” and search, what is open today, the quick actions and the most asked services; six life events (moving, a baby, living together or marrying, building, a business, a death) that put what to arrange with the city in order; 46 services under 10 themes in the Flemish product structure (cost, term, who for, how to apply, what to bring) and an A to Z by letter; an online application form; news with press releases and road works, upcoming events, participation with a response form, the mayor and aldermen and how the council decides, locations with live opening status, accessibility details and maps, notices (decision lists, regulations, public inquiries) with tagged PDFs, forms for questions, reports, appointments and bulky waste, a feedback question on every page, and an accessibility statement following the Flemish Bestuursdecreet and the EU model. Its own identity, like a well-made museum or city newspaper: black on white with one brick orange, Albert Sans for headings and Atkinson Hyperlegible Next for text, large photographs, thin rules instead of boxes, and the city's name set across the full width of the footer.

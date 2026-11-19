@@ -1,0 +1,576 @@
+@import "tailwindcss";
+@import "cms";
+
+/* Stad Wilgendaal. Zwart op wit, zoals een goed gedrukte stadskrant: grote, rustige letters, foto’s die de ruimte
+   krijgen, dunne lijnen in plaats van kaders, en één warme kleur (baksteenoranje) die aanwijst. Albert Sans voor
+   koppen, een open Deense grotesk; Atkinson Hyperlegible Next voor tekst, gemaakt voor slechtziende lezers (letters
+   die je niet verwart). Gewone letterafstand. Geen ronde hoeken; het enige ronde is een stip: een stap, een status. Elk kleurpaar haalt WCAG 2.2 AA (tekst 4,5:1, grote
+   tekst en bedieningselementen 3:1), licht en donker. */
+@theme {
+  --color-background: light-dark(#ffffff, #101010);
+  --color-surface: light-dark(#f3f3f3, #1a1a1a);
+  --color-raised: light-dark(#ffffff, #1f1f1f);
+  --color-foreground: light-dark(#121212, #f2f2f2);
+  --color-muted: light-dark(#5c5c5c, #ababab);
+  --color-border: light-dark(#dedede, #2e2e2e);
+  --color-rule: light-dark(#121212, #f2f2f2);
+  --color-line: light-dark(#767676, #8a8a8a);
+  --color-primary: light-dark(#121212, #f2f2f2);
+  --color-primary-foreground: light-dark(#ffffff, #101010);
+  --color-primary-strong: light-dark(#000000, #ffffff);
+  --color-primary-soft: light-dark(#f3f3f3, #1f1f1f);
+  --color-accent: #ff5a36;
+  --color-accent-foreground: #121212;
+  --color-accent-text: light-dark(#b8320f, #ff7a5c);
+  --color-ink: #121212;
+  --color-ink-foreground: #ffffff;
+  --color-contrast: light-dark(#121212, #f2f2f2);
+  --color-contrast-foreground: light-dark(#ffffff, #101010);
+  --color-logo: currentColor;
+
+  --color-danger: light-dark(#b42318, #ff9585);
+  --color-danger-soft: light-dark(#fdeceb, #3b1713);
+  --color-warning: light-dark(#7a4b00, #f2c14e);
+  --color-warning-soft: light-dark(#fff3d6, #372809);
+  --color-success: light-dark(#176a3f, #74d3a1);
+  --color-success-soft: light-dark(#e3f4ea, #12301f);
+  --color-info: light-dark(#1d4ed8, #9fb3ff);
+  --color-info-soft: light-dark(#ebf0fe, #1c2550);
+
+  --font-sans: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible Next Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Albert Sans", "Albert Sans Fallback", ui-sans-serif, system-ui, sans-serif;
+
+  /* Eén schaal: 18px tekst; koppen groeien met het scherm, tot 6rem voor de titel van een pagina. */
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.45;
+  --text-sm: 0.9375rem;
+  --text-sm--line-height: 1.5;
+  --text-base: 1.125rem;
+  --text-base--line-height: 1.6;
+  --text-lg: 1.25rem;
+  --text-lg--line-height: 1.5;
+  --text-xl: clamp(1.375rem, 1.3rem + 0.3vw, 1.5rem);
+  --text-xl--line-height: 1.3;
+  --text-2xl: clamp(1.625rem, 1.4rem + 0.9vw, 2rem);
+  --text-2xl--line-height: 1.15;
+  --text-3xl: clamp(2rem, 1.55rem + 1.9vw, 3rem);
+  --text-3xl--line-height: 1.1;
+  --text-4xl: clamp(2.5rem, 1.75rem + 3.1vw, 4.25rem);
+  --text-4xl--line-height: 1.05;
+  --text-5xl: clamp(2.5rem, 1.7rem + 3.4vw, 4.5rem);
+  --text-5xl--line-height: 1.02;
+  --text-6xl: clamp(2.75rem, 1.4rem + 5.6vw, 6rem);
+  --text-6xl--line-height: 0.98;
+
+  --tracking-tight: 0em;
+  --tracking-tighter: -0.005em;
+
+  /* Geen ronde hoeken: alleen een stip is rond (rounded-full). */
+  --radius-xs: 0;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  --radius-2xl: 0;
+  --radius-3xl: 0;
+
+  --shadow-card: none;
+  --shadow-lift: 0 30px 60px -30px rgb(0 0 0 / 0.35);
+
+  --container-prose: 44rem;
+  /* Eén breedte voor kop, inhoud en voet, zodat elke pagina op dezelfde lijn begint. */
+  --container-content: 90rem;
+  --container-wide: 90rem;
+
+  --spacing-gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --spacing-section: clamp(4rem, 8vw, 8rem);
+
+  --control-sm-height: 2.75rem;
+  --control-sm-padding: 1.125rem;
+  --control-sm-text: var(--text-sm);
+  --control-md-height: 3.25rem;
+  --control-md-padding: 1.5rem;
+  --control-md-text: var(--text-base);
+  --control-lg-height: 4rem;
+  --control-lg-padding: 1.75rem;
+  --control-lg-text: var(--text-lg);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --default-transition-duration: 240ms;
+  --default-transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  body {
+    @apply bg-background font-sans text-base text-foreground antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display font-medium text-balance;
+    overflow-wrap: break-word;
+    /* Lange Nederlandse woorden (toegankelijkheidsverklaring) breken op een lettergreep, niet midden in een letter. */
+    hyphens: auto;
+    hyphenate-limit-chars: 14 6 6;
+  }
+  h1 {
+    @apply text-5xl tracking-tighter;
+  }
+  h2 {
+    @apply text-3xl tracking-tight;
+  }
+  h3 {
+    @apply text-xl;
+    hyphens: manual;
+  }
+  h4 {
+    @apply text-lg font-semibold;
+  }
+  p {
+    @apply text-pretty;
+  }
+  a {
+    @apply underline decoration-1 underline-offset-[0.2em] transition-[text-decoration-color,color] hover:decoration-2;
+  }
+  strong {
+    @apply font-semibold;
+  }
+  small {
+    @apply text-sm;
+  }
+  blockquote {
+    @apply font-display text-2xl leading-snug font-medium;
+  }
+  hr {
+    @apply border-border;
+  }
+  ::selection {
+    @apply bg-accent text-accent-foreground;
+  }
+  :focus-visible {
+    @apply outline-3 outline-offset-3 outline-foreground;
+  }
+  /* Cijfers die onder elkaar staan (uren, data, bedragen) even breed. */
+  time,
+  dd,
+  td {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@layer base {
+  :root,
+  [data-theme] {
+    --field-border-width: 1.5px;
+    --field-border-color: var(--color-line);
+    --field-radius: 0;
+    --field-hover-border-color: var(--color-foreground);
+    --field-focus-border-color: var(--color-foreground);
+    --field-focus-ring-width: 3px;
+    --field-focus-ring-color: color-mix(in srgb, var(--color-foreground) 18%, transparent);
+    --field-invalid-color: var(--color-danger);
+    --field-label-font-weight: 600;
+    --field-label-color: currentColor;
+    --field-help-color: var(--color-muted);
+    --field-checkbox-checked: var(--color-foreground);
+    --field-checkbox-radius: 0;
+    --field-spacing-fields: 1.75rem;
+    --field-chips-radius: 0;
+  }
+}
+
+@layer components {
+  /* De startpagina heeft haar eigen grote zoekveld: dan zoekt de kop niet nog eens. */
+  body:has(.home-search) .header-search {
+    display: none;
+  }
+  /* Keuzes als rustige vakjes: een dunne lijn, zwart zodra gekozen. */
+  .cms-form .cms-chip {
+    @apply min-h-12 border-[1.5px] border-border bg-background px-5 text-base font-medium transition-colors;
+  }
+  .cms-form .cms-chip:hover {
+    @apply border-foreground;
+  }
+  .cms-form .cms-chip:has(input:checked) {
+    @apply border-foreground bg-foreground text-background;
+  }
+  .feedback legend {
+    @apply mb-1 text-lg font-semibold;
+  }
+  .feedback .cms-req {
+    @apply hidden;
+  }
+  .feedback .cms-form {
+    --field-spacing-fields: 1.25rem;
+  }
+  /* Lopende tekst: koppen in verhouding tot de tekst, lucht tussen de alinea’s. */
+  .cms-prose h2:where(:not(.cms-box, .cms-repeat)) {
+    @apply mt-[1.6em] text-2xl;
+  }
+  .cms-prose h3:where(:not(.cms-box, .cms-repeat)) {
+    @apply font-sans text-lg font-semibold;
+  }
+  .cms-prose a:where(:not(.cms-box, .cms-repeat)) {
+    @apply font-medium text-foreground decoration-accent decoration-2 hover:decoration-foreground;
+  }
+  .cms-prose :where(ul:not(.cms-box, .cms-repeat, .steps)) > li::marker {
+    @apply text-foreground;
+  }
+  .cms-prose table {
+    @apply w-full text-left text-base;
+  }
+  .cms-prose th {
+    @apply border-b border-rule py-2 pr-4 font-semibold;
+  }
+  .cms-prose td {
+    @apply border-b border-border py-2.5 pr-4 align-top;
+  }
+}
+
+/* group: Layout */
+@utility wrap {
+  @apply mx-auto w-full max-w-content px-gutter;
+}
+
+@utility wrap-wide {
+  @apply mx-auto w-full max-w-wide px-gutter;
+}
+
+/* Een dikke lijn boven een sectie: de pagina leest als een krant, in banden. */
+@utility rule-top {
+  @apply border-t border-rule;
+}
+
+/* group: Text */
+@utility display {
+  @apply font-display font-medium tracking-tighter text-balance;
+}
+
+/* Een korte titel boven een sectie of een lijst. Nooit in een hero. */
+@utility eyebrow {
+  @apply text-sm font-semibold text-foreground;
+}
+
+@utility lead {
+  @apply text-xl leading-snug font-normal text-pretty text-muted;
+}
+
+@utility meta {
+  @apply text-sm text-muted;
+}
+
+@utility text-link {
+  @apply underline decoration-1 underline-offset-[0.2em] hover:decoration-2;
+}
+
+@utility quiet-link {
+  @apply no-underline hover:underline;
+}
+
+/* Een link met een pijl die meeschuift. De pijl is versiering: schermlezers slaan hem over. */
+@utility arrow-link {
+  @apply inline-flex items-center gap-2.5 font-semibold text-foreground no-underline hover:underline;
+  &::after {
+    content: "→" / "";
+  }
+}
+
+/* group: Shapes */
+@utility photo {
+  @apply overflow-hidden bg-surface;
+  & img {
+    @apply transition-transform duration-700 ease-out motion-reduce:transition-none;
+  }
+}
+
+/* Een foto die meegroeit als je de link erboven aanwijst. */
+@utility zoom {
+  @apply overflow-hidden;
+  & img {
+    @apply transition-transform duration-700 ease-out motion-reduce:transition-none;
+  }
+  :where(a:hover, .group:hover) > & img,
+  &:hover img {
+    @apply scale-[1.02];
+  }
+}
+
+@utility frame {
+  @apply overflow-hidden bg-surface;
+}
+
+/* Een stip: het enige ronde. Voor een stap, een cijfer of een status. */
+@utility stone {
+  @apply flex shrink-0 items-center justify-center rounded-full;
+}
+
+/* group: Search */
+/* Een zoekveld als één vak met een dunne zwarte lijn: het vergrootglas, het veld en de knop erin. */
+@utility search-box {
+  & > div {
+    @apply flex items-center gap-1 border-[1.5px] border-foreground bg-background p-1 transition-[box-shadow] duration-200;
+  }
+  & > div:focus-within {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-foreground) 18%, transparent);
+  }
+  & > div::before {
+    content: "";
+    @apply mx-3 size-5 shrink-0 bg-foreground;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='m15.5 15.5 5 5'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
+  & .cms-input {
+    @apply h-auto min-h-11 min-w-0 flex-1 border-0 bg-transparent px-1 text-foreground shadow-none outline-none placeholder:text-muted;
+  }
+  & .cms-input:focus,
+  & .cms-input:focus-visible {
+    @apply shadow-none outline-none;
+  }
+  & button {
+    @apply shrink-0;
+  }
+}
+
+/* Het grote zoekveld van de startpagina: de vraag in grote letters. */
+@utility search-box-hero {
+  & > div {
+    @apply p-1.5 sm:p-2;
+  }
+  & > div::before {
+    @apply mx-3 size-5;
+  }
+  & .cms-input {
+    @apply min-h-13 text-lg;
+  }
+}
+
+/* Een rustig zoekveld met alleen een lijn eronder, voor de kop. */
+@utility search-box-quiet {
+  & > div {
+    @apply h-11 border-0 border-b-[1.5px] border-line bg-transparent p-0 focus-within:border-foreground;
+    box-shadow: none !important;
+  }
+  & > div::before {
+    @apply hidden;
+  }
+  & .cms-input {
+    @apply h-full min-h-0 px-0 text-base;
+  }
+  & button {
+    @apply h-full min-h-0 w-10 p-0;
+  }
+}
+
+@utility search-box-filled {
+  & > div {
+    @apply bg-background;
+  }
+}
+
+/* group: Lists */
+/* Een register: rijen tussen dunne lijnen, de titel groot, een pijl die verschijnt. Zoals een inhoudstafel. */
+@utility index-list {
+  @apply border-t border-rule;
+  & > li {
+    @apply border-b border-border;
+  }
+}
+
+@utility index-row {
+  @apply flex items-center gap-6 py-5 text-foreground no-underline sm:py-6;
+  &::after {
+    content: "→" / "";
+    @apply ml-auto shrink-0 font-display text-2xl leading-none text-muted;
+  }
+  &:hover::after {
+    @apply text-foreground;
+  }
+}
+
+/* Stappen als stippen op een lijn: genummerd, verbonden. */
+@utility steps {
+  counter-reset: step;
+  @apply flex flex-col;
+  & > li {
+    counter-increment: step;
+    @apply relative pb-8 pl-14 last:pb-0 before:absolute before:top-10 before:bottom-1 before:left-[1.1875rem] before:w-px before:bg-border last:before:hidden;
+  }
+  & > li::after {
+    content: counter(step);
+    @apply absolute top-0 left-0 flex size-10 items-center justify-center rounded-full bg-foreground font-display text-base font-medium text-background;
+  }
+}
+
+@utility link-list {
+  @apply flex flex-col border-t border-border;
+  & > li > a,
+  & > a {
+    @apply flex items-center justify-between gap-4 border-b border-border py-3.5 text-foreground no-underline hover:underline;
+  }
+  & > li > a::after,
+  & > a::after {
+    content: "→" / "";
+    @apply shrink-0 text-muted;
+  }
+}
+
+/* Feiten als een tabel van dunne lijnen: wat het kost, hoe lang het duurt. */
+@utility facts {
+  @apply grid gap-x-10 sm:grid-cols-2;
+  & > div {
+    @apply border-t border-rule py-4;
+  }
+  & dt {
+    @apply text-sm font-semibold text-muted;
+  }
+  & dd {
+    @apply mt-1 text-lg font-medium text-pretty;
+  }
+}
+
+/* group: Cards */
+@utility card {
+  @apply relative flex flex-col gap-2 bg-surface p-6 text-foreground no-underline transition-colors duration-200 hover:bg-[color-mix(in_srgb,var(--color-foreground)_8%,var(--color-surface))];
+}
+
+@utility card-line {
+  @apply relative flex flex-col gap-2 border-t border-rule pt-5;
+}
+
+@utility panel {
+  @apply bg-surface p-6 md:p-10;
+}
+
+/* group: Tags and states */
+@utility tag {
+  @apply inline-flex w-fit items-center gap-1.5 border border-current px-2 py-1 text-xs leading-none font-semibold text-foreground no-underline;
+}
+
+@utility tag-accent {
+  @apply inline-flex w-fit items-center gap-1.5 bg-accent px-2 py-1 text-xs leading-none font-semibold text-accent-foreground;
+}
+
+@utility state {
+  @apply inline-flex w-fit items-center gap-2 text-sm leading-none font-semibold before:size-2.5 before:rounded-full before:bg-current;
+}
+
+@utility date-badge {
+  @apply flex w-fit flex-col bg-background px-3 py-2 font-display leading-none text-foreground;
+}
+
+/* group: Alerts */
+@utility alert {
+  @apply flex items-start gap-3 border-l-4 px-5 py-4 text-base;
+}
+
+@utility alert-info {
+  @apply border-info bg-info-soft text-foreground;
+}
+
+@utility alert-warning {
+  @apply border-warning bg-warning-soft text-foreground;
+}
+
+@utility alert-danger {
+  @apply border-danger bg-danger-soft text-foreground;
+}
+
+@utility alert-success {
+  @apply border-success bg-success-soft text-foreground;
+}
+
+/* Schemes: een sectie in eigen kleuren. */
+@utility scheme-night {
+  --scheme: var(--color-ink);
+  --scheme-text: var(--color-ink-foreground);
+  @apply scheme;
+  --color-foreground: #ffffff;
+  --color-muted: #b5b5b5;
+  --color-rule: #ffffff;
+  --color-border: #3a3a3a;
+  --color-line: #8a8a8a;
+  --color-surface: #1d1d1d;
+  --color-raised: #222222;
+  --color-background: var(--color-ink);
+  --color-primary: #ffffff;
+  --color-primary-foreground: var(--color-ink);
+  --color-primary-soft: #222222;
+  --color-primary-strong: #ffffff;
+  --color-accent-text: #ff7a5c;
+}
+
+@utility scheme-accent {
+  --scheme: var(--color-accent);
+  --scheme-text: var(--color-ink);
+  @apply scheme;
+  --color-foreground: var(--color-ink);
+  --color-muted: #3a1a10;
+  --color-rule: var(--color-ink);
+  --color-border: color-mix(in srgb, var(--color-ink) 25%, var(--color-accent));
+  --color-line: var(--color-ink);
+  --color-surface: color-mix(in srgb, #ffffff 18%, var(--color-accent));
+  --color-background: var(--color-accent);
+  --color-primary: var(--color-ink);
+  --color-primary-foreground: #ffffff;
+  --color-primary-strong: #000000;
+  --color-accent-text: var(--color-ink);
+}
+
+@utility scheme-soft {
+  --scheme: light-dark(#f3f3f3, #1a1a1a);
+  --scheme-text: var(--color-foreground);
+  @apply scheme;
+  --color-raised: var(--color-background);
+  --color-surface: var(--color-background);
+  --color-border: light-dark(#d6d6d6, #333333);
+}
+
+@utility scheme-paper {
+  --scheme: light-dark(#ffffff, #101010);
+  --scheme-text: light-dark(#121212, #f2f2f2);
+  @apply scheme;
+  --color-foreground: light-dark(#121212, #f2f2f2);
+  --color-muted: light-dark(#5c5c5c, #ababab);
+  --color-border: light-dark(#dedede, #2e2e2e);
+  --color-surface: light-dark(#f3f3f3, #1a1a1a);
+}
+
+@utility scheme-photo {
+  --scheme: transparent;
+  --scheme-text: #ffffff;
+  @apply scheme;
+  --color-foreground: #ffffff;
+  --color-muted: #e6e6e6;
+  --color-rule: #ffffff;
+  --color-primary: #ffffff;
+  --color-primary-foreground: var(--color-ink);
+}
+
+/* Knoppen: de maat komt van de bedieningsmaten, de look van deze klassen. Zwart, en bij het aanwijzen oranje. */
+@utility btn-primary {
+  @apply border-primary bg-primary font-semibold text-primary-foreground transition-colors hover:border-accent hover:bg-accent hover:text-accent-foreground;
+}
+
+@utility btn-secondary {
+  @apply border-[1.5px] border-current bg-transparent font-semibold text-foreground transition-colors hover:border-foreground hover:bg-foreground hover:text-background;
+}
+
+@utility btn-ghost {
+  @apply font-semibold text-foreground hover:bg-surface;
+}
+
+@utility btn-link {
+  @apply h-auto border-0 p-0 font-semibold text-foreground underline underline-offset-4 hover:decoration-2;
+}
+
+@utility btn-accent {
+  @apply border-accent bg-accent font-semibold text-accent-foreground transition-colors hover:border-foreground hover:bg-foreground hover:text-background;
+}
+
+/* De kop blijft bovenaan staan. Het menu vult het scherm eronder; zolang het open is, scrolt de pagina erachter niet. */
+.site-header {
+  position: sticky;
+  top: 0;
+}
+html:has(.site-header [aria-expanded="true"]) {
+  overflow: hidden;
+}

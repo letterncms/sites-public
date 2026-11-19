@@ -1,0 +1,42 @@
+type: global
+title: Stad
+icon: buildings
+fields:
+  -
+    handle: name
+    type: text
+    label: 'Officiële naam'
+    default: 'Stad Wilgendaal'
+  -
+    handle: address
+    type: textarea
+    label: Bezoekadres
+  -
+    handle: postal
+    type: textarea
+    label: Postadres
+  -
+    handle: phone
+    type: text
+    label: Telefoon
+    width: half
+  -
+    handle: phone_link
+    type: text
+    label: 'Telefoon om te bellen'
+    instructions: 'Het nummer zonder spaties, voor de belknop: +3290000000.'
+    width: half
+  -
+    handle: email
+    type: email
+    label: E-mail
+    width: half
+  -
+    handle: hours
+    type: textarea
+    label: 'Openingsuren stadhuis'
+  -
+    handle: phone_hours
+    type: text
+    label: 'Telefonisch bereikbaar'
+driver: files

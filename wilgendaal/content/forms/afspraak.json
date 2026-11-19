@@ -1,0 +1,169 @@
+{
+    "published_at": "2026-11-18T00:21:33+00:00",
+    "updated_at": "2026-11-18T00:38:01+00:00",
+    "title": "Afspraak maken",
+    "settings": {
+        "submit": "Afspraak aanvragen",
+        "success": "Bedankt. Je krijgt binnen twee werkdagen een mail met het tijdstip van je afspraak.",
+        "redirect": null,
+        "notify": [],
+        "subject": "New submission: {form}",
+        "reply_to_field": "email",
+        "confirmation": true,
+        "confirmation_subject": "Je afspraak bij Stad Wilgendaal",
+        "confirmation_message": "<p>We hebben je aanvraag ontvangen en mailen je binnen twee werkdagen het tijdstip. Breng je identiteitskaart mee.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "bdouol2nk4y",
+            "type": "form/select",
+            "props": {
+                "name": "dienst",
+                "label": "Waarvoor kom je?",
+                "required": true,
+                "placeholder": "Kies een dienst",
+                "options": "eid|Identiteitskaart of Kids-ID aanvragen\nafhalen|Identiteitskaart of reispas afhalen\nreispas|Reispas aanvragen\nrijbewijs|Rijbewijs aanvragen of vernieuwen\nhuwelijk|Huwelijk of wettelijke samenwoning\ngeboorte|Geboorte aangeven\nsociaal|Gesprek in het Sociaal Huis"
+            }
+        },
+        {
+            "id": "bdsrbs2sjr9",
+            "type": "form/radio",
+            "props": {
+                "name": "plaats",
+                "label": "Waar?",
+                "required": true,
+                "options": "stadhuis|Stadhuis, Grote Markt 1\nsociaalhuis|Sociaal Huis, Kerkstraat 14"
+            }
+        },
+        {
+            "id": "b5uz1u6fpuy",
+            "type": "columns",
+            "props": {
+                "layout": "1-1"
+            },
+            "children": [
+                {
+                    "id": "bch5pmgjbgq",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "buc3fypppdl",
+                            "type": "form/date",
+                            "props": {
+                                "name": "datum",
+                                "label": "Voorkeursdag",
+                                "required": true,
+                                "help": "We zijn open van maandag tot vrijdag."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "brhthvibwxj",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "biyz7zqdhtk",
+                            "type": "form/select",
+                            "props": {
+                                "name": "moment",
+                                "label": "Voorkeursmoment",
+                                "required": true,
+                                "options": "voormiddag|Voormiddag\nnamiddag|Namiddag\navond|Maandagavond (alleen stadhuis)"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bf2hmk9ahxi",
+            "type": "form/checkboxes",
+            "props": {
+                "name": "hulp",
+                "label": "Heb je iets nodig om je te helpen?",
+                "options": "tolk|Een tolk\nringleiding|Een ringleiding\nrustig|Een rustige ruimte\nanders|Iets anders"
+            }
+        },
+        {
+            "id": "blyg7mlw29r",
+            "type": "form/text",
+            "props": {
+                "name": "hulp_anders",
+                "label": "Wat heb je nodig?",
+                "show_if": {
+                    "field": "hulp",
+                    "op": "equals",
+                    "value": "anders"
+                }
+            }
+        },
+        {
+            "id": "bdz93abhqch",
+            "type": "columns",
+            "props": {
+                "layout": "1-1"
+            },
+            "children": [
+                {
+                    "id": "bs3ltvobkiz",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "bg5vmukwczq",
+                            "type": "form/text",
+                            "props": {
+                                "name": "naam",
+                                "label": "Naam",
+                                "required": true,
+                                "autocomplete": "name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "blz1qhe6szu",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "bng1n5tdki0",
+                            "type": "form/email",
+                            "props": {
+                                "name": "email",
+                                "label": "E-mailadres",
+                                "required": true,
+                                "help": "We sturen je afspraak naar dit adres."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "byrucvby00f",
+            "type": "form/tel",
+            "props": {
+                "name": "telefoon",
+                "label": "Telefoonnummer",
+                "help": "Alleen als we je afspraak moeten verplaatsen."
+            }
+        },
+        {
+            "id": "bjuh3kxufbh",
+            "type": "form/consent",
+            "props": {
+                "name": "privacy",
+                "text": "Ik heb gelezen hoe de stad met mijn gegevens omgaat, in de <a href=\"/privacy\">privacyverklaring</a>."
+            }
+        }
+    ]
+}

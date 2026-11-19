@@ -1,0 +1,45 @@
+{
+    "fonts": [
+        {
+            "family": "Atkinson Hyperlegible Next",
+            "src": "fonts/atkinson-hyperlegible-next.woff2",
+            "weight": "400 700",
+            "style": "normal",
+            "preload": true,
+            "sizeAdjust": "99.1%",
+            "ascentOverride": "99.3%",
+            "descentOverride": "31.89%",
+            "fallback": "Arial",
+            "lineGapOverride": "0%"
+        },
+        {
+            "family": "Atkinson Hyperlegible Next",
+            "src": "fonts/atkinson-hyperlegible-next-italic.woff2",
+            "weight": "400 700",
+            "style": "italic",
+            "preload": false,
+            "sizeAdjust": "99.1%",
+            "ascentOverride": "99.3%",
+            "descentOverride": "31.89%",
+            "fallback": "Arial",
+            "lineGapOverride": "0%"
+        },
+        {
+            "family": "Albert Sans",
+            "src": "fonts/albert-sans.woff2",
+            "weight": "400 700",
+            "style": "normal",
+            "preload": true,
+            "sizeAdjust": "103.72%",
+            "ascentOverride": "91.6%",
+            "descentOverride": "24.1%",
+            "fallback": "Arial",
+            "lineGapOverride": "0%"
+        }
+    ],
+    "transition": {
+        "type": "fade",
+        "duration": 0.2,
+        "navigation": "document"
+    }
+}
