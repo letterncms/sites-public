@@ -12,19 +12,17 @@ keywords: 'burgemeester, schepen, college, gemeenteraad, bestuur, politiek'
 :::: component {"id":"bs-col-head","props":{"ref":"section-head","values":{"title":"Het college van burgemeester en schepenen"}}}
 ::::
 
-:::: box {"id":"bs-col-body","class":"mt-10"}
-::::: repeat {"id":"bs-col-list","props":{"source":"entries","collection":"people","sort":"position","limit":50,"tag":"ul","where":[{"field":"role","op":"in","value":["Burgemeester","Schepen"]}]},"class":"grid gap-x-8 gap-y-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"}
-:::::: box {"id":"bs-col-list-item","props":{"tag":"li"}}
-::::::: component {"id":"bs-col-list-card","props":{"ref":"person-card"},"bind":{"values.name":"item.title","values.role":"item.role","values.portfolio":"item.portfolio","values.photo":"item.photo","values.url":"item.url"}}
-:::::::
+:::: repeat {"id":"bs-col-list","props":{"source":"entries","collection":"people","sort":"position","limit":50,"tag":"ul","where":[{"field":"role","op":"in","value":["Burgemeester","Schepen"]}]},"class":"mt-10 grid gap-x-8 gap-y-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"}
+::::: box {"id":"bs-col-list-item","props":{"tag":"li"}}
+:::::: component {"id":"bs-col-list-card","props":{"ref":"person-card"},"bind":{"values.name":"item.title","values.role":"item.role","values.portfolio":"item.portfolio","values.photo":"item.photo","values.url":"item.url"}}
 ::::::
 :::::
 ::::
 :::
 
-::: box {"id":"bs-take","props":{"tag":"section"},"attrs":{"aria-labelledby":"#bs-take-h"},"class":"scheme-soft"}
-:::: box {"id":"bs-take-inner","class":"wrap py-section"}
-::::: heading {"id":"bs-take-h","props":{"level":"2","text":"Volg en doe mee"}}
+::: box {"id":"bs-take","props":{"tag":"section"},"class":"slab scheme-soft"}
+:::: box {"id":"bs-take-inner","class":"wrap"}
+::::: component {"id":"bs-take-head","props":{"ref":"section-head","values":{"title":"Volg en doe mee"}}}
 :::::
 
 ::::: box {"id":"bs-take-grid","class":"mt-10 grid gap-2.5 md:grid-cols-2"}
@@ -47,11 +45,9 @@ keywords: 'burgemeester, schepen, college, gemeenteraad, bestuur, politiek'
 :::: component {"id":"bs-staff-head","props":{"ref":"section-head","values":{"title":"De stadsadministratie"}}}
 ::::
 
-:::: box {"id":"bs-staff-body","class":"mt-10"}
-::::: repeat {"id":"bs-staff-list","props":{"source":"entries","collection":"people","sort":"position","limit":50,"tag":"ul","where":[{"field":"role","op":"=","value":"Algemeen directeur"}]},"class":"grid gap-x-8 gap-y-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"}
-:::::: box {"id":"bs-staff-list-item","props":{"tag":"li"}}
-::::::: component {"id":"bs-staff-list-card","props":{"ref":"person-card"},"bind":{"values.name":"item.title","values.role":"item.role","values.portfolio":"item.portfolio","values.photo":"item.photo","values.url":"item.url"}}
-:::::::
+:::: repeat {"id":"bs-staff-list","props":{"source":"entries","collection":"people","sort":"position","limit":50,"tag":"ul","where":[{"field":"role","op":"=","value":"Algemeen directeur"}]},"class":"mt-10 grid gap-x-8 gap-y-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"}
+::::: box {"id":"bs-staff-list-item","props":{"tag":"li"}}
+:::::: component {"id":"bs-staff-list-card","props":{"ref":"person-card"},"bind":{"values.name":"item.title","values.role":"item.role","values.portfolio":"item.portfolio","values.photo":"item.photo","values.url":"item.url"}}
 ::::::
 :::::
 ::::

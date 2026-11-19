@@ -10,42 +10,22 @@ keywords: 'geschiedenis, deelgemeenten, inwoners, feiten, cijfers'
 
 ::: box {"id":"ab-facts-wrap","class":"wrap pb-16"}
 :::: box {"id":"ab-facts","class":"grid gap-10 sm:grid-cols-2 lg:grid-cols-4"}
-::::: box {"id":"ab-1","class":"flex flex-col gap-2 border-t-2 border-primary pt-5"}
-:::::: paragraph {"id":"ab-1n","props":{"tag":"p","text":"38.400"},"class":"text-4xl font-semibold tracking-tight text-primary"}
-::::::
-
-:::::: paragraph {"id":"ab-1l","props":{"tag":"p","text":"inwoners"},"class":"text-base"}
-::::::
+::::: component {"id":"ab-1","props":{"ref":"stat","values":{"number":"38.400","label":"inwoners"}}}
 :::::
 
-::::: box {"id":"ab-2","class":"flex flex-col gap-2 border-t-2 border-primary pt-5"}
-:::::: paragraph {"id":"ab-2n","props":{"tag":"p","text":"4"},"class":"text-4xl font-semibold tracking-tight text-primary"}
-::::::
-
-:::::: paragraph {"id":"ab-2l","props":{"tag":"p","text":"deelgemeenten, van het centrum tot Linderbeek"},"class":"text-base"}
-::::::
+::::: component {"id":"ab-2","props":{"ref":"stat","values":{"number":"4","label":"deelgemeenten, van het centrum tot Linderbeek"}}}
 :::::
 
-::::: box {"id":"ab-3","class":"flex flex-col gap-2 border-t-2 border-primary pt-5"}
-:::::: paragraph {"id":"ab-3n","props":{"tag":"p","text":"41%"},"class":"text-4xl font-semibold tracking-tight text-primary"}
-::::::
-
-:::::: paragraph {"id":"ab-3l","props":{"tag":"p","text":"van de verplaatsingen gebeurt met de fiets"},"class":"text-base"}
-::::::
+::::: component {"id":"ab-3","props":{"ref":"stat","values":{"number":"41%","label":"van de verplaatsingen gebeurt met de fiets"}}}
 :::::
 
-::::: box {"id":"ab-4","class":"flex flex-col gap-2 border-t-2 border-primary pt-5"}
-:::::: paragraph {"id":"ab-4n","props":{"tag":"p","text":"620"},"class":"text-4xl font-semibold tracking-tight text-primary"}
-::::::
-
-:::::: paragraph {"id":"ab-4l","props":{"tag":"p","text":"hectare natuur, bos en water"},"class":"text-base"}
-::::::
+::::: component {"id":"ab-4","props":{"ref":"stat","values":{"number":"620","label":"hectare natuur, bos en water"}}}
 :::::
 ::::
 :::
 
-::: box {"id":"ab-photo-wrap","class":"wrap-wide pb-16"}
-:::: box {"id":"ab-photo","class":"frame"}
+::: box {"id":"ab-photo-wrap","class":"wrap pb-16"}
+:::: box {"id":"ab-photo","class":"photo"}
 ::::: image {"id":"ab-img","props":{"aspect":"21/9","image":["01m9a0abdvapx21pxbnhr3b9d8"],"alt":"Een rustige rivier door een stad met bakstenen huizen."},"class":"aspect-[21/9] w-full object-cover"}
 :::::
 ::::

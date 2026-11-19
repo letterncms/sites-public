@@ -36,7 +36,7 @@ description: 'De kop: een witte, afgeronde balk die bovenaan blijft zweven, met 
 ::::
 
 :::: box {"id":"hd-menu","label":"Menu","logic":{"show":"open","transition":"fade","on":[{"event":"click","mods":["outside"],"actions":[{"do":"set","var":"open","value":"false"}]}]},"anchor":"menu","class":"fixed inset-0 overflow-y-auto overscroll-contain bg-background pt-24 lg:pt-28"}
-::::: box {"id":"hd-menu-inner","class":"wrap-wide grid content-start gap-12 pt-6 pb-12 lg:grid-cols-12 lg:gap-x-16 lg:gap-y-14 lg:pt-10 lg:pb-16"}
+::::: box {"id":"hd-menu-inner","class":"wrap grid content-start gap-12 pt-6 pb-12 lg:grid-cols-12 lg:gap-x-16 lg:gap-y-14 lg:pt-10 lg:pb-16"}
 :::::: search-field {"id":"hd-menu-search","props":{"label":"Zoek op de website","show_label":false,"placeholder":"Wat zoek je?","button_label":"Zoeken","button_style":"primary","size":"md","icon_only":false,"results_page":"/zoeken"},"class":"search-box w-full max-w-2xl lg:col-span-12"}
 ::::::
 

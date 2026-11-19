@@ -18,7 +18,7 @@ keywords: 'producten, diensten, aanvragen, a-z, alfabetisch'
 :::
 
 ::: box {"id":"az","props":{"tag":"section"},"attrs":{"aria-labelledby":"#az-h"},"class":"slab scheme-soft"}
-:::: box {"id":"az-inner","class":"wrap py-section"}
+:::: box {"id":"az-inner","class":"wrap"}
 ::::: heading {"id":"az-h","props":{"level":"2","text":"Alles van A tot Z"}}
 :::::
 
