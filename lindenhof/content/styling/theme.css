@@ -162,12 +162,6 @@
 }
 
 @layer components {
-  .cms-prose {
-    --prose-blocks: 1.1em;
-    --prose-headings: 1.9em;
-    --prose-after-headings: 0.55em;
-    --prose-items: 0.4em;
-  }
   .cms-prose > h2:where(:not(.cms-box, .cms-repeat)) {
     @apply text-3xl;
   }
