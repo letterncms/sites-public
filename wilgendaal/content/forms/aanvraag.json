@@ -1,0 +1,117 @@
+{
+    "published_at": "2026-11-18T00:21:33+00:00",
+    "updated_at": "2026-11-18T00:21:33+00:00",
+    "title": "Online aanvragen",
+    "settings": {
+        "submit": "Aanvraag versturen",
+        "success": "Bedankt. We hebben je aanvraag goed ontvangen. Binnen twee werkdagen laten we je per mail weten hoe het verder gaat.",
+        "redirect": null,
+        "notify": [],
+        "subject": "New submission: {form}",
+        "reply_to_field": "email",
+        "confirmation": false,
+        "confirmation_subject": "We received your message",
+        "confirmation_message": "<p>Thanks for getting in touch. We will reply soon.</p>",
+        "store": true,
+        "honeypot": true,
+        "min_seconds": 3,
+        "webhook": null,
+        "enabled": true
+    },
+    "fields": [
+        {
+            "id": "bezhxk066o7",
+            "type": "form/text",
+            "props": {
+                "name": "wat",
+                "label": "Wat wil je aanvragen?",
+                "required": true,
+                "help": "Bijvoorbeeld: een bewonerskaart, een gft-container of een terrasvergunning."
+            }
+        },
+        {
+            "id": "b4s7j2yvx5k",
+            "type": "form/textarea",
+            "props": {
+                "name": "aanvraag",
+                "label": "Je aanvraag",
+                "required": true,
+                "rows": 5,
+                "max": 3000,
+                "help": "Vermeld alles wat we moeten weten, zoals de nummerplaat, de datum of het adres waarover het gaat."
+            }
+        },
+        {
+            "id": "b9tgnmykn7f",
+            "type": "form/file",
+            "props": {
+                "name": "bijlage",
+                "label": "Bijlage (niet verplicht)",
+                "accept": "any",
+                "max_mb": 10,
+                "help": "Een plan, een foto of een attest. PDF, Word of een foto, tot 10 MB."
+            }
+        },
+        {
+            "id": "bc3453wba80",
+            "type": "columns",
+            "props": {
+                "layout": "1-1"
+            },
+            "children": [
+                {
+                    "id": "bitapcm70gu",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "bjtwdg02d0a",
+                            "type": "form/text",
+                            "props": {
+                                "name": "naam",
+                                "label": "Naam",
+                                "required": true,
+                                "autocomplete": "name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "bq8sv1tdrnf",
+                    "type": "column",
+                    "props": [],
+                    "children": [
+                        {
+                            "id": "ba2wjsnqhfc",
+                            "type": "form/email",
+                            "props": {
+                                "name": "email",
+                                "label": "E-mailadres",
+                                "required": true,
+                                "help": "Hier sturen we het antwoord en je document naartoe."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bop42snj94m",
+            "type": "form/text",
+            "props": {
+                "name": "adres",
+                "label": "Je adres",
+                "required": true,
+                "autocomplete": "street-address"
+            }
+        },
+        {
+            "id": "bgyca3rq6a0",
+            "type": "form/consent",
+            "props": {
+                "name": "privacy",
+                "text": "Ik heb gelezen hoe de stad met mijn gegevens omgaat, in de <a href=\"/privacy\">privacyverklaring</a>."
+            }
+        }
+    ]
+}

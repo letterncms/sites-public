@@ -1,0 +1,16 @@
+type: menu
+title: 'Snel naar'
+singular: Link
+description: 'De snelle links onder het zoekveld op de startpagina.'
+max_depth: 1
+fields:
+  -
+    handle: link
+    type: link
+    label: Link
+    required: true
+  -
+    handle: icon
+    type: icon
+    label: Icoon
+driver: files

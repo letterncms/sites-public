@@ -1,0 +1,41 @@
+title: Levensmomenten
+singular: Levensmoment
+icon: path
+description: 'Wat er bij de stad te regelen is als er iets verandert in je leven: verhuizen, een kind, trouwen, bouwen, een zaak, een overlijden.'
+structure: list
+route: '/levensmomenten/{slug}'
+template: levensmoment
+sort: position
+nav_order: 12
+default_columns:
+  - 'field:products'
+  - status
+fields:
+  -
+    handle: content
+    type: blocks
+    label: Inhoud
+    body: true
+  -
+    handle: summary
+    type: textarea
+    label: 'Korte inhoud'
+    required: true
+  -
+    handle: photo
+    type: media
+    label: Foto
+    max: 1
+    accept: 'image/*'
+  -
+    handle: products
+    type: entries
+    label: 'Wat je bij de stad regelt'
+    collection: products
+    instructions: 'In de volgorde waarin mensen ze nodig hebben.'
+  -
+    handle: icon
+    type: icon
+    label: Icoon
+    section: sidebar
+driver: database
