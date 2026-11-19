@@ -1,5 +1,5 @@
 ---
-title: Kerncijfer
+title: Cijfer
 status: published
 position: 0
 category: Tekst
