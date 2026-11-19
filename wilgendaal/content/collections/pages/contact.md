@@ -9,7 +9,7 @@ keywords: 'contact, telefoon, adres, openingsuren, onthaal, loket'
 ---
 
 ::: box {"id":"ct-top","class":"wrap pb-16"}
-:::: box {"id":"ct-cards","class":"grid gap-4 md:grid-cols-3"}
+:::: box {"id":"ct-cards","class":"grid gap-2.5 md:grid-cols-3"}
 ::::: box {"id":"ct-1","class":"panel flex flex-col gap-3"}
 :::::: icon {"id":"ct-1-icon","props":{"icon":"phone"},"class":"mb-2 size-8 text-primary"}
 ::::::
@@ -72,7 +72,7 @@ keywords: 'contact, telefoon, adres, openingsuren, onthaal, loket'
 :::::
 ::::
 
-:::: map {"id":"ct-map","props":{"style":"site","zoom":14,"aspect":"21/9","interactive":true,"label":"Kaart met alle locaties van de stad"},"class":"mt-10 overflow-hidden"}
+:::: map {"id":"ct-map","props":{"style":"site","zoom":14,"aspect":"21/9","interactive":true,"label":"Kaart met alle locaties van de stad"},"class":"mt-10 overflow-hidden rounded-2xl"}
 ::::: repeat {"id":"ct-map-list","props":{"source":"entries","collection":"places","sort":"title","limit":50}}
 :::::: map-place {"id":"ct-map-place","bind":{"place":"item.location","title":"item.title","url":"item.url"}}
 ::::::
@@ -119,7 +119,7 @@ keywords: 'contact, telefoon, adres, openingsuren, onthaal, loket'
 ::::
 :::
 
-::: box {"id":"ct-form-section","props":{"tag":"section"},"attrs":{"aria-labelledby":"#ct-form-h"},"class":"bg-surface"}
+::: box {"id":"ct-form-section","props":{"tag":"section"},"attrs":{"aria-labelledby":"#ct-form-h"},"class":"slab scheme-soft"}
 :::: box {"id":"ct-form-grid","class":"wrap grid gap-12 py-section lg:grid-cols-12"}
 ::::: box {"id":"ct-form-intro","class":"flex flex-col gap-4 lg:col-span-4"}
 :::::: heading {"id":"ct-form-h","props":{"level":"2","text":"Stel je vraag"}}

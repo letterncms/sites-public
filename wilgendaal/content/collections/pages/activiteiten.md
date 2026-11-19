@@ -18,7 +18,7 @@ keywords: 'agenda, uit, evenementen, activiteiten, kalender'
 
 ::::: repeat {"id":"ev-list","props":{"source":"entries","collection":"events","sort":"when.start","limit":100,"tag":"ul","where":[{"field":"when.start","op":">","value":"{site.today}"}],"empty":"Er staan nu geen activiteiten gepland.","filter_by":"item.category"},"class":"grid gap-x-10 gap-y-14 md:grid-cols-2 lg:grid-cols-3"}
 :::::: box {"id":"ev-item"}
-::::::: component {"id":"ev-card","props":{"ref":"event-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.image":"item.cover","values.when":"{item.when.start|date:l j F}, {item.when.start|date:G.i} uur","values.venue":"item.venue"}}
+::::::: component {"id":"ev-card","props":{"ref":"event-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.image":"item.cover","values.day":"item.when.start|date:j","values.month":"item.when.start|date:M","values.when":"{item.when.start|date:l} {item.when.start|date:G.i} uur","values.venue":"item.venue"}}
 :::::::
 ::::::
 :::::

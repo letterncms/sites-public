@@ -12,24 +12,28 @@ description: 'Een dienst: kostprijs, termijn, voor wie en hoe aanvragen, wat mee
 :::
 
 ::: box {"id":"t-main","props":{"tag":"main"},"anchor":"main"}
-:::: box {"id":"pr-wrap","class":"wrap pt-8 pb-section"}
-::::: component {"id":"pr-crumbs","props":{"ref":"crumbs"},"bind":{"values.label":"entry.topic.title","values.url":"entry.topic.url"}}
-:::::
+:::: box {"id":"pr-head","class":"page-head"}
+::::: box {"id":"pr-head-inner","class":"wrap pb-12 md:pb-16"}
+:::::: component {"id":"pr-crumbs","props":{"ref":"crumbs"},"bind":{"values.label":"entry.topic.title","values.url":"entry.topic.url"}}
+::::::
 
-::::: box {"id":"pr-grid","class":"lg:grid lg:grid-cols-12 lg:gap-x-16"}
-:::::: box {"id":"pr-main","class":"min-w-0 lg:col-span-8"}
-::::::: box {"id":"pr-title","class":"mt-10 flex flex-col items-start gap-5"}
-:::::::: paragraph {"id":"pr-online","props":{"tag":"span","text":"Online aan te vragen"},"bind":{"visible":"entry.online"},"class":"tag-accent"}
-::::::::
-
-:::::::: heading {"id":"pr-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
-::::::::
-
-:::::::: paragraph {"id":"pr-title-lead","props":{"tag":"p"},"bind":{"text":"entry.summary","visible":"entry.summary"},"class":"lead max-w-2xl text-muted"}
-::::::::
+:::::: box {"id":"pr-title","class":"mt-8 flex max-w-4xl flex-col items-start gap-5 md:mt-12"}
+::::::: paragraph {"id":"pr-online","props":{"tag":"span","text":"Online aan te vragen"},"bind":{"visible":"entry.online"},"class":"tag"}
 :::::::
 
-::::::: box {"id":"pr-panel","class":"mt-10 flex flex-col gap-8 bg-surface p-8 md:p-10"}
+::::::: heading {"id":"pr-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
+:::::::
+
+::::::: paragraph {"id":"pr-title-lead","props":{"tag":"p"},"bind":{"text":"entry.summary","visible":"entry.summary"},"class":"lead max-w-2xl text-muted"}
+:::::::
+::::::
+:::::
+::::
+
+:::: box {"id":"pr-wrap","class":"wrap pt-12 pb-section md:pt-16"}
+::::: box {"id":"pr-grid","class":"lg:grid lg:grid-cols-12 lg:gap-x-16"}
+:::::: box {"id":"pr-main","class":"min-w-0 lg:col-span-8"}
+::::::: box {"id":"pr-panel","class":"flex flex-col gap-6 rounded-2xl bg-surface p-3 pb-6 sm:p-4 sm:pb-8"}
 :::::::: box {"id":"pr-facts","props":{"tag":"dl"},"class":"facts"}
 ::::::::: box {"id":"pr-f1","bind":{"visible":"entry.cost"}}
 :::::::::: paragraph {"id":"pr-dt1","props":{"tag":"dt","text":"Kostprijs"}}
@@ -64,7 +68,7 @@ description: 'Een dienst: kostprijs, termijn, voor wie en hoe aanvragen, wat mee
 :::::::::
 ::::::::
 
-:::::::: box {"id":"pr-bring-box","bind":{"visible":"entry.bring"},"class":"flex flex-col gap-3 border-t border-border pt-6"}
+:::::::: box {"id":"pr-bring-box","bind":{"visible":"entry.bring"},"class":"flex flex-col gap-3 px-3 pt-2 sm:px-4"}
 ::::::::: heading {"id":"pr-bring-h","props":{"level":"2","text":"Wat meebrengen?"},"class":"font-sans text-sm font-semibold text-muted"}
 :::::::::
 
@@ -79,7 +83,7 @@ description: 'Een dienst: kostprijs, termijn, voor wie en hoe aanvragen, wat mee
 :::::::::
 ::::::::
 
-:::::::: button {"id":"pr-action","props":{"label":"Online aanvragen","url":"#","variant":"primary","icon":"arrow-right","icon_position":"end"},"bind":{"label":"entry.action_label|default:Online aanvragen","url":"entry.action.url","visible":"entry.action.url"},"class":"self-start"}
+:::::::: button {"id":"pr-action","props":{"label":"Online aanvragen","url":"#","variant":"primary","icon":"arrow-right","icon_position":"end"},"bind":{"label":"entry.action_label|default:Online aanvragen","url":"entry.action.url","visible":"entry.action.url"},"class":"mx-3 self-start sm:mx-4"}
 ::::::::
 :::::::
 
@@ -126,7 +130,7 @@ description: 'Een dienst: kostprijs, termijn, voor wie en hoe aanvragen, wat mee
 ::::::
 
 :::::: box {"id":"pr-aside","props":{"tag":"aside"},"attrs":{"aria-label":"Hulp en meer over dit thema"},"class":"lg:col-span-4 max-lg:mt-16"}
-::::::: box {"id":"pr-aside-inner","class":"flex flex-col gap-10 lg:sticky lg:top-8"}
+::::::: box {"id":"pr-aside-inner","class":"flex flex-col gap-10 lg:sticky lg:top-28"}
 :::::::: box {"id":"pr-toc","props":{"tag":"nav"},"attrs":{"aria-labelledby":"#pr-toc-h"},"class":"flex flex-col gap-3"}
 ::::::::: heading {"id":"pr-toc-h","props":{"level":"2","text":"Op deze pagina"},"class":"font-sans text-sm font-semibold text-muted"}
 :::::::::

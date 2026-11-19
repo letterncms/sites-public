@@ -26,7 +26,7 @@ props:
 ---
 
 ::: box {"id":"mc","bind":{"link":"props.url"},"class":"group flex h-full flex-col gap-5 text-foreground no-underline"}
-:::: box {"id":"mc-photo","class":"zoom bg-surface"}
+:::: box {"id":"mc-photo","class":"zoom photo"}
 ::::: image {"id":"mc-img","props":{"aspect":"4/3","sizes":"(min-width: 64rem) 30vw, (min-width: 40rem) 45vw, 100vw"},"bind":{"image":"props.image"},"class":"aspect-[4/3] w-full object-cover"}
 :::::
 

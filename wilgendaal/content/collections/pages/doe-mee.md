@@ -13,7 +13,7 @@ keywords: 'inspraak, participatie, bevraging, raadpleging, mening'
 ::::
 
 :::: box {"id":"dm-open-body","class":"mt-6"}
-::::: repeat {"id":"dm-open","props":{"source":"entries","collection":"participation","sort":"-published_at","limit":50,"tag":"ul","where":[{"field":"state","op":"=","value":"Open"}],"empty":"Er lopen nu geen inspraaktrajecten."},"class":"grid gap-4 md:grid-cols-2"}
+::::: repeat {"id":"dm-open","props":{"source":"entries","collection":"participation","sort":"-published_at","limit":50,"tag":"ul","where":[{"field":"state","op":"=","value":"Open"}],"empty":"Er lopen nu geen inspraaktrajecten."},"class":"grid gap-2.5 md:grid-cols-2"}
 :::::: box {"id":"dm-open-item","props":{"tag":"li"},"class":"grid"}
 ::::::: component {"id":"dm-open-card","props":{"ref":"participation-card"},"bind":{"values.title":"item.title","values.summary":"item.summary","values.url":"item.url","values.state":"item.state","values.closes":"Tot {item.closes|date:j F Y}"}}
 :::::::
@@ -27,7 +27,7 @@ keywords: 'inspraak, participatie, bevraging, raadpleging, mening'
 ::::
 
 :::: box {"id":"dm-closed-body","class":"mt-6"}
-::::: repeat {"id":"dm-closed","props":{"source":"entries","collection":"participation","sort":"-published_at","limit":50,"tag":"ul","where":[{"field":"state","op":"!=","value":"Open"}],"empty":""},"class":"grid gap-4 md:grid-cols-2"}
+::::: repeat {"id":"dm-closed","props":{"source":"entries","collection":"participation","sort":"-published_at","limit":50,"tag":"ul","where":[{"field":"state","op":"!=","value":"Open"}],"empty":""},"class":"grid gap-2.5 md:grid-cols-2"}
 :::::: box {"id":"dm-closed-item","props":{"tag":"li"},"class":"grid"}
 ::::::: component {"id":"dm-closed-card","props":{"ref":"participation-card","values":{"action":"Lees wat we ermee deden"}},"bind":{"values.title":"item.title","values.summary":"item.summary","values.url":"item.url","values.state":"item.state","values.closes":"Gesloten op {item.closes|date:j F Y}"}}
 :::::::

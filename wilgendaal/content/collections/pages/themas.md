@@ -9,7 +9,7 @@ keywords: 'producten, diensten, aanvragen, a-z, alfabetisch'
 ---
 
 ::: box {"id":"tm","class":"wrap pb-16"}
-:::: repeat {"id":"tm-list","props":{"source":"entries","collection":"topics","sort":"position","limit":50,"tag":"ul"},"class":"grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3"}
+:::: repeat {"id":"tm-list","props":{"source":"entries","collection":"topics","sort":"position","limit":50,"tag":"ul"},"class":"grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3"}
 ::::: box {"id":"tm-item","props":{"tag":"li"},"class":"grid"}
 :::::: component {"id":"tm-card","props":{"ref":"icon-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.icon":"item.icon","values.summary":"item.summary"}}
 ::::::
@@ -17,7 +17,7 @@ keywords: 'producten, diensten, aanvragen, a-z, alfabetisch'
 ::::
 :::
 
-::: box {"id":"az","props":{"tag":"section"},"attrs":{"aria-labelledby":"#az-h"},"class":"bg-surface"}
+::: box {"id":"az","props":{"tag":"section"},"attrs":{"aria-labelledby":"#az-h"},"class":"slab scheme-soft"}
 :::: box {"id":"az-inner","class":"wrap py-section"}
 ::::: heading {"id":"az-h","props":{"level":"2","text":"Alles van A tot Z"}}
 :::::

@@ -27,7 +27,7 @@ keywords: 'burgemeester, schepen, college, gemeenteraad, bestuur, politiek'
 ::::: heading {"id":"bs-take-h","props":{"level":"2","text":"Volg en doe mee"}}
 :::::
 
-::::: box {"id":"bs-take-grid","class":"mt-10 grid gap-4 md:grid-cols-2"}
+::::: box {"id":"bs-take-grid","class":"mt-10 grid gap-2.5 md:grid-cols-2"}
 :::::: component {"id":"bs-card-1","props":{"ref":"product-card","values":{"title":"Gemeenteraad","summary":"Wanneer de raad vergadert, hoe je meekijkt, en de agenda’s en besluiten.","url":"/bestuur/gemeenteraad"}}}
 ::::::
 
