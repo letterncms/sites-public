@@ -202,7 +202,7 @@ description: 'De melding, het noodnummer, het logo, het hoofdmenu met zijn panel
 :::::
 
 ::::: box {"id":"hd-actions","class":"ml-auto flex items-center gap-2"}
-:::::: search {"id":"hd-search","props":{"label":"Zoeken","placeholder":"Zoek een arts, dienst of ziekte","empty":"Niets gevonden. Probeer een ander woord, of bel ons.","shortcut":true,"compact":"mobile"},"class":"h-11 min-w-64 rounded-full border-border bg-surface px-3.5 text-[0.9375rem] max-2xl:min-w-0 max-2xl:[&_.cms-search__kbd]:hidden max-2xl:[&_.cms-search__label]:sr-only max-md:size-11 max-md:justify-center max-md:p-0"}
+:::::: button {"id":"hd-search-link","props":{"label":"","icon":"magnifying-glass","accessible_label":"Zoeken","url":"/zoeken","variant":"ghost"},"class":"size-11 rounded-full p-0"}
 ::::::
 
 :::::: button {"id":"hd-portal","props":{"label":"Mijn dossier","variant":"secondary","size":"md","icon":"user"},"bind":{"url":"globals.hospital.portal.url"},"class":"max-sm:hidden"}
