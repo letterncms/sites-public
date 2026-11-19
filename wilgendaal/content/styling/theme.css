@@ -189,6 +189,18 @@
     --field-checkbox-radius: var(--radius-xs);
     --field-spacing-fields: 1.75rem;
     --field-chips-radius: 999px;
+    /* De bestandsknop volgt de ronding van het veld eromheen. */
+    --field-file-radius: var(--radius-xs);
+    /* Een schakelaar zoals de keuzes: een dunne lijn, een inktzwarte knop; aan wordt hij zwart met een witte knop. */
+    --field-switch-width: 2.875rem;
+    --field-switch-height: 1.625rem;
+    --field-switch-border-width: 1.5px;
+    --field-switch-border-color: var(--color-line);
+    --field-switch-off: var(--color-background);
+    --field-switch-on: var(--color-foreground);
+    --field-switch-knob: var(--color-foreground);
+    --field-switch-knob-on: var(--color-background);
+    --field-switch-knob-shadow: none;
   }
 }
 
