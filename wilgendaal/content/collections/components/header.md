@@ -8,7 +8,7 @@ description: 'De kop: een witte, afgeronde balk die bovenaan blijft zweven, met 
 ---
 
 ::: box {"id":"hd","props":{"tag":"header"},"behavior":{"module":"scrolled"},"label":"Kop","logic":{"data":{"open":false},"states":{"open":"open"},"on":[{"event":"keydown","mods":["window"],"key":"escape","actions":[{"do":"set","var":"open","value":"false"}]}]},"class":"site-header z-40"}
-:::: box {"id":"hd-bar","label":"Balk","class":"hd-bar relative z-10 mx-auto flex h-16 items-center gap-2 rounded-2xl bg-background pr-2 pl-4 sm:gap-4 sm:pl-5 lg:h-[4.5rem] lg:pr-2.5 lg:pl-6"}
+:::: box {"id":"hd-bar","label":"Balk","class":"hd-bar relative z-10 flex h-16 items-center gap-2 rounded-2xl bg-background pr-2.5 sm:gap-4 lg:h-[4.5rem]"}
 ::::: component {"id":"hd-logo","props":{"ref":"logo"}}
 :::::
 
@@ -27,7 +27,7 @@ description: 'De kop: een witte, afgeronde balk die bovenaan blijft zweven, met 
 :::::: button {"id":"hd-search-link","props":{"label":"Zoeken","url":"/zoeken","variant":"ghost","icon":"magnifying-glass","icon_position":"start"},"class":"hd-extra max-sm:hidden"}
 ::::::
 
-:::::: button {"id":"hd-search-icon","props":{"label":"","url":"/zoeken","variant":"ghost","icon":"magnifying-glass","accessible_label":"Zoeken"},"class":"hd-extra sm:hidden"}
+:::::: button {"id":"hd-search-icon","props":{"label":"","url":"/zoeken","variant":"ghost","icon":"magnifying-glass","accessible_label":"Zoeken"},"class":"hd-extra size-11 sm:hidden"}
 ::::::
 
 :::::: menu-button {"id":"hd-toggle","props":{"label":"Menu","show_label":true,"animation":"cross","lines":"2"},"label":"Menuknop","attrs":{"aria-controls":"#hd-menu"},"logic":{"on":[{"event":"click","actions":[{"do":"toggle","var":"open"}]}],"attrs":{"aria-expanded":"open"}},"class":"h-11 gap-2.5 rounded-xl bg-blue px-4 sm:h-12 sm:px-5 font-semibold text-white transition-colors duration-200 hover:bg-blue-strong lg:h-[3.25rem]"}

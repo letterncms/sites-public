@@ -94,6 +94,9 @@
   --spacing-section: clamp(4rem, 8vw, 7.5rem);
   /* De witte lijst rond een vlak: smal, maar altijd te zien. */
   --spacing-frame: clamp(0.5rem, 0.3rem + 0.6vw, 0.875rem);
+  /* Hoe ver een vlak van de zijkant ligt: de lijst, en op een breed scherm zoveel dat het niet breder wordt dan de
+     inhoud. Zo staan de kop, de vlakken en wat erin staat altijd op één lijn. */
+  --spacing-inset: max(var(--spacing-frame), (100% - var(--container-wide)) / 2 + var(--spacing-frame));
 
   --control-sm-height: 2.75rem;
   --control-sm-padding: 1.125rem;
@@ -251,7 +254,7 @@
 
 /* Een vlak: een foto, een zwart of oranje stuk van de pagina, met een smalle witte lijst eromheen en zachte hoeken. */
 @utility slab {
-  @apply relative mx-frame overflow-hidden rounded-slab;
+  @apply relative mx-inset overflow-hidden rounded-slab;
   /* Wat erin staat, begint op dezelfde lijn als de rest van de pagina. */
   & :is(.wrap, .wrap-wide) {
     max-width: calc(var(--container-wide) - 2 * var(--spacing-frame));
@@ -262,7 +265,7 @@
 /* De kop van een pagina: een zacht grijs vlak dat onder de zwevende balk begint, met het kruimelpad, de titel en
    wat de pagina is. */
 @utility page-head {
-  @apply relative mx-frame mt-frame overflow-hidden rounded-slab bg-surface pt-24 lg:pt-28;
+  @apply relative mx-inset mt-frame overflow-hidden rounded-slab bg-surface pt-24 lg:pt-28;
   --notch-bg: var(--color-surface);
   & :is(.wrap, .wrap-wide) {
     max-width: calc(var(--container-wide) - 2 * var(--spacing-frame));
@@ -367,8 +370,8 @@
 /* Een rond vak met een pijl: waar een kaart naartoe leidt. Wordt blauw als je de kaart aanwijst. */
 @utility go {
   @apply flex size-11 shrink-0 items-center justify-center rounded-full border-[1.5px] border-current/25 text-foreground transition-colors;
-  :where(a:hover, .group:hover) > &,
-  :where(a:hover, .group:hover) > * > & {
+  :is(a:hover, .group:hover) > &,
+  :is(a:hover, .group:hover) > * > & {
     @apply border-blue bg-blue text-white;
   }
 }
@@ -644,20 +647,22 @@
   @apply rounded-lg border-accent bg-accent font-semibold text-accent-foreground transition-colors hover:border-foreground hover:bg-foreground hover:text-background;
 }
 
-/* De kop zweeft: een witte, afgeronde balk die bovenaan blijft staan, een eind van de rand. Op een foto (hero-photo)
-   ligt hij over de foto. Zodra je scrolt (data-scrolled, uit scripts/scrolled.js) krijgt hij een schaduw. Het menu
+/* De kop zweeft: een witte, afgeronde balk die bovenaan blijft staan. Hij ligt even ver van de rand van een vlak als
+   dat vlak van de rand van het scherm (twee keer --spacing-frame), boven en opzij, en de menuknop ligt even ver van
+   de rand van de balk, rechts en boven. Op een foto (hero-photo) ligt hij over de foto. Zodra je scrolt (data-scrolled, uit scripts/scrolled.js) krijgt hij een schaduw. Het menu
    vult het hele scherm: alleen de balk blijft erboven, en de pagina erachter scrolt niet zolang het open is. */
 .site-header {
   position: sticky;
   top: 0;
-  padding: calc(var(--spacing-frame) + 0.5rem) calc(var(--spacing-frame) + 0.5rem) 0;
+  padding: calc(2 * var(--spacing-frame)) calc(var(--spacing-inset) + var(--spacing-frame)) 0;
   pointer-events: none;
 }
 .site-header > * {
   pointer-events: auto;
 }
 .site-header .hd-bar {
-  max-width: calc(var(--container-wide) - 2 * var(--spacing-gutter) + 3rem);
+  /* Het logo begint op dezelfde lijn als de inhoud eronder. */
+  padding-left: max(0.75rem, var(--spacing-gutter) - 2 * var(--spacing-frame));
   box-shadow: 0 0 0 1px var(--color-border);
   transition: box-shadow 0.25s;
 }
@@ -675,11 +680,11 @@ html:has(.site-header [aria-expanded="true"]) {
 }
 /* Op een pagina die met een foto of een grijs vlak begint, ligt de balk erover, zonder lijn. */
 body:has(.hero-photo, .page-head) .site-header {
-  margin-bottom: calc(-4rem - var(--spacing-frame) - 0.5rem);
+  margin-bottom: calc(-4rem - 2 * var(--spacing-frame));
 }
 @media (width >= 64rem) {
   body:has(.hero-photo, .page-head) .site-header {
-    margin-bottom: calc(-4.5rem - var(--spacing-frame) - 0.5rem);
+    margin-bottom: calc(-4.5rem - 2 * var(--spacing-frame));
   }
 }
 body:has(.hero-photo, .page-head) .site-header:not([data-scrolled]) .hd-bar {
