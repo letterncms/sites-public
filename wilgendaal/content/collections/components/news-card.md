@@ -4,7 +4,7 @@ title: Nieuwskaart
 status: published
 position: 0
 category: Kaarten
-description: 'Een nieuwsbericht: foto, soort, datum, titel en korte inhoud.'
+description: 'Een nieuwsbericht: foto met de soort en de datum in een tab, de titel en de korte inhoud.'
 props:
   -
     handle: title
@@ -36,20 +36,22 @@ props:
 ---
 
 ::: box {"id":"nc","bind":{"link":"props.url"},"class":"group flex flex-col gap-5 text-foreground no-underline"}
-:::: box {"id":"nc-photo","bind":{"visible":"props.image"},"class":"zoom bg-surface"}
-::::: image {"id":"nc-img","props":{"aspect":"3/2"},"bind":{"image":"props.image"},"class":"aspect-[3/2] w-full object-cover"}
+:::: box {"id":"nc-media","class":"relative"}
+::::: box {"id":"nc-photo","bind":{"visible":"props.image"},"class":"zoom photo"}
+:::::: image {"id":"nc-img","props":{"aspect":"3/2","sizes":"(min-width: 64rem) 30vw, (min-width: 48rem) 45vw, 100vw"},"bind":{"image":"props.image"},"class":"aspect-[3/2] w-full object-cover"}
+::::::
 :::::
-::::
 
-:::: box {"id":"nc-body","class":"flex flex-col gap-3"}
-::::: box {"id":"nc-meta","class":"flex flex-wrap items-center gap-3"}
+::::: box {"id":"nc-meta","bind":{"state:photo":"props.image"},"class":"notch flex flex-wrap items-center gap-3 pt-3 pr-4 pb-0 pl-0 not-data-photo:static not-data-photo:pt-0"}
 :::::: paragraph {"id":"nc-kind","props":{"tag":"span"},"bind":{"text":"props.kind","visible":"props.kind"},"class":"tag"}
 ::::::
 
 :::::: paragraph {"id":"nc-date","props":{"tag":"time"},"bind":{"text":"props.date"},"class":"meta"}
 ::::::
 :::::
+::::
 
+:::: box {"id":"nc-body","class":"flex flex-col gap-3 pt-1"}
 ::::: heading {"id":"nc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-2xl group-hover:underline"}
 :::::
 

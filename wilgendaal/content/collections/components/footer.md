@@ -4,10 +4,10 @@ title: Voet
 status: published
 position: 0
 category: Site
-description: 'De voet in zwart: het stadhuis met zijn adres, uren en telefoon, de thema’s, stad en bestuur de kanalen op sociale media en de wettelijke links.'
+description: 'De voet als zwart vlak: het stadhuis met zijn adres, uren en telefoon, de thema’s, stad en bestuur de kanalen op sociale media en de wettelijke links.'
 ---
 
-::: box {"id":"ft","props":{"tag":"footer"},"label":"Voet","class":"scheme-night"}
+::: box {"id":"ft","props":{"tag":"footer"},"label":"Voet","class":"slab scheme-night mb-frame"}
 :::: box {"id":"ft-grid","class":"wrap-wide grid gap-12 pt-20 pb-16 sm:grid-cols-2 lg:grid-cols-12 lg:gap-x-10"}
 ::::: box {"id":"ft-visit","class":"flex flex-col gap-4 lg:col-span-4"}
 :::::: heading {"id":"ft-visit-h","props":{"level":"2","text":"Stadhuis"},"class":"eyebrow border-b border-border pb-3 font-sans"}
@@ -33,7 +33,7 @@ description: 'De voet in zwart: het stadhuis met zijn adres, uren en telefoon, d
 
 ::::::: repeat {"id":"ft-social-list","props":{"source":"menu","menu":"social","tag":"ul"},"class":"flex flex-wrap gap-2"}
 :::::::: box {"id":"ft-social-item","props":{"tag":"li"}}
-::::::::: box {"id":"ft-social-link","bind":{"link":"item.url"},"class":"flex size-11 items-center justify-center border border-border text-current no-underline transition-colors hover:border-accent hover:bg-accent hover:text-accent-foreground"}
+::::::::: box {"id":"ft-social-link","bind":{"link":"item.url"},"class":"flex size-11 items-center justify-center rounded-full border border-border text-current no-underline transition-colors hover:border-white hover:bg-white hover:text-ink"}
 :::::::::: icon {"id":"ft-social-icon","bind":{"icon":"item.icon"},"class":"size-5"}
 ::::::::::
 

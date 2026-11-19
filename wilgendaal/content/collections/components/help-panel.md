@@ -26,7 +26,7 @@ props:
     default: /contact
 ---
 
-::: box {"id":"hp","label":"Hulpvlak","class":"@container bg-surface"}
+::: box {"id":"hp","label":"Hulpvlak","class":"@container rounded-2xl bg-surface"}
 :::: box {"id":"hp-inner","class":"flex flex-col items-start gap-5 p-6 @2xl:flex-row @2xl:items-center @2xl:justify-between @2xl:gap-10 @2xl:p-10"}
 ::::: box {"id":"hp-text","class":"flex max-w-xl flex-col gap-2"}
 :::::: heading {"id":"hp-title","props":{"level":"2"},"bind":{"text":"props.title"},"class":"text-xl"}

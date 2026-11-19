@@ -12,27 +12,32 @@ description: 'Een nieuwsbericht, persbericht of melding van werken: soort en dat
 :::
 
 ::: box {"id":"t-main","props":{"tag":"main"},"anchor":"main"}
-:::: box {"id":"nw-wrap","class":"wrap pt-8 pb-section"}
-::::: component {"id":"nw-crumbs","props":{"ref":"crumbs","values":{"label":"Nieuws","url":"/nieuws"}}}
-:::::
+:::: box {"id":"nw-head","class":"page-head"}
+::::: box {"id":"nw-head-inner","class":"wrap pb-12 md:pb-16"}
+:::::: component {"id":"nw-crumbs","props":{"ref":"crumbs","values":{"label":"Nieuws","url":"/nieuws"}}}
+::::::
 
-::::: box {"id":"nw-title","class":"mt-10 flex max-w-3xl flex-col gap-5"}
-:::::: box {"id":"nw-meta","class":"flex flex-wrap items-center gap-3"}
-::::::: paragraph {"id":"nw-kind","props":{"tag":"span"},"bind":{"text":"entry.kind"},"class":"tag"}
+:::::: box {"id":"nw-title","class":"mt-8 flex max-w-4xl flex-col gap-5 md:mt-12"}
+::::::: box {"id":"nw-meta","class":"flex flex-wrap items-center gap-3"}
+:::::::: paragraph {"id":"nw-kind","props":{"tag":"span"},"bind":{"text":"entry.kind"},"class":"tag"}
+::::::::
+
+:::::::: paragraph {"id":"nw-date","props":{"tag":"time"},"bind":{"text":"entry.date|date:j F Y"},"class":"meta"}
+::::::::
 :::::::
 
-::::::: paragraph {"id":"nw-date","props":{"tag":"time"},"bind":{"text":"entry.date|date:j F Y"},"class":"meta"}
+::::::: heading {"id":"nw-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
+:::::::
+
+::::::: paragraph {"id":"nw-title-lead","props":{"tag":"p"},"bind":{"text":"entry.summary","visible":"entry.summary"},"class":"lead max-w-2xl text-muted"}
 :::::::
 ::::::
-
-:::::: heading {"id":"nw-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
-::::::
-
-:::::: paragraph {"id":"nw-title-lead","props":{"tag":"p"},"bind":{"text":"entry.summary","visible":"entry.summary"},"class":"lead max-w-2xl text-muted"}
-::::::
 :::::
+::::
 
-::::: box {"id":"nw-photo","bind":{"visible":"entry.cover"},"class":"frame mt-12"}
+:::: box {"id":"nw-wrap","class":"wrap pt-12 pb-section md:pt-16"}
+
+::::: box {"id":"nw-photo","bind":{"visible":"entry.cover"},"class":"frame"}
 :::::: image {"id":"nw-img","props":{"priority":true,"aspect":"16/9","sizes":"(min-width: 80rem) 76rem, 100vw"},"bind":{"image":"entry.cover"},"class":"aspect-[16/9] w-full object-cover"}
 ::::::
 :::::
@@ -46,7 +51,7 @@ description: 'Een nieuwsbericht, persbericht of melding van werken: soort en dat
 :::::
 ::::
 
-:::: box {"id":"nw-more-section","props":{"tag":"section"},"attrs":{"aria-labelledby":"#nw-more-h"},"class":"bg-surface"}
+:::: box {"id":"nw-more-section","props":{"tag":"section"},"attrs":{"aria-labelledby":"#nw-more-h"},"class":"slab scheme-soft"}
 ::::: box {"id":"nw-more-inner","class":"wrap py-section"}
 :::::: box {"id":"nw-more-head","class":"flex flex-wrap items-end justify-between gap-4"}
 ::::::: heading {"id":"nw-more-h","props":{"level":"2","text":"Meer nieuws"},"class":"text-2xl"}

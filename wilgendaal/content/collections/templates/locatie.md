@@ -12,17 +12,22 @@ description: 'Een openbaar gebouw: foto en wat je er kan doen, met adres, contac
 :::
 
 ::: box {"id":"t-main","props":{"tag":"main"},"anchor":"main"}
-:::: box {"id":"lo-wrap","class":"wrap pt-8 pb-section"}
-::::: component {"id":"lo-crumbs","props":{"ref":"crumbs","values":{"label":"Contact","url":"/contact"}}}
-:::::
-
-::::: box {"id":"lo-title","class":"mt-10 flex max-w-3xl flex-col gap-5"}
-:::::: heading {"id":"lo-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
+:::: box {"id":"lo-head","class":"page-head"}
+::::: box {"id":"lo-head-inner","class":"wrap pb-12 md:pb-16"}
+:::::: component {"id":"lo-crumbs","props":{"ref":"crumbs","values":{"label":"Contact","url":"/contact"}}}
 ::::::
 
-:::::
+:::::: box {"id":"lo-title","class":"mt-8 flex max-w-4xl flex-col gap-5 md:mt-12"}
+::::::: heading {"id":"lo-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
+:::::::
 
-::::: box {"id":"lo-grid","class":"mt-12 flex flex-col lg:grid lg:grid-cols-12 lg:gap-x-16"}
+::::::
+:::::
+::::
+
+:::: box {"id":"lo-wrap","class":"wrap pt-12 pb-section md:pt-16"}
+
+::::: box {"id":"lo-grid","class":"flex flex-col lg:grid lg:grid-cols-12 lg:gap-x-16"}
 :::::: box {"id":"lo-main","class":"min-w-0 lg:col-span-8"}
 ::::::: box {"id":"lo-photo","bind":{"visible":"entry.photo"},"class":"frame"}
 :::::::: image {"id":"lo-img","props":{"priority":true,"aspect":"3/2"},"bind":{"image":"entry.photo"},"class":"aspect-[3/2] w-full object-cover"}
@@ -36,7 +41,7 @@ description: 'Een openbaar gebouw: foto en wat je er kan doen, met adres, contac
 :::::::: heading {"id":"lo-map-h","props":{"level":"2","text":"Ligging"},"class":"text-2xl"}
 ::::::::
 
-:::::::: map {"id":"lo-map","props":{"style":"site","zoom":16,"aspect":"16/9","interactive":true,"label":"Kaart met de ligging"},"class":"overflow-hidden"}
+:::::::: map {"id":"lo-map","props":{"style":"site","zoom":16,"aspect":"16/9","interactive":true,"label":"Kaart met de ligging"},"class":"overflow-hidden rounded-2xl"}
 ::::::::: map-place {"id":"lo-map-place","bind":{"place":"entry.location","title":"entry.title","text":"entry.address"}}
 :::::::::
 ::::::::
@@ -59,7 +64,7 @@ description: 'Een openbaar gebouw: foto en wat je er kan doen, met adres, contac
 ::::::
 
 :::::: box {"id":"lo-aside","props":{"tag":"aside"},"attrs":{"aria-label":"Adres en openingsuren"},"class":"lg:col-span-4 max-lg:order-first max-lg:mb-10"}
-::::::: box {"id":"lo-card","class":"panel flex flex-col gap-7 p-8 md:p-8 lg:sticky lg:top-8"}
+::::::: box {"id":"lo-card","class":"panel flex flex-col gap-7 p-8 md:p-8 lg:sticky lg:top-28"}
 :::::::: box {"id":"lo-address-box","class":"flex flex-col items-start gap-1"}
 ::::::::: heading {"id":"lo-address-h","props":{"level":"2","text":"Adres"},"class":"text-sm font-semibold text-muted"}
 :::::::::

@@ -13,12 +13,12 @@ description: 'Een thema: de titel met wat je er meteen kan regelen en een foto, 
 
 ::: box {"id":"t-main","props":{"tag":"main"},"anchor":"main"}
 :::: box {"id":"th-head","class":"page-head"}
-::::: box {"id":"th-crumbs-wrap","class":"wrap-wide pt-8"}
+::::: box {"id":"th-crumbs-wrap","class":"wrap-wide"}
 :::::: component {"id":"th-crumbs","props":{"ref":"crumbs","values":{"label":"Thema’s","url":"/themas"}}}
 ::::::
 :::::
 
-::::: box {"id":"th-head-inner","class":"wrap-wide grid items-start gap-10 pt-8 pb-14 lg:grid-cols-12 lg:gap-16 lg:pt-10 lg:pb-20"}
+::::: box {"id":"th-head-inner","class":"wrap-wide grid items-end gap-10 pt-8 pb-12 lg:grid-cols-12 lg:gap-16 lg:pt-12 lg:pb-16"}
 :::::: box {"id":"th-text","class":"flex flex-col items-start gap-5 lg:col-span-7"}
 ::::::: heading {"id":"th-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
 :::::::
@@ -30,27 +30,27 @@ description: 'Een thema: de titel met wat je er meteen kan regelen en een foto, 
 :::::::: heading {"id":"th-want-h","props":{"level":"2","text":"Ik wil"},"class":"sr-only"}
 ::::::::
 
-:::::::: repeat {"id":"th-want","props":{"source":"entries","collection":"products","sort":"-featured","limit":4,"tag":"ul","where":[{"field":"topic","op":"contains","value":"{entry.id}"}]},"class":"flex flex-col gap-3"}
+:::::::: repeat {"id":"th-want","props":{"source":"entries","collection":"products","sort":"-featured","limit":4,"tag":"ul","where":[{"field":"topic","op":"contains","value":"{entry.id}"}]},"class":"flex flex-wrap gap-2"}
 ::::::::: box {"id":"th-want-item","props":{"tag":"li"}}
-:::::::::: link {"id":"th-want-link","bind":{"label":"item.title","url":"item.url"},"class":"arrow-link"}
+:::::::::: link {"id":"th-want-link","bind":{"label":"item.title","url":"item.url"},"class":"arrow-link min-h-11 rounded-full bg-background px-4 py-2.5 text-foreground transition-colors hover:bg-blue hover:text-white hover:no-underline"}
 ::::::::::
 :::::::::
 ::::::::
 :::::::
 ::::::
 
-:::::: box {"id":"th-photo","bind":{"visible":"entry.photo"},"class":"bg-surface lg:col-span-5"}
+:::::: box {"id":"th-photo","bind":{"visible":"entry.photo"},"class":"photo lg:col-span-5"}
 ::::::: image {"id":"th-img","props":{"priority":true,"aspect":"3/2","sizes":"(min-width: 64rem) 36vw, 100vw"},"bind":{"image":"entry.photo"},"class":"aspect-[3/2] w-full object-cover"}
 :::::::
 ::::::
 :::::
 ::::
 
-:::: box {"id":"th-list","props":{"tag":"section"},"class":"wrap-wide pb-section"}
+:::: box {"id":"th-list","props":{"tag":"section"},"class":"wrap-wide pt-14 pb-section lg:pt-20"}
 ::::: component {"id":"th-list-head","props":{"ref":"section-head","values":{"title":"Dit regel je bij de stad","label":"Alles van A tot Z","url":"/themas#alles-van-a-tot-z"}}}
 :::::
 
-::::: repeat {"id":"th-products","props":{"source":"entries","collection":"products","sort":"title","limit":100,"tag":"ul","where":[{"field":"topic","op":"contains","value":"{entry.id}"}],"empty":"Er staat nog niets in dit thema."},"class":"mt-10 grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3"}
+::::: repeat {"id":"th-products","props":{"source":"entries","collection":"products","sort":"title","limit":100,"tag":"ul","where":[{"field":"topic","op":"contains","value":"{entry.id}"}],"empty":"Er staat nog niets in dit thema."},"class":"mt-8 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3"}
 :::::: box {"id":"th-card-item","props":{"tag":"li"},"class":"grid"}
 ::::::: component {"id":"th-card","props":{"ref":"product-card"},"bind":{"values.title":"item.title","values.summary":"item.summary","values.url":"item.url","values.online":"item.online"}}
 :::::::
@@ -58,16 +58,16 @@ description: 'Een thema: de titel met wat je er meteen kan regelen en een foto, 
 :::::
 ::::
 
-:::: box {"id":"th-more","props":{"tag":"section"},"attrs":{"aria-label":"Nieuws en contact"},"class":"border-t border-border"}
-::::: box {"id":"th-more-grid","class":"wrap-wide grid gap-14 py-section lg:grid-cols-12"}
+:::: box {"id":"th-more","props":{"tag":"section"},"attrs":{"aria-label":"Nieuws en contact"}}
+::::: box {"id":"th-more-grid","class":"wrap-wide grid gap-14 pb-section lg:grid-cols-12"}
 :::::: box {"id":"th-news-col","class":"lg:col-span-7"}
 ::::::: component {"id":"th-news-head","props":{"ref":"section-head","values":{"title":"Nieuws","label":"Al het nieuws","url":"/nieuws"}}}
 :::::::
 
-::::::: repeat {"id":"th-news","props":{"source":"entries","collection":"news","sort":"-published_at","limit":3,"tag":"ul","where":[{"field":"topic","op":"contains","value":"{entry.id}"}],"empty":"Er is nu geen nieuws over dit thema. Het laatste nieuws van de stad staat bij Nieuws."},"class":"mt-8 flex flex-col"}
-:::::::: box {"id":"th-news-item","props":{"tag":"li"},"class":"border-b border-border first:border-t first:border-rule"}
-::::::::: box {"id":"th-news-link","bind":{"link":"item.url"},"class":"group flex gap-5 py-5 text-foreground no-underline"}
-:::::::::: box {"id":"th-news-photo","class":"zoom size-24 shrink-0 bg-surface sm:size-28"}
+::::::: repeat {"id":"th-news","props":{"source":"entries","collection":"news","sort":"-published_at","limit":3,"tag":"ul","where":[{"field":"topic","op":"contains","value":"{entry.id}"}],"empty":"Er is nu geen nieuws over dit thema. Het laatste nieuws van de stad staat bij Nieuws."},"class":"mt-8 flex flex-col gap-2.5"}
+:::::::: box {"id":"th-news-item","props":{"tag":"li"}}
+::::::::: box {"id":"th-news-link","bind":{"link":"item.url"},"class":"group card flex-row items-center gap-5 p-3 pr-5"}
+:::::::::: box {"id":"th-news-photo","class":"zoom size-24 shrink-0 overflow-hidden rounded-lg bg-surface sm:size-28"}
 ::::::::::: image {"id":"th-news-img","props":{"aspect":"1/1","sizes":"7rem"},"bind":{"image":"item.cover"},"class":"size-full object-cover"}
 :::::::::::
 ::::::::::
@@ -90,7 +90,7 @@ description: 'Een thema: de titel met wat je er meteen kan regelen en een foto, 
 ::::::
 
 :::::: box {"id":"th-contact-col","class":"lg:col-span-4 lg:col-start-9"}
-::::::: box {"id":"th-contact","props":{"tag":"aside"},"attrs":{"aria-labelledby":"#th-contact-h"},"class":"flex flex-col gap-6 bg-surface p-6 sm:p-8"}
+::::::: box {"id":"th-contact","props":{"tag":"aside"},"attrs":{"aria-labelledby":"#th-contact-h"},"class":"flex flex-col gap-6 rounded-2xl bg-surface p-6 sm:p-8"}
 :::::::: heading {"id":"th-contact-h","props":{"level":"2","text":"Vragen over dit thema?"},"class":"text-2xl"}
 ::::::::
 
@@ -125,14 +125,14 @@ description: 'Een thema: de titel met wat je er meteen kan regelen en een foto, 
 :::::
 ::::
 
-:::: box {"id":"th-others-section","props":{"tag":"section"},"attrs":{"aria-labelledby":"#th-others-h"},"class":"bg-surface"}
+:::: box {"id":"th-others-section","props":{"tag":"section"},"attrs":{"aria-labelledby":"#th-others-h"},"class":"slab scheme-soft"}
 ::::: box {"id":"th-others-inner","class":"wrap-wide py-16"}
 :::::: heading {"id":"th-others-h","props":{"level":"2","text":"Andere thema’s"},"class":"text-2xl"}
 ::::::
 
 :::::: repeat {"id":"th-others","props":{"source":"entries","collection":"topics","sort":"position","limit":20,"tag":"ul","skipCurrent":true},"class":"mt-6 flex flex-wrap gap-3"}
 ::::::: box {"id":"th-others-item","props":{"tag":"li"}}
-:::::::: link {"id":"th-others-link","bind":{"label":"item.title","url":"item.url"},"class":"flex border border-border bg-background px-4 py-2.5 font-semibold text-foreground no-underline transition-colors hover:border-foreground"}
+:::::::: link {"id":"th-others-link","bind":{"label":"item.title","url":"item.url"},"class":"flex min-h-11 items-center rounded-full bg-background px-4 py-2.5 font-semibold text-foreground no-underline transition-colors hover:bg-blue hover:text-white"}
 ::::::::
 :::::::
 ::::::

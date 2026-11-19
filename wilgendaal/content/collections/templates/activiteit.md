@@ -12,17 +12,22 @@ description: 'Een activiteit: foto en beschrijving, met datum, uur, locatie, pri
 :::
 
 ::: box {"id":"t-main","props":{"tag":"main"},"anchor":"main"}
-:::: box {"id":"ev-wrap","class":"wrap pt-8 pb-section"}
-::::: component {"id":"ev-crumbs","props":{"ref":"crumbs","values":{"label":"Activiteiten","url":"/activiteiten"}}}
-:::::
-
-::::: box {"id":"ev-title","class":"mt-10 flex max-w-3xl flex-col gap-5"}
-:::::: heading {"id":"ev-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
+:::: box {"id":"ev-head","class":"page-head"}
+::::: box {"id":"ev-head-inner","class":"wrap pb-12 md:pb-16"}
+:::::: component {"id":"ev-crumbs","props":{"ref":"crumbs","values":{"label":"Activiteiten","url":"/activiteiten"}}}
 ::::::
 
-:::::
+:::::: box {"id":"ev-title","class":"mt-8 flex max-w-4xl flex-col gap-5 md:mt-12"}
+::::::: heading {"id":"ev-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
+:::::::
 
-::::: box {"id":"ev-grid","class":"mt-12 flex flex-col lg:grid lg:grid-cols-12 lg:gap-x-16"}
+::::::
+:::::
+::::
+
+:::: box {"id":"ev-wrap","class":"wrap pt-12 pb-section md:pt-16"}
+
+::::: box {"id":"ev-grid","class":"flex flex-col lg:grid lg:grid-cols-12 lg:gap-x-16"}
 :::::: box {"id":"ev-main","class":"min-w-0 lg:col-span-8"}
 ::::::: box {"id":"ev-photo","bind":{"visible":"entry.cover"},"class":"frame"}
 :::::::: image {"id":"ev-img","props":{"priority":true,"aspect":"3/2"},"bind":{"image":"entry.cover"},"class":"aspect-[3/2] w-full object-cover"}
@@ -42,7 +47,7 @@ description: 'Een activiteit: foto en beschrijving, met datum, uur, locatie, pri
 ::::::
 
 :::::: box {"id":"ev-aside","props":{"tag":"aside"},"attrs":{"aria-label":"Praktisch"},"class":"lg:col-span-4 max-lg:order-first max-lg:mb-10"}
-::::::: box {"id":"ev-card","class":"panel flex flex-col gap-8 p-8 md:p-8 lg:sticky lg:top-8"}
+::::::: box {"id":"ev-card","class":"panel flex flex-col gap-8 p-8 md:p-8 lg:sticky lg:top-28"}
 :::::::: box {"id":"ev-details","props":{"tag":"dl"},"class":"flex flex-col gap-6"}
 ::::::::: box {"id":"ev-d1","bind":{"visible":"entry.when"}}
 :::::::::: box {"id":"ev-d1-dt","props":{"tag":"dt"},"class":"flex items-center gap-2 text-sm font-semibold text-muted"}

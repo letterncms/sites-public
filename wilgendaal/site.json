@@ -1,7 +1,7 @@
 {
     "handle": "wilgendaal",
     "name": "Wilgendaal",
-    "description": "A Flemish city's website, in Dutch, built for accessibility and designed like a well-made museum site: the town and what you want to arrange first, six life events, 46 services under 10 themes, an A to Z, online forms, news, events, participation, the council, locations open right now, notices with tagged PDFs and an accessibility statement in the Flemish format.",
+    "description": "A Flemish city's website, in Dutch, built for accessibility and designed with soft corners, framed panels and photographs with a tab cut into them: the town and what you want to arrange first, six life events, 46 services under 10 themes, an A to Z, online forms, news, events, participation, the council, locations open right now, notices with tagged PDFs and a Flemish accessibility statement.",
     "version": "0.1.0",
     "license": "MIT",
     "cms": ">=0.52",
