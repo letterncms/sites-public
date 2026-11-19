@@ -57,7 +57,7 @@ template: default
 ::::: repeat {"id":"hm-tasks-list","props":{"source":"entries","collection":"products","sort":"title","limit":8,"tag":"ul","where":[{"field":"featured","op":"=","value":true}]},"class":"mt-8 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-4"}
 :::::: box {"id":"hm-task-item","props":{"tag":"li"},"class":"grid"}
 ::::::: box {"id":"hm-task-link","bind":{"link":"item.url"},"class":"group card justify-between gap-4 p-5 max-sm:flex-row max-sm:items-center sm:min-h-36 sm:gap-6 sm:p-6"}
-:::::::: paragraph {"id":"hm-task-title","props":{"tag":"span"},"bind":{"text":"item.title"},"class":"min-w-0 font-display text-xl font-medium leading-snug text-balance hyphens-auto max-sm:flex-1"}
+:::::::: paragraph {"id":"hm-task-title","props":{"tag":"span"},"bind":{"text":"item.title"},"class":"min-w-0 font-display text-xl font-medium leading-snug text-balance max-sm:flex-1 max-sm:hyphens-auto"}
 ::::::::
 
 :::::::: box {"id":"hm-task-foot","class":"flex shrink-0 items-center justify-between gap-3 sm:items-end"}
@@ -237,7 +237,7 @@ template: default
 :::::::::
 ::::::::
 
-:::::::: icon {"id":"hm-say-go","props":{"icon":"arrow-right"},"class":"go size-11 p-3 text-ink"}
+:::::::: icon {"id":"hm-say-go","props":{"icon":"arrow-right"},"class":"go size-11 p-3"}
 ::::::::
 :::::::
 ::::::
