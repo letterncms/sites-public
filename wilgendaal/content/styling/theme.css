@@ -216,6 +216,11 @@
   .feedback .cms-form {
     --field-spacing-fields: 1.25rem;
   }
+  /* Een pagina die eindigt met een vlak heeft er geen lucht onder: dan krijgt de feedback evenveel ruimte boven als
+     onder. */
+  :is(.slab, :has(> .slab:last-child), :has(> * > .slab:last-child)) + .feedback {
+    @apply pt-14;
+  }
   /* Lopende tekst: koppen in verhouding tot de tekst, lucht tussen de alinea’s. */
   .cms-prose h2:where(:not(.cms-box, .cms-repeat)) {
     @apply mt-[1.6em] text-2xl;
