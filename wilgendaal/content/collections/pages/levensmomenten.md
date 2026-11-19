@@ -8,7 +8,7 @@ template: sectie
 keywords: 'levensgebeurtenis, verhuizen, geboorte, baby, trouwen, samenwonen, bouwen, verbouwen, zaak starten, overlijden, sterfgeval'
 ---
 
-::: box {"id":"lms","class":"wrap-wide pb-section"}
+::: box {"id":"lms","class":"wrap pb-section"}
 :::: heading {"id":"lms-h","props":{"level":"2","text":"Alle levensmomenten"},"class":"sr-only"}
 ::::
 

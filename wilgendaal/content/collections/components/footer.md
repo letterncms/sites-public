@@ -8,7 +8,7 @@ description: 'De voet als zwart vlak: het stadhuis met zijn adres, uren en telef
 ---
 
 ::: box {"id":"ft","props":{"tag":"footer"},"label":"Voet","class":"slab scheme-night mb-frame"}
-:::: box {"id":"ft-grid","class":"wrap-wide grid gap-12 pt-20 pb-16 sm:grid-cols-2 lg:grid-cols-12 lg:gap-x-10"}
+:::: box {"id":"ft-grid","class":"wrap grid gap-12 pt-20 pb-16 sm:grid-cols-2 lg:grid-cols-12 lg:gap-x-10"}
 ::::: box {"id":"ft-visit","class":"flex flex-col gap-4 lg:col-span-4"}
 :::::: heading {"id":"ft-visit-h","props":{"level":"2","text":"Stadhuis"},"class":"eyebrow border-b border-border pb-3 font-sans"}
 ::::::
@@ -75,7 +75,7 @@ description: 'De voet als zwart vlak: het stadhuis met zijn adres, uren en telef
 ::::
 
 :::: box {"id":"ft-bottom-wrap","class":"border-t border-border"}
-::::: box {"id":"ft-bottom","class":"wrap-wide flex flex-col gap-4 py-6 text-sm md:flex-row md:items-center md:justify-between"}
+::::: box {"id":"ft-bottom","class":"wrap flex flex-col gap-4 py-6 text-sm md:flex-row md:items-center md:justify-between"}
 :::::: box {"id":"ft-legal","props":{"tag":"nav"},"attrs":{"aria-label":"Over deze website"}}
 ::::::: repeat {"id":"ft-legal-list","props":{"source":"menu","menu":"legal","tag":"ul"},"class":"flex flex-wrap gap-x-6 gap-y-2"}
 :::::::: box {"id":"ft-legal-item","props":{"tag":"li"}}

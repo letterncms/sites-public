@@ -4,7 +4,21 @@ title: Kruimelpad
 status: published
 position: 0
 category: Site
-description: 'Home met een huisje, de pagina’s boven deze en de pagina zelf, die geen link is.'
+description: 'Home met een huisje, de pagina’s erboven of een overzicht, en de pagina zelf, die geen link is.'
+props:
+  -
+    handle: current
+    type: text
+    label: 'Deze pagina'
+    default: 'Deze pagina'
+  -
+    handle: label
+    type: text
+    label: Overzicht
+  -
+    handle: url
+    type: url
+    label: 'Link naar het overzicht'
 ---
 
 ::: box {"id":"bc","props":{"tag":"nav"},"label":"Kruimelpad","attrs":{"aria-label":"Kruimelpad"}}
@@ -27,10 +41,18 @@ description: 'Home met een huisje, de pagina’s boven deze en de pagina zelf, d
 ::::::
 :::::
 
+::::: box {"id":"bc-overview","props":{"tag":"span"},"bind":{"visible":"props.label"},"class":"contents"}
+:::::: icon {"id":"bc-overview-sep","props":{"icon":"caret-right"},"attrs":{"aria-hidden":"true"},"class":"size-3.5 shrink-0 text-muted"}
+::::::
+
+:::::: link {"id":"bc-overview-link","bind":{"label":"props.label","url":"props.url"},"class":"font-semibold text-foreground no-underline hover:underline"}
+::::::
+:::::
+
 ::::: icon {"id":"bc-sep-last","props":{"icon":"caret-right"},"attrs":{"aria-hidden":"true"},"class":"size-3.5 shrink-0 text-muted"}
 :::::
 
-::::: paragraph {"id":"bc-current","props":{"tag":"span"},"bind":{"text":"entry.title"},"attrs":{"aria-current":"page"},"class":"text-foreground"}
+::::: paragraph {"id":"bc-current","props":{"tag":"span"},"bind":{"text":"props.current"},"attrs":{"aria-current":"page"},"class":"text-foreground"}
 :::::
 ::::
 :::

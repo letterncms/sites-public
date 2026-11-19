@@ -4,7 +4,7 @@ title: Nieuwskaart
 status: published
 position: 0
 category: Kaarten
-description: 'Een nieuwsbericht: foto met de soort en de datum in een tab, de titel en de korte inhoud.'
+description: 'Een nieuwsbericht: foto met de soort en de datum in een tab, de titel en de korte inhoud. Uitgelicht met een grotere titel, voor het eerste bericht.'
 props:
   -
     handle: title
@@ -33,12 +33,19 @@ props:
     type: text
     label: Datum
     default: '12 november 2026'
+  -
+    handle: featured
+    type: toggle
+    label: Uitgelicht
 ---
 
-::: box {"id":"nc","bind":{"link":"props.url"},"class":"group flex flex-col gap-5 text-foreground no-underline"}
+::: box {"id":"nc","bind":{"link":"props.url","state:featured":"props.featured"},"class":"group flex flex-col gap-5 text-foreground no-underline"}
 :::: box {"id":"nc-media","class":"relative"}
 ::::: box {"id":"nc-photo","bind":{"visible":"props.image"},"class":"zoom photo"}
-:::::: image {"id":"nc-img","props":{"aspect":"3/2","sizes":"(min-width: 64rem) 30vw, (min-width: 48rem) 45vw, 100vw"},"bind":{"image":"props.image"},"class":"aspect-[3/2] w-full object-cover"}
+:::::: image {"id":"nc-img","props":{"aspect":"3/2","sizes":"(min-width: 64rem) 30vw, (min-width: 48rem) 45vw, 100vw"},"bind":{"image":"props.image","hidden":"props.featured"},"class":"w-full object-cover"}
+::::::
+
+:::::: image {"id":"nc-img-featured","props":{"aspect":"3/2","sizes":"(min-width: 64rem) 55vw, 100vw"},"bind":{"image":"props.image","visible":"props.featured"},"class":"w-full object-cover"}
 ::::::
 :::::
 
@@ -52,7 +59,7 @@ props:
 ::::
 
 :::: box {"id":"nc-body","class":"flex flex-col gap-3 pt-1"}
-::::: heading {"id":"nc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-2xl group-hover:underline"}
+::::: heading {"id":"nc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-2xl group-hover:underline in-data-featured:text-3xl in-data-featured:group-hover:decoration-2"}
 :::::
 
 ::::: paragraph {"id":"nc-summary","props":{"tag":"p"},"bind":{"text":"props.summary","visible":"props.summary"},"class":"line-clamp-3 text-base text-muted"}

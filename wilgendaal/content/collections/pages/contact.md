@@ -64,12 +64,8 @@ keywords: 'contact, telefoon, adres, openingsuren, onthaal, loket'
 
 :::
 
-::: box {"id":"ct-places","props":{"tag":"section"},"attrs":{"aria-labelledby":"#ct-places-h"},"class":"wrap pb-section"}
-:::: box {"id":"ct-places-head","class":"flex flex-wrap items-end justify-between gap-x-10 gap-y-4"}
-::::: box {"id":"ct-places-titles","class":"flex max-w-2xl flex-col gap-3"}
-:::::: heading {"id":"ct-places-h","props":{"level":"2","text":"Locaties en openingsuren"}}
-::::::
-:::::
+::: box {"id":"ct-places","props":{"tag":"section"},"class":"wrap pb-section"}
+:::: component {"id":"ct-places-head","props":{"ref":"section-head","values":{"title":"Locaties en openingsuren"}}}
 ::::
 
 :::: map {"id":"ct-map","props":{"style":"site","zoom":14,"aspect":"21/9","interactive":true,"label":"Kaart met alle locaties van de stad"},"class":"mt-10 overflow-hidden rounded-2xl"}
@@ -81,46 +77,14 @@ keywords: 'contact, telefoon, adres, openingsuren, onthaal, loket'
 
 :::: repeat {"id":"ct-places-list","props":{"source":"entries","collection":"places","sort":"title","limit":50,"tag":"ul"},"class":"mt-10 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3"}
 ::::: box {"id":"ct-pl-item","props":{"tag":"li"}}
-:::::: box {"id":"ct-pl-card","bind":{"link":"item.url"},"class":"group flex flex-col gap-4 text-foreground no-underline"}
-::::::: box {"id":"ct-pl-photo","class":"photo"}
-:::::::: image {"id":"ct-pl-img","props":{"aspect":"3/2"},"bind":{"image":"item.photo"},"class":"aspect-[3/2] w-full object-cover"}
-::::::::
-:::::::
-
-::::::: box {"id":"ct-pl-body","class":"flex flex-col gap-1"}
-:::::::: heading {"id":"ct-pl-title","props":{"level":"3"},"bind":{"text":"item.title"},"class":"text-xl group-hover:text-primary"}
-::::::::
-
-:::::::: paragraph {"id":"ct-pl-address","props":{"tag":"p"},"bind":{"text":"item.address"},"class":"whitespace-pre-line text-base"}
-::::::::
-
-:::::::: box {"id":"ct-pl-hours","behavior":{"module":"open-now"},"class":"mt-1"}
-::::::::: box {"id":"ct-pl-now","class":"flex items-center gap-2.5 text-base font-semibold"}
-:::::::::: box {"id":"ct-pl-now-dot","attrs":{"aria-hidden":"true"},"class":"size-2.5 shrink-0 rounded-full bg-line in-data-open:bg-success"}
-::::::::::
-
-:::::::::: paragraph {"id":"ct-pl-now-text","props":{"tag":"span","text":"Bekijk de openingsuren"},"attrs":{"data-status":""}}
-::::::::::
-:::::::::
-
-::::::::: repeat {"id":"ct-pl-rows","props":{"source":"list","tag":"ul","path":"item.hours.rows"},"attrs":{"data-hours":""},"class":"hidden"}
-:::::::::: box {"id":"ct-pl-row","props":{"tag":"li"}}
-::::::::::: paragraph {"id":"ct-pl-day","props":{"tag":"span"},"bind":{"text":"item.0"}}
-:::::::::::
-
-::::::::::: paragraph {"id":"ct-pl-time","props":{"tag":"span"},"bind":{"text":"item.1"}}
-:::::::::::
-::::::::::
-:::::::::
-::::::::
-:::::::
+:::::: component {"id":"ct-pl-card","props":{"ref":"place-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.image":"item.photo","values.address":"item.address","values.hours":"item.hours"}}
 ::::::
 :::::
 ::::
 :::
 
 ::: box {"id":"ct-form-section","props":{"tag":"section"},"attrs":{"aria-labelledby":"#ct-form-h"},"class":"slab scheme-soft"}
-:::: box {"id":"ct-form-grid","class":"wrap grid gap-12 py-section lg:grid-cols-12"}
+:::: box {"id":"ct-form-grid","class":"wrap grid gap-12 lg:grid-cols-12"}
 ::::: box {"id":"ct-form-intro","class":"flex flex-col gap-4 lg:col-span-4"}
 :::::: heading {"id":"ct-form-h","props":{"level":"2","text":"Stel je vraag"}}
 ::::::

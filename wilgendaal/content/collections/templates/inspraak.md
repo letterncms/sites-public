@@ -12,33 +12,12 @@ description: 'Een inspraaktraject: of het open is en tot wanneer, het plan, en h
 :::
 
 ::: box {"id":"t-main","props":{"tag":"main"},"anchor":"main"}
-:::: box {"id":"in-head","class":"page-head"}
-::::: box {"id":"in-head-inner","class":"wrap pb-12 md:pb-16"}
-:::::: component {"id":"in-crumbs","props":{"ref":"crumbs","values":{"label":"Doe mee","url":"/doe-mee"}}}
-::::::
-
-:::::: box {"id":"in-title","class":"mt-8 flex max-w-4xl flex-col gap-5 md:mt-12"}
-::::::: box {"id":"in-meta","class":"flex flex-wrap items-center gap-3"}
-:::::::: paragraph {"id":"in-state","props":{"tag":"span"},"bind":{"text":"entry.state"},"class":"state text-primary"}
-::::::::
-
-:::::::: paragraph {"id":"in-closes","props":{"tag":"span"},"bind":{"text":"Reageren kan tot {entry.closes|date:j F Y}","visible":"entry.closes"},"class":"meta"}
-::::::::
-:::::::
-
-::::::: heading {"id":"in-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
-:::::::
-
-::::::: paragraph {"id":"in-title-lead","props":{"tag":"p"},"bind":{"text":"entry.summary","visible":"entry.summary"},"class":"lead max-w-2xl text-muted"}
-:::::::
-::::::
-:::::
+:::: component {"id":"t-head","props":{"ref":"page-head","values":{"label":"Doe mee","url":"/doe-mee"}},"bind":{"values.title":"entry.title","values.lead":"entry.summary","values.tag":"entry.state","values.meta":"Inspraak tot {entry.closes|date:j F Y}"}}
 ::::
 
 :::: box {"id":"in-wrap","class":"wrap pt-12 pb-section md:pt-16"}
-
-::::: box {"id":"in-photo","bind":{"visible":"entry.cover"},"class":"frame"}
-:::::: image {"id":"in-img","props":{"priority":true,"aspect":"16/9"},"bind":{"image":"entry.cover"},"class":"aspect-[16/9] w-full object-cover"}
+::::: box {"id":"in-photo","bind":{"visible":"entry.cover"},"class":"photo"}
+:::::: image {"id":"in-img","props":{"priority":true,"aspect":"16/9","sizes":"(min-width: 80rem) 76rem, 100vw"},"bind":{"image":"entry.cover"},"class":"aspect-[16/9] w-full object-cover"}
 ::::::
 :::::
 

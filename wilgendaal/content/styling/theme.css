@@ -19,7 +19,6 @@
   --color-primary: light-dark(#111111, #f2f2f2);
   --color-primary-foreground: light-dark(#ffffff, #0f0f10);
   --color-primary-strong: light-dark(#000000, #ffffff);
-  --color-primary-soft: light-dark(#f1f2f4, #1f2024);
   --color-accent: #ff5a36;
   --color-accent-foreground: #111111;
   --color-accent-text: light-dark(#b8320f, #ff7a5c);
@@ -27,21 +26,14 @@
   --color-link: light-dark(#1a3ae0, #9db0ff);
   --color-blue: #1a3ae0;
   --color-blue-strong: #1229b0;
-  --color-blue-soft: light-dark(#e9edff, #1a2150);
   --color-ink: #111111;
   --color-ink-foreground: #ffffff;
-  --color-contrast: light-dark(#111111, #f2f2f2);
-  --color-contrast-foreground: light-dark(#ffffff, #0f0f10);
   --color-logo: currentColor;
 
   --color-danger: light-dark(#b42318, #ff9585);
-  --color-danger-soft: light-dark(#fdeceb, #3b1713);
   --color-warning: light-dark(#7a4b00, #f2c14e);
-  --color-warning-soft: light-dark(#fff3d6, #372809);
   --color-success: light-dark(#176a3f, #74d3a1);
-  --color-success-soft: light-dark(#e3f4ea, #12301f);
   --color-info: light-dark(#1d4ed8, #9fb3ff);
-  --color-info-soft: light-dark(#ebf0fe, #1c2550);
 
   --font-sans: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible Next Fallback", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Albert Sans", "Albert Sans Fallback", ui-sans-serif, system-ui, sans-serif;
@@ -81,9 +73,7 @@
   --radius-3xl: 2rem;
   --radius-slab: clamp(1.25rem, 0.9rem + 1.4vw, 2rem);
 
-  --shadow-card: none;
   --shadow-float: 0 10px 30px -12px rgb(17 17 17 / 0.28), 0 1px 2px rgb(17 17 17 / 0.06);
-  --shadow-lift: 0 30px 60px -30px rgb(0 0 0 / 0.35);
 
   --container-prose: 44rem;
   /* Eén breedte voor kop, inhoud en voet, zodat elke pagina op dezelfde lijn begint. */
@@ -205,10 +195,6 @@
 }
 
 @layer components {
-  /* De startpagina heeft haar eigen grote zoekveld: dan zoekt de kop niet nog eens. */
-  body:has(.home-search) .header-search {
-    display: none;
-  }
   /* Keuzes als pillen: een dunne lijn, zwart zodra gekozen. */
   .cms-form .cms-chip {
     @apply min-h-12 rounded-full border-[1.5px] border-border bg-background px-5 text-base font-medium transition-colors;
@@ -265,17 +251,16 @@
   @apply mx-auto w-full max-w-content px-gutter;
 }
 
-@utility wrap-wide {
-  @apply mx-auto w-full max-w-wide px-gutter;
-}
-
 /* Een vlak: een foto, een zwart of oranje stuk van de pagina, met een smalle witte lijst eromheen en zachte hoeken. */
 @utility slab {
   @apply relative mx-inset overflow-hidden rounded-slab;
-  /* Wat erin staat, begint op dezelfde lijn als de rest van de pagina. */
-  & :is(.wrap, .wrap-wide) {
+  /* Wat erin staat, begint op dezelfde lijn als de rest van de pagina, met evenveel lucht boven als onder. */
+  & .wrap {
     max-width: calc(var(--container-wide) - 2 * var(--spacing-frame));
     padding-inline: calc(var(--spacing-gutter) - var(--spacing-frame));
+  }
+  & > .wrap {
+    @apply py-16 lg:py-20;
   }
 }
 
@@ -284,21 +269,13 @@
 @utility page-head {
   @apply relative mx-inset mt-frame overflow-hidden rounded-slab bg-surface pt-24 lg:pt-28;
   --notch-bg: var(--color-surface);
-  & :is(.wrap, .wrap-wide) {
+  & .wrap {
     max-width: calc(var(--container-wide) - 2 * var(--spacing-frame));
     padding-inline: calc(var(--spacing-gutter) - var(--spacing-frame));
   }
 }
 
-@utility rule-top {
-  @apply border-t border-rule;
-}
-
 /* group: Text */
-@utility display {
-  @apply font-display font-medium tracking-tighter text-balance;
-}
-
 /* Een korte titel boven een sectie of een lijst. */
 @utility eyebrow {
   @apply text-sm font-semibold text-foreground;
@@ -344,10 +321,6 @@
   &:hover img {
     @apply scale-[1.025];
   }
-}
-
-@utility frame {
-  @apply overflow-hidden rounded-2xl bg-surface;
 }
 
 /* De tab: een wit stuk dat in de hoek van een foto is gesneden, met twee holle hoeken waar het de foto raakt. Erin
@@ -435,22 +408,6 @@
   }
 }
 
-@utility search-box-quiet {
-  & > div {
-    @apply h-11 rounded-none border-0 border-b-[1.5px] border-line bg-transparent p-0 focus-within:border-foreground;
-    box-shadow: none !important;
-  }
-  & > div::before {
-    @apply hidden;
-  }
-  & .cms-input {
-    @apply h-full min-h-0 px-0 text-base;
-  }
-  & button {
-    @apply h-full min-h-0 w-10 p-0;
-  }
-}
-
 @utility search-box-filled {
   & > div {
     @apply border-transparent bg-surface;
@@ -458,25 +415,6 @@
 }
 
 /* group: Lists */
-/* Een register: rijen tussen dunne lijnen, de titel groot, een pijl rechts. Zoals een inhoudstafel. */
-@utility index-list {
-  @apply border-t border-rule;
-  & > li {
-    @apply border-b border-border;
-  }
-}
-
-@utility index-row {
-  @apply flex items-center gap-6 py-5 text-foreground no-underline sm:py-6;
-  &::after {
-    content: "→" / "";
-    @apply ml-auto shrink-0 font-display text-2xl leading-none text-muted;
-  }
-  &:hover::after {
-    @apply text-foreground;
-  }
-}
-
 /* Stappen als stippen op een lijn: genummerd, verbonden. */
 @utility steps {
   counter-reset: step;
@@ -505,17 +443,39 @@
   }
 }
 
-/* Feiten in tegels: wat het kost, hoe lang het duurt. */
+/* Een link als pil (het component Pil): grijs, op een grijs vlak wit, en blauw als je hem aanwijst. */
+@utility pill {
+  @apply flex min-h-11 items-center gap-2 rounded-full bg-surface px-4 py-2.5 font-semibold text-foreground no-underline transition-colors hover:bg-blue hover:text-white has-[svg]:pl-3.5;
+}
+
+/* Feiten (het component Feit) in tegels: wat het kost, hoe lang het duurt. */
 @utility facts {
   @apply grid gap-2 sm:grid-cols-2;
-  & > div {
+  & .fact {
     @apply rounded-lg bg-background px-5 py-4;
   }
   & dt {
     @apply flex items-center gap-2 text-sm font-semibold text-muted before:size-2 before:rounded-full before:bg-accent;
   }
+  & dt svg {
+    @apply hidden;
+  }
   & dd {
-    @apply mt-1 text-lg font-medium text-pretty;
+    @apply mt-1 text-lg font-medium text-pretty whitespace-pre-line;
+  }
+}
+
+/* Feiten onder elkaar, elk met zijn icoon: wanneer, waar, voor wie. */
+@utility details {
+  @apply flex flex-col gap-6;
+  & dt {
+    @apply flex items-center gap-2 text-sm font-semibold text-muted;
+  }
+  & dt svg {
+    @apply size-5 shrink-0 text-primary;
+  }
+  & dd {
+    @apply mt-1 pl-7 text-lg font-semibold whitespace-pre-line;
   }
 }
 
@@ -523,6 +483,10 @@
 /* Een kaart: een afgerond grijs vlak dat iets donkerder wordt als je het aanwijst. */
 @utility card {
   @apply relative flex flex-col gap-2 rounded-xl bg-surface p-6 text-foreground no-underline transition-colors duration-200 hover:bg-[color-mix(in_srgb,var(--color-foreground)_8%,var(--color-surface))];
+  /* Een lang woord in een smalle kaart breekt op een lettergreep, en loopt niet onder de pijl. */
+  & :is(h2, h3) {
+    hyphens: auto;
+  }
 }
 
 @utility card-line {
@@ -533,43 +497,14 @@
   @apply rounded-2xl bg-surface p-6 md:p-10;
 }
 
-/* group: Tags and states */
+/* group: Tags */
 @utility tag {
   @apply inline-flex w-fit items-center gap-1.5 rounded-full border border-current/40 px-2.5 py-1 text-xs leading-none font-semibold text-foreground no-underline;
-}
-
-@utility tag-accent {
-  @apply inline-flex w-fit items-center gap-1.5 rounded-full bg-accent px-3 py-1.5 text-xs leading-none font-semibold text-accent-foreground;
-}
-
-@utility state {
-  @apply inline-flex w-fit items-center gap-2 text-sm leading-none font-semibold before:size-2.5 before:rounded-full before:bg-current;
 }
 
 /* Een datum als op een kalenderblad: de dag groot, de maand eronder. */
 @utility date-badge {
   @apply flex w-fit flex-col items-center font-display leading-none text-foreground;
-}
-
-/* group: Alerts */
-@utility alert {
-  @apply flex items-start gap-3 rounded-lg border-l-4 px-5 py-4 text-base;
-}
-
-@utility alert-info {
-  @apply border-info bg-info-soft text-foreground;
-}
-
-@utility alert-warning {
-  @apply border-warning bg-warning-soft text-foreground;
-}
-
-@utility alert-danger {
-  @apply border-danger bg-danger-soft text-foreground;
-}
-
-@utility alert-success {
-  @apply border-success bg-success-soft text-foreground;
 }
 
 /* Schemes: een sectie in eigen kleuren. */
@@ -588,7 +523,6 @@
   --color-background: var(--scheme);
   --color-primary: #ffffff;
   --color-primary-foreground: var(--color-ink);
-  --color-primary-soft: #24252a;
   --color-primary-strong: #ffffff;
   --color-accent-text: #ff7a5c;
   --color-link: #ffffff;
@@ -603,7 +537,8 @@
   --color-rule: var(--color-ink);
   --color-border: color-mix(in srgb, var(--color-ink) 25%, var(--color-accent));
   --color-line: var(--color-ink);
-  --color-surface: color-mix(in srgb, #ffffff 22%, var(--color-accent));
+  /* Kaarten op het oranje vlak zijn wit. */
+  --color-surface: #ffffff;
   --color-background: var(--color-accent);
   --color-primary: var(--color-ink);
   --color-primary-foreground: #ffffff;
@@ -621,28 +556,6 @@
   --color-border: light-dark(#d5d7dc, #34363b);
 }
 
-@utility scheme-paper {
-  --scheme: light-dark(#ffffff, #0f0f10);
-  --scheme-text: light-dark(#111111, #f2f2f2);
-  @apply scheme;
-  --color-foreground: light-dark(#111111, #f2f2f2);
-  --color-muted: light-dark(#5b5d63, #a9abb1);
-  --color-border: light-dark(#dcdee3, #2f3035);
-  --color-surface: light-dark(#f1f2f4, #1b1c1f);
-}
-
-@utility scheme-photo {
-  --scheme: transparent;
-  --scheme-text: #ffffff;
-  @apply scheme;
-  --color-foreground: #ffffff;
-  --color-muted: #e6e6e6;
-  --color-rule: #ffffff;
-  --color-primary: #ffffff;
-  --color-primary-foreground: var(--color-ink);
-  --color-link: #ffffff;
-}
-
 /* Knoppen: de maat komt van de bedieningsmaten, de look van deze klassen. Zwart, en blauw onder de muis. */
 @utility btn-primary {
   @apply rounded-lg border-primary bg-primary font-semibold text-primary-foreground transition-colors hover:border-blue hover:bg-blue hover:text-white;
@@ -658,10 +571,6 @@
 
 @utility btn-link {
   @apply h-auto border-0 p-0 font-semibold text-foreground underline underline-offset-4 hover:decoration-2;
-}
-
-@utility btn-accent {
-  @apply rounded-lg border-accent bg-accent font-semibold text-accent-foreground transition-colors hover:border-foreground hover:bg-foreground hover:text-background;
 }
 
 /* De kop zweeft: een witte, afgeronde balk die bovenaan blijft staan. Hij ligt even ver van de rand van een vlak als

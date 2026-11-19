@@ -31,7 +31,7 @@ props:
 ---
 
 ::: box {"id":"pe","bind":{"link":"props.url"},"class":"group flex flex-col gap-4 text-foreground no-underline"}
-:::: box {"id":"pe-photo","class":"frame"}
+:::: box {"id":"pe-photo","class":"photo"}
 ::::: image {"id":"pe-img","props":{"aspect":"4/5"},"bind":{"image":"props.photo"},"class":"aspect-[4/5] w-full object-cover"}
 :::::
 ::::

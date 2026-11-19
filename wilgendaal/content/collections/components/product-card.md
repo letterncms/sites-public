@@ -4,7 +4,7 @@ title: Dienstkaart
 status: published
 position: 0
 category: Kaarten
-description: 'Een dienst of pagina als grijze kaart: titel, korte uitleg en of het online kan, met een pijl. Als één link.'
+description: 'Een dienst of pagina als grijze kaart: titel, korte uitleg en of het online kan, met een pijl. Als één link. Met een stap erbij staat het nummer erboven, voor diensten in volgorde.'
 props:
   -
     handle: title
@@ -23,9 +23,16 @@ props:
     handle: online
     type: toggle
     label: 'Online te regelen'
+  -
+    handle: number
+    type: text
+    label: Stap
 ---
 
 ::: box {"id":"pc","bind":{"link":"props.url"},"class":"group card h-full items-start gap-2 p-6 pr-20"}
+:::: paragraph {"id":"pc-number","props":{"tag":"span"},"bind":{"text":"props.number","visible":"props.number"},"attrs":{"aria-hidden":"true"},"class":"stone mb-2 size-8 bg-foreground font-display text-sm font-medium text-background tabular-nums"}
+::::
+
 :::: heading {"id":"pc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-xl group-hover:underline"}
 ::::
 

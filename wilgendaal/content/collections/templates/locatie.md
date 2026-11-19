@@ -12,25 +12,14 @@ description: 'Een openbaar gebouw: foto en wat je er kan doen, met adres, contac
 :::
 
 ::: box {"id":"t-main","props":{"tag":"main"},"anchor":"main"}
-:::: box {"id":"lo-head","class":"page-head"}
-::::: box {"id":"lo-head-inner","class":"wrap pb-12 md:pb-16"}
-:::::: component {"id":"lo-crumbs","props":{"ref":"crumbs","values":{"label":"Contact","url":"/contact"}}}
-::::::
-
-:::::: box {"id":"lo-title","class":"mt-8 flex max-w-4xl flex-col gap-5 md:mt-12"}
-::::::: heading {"id":"lo-title-h1","props":{"level":"1"},"bind":{"text":"entry.title"}}
-:::::::
-
-::::::
-:::::
+:::: component {"id":"t-head","props":{"ref":"page-head","values":{"label":"Contact","url":"/contact"}},"bind":{"values.title":"entry.title","values.lead":"entry.summary"}}
 ::::
 
 :::: box {"id":"lo-wrap","class":"wrap pt-12 pb-section md:pt-16"}
-
 ::::: box {"id":"lo-grid","class":"flex flex-col lg:grid lg:grid-cols-12 lg:gap-x-16"}
 :::::: box {"id":"lo-main","class":"min-w-0 lg:col-span-8"}
-::::::: box {"id":"lo-photo","bind":{"visible":"entry.photo"},"class":"frame"}
-:::::::: image {"id":"lo-img","props":{"priority":true,"aspect":"3/2"},"bind":{"image":"entry.photo"},"class":"aspect-[3/2] w-full object-cover"}
+::::::: box {"id":"lo-photo","bind":{"visible":"entry.photo"},"class":"photo"}
+:::::::: image {"id":"lo-img","props":{"priority":true,"aspect":"3/2","sizes":"(min-width: 64rem) 58vw, 100vw"},"bind":{"image":"entry.photo"},"class":"aspect-[3/2] w-full object-cover"}
 ::::::::
 :::::::
 
@@ -47,13 +36,13 @@ description: 'Een openbaar gebouw: foto en wat je er kan doen, met adres, contac
 ::::::::
 :::::::
 
-::::::: box {"id":"lo-access-box","props":{"tag":"section"},"bind":{"visible":"entry.access"},"class":"panel mt-12 flex flex-col gap-4"}
+::::::: box {"id":"lo-access-box","props":{"tag":"section"},"attrs":{"aria-labelledby":"#lo-access-h"},"bind":{"visible":"entry.access"},"class":"panel mt-12 flex flex-col gap-4"}
 :::::::: heading {"id":"lo-access-h","props":{"level":"2","text":"Toegankelijkheid"},"class":"text-2xl"}
 ::::::::
 
 :::::::: repeat {"id":"lo-access","props":{"source":"list","tag":"ul","path":"entry.access"},"class":"flex flex-col gap-2"}
 ::::::::: box {"id":"lo-access-item","props":{"tag":"li"},"class":"flex gap-3"}
-:::::::::: icon {"id":"lo-access-icon","props":{"icon":"check-circle"},"class":"mt-0.5 size-6 shrink-0 text-success"}
+:::::::::: icon {"id":"lo-access-icon","props":{"icon":"check-circle"},"attrs":{"aria-hidden":"true"},"class":"mt-0.5 size-6 shrink-0 text-success"}
 ::::::::::
 
 :::::::::: paragraph {"id":"lo-access-text","props":{"tag":"span"},"bind":{"text":"item"}}
@@ -87,26 +76,11 @@ description: 'Een openbaar gebouw: foto en wat je er kan doen, met adres, contac
 :::::::::
 ::::::::
 
-:::::::: box {"id":"lo-hours-box","bind":{"visible":"entry.hours"},"behavior":{"module":"open-now"},"class":"flex flex-col gap-2"}
+:::::::: box {"id":"lo-hours-box","bind":{"visible":"entry.hours"},"class":"flex flex-col gap-2"}
 ::::::::: heading {"id":"lo-hours-h","props":{"level":"2","text":"Openingsuren"},"class":"text-sm font-semibold text-muted"}
 :::::::::
 
-::::::::: box {"id":"lo-now","class":"hidden items-center gap-2.5 font-semibold in-data-known:flex"}
-:::::::::: box {"id":"lo-now-dot","attrs":{"aria-hidden":"true"},"class":"size-3 shrink-0 rounded-full bg-line in-data-open:bg-success in-data-open:shadow-[0_0_0_4px_color-mix(in_srgb,var(--color-success)_22%,transparent)]"}
-::::::::::
-
-:::::::::: paragraph {"id":"lo-now-text","props":{"tag":"p","text":"Openingsuren"},"attrs":{"data-status":"","aria-live":"polite"}}
-::::::::::
-:::::::::
-
-::::::::: repeat {"id":"lo-hours","props":{"source":"list","tag":"ul","path":"entry.hours.rows"},"attrs":{"data-hours":""},"class":"flex flex-col"}
-:::::::::: box {"id":"lo-hours-row","props":{"tag":"li"},"class":"flex justify-between gap-4 border-b border-border py-2 text-base last:border-0"}
-::::::::::: paragraph {"id":"lo-hours-day","props":{"tag":"span"},"bind":{"text":"item.0"},"class":"font-semibold"}
-:::::::::::
-
-::::::::::: paragraph {"id":"lo-hours-time","props":{"tag":"span"},"bind":{"text":"item.1"},"class":"text-right"}
-:::::::::::
-::::::::::
+::::::::: component {"id":"lo-hours","props":{"ref":"hours"},"bind":{"values.hours":"entry.hours"}}
 :::::::::
 
 ::::::::: paragraph {"id":"lo-hours-note","props":{"tag":"p"},"bind":{"text":"entry.hours_note","visible":"entry.hours_note"},"class":"meta"}
