@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "license": "MIT",
     "require": {
-        "letterncms/cms": ">=0.52 <1",
+        "letterncms/cms": ">=0.53 <1",
         "letterncms/forms": ">=0.19 <1"
     }
 }
