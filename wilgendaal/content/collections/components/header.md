@@ -4,7 +4,7 @@ title: Kop
 status: published
 position: 0
 category: Site
-description: 'De kop: een witte, afgeronde balk die bovenaan blijft zweven, met het logo, drie snelle links, zoeken en een menuknop. Op een foto ligt hij over de foto. Het menu vult het hele scherm; alleen de balk blijft erboven staan.'
+description: 'De kop: een witte, afgeronde balk die bovenaan blijft zweven, met het logo, drie snelle links, zoeken en een menuknop. Op een foto ligt hij over de foto. Het menu vult het hele scherm in inktzwart; alleen de balk blijft erboven staan.'
 ---
 
 ::: box {"id":"hd","props":{"tag":"header"},"behavior":{"module":"scrolled"},"label":"Kop","logic":{"data":{"open":false},"states":{"open":"open"},"on":[{"event":"keydown","mods":["window"],"key":"escape","actions":[{"do":"set","var":"open","value":"false"}]}]},"class":"site-header z-40"}
@@ -35,7 +35,7 @@ description: 'De kop: een witte, afgeronde balk die bovenaan blijft zweven, met 
 :::::
 ::::
 
-:::: box {"id":"hd-menu","label":"Menu","logic":{"show":"open","transition":"fade","on":[{"event":"click","mods":["outside"],"actions":[{"do":"set","var":"open","value":"false"}]}]},"anchor":"menu","class":"fixed inset-0 overflow-y-auto overscroll-contain bg-background pt-24 lg:pt-28"}
+:::: box {"id":"hd-menu","label":"Menu","logic":{"show":"open","transition":"fade","on":[{"event":"click","mods":["outside"],"actions":[{"do":"set","var":"open","value":"false"}]}]},"anchor":"menu","class":"scheme-night fixed inset-0 overflow-y-auto overscroll-contain pt-24 lg:pt-28"}
 ::::: box {"id":"hd-menu-inner","class":"wrap grid content-start gap-12 pt-6 pb-12 lg:grid-cols-12 lg:gap-x-16 lg:gap-y-14 lg:pt-10 lg:pb-16"}
 :::::: search-field {"id":"hd-menu-search","props":{"label":"Zoek op de website","show_label":false,"placeholder":"Wat zoek je?","button_label":"Zoeken","button_style":"primary","size":"md","icon_only":false,"results_page":"/zoeken"},"class":"search-box w-full max-w-2xl lg:col-span-12"}
 ::::::

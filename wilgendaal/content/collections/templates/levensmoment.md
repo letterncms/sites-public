@@ -19,7 +19,7 @@ description: 'Een levensmoment: een lichte kop met een foto, de stappen, en erna
 :::::
 
 ::::: box {"id":"lm-aside","props":{"tag":"aside"},"attrs":{"aria-labelledby":"#lm-todo-h"},"class":"lg:col-span-5"}
-:::::: box {"id":"lm-aside-inner","class":"flex flex-col gap-5 lg:sticky lg:top-28"}
+:::::: box {"id":"lm-aside-inner","behavior":{"module":"stick"},"class":"flex flex-col gap-5 stick"}
 ::::::: heading {"id":"lm-todo-h","props":{"level":"2","text":"Dit regel je bij de stad"},"class":"text-2xl"}
 :::::::
 

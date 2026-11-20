@@ -12,13 +12,8 @@ template: default
 ::::: image {"id":"hm-hero-img","props":{"priority":true,"aspect":"3/2","sizes":"100vw","image":["01mbszkjz4qz863h7jp00w61w1"],"alt":"Drie mensen op een bank onder treurwilgen, voor een bakstenen huis met een trapgevel en rode geraniums."},"class":"absolute inset-0 size-full object-cover [&_img]:object-[50%_60%] lg:[&_img]:object-[60%_62%]"}
 :::::
 
-::::: box {"id":"hm-hero-tab","label":"Tab","class":"notch relative! flex w-full max-w-[60rem] flex-col gap-6 pt-7 pr-6 pb-1 pl-[calc(var(--spacing-gutter)-var(--spacing-frame))] [--notch-r:var(--radius-slab)] sm:w-[calc(100%-4rem)] sm:pt-9 sm:pr-10 lg:gap-7 lg:pt-11 lg:pr-14"}
-:::::: box {"id":"hm-title","class":"flex flex-col gap-3"}
-::::::: heading {"id":"hm-h1","props":{"level":"1","text":"Welkom in Wilgendaal"},"class":"text-5xl"}
-:::::::
-
-::::::: paragraph {"id":"hm-ask","props":{"tag":"p","text":"Wat wil je vandaag regelen?"},"class":"font-display text-xl text-muted"}
-:::::::
+::::: box {"id":"hm-hero-tab","label":"Tab","class":"notch relative! flex w-full max-w-[60rem] flex-col gap-6 pt-7 pr-6 pb-1 pl-pad [--notch-r:var(--radius-slab)] sm:w-[calc(100%-4rem)] sm:pt-9 sm:pr-10 lg:gap-7 lg:pt-11 lg:pr-14"}
+:::::: heading {"id":"hm-h1","props":{"level":"1","text":"Welkom in Wilgendaal"},"class":"text-5xl"}
 ::::::
 
 :::::: search-field {"id":"hm-search","props":{"label":"Zoek een dienst, een document of een adres","show_label":false,"placeholder":"Wat zoek je?","button_label":"Zoeken","button_style":"primary","size":"lg","icon_only":false,"results_page":"/zoeken"},"class":"search-box search-box-hero w-full"}
@@ -52,12 +47,12 @@ template: default
 :::
 
 ::: box {"id":"hm-moments","props":{"tag":"section"},"label":"Levensmomenten","class":"wrap pb-section"}
-:::: component {"id":"hm-moments-head","props":{"ref":"section-head","values":{"title":"Er verandert iets in je leven","label":"Alle levensmomenten","url":"/levensmomenten","intro":"Wat je wanneer regelt, op één plek: van een verhuizing tot een geboorte of een overlijden."}}}
+:::: component {"id":"hm-moments-head","props":{"ref":"section-head","values":{"title":"Er verandert iets in je leven","label":"Alle levensmomenten","url":"/levensmomenten"}}}
 ::::
 
 :::: repeat {"id":"hm-moments-list","props":{"source":"entries","collection":"moments","sort":"position","limit":6,"tag":"ul"},"class":"mt-10 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3"}
 ::::: box {"id":"hm-moment-item","props":{"tag":"li"}}
-:::::: component {"id":"hm-moment","props":{"ref":"moment-card"},"bind":{"values.title":"item.title","values.summary":"item.summary","values.url":"item.url","values.image":"item.photo"}}
+:::::: component {"id":"hm-moment","props":{"ref":"moment-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.image":"item.photo"}}
 ::::::
 :::::
 ::::
@@ -116,7 +111,7 @@ template: default
 :::::: heading {"id":"hm-say-h","props":{"level":"2","text":"Wilgendaal maak je samen"},"class":"text-4xl"}
 ::::::
 
-:::::: paragraph {"id":"hm-say-text","props":{"tag":"p","text":"Geef je mening over plannen voor je straat, je wijk en de stad. Wat de stad met je antwoorden doet, lees je bij elke ronde."},"class":"max-w-md text-lg"}
+:::::: paragraph {"id":"hm-say-text","props":{"tag":"p","text":"Geef je mening over plannen voor je straat, je wijk en de stad. Wat de stad met je antwoorden doet, lees je bij elke ronde."},"class":"max-w-md"}
 ::::::
 
 :::::: button {"id":"hm-say-all","props":{"label":"Alle inspraakrondes","url":"/doe-mee","variant":"primary","icon":"arrow-right","icon_position":"end"},"class":"mt-3"}

@@ -14,7 +14,7 @@ description: 'De voet als zwart vlak: het stadhuis met zijn adres, uren en telef
 ::::::
 
 :::::: box {"id":"ft-city","props":{"tag":"address"},"class":"flex flex-col items-start gap-2 not-italic"}
-::::::: paragraph {"id":"ft-address","props":{"tag":"p"},"bind":{"text":"globals.city.address"},"class":"whitespace-pre-line text-lg"}
+::::::: paragraph {"id":"ft-address","props":{"tag":"p"},"bind":{"text":"globals.city.address"},"class":"whitespace-pre-line"}
 :::::::
 
 ::::::: paragraph {"id":"ft-hours","props":{"tag":"p"},"bind":{"text":"globals.city.hours"},"class":"whitespace-pre-line text-sm text-muted"}

@@ -3,17 +3,13 @@ title: Levensmomentkaart
 status: published
 position: 0
 category: Kaarten
-description: 'Een levensmoment: een foto, de titel en de korte inhoud.'
+description: 'Een levensmoment: een foto en de titel.'
 props:
   -
     handle: title
     type: text
     label: Titel
     default: 'Je verhuist'
-  -
-    handle: summary
-    type: textarea
-    label: 'Korte inhoud'
   -
     handle: url
     type: url
@@ -32,11 +28,6 @@ props:
 
 ::::
 
-:::: box {"id":"mc-body","class":"flex flex-col gap-2"}
-::::: heading {"id":"mc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-2xl group-hover:underline group-hover:decoration-2"}
-:::::
-
-::::: paragraph {"id":"mc-summary","props":{"tag":"p"},"bind":{"text":"props.summary","visible":"props.summary"},"class":"text-base text-muted"}
-:::::
+:::: heading {"id":"mc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-xl group-hover:underline group-hover:decoration-2"}
 ::::
 :::

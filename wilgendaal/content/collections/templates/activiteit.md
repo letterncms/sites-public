@@ -36,7 +36,7 @@ description: 'Een activiteit: foto en beschrijving, met datum, uur, locatie, pri
 ::::::
 
 :::::: box {"id":"ev-aside","props":{"tag":"aside"},"attrs":{"aria-label":"Praktisch"},"class":"lg:col-span-4 max-lg:order-first max-lg:mb-10"}
-::::::: box {"id":"ev-card","class":"panel flex flex-col gap-8 p-8 md:p-8 lg:sticky lg:top-28"}
+::::::: box {"id":"ev-card","behavior":{"module":"stick"},"class":"panel flex flex-col gap-8 p-8 md:p-8 stick"}
 :::::::: box {"id":"ev-details","props":{"tag":"dl"},"class":"details"}
 ::::::::: component {"id":"ev-date","props":{"ref":"fact","values":{"label":"Datum","icon":"calendar-blank"}},"bind":{"values.value":"{entry.when.start|date:l j F Y}","visible":"entry.when"}}
 :::::::::
