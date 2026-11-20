@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+### Changed
+
+- The menu opens in ink black, the bar above it too, instead of a white screen.
+- Panels and the grey page head have as much room above and below their content as beside it.
+- One size for running text: facts, lists, addresses and the text on the home page no longer sit a step larger, and card titles share one size.
+- The home page drops the question under its title and the sentence under “Er verandert iets in je leven”; life event cards show their photograph and title only.
+
+### Fixed
+
+- A side column taller than the screen, such as the one beside a service, scrolls along until its end shows, instead of only after the whole page.
+
 ## 0.2.0 (2026-11-19)
 
 ### Added

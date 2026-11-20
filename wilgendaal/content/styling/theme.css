@@ -84,6 +84,8 @@
   --spacing-section: clamp(4rem, 8vw, 7.5rem);
   /* De witte lijst rond een vlak: smal, maar altijd te zien. */
   --spacing-frame: clamp(0.5rem, 0.3rem + 0.6vw, 0.875rem);
+  /* De lucht binnen een vlak: rondom even veel, zodat wat erin staat op dezelfde lijn begint als de rest. */
+  --spacing-pad: calc(var(--spacing-gutter) - var(--spacing-frame));
   /* Hoe ver een vlak van de zijkant ligt: de lijst, en op een breed scherm zoveel dat het niet breder wordt dan de
      inhoud. Zo staan de kop, de vlakken en wat erin staat altijd op één lijn. */
   --spacing-inset: max(var(--spacing-frame), (100% - var(--container-wide)) / 2 + var(--spacing-frame));
@@ -254,13 +256,13 @@
 /* Een vlak: een foto, een zwart of oranje stuk van de pagina, met een smalle witte lijst eromheen en zachte hoeken. */
 @utility slab {
   @apply relative mx-inset overflow-hidden rounded-slab;
-  /* Wat erin staat, begint op dezelfde lijn als de rest van de pagina, met evenveel lucht boven als onder. */
+  /* Wat erin staat, begint op dezelfde lijn als de rest van de pagina, met rondom evenveel lucht. */
   & .wrap {
     max-width: calc(var(--container-wide) - 2 * var(--spacing-frame));
-    padding-inline: calc(var(--spacing-gutter) - var(--spacing-frame));
+    @apply px-pad;
   }
   & > .wrap {
-    @apply py-16 lg:py-20;
+    @apply py-pad;
   }
 }
 
@@ -271,8 +273,15 @@
   --notch-bg: var(--color-surface);
   & .wrap {
     max-width: calc(var(--container-wide) - 2 * var(--spacing-frame));
-    padding-inline: calc(var(--spacing-gutter) - var(--spacing-frame));
+    @apply px-pad;
   }
+}
+
+/* Een kant die naast de inhoud blijft staan terwijl je scrolt. Is ze hoger dan het scherm, dan scrolt ze mee tot haar
+   einde in beeld is (--stick-height, uit scripts/stick.js). */
+@utility stick {
+  @apply lg:sticky;
+  top: min(7rem, 100dvh - var(--stick-height, 0px) - var(--spacing-gutter));
 }
 
 /* group: Text */
@@ -461,7 +470,7 @@
     @apply hidden;
   }
   & dd {
-    @apply mt-1 text-lg font-medium text-pretty whitespace-pre-line;
+    @apply mt-1 font-semibold text-pretty whitespace-pre-line;
   }
 }
 
@@ -475,7 +484,7 @@
     @apply size-5 shrink-0 text-primary;
   }
   & dd {
-    @apply mt-1 pl-7 text-lg font-semibold whitespace-pre-line;
+    @apply mt-1 pl-7 font-semibold whitespace-pre-line;
   }
 }
 
@@ -575,8 +584,9 @@
 
 /* De kop zweeft: een witte, afgeronde balk die bovenaan blijft staan. Hij ligt even ver van de rand van een vlak als
    dat vlak van de rand van het scherm (twee keer --spacing-frame), boven en opzij, en de menuknop ligt even ver van
-   de rand van de balk, rechts en boven. Op een foto (hero-photo) ligt hij over de foto. Zodra je scrolt (data-scrolled, uit scripts/scrolled.js) krijgt hij een schaduw. Het menu
-   vult het hele scherm: alleen de balk blijft erboven, en de pagina erachter scrolt niet zolang het open is. */
+   de rand van de balk, rechts en boven. Op een foto (hero-photo) ligt hij over de foto. Zodra je scrolt (data-scrolled,
+   uit scripts/scrolled.js) krijgt hij een schaduw. Het menu vult het hele scherm in inktzwart, de balk erboven ook, en
+   de pagina erachter scrolt niet zolang het open is. */
 .site-header {
   position: sticky;
   top: 0;
@@ -590,12 +600,16 @@
   /* Het logo begint op dezelfde lijn als de inhoud eronder. */
   padding-left: max(0.75rem, var(--spacing-gutter) - 2 * var(--spacing-frame));
   box-shadow: 0 0 0 1px var(--color-border);
-  transition: box-shadow 0.25s;
+  transition:
+    box-shadow 0.25s,
+    background-color 0.2s,
+    color 0.2s;
 }
 .site-header[data-scrolled] .hd-bar {
   box-shadow: 0 0 0 1px var(--color-border), var(--shadow-float);
 }
 .site-header:has([aria-expanded="true"]) .hd-bar {
+  @apply scheme-night;
   box-shadow: none;
 }
 .site-header:has([aria-expanded="true"]) .hd-extra {

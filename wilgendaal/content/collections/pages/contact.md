@@ -89,7 +89,7 @@ keywords: 'contact, telefoon, adres, openingsuren, onthaal, loket'
 :::::: heading {"id":"ct-form-h","props":{"level":"2","text":"Stel je vraag"}}
 ::::::
 
-:::::: paragraph {"id":"ct-form-text","props":{"tag":"p","text":"Voor alles wat niet dringend is. Iets kapot of vuil op straat? Gebruik het <a href=\"/melden\">meldingsformulier</a>: dan komt het meteen bij de juiste dienst."},"class":"text-lg"}
+:::::: paragraph {"id":"ct-form-text","props":{"tag":"p","text":"Voor alles wat niet dringend is. Iets kapot of vuil op straat? Gebruik het <a href=\"/melden\">meldingsformulier</a>: dan komt het meteen bij de juiste dienst."}}
 ::::::
 :::::
 

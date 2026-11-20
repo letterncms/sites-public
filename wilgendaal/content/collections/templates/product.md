@@ -37,7 +37,7 @@ description: 'Een dienst: kostprijs, termijn, voor wie en hoe aanvragen, wat mee
 ::::::::: heading {"id":"pr-bring-h","props":{"level":"2","text":"Wat meebrengen?"},"class":"font-sans text-sm font-semibold text-muted"}
 :::::::::
 
-::::::::: repeat {"id":"pr-bring","props":{"source":"list","tag":"ul","path":"entry.bring"},"class":"flex flex-col gap-2 text-lg"}
+::::::::: repeat {"id":"pr-bring","props":{"source":"list","tag":"ul","path":"entry.bring"},"class":"flex flex-col gap-2"}
 :::::::::: box {"id":"pr-bring-item","props":{"tag":"li"},"class":"flex gap-3"}
 ::::::::::: icon {"id":"pr-bring-icon","props":{"icon":"check"},"attrs":{"aria-hidden":"true"},"class":"mt-1 size-5 shrink-0 text-primary"}
 :::::::::::
@@ -61,7 +61,7 @@ description: 'Een dienst: kostprijs, termijn, voor wie en hoe aanvragen, wat mee
 
 :::::::: box {"id":"pr-place-card","class":"card-line md:flex-row md:justify-between md:gap-10"}
 ::::::::: box {"id":"pr-place-text","class":"flex flex-col items-start gap-1"}
-:::::::::: link {"id":"pr-place-link","bind":{"label":"entry.place.title","url":"entry.place.url"},"class":"mb-1 text-lg font-semibold text-foreground underline decoration-border underline-offset-4 hover:decoration-current"}
+:::::::::: link {"id":"pr-place-link","bind":{"label":"entry.place.title","url":"entry.place.url"},"class":"mb-1 font-semibold text-foreground underline decoration-border underline-offset-4 hover:decoration-current"}
 ::::::::::
 
 :::::::::: paragraph {"id":"pr-place-address","props":{"tag":"p"},"bind":{"text":"entry.place.address"},"class":"whitespace-pre-line text-base"}
@@ -88,7 +88,7 @@ description: 'Een dienst: kostprijs, termijn, voor wie en hoe aanvragen, wat mee
 ::::::
 
 :::::: box {"id":"pr-aside","props":{"tag":"aside"},"attrs":{"aria-label":"Hulp en meer over dit thema"},"class":"lg:col-span-4 max-lg:mt-16"}
-::::::: box {"id":"pr-aside-inner","class":"flex flex-col gap-10 lg:sticky lg:top-28"}
+::::::: box {"id":"pr-aside-inner","behavior":{"module":"stick"},"class":"flex flex-col gap-10 stick"}
 :::::::: box {"id":"pr-toc","props":{"tag":"nav"},"attrs":{"aria-labelledby":"#pr-toc-h"},"class":"flex flex-col gap-3"}
 ::::::::: heading {"id":"pr-toc-h","props":{"level":"2","text":"Op deze pagina"},"class":"font-sans text-sm font-semibold text-muted"}
 :::::::::

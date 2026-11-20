@@ -27,7 +27,7 @@ props:
 ::::
 
 :::: box {"id":"nr-body","class":"flex flex-col gap-1"}
-::::: heading {"id":"nr-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-lg group-hover:text-primary group-hover:underline"}
+::::: heading {"id":"nr-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-xl group-hover:text-primary group-hover:underline"}
 :::::
 
 ::::: paragraph {"id":"nr-meta","props":{"tag":"p"},"bind":{"text":"props.meta"},"class":"meta"}

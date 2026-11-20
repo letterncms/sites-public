@@ -53,12 +53,12 @@ description: 'Een openbaar gebouw: foto en wat je er kan doen, met adres, contac
 ::::::
 
 :::::: box {"id":"lo-aside","props":{"tag":"aside"},"attrs":{"aria-label":"Adres en openingsuren"},"class":"lg:col-span-4 max-lg:order-first max-lg:mb-10"}
-::::::: box {"id":"lo-card","class":"panel flex flex-col gap-7 p-8 md:p-8 lg:sticky lg:top-28"}
+::::::: box {"id":"lo-card","behavior":{"module":"stick"},"class":"panel flex flex-col gap-7 p-8 md:p-8 stick"}
 :::::::: box {"id":"lo-address-box","class":"flex flex-col items-start gap-1"}
 ::::::::: heading {"id":"lo-address-h","props":{"level":"2","text":"Adres"},"class":"text-sm font-semibold text-muted"}
 :::::::::
 
-::::::::: paragraph {"id":"lo-address","props":{"tag":"p"},"bind":{"text":"entry.address"},"class":"whitespace-pre-line text-lg font-semibold"}
+::::::::: paragraph {"id":"lo-address","props":{"tag":"p"},"bind":{"text":"entry.address"},"class":"whitespace-pre-line font-semibold"}
 :::::::::
 
 ::::::::: link {"id":"lo-route","props":{"new_tab":true,"label":"Plan je route","url":"#"},"bind":{"url":"https://www.openstreetmap.org/directions?to={entry.location.lat}%2C{entry.location.lng}","visible":"entry.location"},"class":"arrow-link"}

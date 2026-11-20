@@ -14,7 +14,7 @@ keywords: 'levensgebeurtenis, verhuizen, geboorte, baby, trouwen, samenwonen, bo
 
 :::: repeat {"id":"lms-list","props":{"source":"entries","collection":"moments","sort":"position","limit":24,"tag":"ul"},"class":"grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3"}
 ::::: box {"id":"lms-item","props":{"tag":"li"}}
-:::::: component {"id":"lms-card","props":{"ref":"moment-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.image":"item.photo","values.summary":"item.summary"}}
+:::::: component {"id":"lms-card","props":{"ref":"moment-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.image":"item.photo"}}
 ::::::
 :::::
 ::::

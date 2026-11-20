@@ -51,7 +51,7 @@ props:
 ---
 
 ::: box {"id":"ph","label":"Paginakop","bind":{"state:photo":"props.image"},"class":"page-head"}
-:::: box {"id":"ph-inner","class":"wrap pb-12 md:pb-16"}
+:::: box {"id":"ph-inner","class":"wrap pb-pad"}
 ::::: component {"id":"ph-crumbs","props":{"ref":"breadcrumbs"},"bind":{"values.current":"props.title","values.label":"props.label","values.url":"props.url"}}
 :::::
 

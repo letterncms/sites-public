@@ -59,7 +59,7 @@ props:
 ::::
 
 :::: box {"id":"nc-body","class":"flex flex-col gap-3 pt-1"}
-::::: heading {"id":"nc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-2xl group-hover:underline in-data-featured:text-3xl in-data-featured:group-hover:decoration-2"}
+::::: heading {"id":"nc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-xl group-hover:underline in-data-featured:text-3xl in-data-featured:group-hover:decoration-2"}
 :::::
 
 ::::: paragraph {"id":"nc-summary","props":{"tag":"p"},"bind":{"text":"props.summary","visible":"props.summary"},"class":"line-clamp-3 text-base text-muted"}
