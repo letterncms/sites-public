@@ -494,7 +494,10 @@
   @apply relative flex flex-col gap-2 rounded-xl bg-surface p-6 text-foreground no-underline transition-colors duration-200 hover:bg-[color-mix(in_srgb,var(--color-foreground)_8%,var(--color-surface))];
   /* Een lang woord in een smalle kaart breekt op een lettergreep, en loopt niet onder de pijl. */
   & :is(h2, h3) {
+    max-width: 100%;
+    min-width: 0;
     hyphens: auto;
+    hyphenate-limit-chars: 10 4 4;
   }
 }
 

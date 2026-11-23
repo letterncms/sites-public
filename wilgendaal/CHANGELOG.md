@@ -12,6 +12,7 @@
 ### Fixed
 
 - A side column taller than the screen, such as the one beside a service, scrolls along until its end shows, instead of only after the whole page.
+- Service cards no longer overlap their arrow icon or squeeze the online badge on narrower screens, and the home page keeps two columns until 1280px.
 
 ## 0.2.0 (2026-11-19)
 

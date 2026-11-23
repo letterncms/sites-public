@@ -38,7 +38,7 @@ template: default
 :::: component {"id":"hm-tasks-head","props":{"ref":"section-head","values":{"title":"Veel gevraagd","label":"Alles van A tot Z","url":"/themas#alles-van-a-tot-z"}}}
 ::::
 
-:::: repeat {"id":"hm-tasks-list","props":{"source":"entries","collection":"products","sort":"title","limit":8,"tag":"ul","where":[{"field":"featured","op":"=","value":true}]},"class":"mt-10 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-4"}
+:::: repeat {"id":"hm-tasks-list","props":{"source":"entries","collection":"products","sort":"title","limit":8,"tag":"ul","where":[{"field":"featured","op":"=","value":true}]},"class":"mt-10 grid gap-2.5 sm:grid-cols-2 xl:grid-cols-4"}
 ::::: box {"id":"hm-task-item","props":{"tag":"li"},"class":"grid"}
 :::::: component {"id":"hm-task","props":{"ref":"product-card"},"bind":{"values.title":"item.title","values.url":"item.url","values.online":"item.online"}}
 ::::::

@@ -29,11 +29,11 @@ props:
     label: Stap
 ---
 
-::: box {"id":"pc","bind":{"link":"props.url"},"class":"group card h-full items-start gap-2 p-6 pr-20"}
+::: box {"id":"pc","bind":{"link":"props.url"},"class":"group card h-full items-start gap-2 p-6"}
 :::: paragraph {"id":"pc-number","props":{"tag":"span"},"bind":{"text":"props.number","visible":"props.number"},"attrs":{"aria-hidden":"true"},"class":"stone mb-2 size-8 bg-foreground font-display text-sm font-medium text-background tabular-nums"}
 ::::
 
-:::: heading {"id":"pc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"text-xl group-hover:underline"}
+:::: heading {"id":"pc-title","props":{"level":"3"},"bind":{"text":"props.title"},"class":"w-full min-w-0 pr-14 text-xl group-hover:underline"}
 ::::
 
 :::: paragraph {"id":"pc-summary","props":{"tag":"p"},"bind":{"text":"props.summary","visible":"props.summary"},"class":"line-clamp-2 text-base text-muted"}
