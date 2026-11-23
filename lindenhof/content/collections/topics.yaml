@@ -1,9 +1,0 @@
-type: categories
-title: Nieuwsthema’s
-singular: Thema
-icon: folder
-driver: database
-template: ''
-sort: position
-nav_order: 45
-fields: []
